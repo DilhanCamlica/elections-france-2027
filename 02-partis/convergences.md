@@ -19,7 +19,13 @@ Relevé par la verticale Renaissance (étapes 3 à 5, 2026-10-25), d'après `00-
 
 ## Axe 3 : Immigration, intégration, droits sociaux des étrangers
 
-(vide)
+Relevé depuis la verticale Renaissance (`renaissance/axes/3-immigration.md`), sources : `00-contexte/paysage-politique-2026-10.md` §1.4 à 5.4 ; à confirmer par chaque verticale.
+
+- Fixation politique des volumes : Renaissance propose des quotas votés par le Parlement (métier, secteur, origine) [C-R-15 ; C-R-53] ; LR propose des « plafonds migratoires » par référendum. Même objet, même sens, instruments différents.
+- AME : LR et RN la transforment en aide médicale d'urgence ; Renaissance la réforme sans la supprimer (rapport Evin-Stefanini) [C-R-15] ; PS la défend.
+- Exécution des OQTF par la coopération consulaire : Renaissance (points modulés selon les laissez-passer consulaires) [C-R-15] et PS (accords sur les laissez-passer).
+- Travail des demandeurs d'asile : PS et LFI dès le dépôt de la demande ; Renaissance sans délai pour les nationalités à forte protection [C-R-15]. Même sens, ampleur différente.
+- Vote 2958 (rétention des étrangers condamnés) : EPR, DR et RN pour ; LFI-NFP et SOC contre.
 
 ## Axe 4 : Pouvoir d'achat et fiscalité
 

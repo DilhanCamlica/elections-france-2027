@@ -25,6 +25,9 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Le Monde, AFP, France Info, Public Sénat, Les Échos | pas d'étiquette, presse généraliste ou agence | Les Échos est un quotidien économique à lectorat d'entreprise ; signalé si pertinent |
 | Ministère (sur un sujet où le gouvernement est partie prenante) | source officielle, partie prenante | Exemple : ministère de l'Intérieur sur une manifestation |
 | Site ou document d'un parti | source du parti, partie prenante | |
+| Fédération des acteurs de la solidarité (FAS) | fédération d'associations de solidarité, partie prenante | Fédération d'associations gestionnaires de l'hébergement et de l'accueil des demandeurs d'asile, positions publiques sur les politiques migratoires |
+| GISTI | association de défense des droits des étrangers | Groupe d'information et de soutien des immigré·es, objet statutaire |
+| Datan | agrégateur des données ouvertes de l'Assemblée | Site indépendant qui republie les scrutins publics ; la source primaire reste le scrutin de l'Assemblée |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
