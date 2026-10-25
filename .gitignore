@@ -1,0 +1,7 @@
+.DS_Store
+*.tmp
+_scratch/
+node_modules/
+__pycache__/
+# PDF de plus de 20 Mo : lien et somme de contrôle seulement
+*.large.pdf
