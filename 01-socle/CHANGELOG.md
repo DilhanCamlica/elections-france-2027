@@ -33,3 +33,9 @@ Ajout du même jour, après lecture de `00-contexte/paysage-politique-2026-10.md
 Liste nominative des scrutins : proposition complète dans `03-sources/scrutins-selectionnes.md` (22 scrutins sur six axes, sélectionnés sans regarder les votes, équilibre d'origine gauche 5 / droite et RN 6 / EPR 2 / gouvernement et transpartisan 9). Gel soumis à Dilhan. Limites documentées : aucun scrutin sur l'AME, la durée de résidence, le droit de manifester, la proportionnelle ou le référendum sur la législature.
 
 Impact : aucun, aucune verticale encore faite.
+
+## 2026-10-25 : gel des scrutins, lancement de la verticale 1 (Renaissance)
+
+- `03-sources/scrutins-selectionnes.md` gelé tel que proposé (22 scrutins), sur accord de Dilhan. Les positions de vote n'ont été extraites qu'après ce gel.
+- Verticale Renaissance ouverte : date d'arrêt du corpus 2026-10-25, voir `02-partis/renaissance/00-perimetre.md`.
+- Impact : aucun sur d'autres verticales.

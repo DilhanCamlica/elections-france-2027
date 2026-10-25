@@ -1,6 +1,6 @@
 # Scrutins sélectionnés
 
-- Statut : **proposition complète, soumise à Dilhan, non gelée**. Gel dès son accord ; après gel, seule la boucle de révision peut modifier la liste, avec trace dans `01-socle/CHANGELOG.md`.
+- Statut : **gelée le 2026-10-25** sur accord de Dilhan (« ok go »). Seule la boucle de révision peut modifier la liste, avec trace dans `01-socle/CHANGELOG.md`. Les positions de vote sont extraites après ce gel, dans `scrutins-positions.md`.
 - Sélection faite le 2026-10-25 sur l'objet, la date et l'auteur du texte seulement, **sans avoir regardé les positions des groupes** : colonnes de vote masquées à la lecture de la note de paysage, recherche complémentaire menée par un sous-agent avec consigne de ne pas reporter les votes (voir `scrutins-candidats-complement.md`, section « Méthode », qui signale aussi trois scrutins dont le résultat global a été aperçu par accident dans un résumé de moteur de recherche : 4244, 8611, 5313 ; l'agent principal, qui a fait la sélection, ne l'a pas vu).
 - Règle : `01-socle/01-criteres.md` §5. Deux à quatre scrutins par axe ; mesure précise de préférence ; textes globaux pondérés à part ; recherche du scrutin symétrique quand un texte vient d'un seul camp.
 - Période : XVIIe législature (juillet 2024 à octobre 2026). Groupes suivis : LFI-NFP, SOC, EPR, DR, RN. Source des positions, le moment venu : open data de l'Assemblée nationale (jeu « Scrutins ») et pages https://www.assemblee-nationale.fr/dyn/17/scrutins/<n>.
