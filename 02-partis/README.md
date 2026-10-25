@@ -4,7 +4,7 @@
 
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
-| 1 | Renaissance | `renaissance/` | 7 (article long soumis) ; **à relire en v2** : Q5 sur six axes, chapitre Méthode, carte des tendances, effets distributifs | v1, relecture v2 à faire | | 2026-10-25 |
+| 1 | Renaissance | `renaissance/` | 7 en v2 (écoute, méthode, tendances, effets distributifs faits, revus et arbitrés ; article long complété, soumis à Dilhan) | v2 | à produire (étape 8) | 2026-10-25 |
 | 2 | RN | `rn/` | 0 | | | |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |

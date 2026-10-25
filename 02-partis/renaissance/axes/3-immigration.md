@@ -4,7 +4,7 @@
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
 - Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
-- Statut : revu (étape 6, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
+- Statut : revu (étape 6 v2, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
 - Version du socle : v1
 
 Sigles : AME (aide médicale de l'État), CRA (centre de rétention administrative), OQTF (obligation de quitter le territoire français), OFII (Office français de l'immigration et de l'intégration), ITF (interdiction du territoire français), PPL (proposition de loi), EPR (groupe Ensemble pour la République), MNA (mineurs non accompagnés), CC (Conseil constitutionnel).

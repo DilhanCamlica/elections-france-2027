@@ -4,7 +4,7 @@
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
 - Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
-- Statut : revu (étape 6, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
+- Statut : revu (étape 6 v2, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
 - Version du socle : v1
 
 Sigles utilisés dans cette fiche : JAP (juge de l'application des peines), SPIP (service pénitentiaire d'insertion et de probation), SAPPI (service d'application des peines, de probation et d'insertion, création proposée), CPP (code de procédure pénale), TIG (travail d'intérêt général), AFD (amende forfaitaire délictuelle), AGRASC (Agence de gestion et de recouvrement des avoirs saisis et confisqués), CRA (centre de rétention administrative), OPJ (officier de police judiciaire), FIPD (Fonds interministériel de prévention de la délinquance), DSA (Digital Services Act, règlement européen sur les services numériques), Arcom (Autorité de régulation de la communication audiovisuelle et numérique), CNIL (Commission nationale de l'informatique et des libertés), MICAS (mesure individuelle de contrôle administratif et de surveillance), SILT (loi du 30 octobre 2017 sur la sécurité intérieure et la lutte contre le terrorisme), PPL (proposition de loi), EPR (groupe Ensemble pour la République), VSS (violences sexuelles et sexistes), OQTF (obligation de quitter le territoire français).

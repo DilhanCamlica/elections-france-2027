@@ -3,15 +3,16 @@
 - Date de rédaction : 2026-10-25
 - Date d'arrêt du corpus : 2026-10-25
 - Auteur : sous-agent Sonnet, étape 5 bis
-- Statut : brouillon
+- Statut : revu (étape 6 v2, arbitrage du 2026-10-25)
 - Socle : v2
 - Entrées : `03-sources/tendances-lourdes.md` (liste gelée, 14 tendances), `02-partis/renaissance/01-corpus.md`, archives de `02-partis/renaissance/corpus/`, fiches `02-partis/renaissance/axes/*.md` (lecture secondaire).
 
 ## Méthode
 
-Pour chaque tendance, le corpus Renaissance est classé en trois statuts. Ce classement ne note ni la pertinence ni la suffisance des mesures.
+Pour chaque tendance, le corpus Renaissance est classé en quatre statuts. Ce classement ne note ni la pertinence ni la suffisance des mesures.
 
 - **Traitée** : au moins une mesure identifiable y répond, avec référence du document et page.
+- **Traitée en partie** : une mesure touche un aspect secondaire de la tendance, ou vient d'un programme antérieur non repris (`01-socle/01-criteres.md` §8).
 - **Nommée sans mesure** : évoquée dans un diagnostic ou un constat, sans mesure qui y réponde.
 - **Absente** : aucune mention dans le corpus.
 
@@ -24,7 +25,7 @@ Pagination : pour les PDF, la page est celle du fichier PDF. Pour [C-R-18] (prog
 | N° | Tendance | Statut | Référence(s) du corpus | Citation (15 mots max) ou paraphrase | Axe(s) de la grille concerné(s) |
 |---|---|---|---|---|---|
 | 1 | Vieillissement et ratio actifs / seniors | Traitée | [C-R-02] p. 2 ; [C-R-06] section « Repenser les retraites » ; [C-R-16] p. 17 ; [C-R-18] p. 6 | « un système universel, plus juste, sans âge légal, avec de la capitalisation pour tous ». [C-R-06] : l'enjeu des seniors devient la durée de cotisation. [C-R-16] : couche de retraites par investissement « compte tenu de notre démographie ». | 1, 2 |
-| 2 | Solde naturel négatif, migrations seule source de croissance démographique | Nommée sans mesure | [C-R-16] p. 56 | « atonie démographique » figure dans une liste de nouveaux paradigmes à intégrer à la planification écologique 2030-2040. Aucune mesure sur la population ou le solde migratoire n'y est rattachée. Voir Limites (cas limite). | 3, 2 |
+| 2 | Solde naturel négatif, migrations seule source de croissance démographique | Traitée en partie | [C-R-16] p. 29 et 56 | [C-R-16] p. 29 : le manque de places de garde entrave « le désir d'enfant » ; réponse par un droit opposable à la garde d'enfants et un congé de naissance. La mesure touche un aspect (la natalité), pas le cœur (solde naturel, migrations). p. 56 : « atonie démographique » citée sans mesure. Voir Limites. | 3, 2 |
 | 3 | Hausse du nombre de ménages, portée par les personnes seules | Traitée en partie | [C-R-16] p. 79-80 ; [C-R-18] p. 6 | [C-R-16] p. 80 : soutien au co-living, à l'habitat intergénérationnel et aux logements modulables, pour limiter l'isolement des personnes âgées ; p. 79 : jusqu'à 500 000 logements par surélévation et division de parcelles. [C-R-18] p. 6 : 2 heures de convivialité par semaine par les aides à domicile. | 4 ; hors grille (logement) |
 | 4 | Charge d'intérêts de la dette | Traitée | [C-R-02] p. 1-2 ; [C-R-04] ; [C-R-08] ; [C-R-11] section « Un plan de 150 milliards d'euros d'économies » | Constat : 91 Md€ d'intérêts en 2027 ([C-R-02] p. 1). Mesures : frein d'urgence de 20 Md€, plan de 150 Md€ sur le quinquennat, double règle d'or, équilibre en 2037. | 1 |
 | 5 | Productivité et écart avec les États-Unis | Traitée | [C-R-16] p. 17, 20, 21 ; [C-R-06] section « Pour que le travail paie » ; [C-R-09] section « choc de salaires » | « retrouver notre trajectoire de productivité, de croissance et de prospérité » ([C-R-16] p. 17). Mesures : capitaux longs et fonds de pension, plan « IA pour tous », crédit d'impôt pour l'adoption de l'IA ([C-R-16] p. 21). | 1, 2, 6 |
@@ -34,16 +35,17 @@ Pagination : pour les PDF, la page est celle du fichier PDF. Pour [C-R-18] (prog
 | 9 | Transition énergétique et électrification | Traitée | [C-R-11] sections « Messmer II » et « électricité française » ; [C-R-16] p. 52 et 74 | Part des énergies fossiles de près de 60 % à 40 % puis sous 30 % en 2035 ; électrification des usages ; 14 EPR et un réacteur par an ([C-R-11]). [C-R-16] p. 74 : « Lancer la deuxième grande électrification ». | 4, 6 |
 | 10 | Tensions sur l'eau et relève agricole | Traitée en partie | [C-R-16] p. 53 et 78 ; [C-R-18] p. 9 | [C-R-16] p. 78 : récupération des eaux de pluie jusqu'à 40 % des usages domestiques ; p. 53 : négociation territoriale des conflits d'usage (eau, sols). [C-R-18] p. 9 : loi d'orientation pour le renouvellement des générations et l'installation des jeunes agriculteurs. Voir Limites. | Hors grille (agriculture, environnement) ; 2 marginalement |
 | 11 | Concentration du patrimoine et poids de l'héritage | Traitée en partie | [C-R-17] p. 6 et 12 ; [C-R-18] p. 7 ; [C-R-19] p. 4 ; [C-R-16] p. 12 et 14 | Abattement sur successions et donations de 150 000 € par enfant et de 100 000 € aux petits-enfants ([C-R-17] p. 6). [C-R-16] p. 14 : défense du pacte Dutreil. Aucun constat de concentration du patrimoine dans le corpus. Voir Limites. | 4 |
-| 12 | Perte d'autonomie des personnes âgées et démographie médicale | Traitée | [C-R-16] p. 30 ; [C-R-17] p. 4 ; [C-R-18] p. 5-6 ; [C-R-19] p. 4 | [C-R-16] p. 30 : garantie contre le risque dépendance dans le contrat santé « responsable ». [C-R-17] p. 4 : doublement des médecins en formation par la fin du numerus clausus. [C-R-18] p. 6 : 50 000 infirmiers et aides-soignants en EHPAD d'ici 2027. | 1, 2 ; hors grille (santé) |
+| 12 | Perte d'autonomie des personnes âgées et démographie médicale | Traitée en partie | [C-R-16] p. 30 ; [C-R-17] p. 4 ; [C-R-18] p. 5-6 ; [C-R-19] p. 4 | [C-R-16] p. 30 : garantie contre le risque dépendance dans le contrat santé « responsable ». [C-R-17] p. 4 : doublement des médecins en formation par la fin du numerus clausus. [C-R-18] p. 6 : 50 000 infirmiers et aides-soignants en EHPAD d'ici 2027. Les trois appuis datent de 2022 à 2025 ; la fiche axe 2 constate qu'ils ne sont pas repris en 2026. | 1, 2 ; hors grille (santé) |
 | 13 | Dépenses de défense et dégradation de l'environnement stratégique | Traitée | [C-R-07] section « Faire le choix de la puissance » ; [C-R-17] p. 11 ; [C-R-05] ; [C-R-19] p. 3 | « Nous doublerons d'ici 2030 le budget militaire de la nation » ([C-R-17] p. 11). [C-R-07] : « poursuivre et amplifier » le réarmement, quatre vecteurs de puissance. [C-R-05] : défense parmi trois priorités budgétaires. | 1, 6 |
-| 14 | Bascule de l'accès à l'information vers les plateformes | Traitée en partie | [C-R-18] p. 12 ; [C-R-15] p. 23 et 63 ; [C-R-17] p. 8 ; [C-R-30] ; [C-R-12] | [C-R-18] p. 12 : États généraux pour le droit à l'information contre les ingérences. [C-R-15] p. 63 : l'Arcom analyse les algorithmes des réseaux sociaux ; p. 23 : réforme du DSA. [C-R-17] p. 8 et [C-R-30] : réseaux sociaux interdits avant 15 ans. Voir Limites. | 6 |
+| 14 | Bascule de l'accès à l'information vers les plateformes | Traitée | [C-R-18] p. 12 ; [C-R-15] p. 23 et 63 ; [C-R-17] p. 8 ; [C-R-30] ; [C-R-12] | [C-R-18] p. 12 : États généraux pour le droit à l'information contre les ingérences. [C-R-15] p. 63 : l'Arcom analyse les algorithmes des réseaux sociaux ; p. 23 : réforme du DSA. [C-R-17] p. 8 et [C-R-30] : réseaux sociaux interdits avant 15 ans. Voir Limites. | 6 |
 
 ## Décompte
 
 | Statut | Nombre | Tendances |
 |---|---|---|
-| Traitées | 13 | 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
-| Nommées sans mesure | 1 | 2 |
+| Traitées | 8 | 1, 4, 5, 6, 8, 9, 13, 14 |
+| Traitées en partie | 6 | 2, 3, 7, 10, 11, 12 |
+| Nommées sans mesure | 0 | aucune |
 | Absentes | 0 | aucune |
 | Total | 14 | |
 
@@ -61,12 +63,12 @@ Pagination : pour les PDF, la page est celle du fichier PDF. Pour [C-R-18] (prog
 
 **Tendances dont le rattachement est discutable**
 
-- **Tendance 2 (solde naturel et migrations).** Deux pistes de rattachement existent. [C-R-16] p. 29 relie le manque de places de garde au « désir d'enfant » et propose un droit opposable à la garde d'enfants et un congé de naissance ([C-R-17] p. 8 reprend le congé de naissance). Ces mesures sont présentées sur l'égalité et la conciliation travail-famille, pas sur la population. Les mesures d'immigration ([C-R-07], [C-R-15]) visent le pilotage des flux et le marché du travail, sans lien écrit avec le solde démographique. Le classement « nommée sans mesure » suit le critère strict d'une mesure rattachée par le texte à la tendance. Un autre lecteur pourrait classer en « traitée ».
+- **Tendance 2 (solde naturel et migrations).** Deux pistes de rattachement existent. [C-R-16] p. 29 relie le manque de places de garde au « désir d'enfant » et propose un droit opposable à la garde d'enfants et un congé de naissance ([C-R-17] p. 8 reprend le congé de naissance). Ces mesures sont présentées sur l'égalité et la conciliation travail-famille, pas sur la population. Les mesures d'immigration ([C-R-07], [C-R-15]) visent le pilotage des flux et le marché du travail, sans lien écrit avec le solde démographique. Le texte rattache bien la garde d'enfants au désir d'enfant : c'est une mesure sur un aspect de la tendance (la natalité), pas sur son cœur. Statut retenu à l'arbitrage v2 : « traitée en partie ».
 - **Tendance 3 (ménages, personnes seules).** Le corpus ne parle pas du nombre de ménages. Le rattachement passe par l'isolement des personnes âgées et le logement modulable. La tendance est donc couverte par un biais d'angle (personnes âgées seules), pas par le thème des ménages.
 - **Tendance 7 (départs en fin de carrière).** Les mesures répondent aux tensions de recrutement. Les départs des baby-boomers ne sont pas nommés. Le rattachement porte sur la moitié « tensions de recrutement » de la tendance.
 - **Tendance 10 (eau et relève agricole).** Les mesures sur l'eau concernent les usages domestiques et la gouvernance territoriale. Aucune mesure sur l'irrigation agricole. La relève agricole vient du programme 2022 ([C-R-18]), pas des textes 2026. Le corpus 2026 ne la traite pas.
 - **Tendance 11 (patrimoine et héritage).** La mesure sur les successions porte sur la fiscalité de la transmission. Le corpus n'évoque pas la concentration du patrimoine. La fiche `axes/4-pouvoir-achat-fiscalite.md` le note aussi. Les mesures de 2022 et 2024 datent d'avant la candidature actuelle ; aucun texte 2026 ne reprend l'abattement.
-- **Tendance 14 (information et plateformes).** Les mesures portent sur la régulation des plateformes (algorithmes, ingérences, âge d'accès). Aucune mesure sur le financement des médias ni sur le marché publicitaire. [C-R-18] p. 7 mentionne la suppression de la redevance télé et l'indépendance de l'audiovisuel public ; ce point n'est pas rattaché par le texte à la tendance. [C-R-15] p. 63 vise les contenus séparatistes, pas l'accès à l'information en général.
+- **Tendance 14 (information et plateformes).** Les mesures portent sur la régulation des plateformes (algorithmes, ingérences, âge d'accès). Aucune mesure sur le financement des médias ni sur le marché publicitaire. [C-R-18] p. 7 mentionne la suppression de la redevance télé et l'indépendance de l'audiovisuel public ; ce point n'est pas rattaché par le texte à la tendance. [C-R-15] p. 63 vise les contenus séparatistes, pas l'accès à l'information en général. Arbitrage v2 : la régulation des plateformes est au cœur de la tendance telle que l'Arcom la décrit, le financement des médias en est un volet. Statut retenu : « traitée ».
 
 **Autres remarques**
 
@@ -77,4 +79,6 @@ Pagination : pour les PDF, la page est celle du fichier PDF. Pour [C-R-18] (prog
 
 ## Arbitrage de l'agent principal (2026-10-25)
 
-Les cinq rattachements partiels signalés dans « Limites » (tendances 3, 7, 10, 11, 14) sont requalifiés « traitée en partie », statut ajouté au socle (`01-socle/01-criteres.md` §8) pour que la carte distingue une réponse au cœur d'une tendance d'une mesure qui n'en touche qu'un aspect. Décompte final : 8 traitées, 5 traitées en partie, 1 nommée sans mesure, 0 absente. La tendance 2 reste « nommée sans mesure » : le congé de naissance et la garde d'enfants sont présentés comme égalité et conciliation, pas comme réponse démographique.
+Les cinq rattachements partiels signalés dans « Limites » (tendances 3, 7, 10, 11, 14) sont requalifiés « traitée en partie », statut ajouté au socle (`01-socle/01-criteres.md` §8) pour que la carte distingue une réponse au cœur d'une tendance d'une mesure qui n'en touche qu'un aspect. Décompte après ce premier arbitrage : 8 traitées, 5 traitées en partie, 1 nommée sans mesure, 0 absente. La tendance 2 restait alors « nommée sans mesure » : le congé de naissance et la garde d'enfants sont présentés comme égalité et conciliation, pas comme réponse démographique. Ce décompte est révisé par l'arbitrage v2 ci-dessous.
+
+**Arbitrage v2 (2026-10-25, `revue/arbitrage-v2.md`).** Les tendances 2 (désir d'enfant et congé de naissance, [C-R-16] p. 29) et 12 (appuis de 2022 à 2025 non repris en 2026) passent à « traitée en partie », et la tendance 14 passe à « traitée », la régulation des plateformes étant le cœur de la tendance. Décompte final : 8 traitées, 6 traitées en partie, 0 nommée sans mesure, 0 absente.

@@ -145,3 +145,61 @@ Les fiches par axe contiennent plus de 300 références numérotées. Les plus u
 13. Lettre de Gabriel Attal aux Français (15 octobre 2026), site de campagne, conventions Renaissance 2025, programme Ensemble 2024, programme Macron 2022 [sources du parti, partie prenante].
 
 Étiquettes : iFRAP et Institut Montaigne (think tanks libéraux), OFCE (souvent classé keynésien), Fondation Jean-Jaurès (proche du PS), Public Sénat, LCP et presse généraliste sans étiquette, Politis (classé à gauche), CNews (classée à droite), rapports de mission gouvernementale (partie prenante).
+
+---
+
+# Complément v2 : ce que la grille ne voyait pas
+
+- Ajouté le 2026-10-25 après le second grill avec Dilhan et le passage du socle en v2 (questions Écoute et Méthode, carte des tendances, effets distributifs). Verdicts arbitrés après une seconde revue contradictoire limitée à ces ajouts (`revue/arbitrage-v2.md`).
+
+## La grille complète
+
+| Axe | Le problème est-il réel ? | Est-ce faisable ? | Votent-ils ce qu'ils disent ? | Répondent-ils aux demandes ? |
+|---|---|---|---|---|
+| 1. Finances publiques et dette | Plutôt fondé | Conditionnelle | Écart important | Répond en partie |
+| 2. Travail, protection sociale, fraude | Partiellement fondé | Conditionnelle | Écart partiel | Répond en partie |
+| 3. Immigration | Plutôt fondé | Conditionnelle | Écart partiel | Répond en partie |
+| 4. Pouvoir d'achat et fiscalité | Plutôt fondé | Très incertaine | Écart important | Répond en partie |
+| 5. Sécurité, ordre public, libertés | Partiellement fondé | Conditionnelle | Écart partiel | Répond |
+| 6. Institutions, démocratie, Europe | Plutôt fondé | Très incertaine | Écart partiel | Répond en partie |
+| **Comment ils gouvernent** | | | | **Écart important de méthode** |
+
+Carte des tendances lourdes (14, liste institutionnelle gelée) : 8 traitées, 6 traitées en partie, 0 nommée sans mesure, 0 absente.
+
+## Répondent-ils aux demandes ? (inventaire gelé de 47 demandes, deux sources au moins par demande)
+
+La règle : aller contre une demande majoritaire n'est pas une faute, ne pas le dire en est une.
+
+- **Ce que le programme sert.** Les demandes majoritaires de réduire le déficit par la dépense plutôt que par l'impôt, de réduire le train de vie de l'État, d'inscrire une règle d'équilibre, de réduire l'immigration, de baisser les prélèvements des classes moyennes, de plus de fermeté dans le maintien de l'ordre, de recourir plus souvent au référendum. Sur ces objets, il y a une mesure identifiable à chaque fois.
+- **Ce qu'il contredit en le disant.** Taxer davantage les très hauts patrimoines (74 % favorables) : refus de toute hausse d'impôt annoncé par le candidat le 2 juillet 2026, votes du groupe contre l'impôt plancher et la taxe Zucman. Moins recourir à l'immigration de travail (majoritaire) : « la préférence travail » est écrite et répétée. Plus de pouvoir national face à l'Union : « États-Unis d'Europe », assumé à Reims et devant la presse. Le référendum d'initiative citoyenne (79 % pour plus de référendums, RIC compris) : le groupe s'y est déclaré opposé le 4 février 2026. L'indexation des prestations : l'année blanche de 2028 est annoncée par le candidat lui-même.
+- **Ce qu'il ne traite pas, sans le dire.** L'âge de départ en retraite (large) : le système « sans âge légal » ne garantit aucun âge, et le groupe demande au même moment le retour vers 64 ans. La dépendance et le handicap (large) : aucune mesure en 2026. La baisse de la TVA sur les produits de première nécessité (large). Le droit de manifester, l'encadrement de l'usage de la force et la sanction des contrôles abusifs (demandes fortes des mobilisations de 2026) : le programme n'en parle pas.
+- **Le Smic, pour revenir à la question d'origine.** 85 % des Français veulent une hausse du Smic, demande stable depuis 2018. Le programme nomme le problème (« le Smic devenu salaire plafond ») et répond par un autre instrument, la baisse des cotisations salariales. Il ne propose pas de revaloriser le Smic. Le refus a été assumé une fois, pendant la campagne législative de 2024 (le Smic qualifié de « machine à détruire l'emploi », date connue au mois près), et aucun document ni déclaration de 2026 ne le redit. C'est la demande la plus large de l'axe, et elle reçoit une réponse de côté, assumée hier et tue aujourd'hui.
+
+## Comment ils gouvernent (méthode, fenêtre 2017-2026)
+
+Verdict : **écart important de méthode**. Six objets de rupture documentés, chacun avec une explication publique au moins partielle, ce qui exclut le cran le plus sévère :
+
+1. Le « sans filtre » promis le 25 avril 2019 à la Convention citoyenne pour le climat : trois propositions écartées d'emblée, une reprise réelle que les comptages indépendants situent entre 10 % et un tiers, une note de 3,3 sur 10 donnée par les citoyens eux-mêmes.
+2. Les référendums promis en 2019 (élargissement de l'article 11, RIP facilité) et en 2020 (climat dans la Constitution) : aucun tenu, le Sénat ayant refusé le même texte.
+3. Le renoncement au 49.3 annoncé par Sébastien Lecornu le 3 octobre 2025, suivi de trois 49.3 en janvier 2026, reconnus publiquement et acceptés par le PS comme « la moins mauvaise des solutions ».
+4. La réforme des retraites de 2023 : passage par un texte de financement de la sécurité sociale, cumul des articles 47-1, 44-3 et 49.3, face à une opinion majoritairement opposée. Explication publique : « l'intérêt général ».
+5. La proportionnelle, promise en 2017 et 2019, abandonnée en 2021. Elle relevait d'une loi ordinaire, où le Sénat n'a pas le dernier mot.
+6. Le blocage de TikTok en Nouvelle-Calédonie en mai 2024, sous le gouvernement Attal, jugé illégal par le Conseil d'État.
+
+Ce qui tient : le 49.3 suit la situation de majorité (un seul recours en cinq ans de majorité absolue, 23 sous la majorité relative, 8 sous la coalition, et la loi de financement 2026 adoptée sans 49.3) ; les refus de 2019 (vote blanc, RIC, ISF) ont été dits et motivés devant la presse ; les cahiers de doléances ont été numérisés, ouverts par arrêté en 2025, mise en ligne prévue en 2027 ; des concessions réelles ont suivi les mobilisations (décembre 2018, grand débat, suspension des retraites en 2025) ; la Convention citoyenne sur la fin de vie a abouti à une loi en août 2026.
+
+## Ce que vaut la séquence « dix ans » de la vidéo partagée
+
+Chaque affirmation de Clément Viktorovitch a été traitée comme une affirmation à vérifier. Confirmées : le pic des gilets jaunes, les refus du 25 avril 2019, la promesse « sans filtre », le « personne n'a gagné » de 2024, les revendications sur le bâti des lycées et la plateforme en réponse, « près de 8 000 » gardes à vue en majorité de mineurs, le communiqué de la CNCDH. Inexactes : le pic de 2023 était de 1,28 million selon l'Intérieur et non 1 million ; les blessés des gilets jaunes se comptent en dizaines (24 éborgnés, 5 mains arrachées selon le décompte indépendant), pas en centaines ; les cahiers de doléances ont été ouverts ; il est faux que rien n'ait été repris de la Convention climat. Non vérifiables : « jusqu'à 90 % » des actifs contre la réforme, le record de gardes à vue par jour, « dix ans d'ignorance ». La thèse d'ensemble (une méthode qui consulte puis tranche seule) est appuyée par les faits vérifiés ; plusieurs chiffres qui la portent sont faux.
+
+## Qui gagne, qui perd (effets distributifs des mesures chiffrées)
+
+- Actes 2017-2022 : +1,9 % de niveau de vie en moyenne, +3,3 % pour le 1 % le plus aisé, -1,1 % pour les chômeurs (Institut des politiques publiques) ; le budget 2018 a donné +790 € par an au décile le plus aisé ; 1 % des foyers déclarent 96 % des dividendes.
+- « Droit au brut » : environ 136 € par mois au Smic, 202 € au salaire médian, 292 € au plafond. Les gains croissent avec le salaire. Qui finance n'est pas documenté.
+- Année blanche 2028 : les pensions portent 74 % du rendement ; en part du revenu, l'effort pèse près de 1 % pour les 5 % les plus modestes et moins de 0,3 % pour les 5 % les plus aisés (OFCE).
+- Assurance chômage : public touché d'âge médian 33 ans, gagnant environ 1 200 € avant la perte d'emploi (Conseil d'analyse économique).
+- Successions : gain par enfant de 2 194 € à 22 500 € ; 24 % des successions en ligne directe sont aujourd'hui taxées.
+
+## Ce que la v2 change à la lecture d'ensemble
+
+La v1 disait : diagnostic exact, mesures phares fragiles, votes conformes au programme, écarts dans les actes budgétaires. La v2 ajoute deux choses. D'abord, le programme sert la plupart des demandes majoritaires et contredit ouvertement les autres, à une exception près qui est la question d'origine : le Smic, demande la plus large de toutes, reçoit une réponse de côté, assumée en 2024 et plus redite depuis. Ensuite, la méthode est le point où l'écart entre la parole et les actes est le plus net sur dix ans : consultations organisées puis suites tenues en partie, référendums promis jamais tenus, engagements de méthode rompus avec explication. Ces écarts sont documentés et expliqués, ce qui les place au cran « important », pas au cran « contradiction ». Pour les quatre partis suivants, la même question sera posée avec la même fenêtre, et seuls ceux qui ont gouverné auront des actes à confronter : la synthèse le rappellera à chaque fois.
