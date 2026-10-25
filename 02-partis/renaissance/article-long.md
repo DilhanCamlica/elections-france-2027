@@ -1,0 +1,147 @@
+# Renaissance : ce qu'elle propose, ce qu'elle vote
+
+- Article long soumis à Dilhan le 2026-10-25 (étape 7 de la méthode). Les corrections issues de son challenge seront intégrées ici avant la page.
+- Corpus et données arrêtés au 2026-10-25. Socle v1. Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` (plus de 300 références), revue contradictoire dans `revue/`.
+
+## Ce qu'on a lu
+
+Renaissance seul, avec son groupe à l'Assemblée (Ensemble pour la République, 90 députés) et son candidat déclaré, Gabriel Attal. Corpus : la lettre aux Français du 15 octobre 2026 et les pages du site de campagne, les deux conventions du parti de 2025, le programme des législatives 2024, le programme présidentiel 2022, 13 propositions de loi du groupe, 23 déclarations publiques de 2026, et 15 lois ou décisions de 2017 à 2026 pour la comparaison avec les actes. Aucun programme présidentiel 2027 complet n'existe à cette date.
+
+Quatre questions par axe, six axes, mêmes scrutins pour les cinq forces. Les verdicts ont été relus par deux relecteurs indépendants, l'un chargé de défendre le parti, l'autre ses adversaires. Six verdicts sur dix-huit ont bougé à l'arbitrage, trois dans chaque sens.
+
+## La grille en un regard
+
+| Axe | Diagnostic (le problème est-il réel ?) | Faisabilité (la mesure est-elle possible ?) | Cohérence (disent-ils ce qu'ils votent ?) |
+|---|---|---|---|
+| 1. Finances publiques et dette | Plutôt fondé | Conditionnelle | **Écart important** |
+| 2. Travail, protection sociale, fraude | **Partiellement fondé** | Conditionnelle | Écart partiel |
+| 3. Immigration | Plutôt fondé | Conditionnelle | Écart partiel |
+| 4. Pouvoir d'achat et fiscalité | Plutôt fondé | **Très incertaine** | **Écart important** |
+| 5. Sécurité, ordre public, libertés | **Partiellement fondé** | Conditionnelle | Écart partiel |
+| 6. Institutions, démocratie, Europe | Plutôt fondé | **Très incertaine** | Écart partiel |
+
+Lecture en une phrase : les constats chiffrés sont presque toujours exacts, les mesures les plus visibles sont les moins faisables ou les moins financées, et les écarts entre discours et actes se concentrent sur l'argent (dette, impôts) plutôt que sur l'ordre public ou l'immigration.
+
+## Axe 1. Finances publiques et dette
+
+**Ce qu'ils constatent.** « La France vit à crédit. » Dette en hausse de 300 Md€ depuis la dissolution, 91 Md€ d'intérêts en 2027, 57 € sur 100 € de dépense publique pour le social, et « deux tiers de notre dette » dus au modèle social.
+
+**Vérification.** Tout ce qui est chiffré se vérifie : la dette a même augmenté de 363 Md€ entre juin 2024 et juin 2026 (Insee), la charge d'intérêts atteindra 91 Md€ en 2027 (Haut Conseil des finances publiques), les 57 € sont exacts, le déficit français est le quatrième de l'Union. Deux choses ne tiennent pas : les « deux tiers de la dette » viennent d'un essai d'auteur, pas d'une statistique publique ; et la campagne ne cite jamais la cause côté recettes que la Cour des comptes chiffre à 62 Md€ par an de baisses d'impôts 2018-2023 non compensées. **Plutôt fondé.**
+
+**Ce qu'ils proposent.** Un frein d'urgence de 20 Md€, un plan de 150 Md€ d'économies sur le quinquennat dont deux tiers sur le social, les comptes sociaux à l'équilibre « en trois ans », le déficit sous 3 % « avant 2032 », l'équilibre en 2037, une règle d'or constitutionnelle, 100 000 postes publics en moins par départs volontaires, 7 Md€ d'économies territoriales.
+
+**Faisable ?** L'enveloppe est du bon ordre de grandeur : la Cour des comptes juge 135 Md€ nécessaires d'ici 2031. Mais seuls 12,7 % du plan sont ventilés (19 Md€ sur 150), aucun chiffreur indépendant n'a publié d'évaluation, et la cible « avant 2032 » est plus tardive que l'engagement européen de 2029. Les 7 Md€ territoriaux représentent 93 % du coût total de l'enchevêtrement estimé par le rapport Ravignon : c'est un plafond, pas une économie attendue. **Conditionnelle.**
+
+**Disent-ils ce qu'ils votent ?** Les votes du groupe suivent le programme sur tous les scrutins budgétaires, qui sont des textes globaux. Les écarts sont dans les actes, et ils sont quatre : la trajectoire votée en 2023 manquée de 1,4 point en 2024, année où le candidat dirigeait le gouvernement ; les 62 Md€ de baisses non compensées, sans explication publique ; la loi de finances rectificative refusée au printemps 2024 par le Premier ministre Attal et promise « dès les premières semaines » par le candidat Attal ; et le vote du groupe, le 16 décembre 2025, pour la loi de financement qui relève la CSG sur le capital, contre la « règle d'or anti-hausse d'impôt » de 2024. **Écart important.**
+
+**Ce qui tient.** Le diagnostic chiffré est exact, chiffre pour chiffre. La protection sociale explique bien les deux tiers de l'écart de dépense avec la zone euro (Banque de France). Le groupe a déposé en 2024 des amendements chiffrés qui substituaient des économies à des hausses d'impôts, conformes à sa ligne.
+
+## Axe 2. Travail, protection sociale et fraude
+
+**Ce qu'ils constatent.** Les retraites pèsent « un quart de notre dépense publique » et « prennent l'eau », les dépenses sociales sont « hors de contrôle », la France a « mis fin au chômage de masse » mais travaille 110 heures de moins par habitant.
+
+**Vérification.** Le quart est exact (24,3 % selon le Conseil d'orientation des retraites), le déficit du système est durable, l'écart d'heures vient bien du taux d'emploi des jeunes et des seniors et pas des personnes en emploi : la campagne lit ce point correctement. Mais trois constats ne tiennent pas : le chômage remonte depuis six trimestres (8,3 % mi-2026) ; le COR projette des dépenses de retraite stables en part de PIB jusqu'en 2045 et attribue le déficit au recul des ressources, pas à des dépenses incontrôlées ; et les « deux tiers de la dette » n'ont pas de source. **Partiellement fondé.**
+
+**Ce qu'ils proposent.** Un système de retraite universel « sans âge légal » avec de la capitalisation, la reprise de la réforme de l'assurance chômage (8 mois d'affiliation sur 20, durée réduite de 18 à 15 mois), une « année blanche » des prestations en 2028, un plan contre les arrêts maladie, 100 Md€ d'économies sociales en cinq ans.
+
+**Faisable ?** La réforme de l'assurance chômage est la mesure la plus précise : déposée, articulée, sans obstacle européen. Son rendement annoncé va de 3,6 à 5 Md€ selon le document ; le Conseil d'analyse économique estime un plancher de 2,9 Md€, l'Unédic une fourchette de 4,0 à 5,4 Md€ en régime de croisière. Le reste n'est pas chiffré : la retraite sans âge légal renvoie au système universel abandonné en 2020, la capitalisation suppose une double contribution des actifs pendant la transition, le plan arrêts maladie n'est pas publié. Les mesures chiffrées couvrent moins de 10 % des 100 Md€ annoncés. **Conditionnelle.**
+
+**Disent-ils ce qu'ils votent ?** Sur la fraude et le chômage, discours, programme, votes et actes concordent. Sur les retraites, la séquence est la suivante : 65 ans promis en 2022, 64 votés en 2023, abstention en novembre 2025 sur la suspension de la réforme décidée par un gouvernement dirigé par Renaissance, vote pour la loi qui la contient en décembre 2025, puis amendement en octobre 2026 pour l'annuler, pendant que le candidat propose un système sans âge légal. Chaque étape a une explication publique (compromis de coalition contre la non-censure du PS). Second écart : pensions indexées sur l'inflation promises en 2024, année blanche proposée pour 2028. **Écart partiel.**
+
+**Ce qui tient.** Le poids des retraites est celui du COR. La réforme de l'assurance chômage est écrite article par article. Sur la fraude, le groupe a voté ce qu'il annonçait, et son propre texte met en garde contre l'idée que la fraude comblerait les déficits : 5 Md€ de fraude des allocataires estimée contre 422 Md€ de retraites.
+
+## Axe 3. Immigration, intégration, droits sociaux des étrangers
+
+**Ce qu'ils constatent.** Des flux « trop souvent subis », une immigration « majoritairement familiale », 10 % des médecins hospitaliers formés à l'étranger, une rétention limitée à 90 jours, des prestations qui ne cessent pas à l'expiration du titre.
+
+**Vérification.** Les chiffres de stock sont ceux de l'Insee. La France délivre une part de titres pour motif de travail (13,5 %) deux fois et demie plus faible que la moyenne de l'Union (33,6 %), et exécute 10,9 % de ses obligations de quitter le territoire contre 28,6 % dans l'Union. « Majoritairement familiale » est vrai hors étudiants (69 % des titres non étudiants sont familiaux ou humanitaires), faux sur l'ensemble des flux (47,8 %). Les prestations maintenues après le titre ne concernent que l'assurance maladie. **Plutôt fondé.**
+
+**Ce qu'ils proposent.** Des quotas d'immigration économique votés par le Parlement tous les deux ans, un système à points, le regroupement familial après 24 mois de séjour au lieu de 18, la fin des prestations à l'expiration du titre, 3 000 places de rétention, la réforme de l'aide médicale de l'État selon le rapport Evin-Stefanini, la transposition du pacte européen sur l'asile.
+
+**Faisable ?** La plupart des mesures sont calibrées sur le droit existant : 24 mois est exactement le plafond de la directive européenne, le travail des demandeurs d'asile suit la directive de 2024, la réforme de l'AME a commencé par décret en février 2026. Le point dur est le mécanisme des quotas : le Conseil constitutionnel a censuré en janvier 2024, dans la loi que le groupe avait votée, l'obligation faite au Parlement de les voter. Une voie existe (un projet de loi périodique du gouvernement), le parti ne la nomme pas. Les quotas par origine géographique et l'interdiction du territoire systématique restent exposés à censure. Rien n'est chiffré ; 3 000 places de rétention représentent environ 0,9 Md€ d'investissement selon les ratios du Sénat. **Conditionnelle.**
+
+**Disent-ils ce qu'ils votent ?** Le groupe a voté la rétention des étrangers condamnés, puis réécrit sa propre loi après censure jusqu'à validation en 2026 : suite cohérente. Deux écarts : la dénonciation des accords franco-algériens de 1968, réclamée par Gabriel Attal en janvier 2025 puis rejetée par son groupe en octobre (explication : révision plutôt que dénonciation) ; et les actes de gouvernement sur l'asile en six mois (environ onze mois en pratique) et sur les éloignements (retours forcés en baisse de 32 % entre 2019 et 2024). Aucun scrutin public n'existe sur l'AME ni sur la durée de résidence : ces objets ne sont évaluables par les votes pour aucune force. **Écart partiel.**
+
+**Ce qui tient.** Le constat sur la faible part de l'immigration de travail et la faible exécution des éloignements est exact et parmi les mieux sourcés du corpus. Le parti a abandonné la condition de cinq ans de résidence pour les prestations, jugée disproportionnée par le Conseil constitutionnel, au profit d'une mesure compatible avec la jurisprudence.
+
+## Axe 4. Pouvoir d'achat et fiscalité
+
+**Ce qu'ils constatent.** « Le travail ne paie pas assez », le Smic est devenu « le salaire plafond », un salarié « touche à peine plus de la moitié de ce que verse son patron », salaire médian de 2 200 € net stagnant depuis dix ans.
+
+**Vérification.** Salaire médian exact (2 190 €), stagnation réelle confirmée (-0,6 % depuis 2019), coin fiscal parmi les trois plus élevés de l'OCDE (47,2 %), impôts de production presque deux fois la moyenne européenne. Deux nuances : l'essentiel de l'écart entre net et coût du travail vient des cotisations patronales (les plus élevées de l'OCDE), pas des cotisations salariales que la mesure vise ; et la part de salariés au Smic recule depuis 2023 (de 17,3 % à 11,8 %). **Plutôt fondé.**
+
+**Ce qu'ils proposent.** Le « droit au brut » : supprimer des cotisations salariales pour donner 250 € nets de plus par mois au salaire médian, « financé à l'euro près par des économies ». Aucune hausse d'impôt sur le quinquennat, une loi de programmation fiscale sur dix ans, une prime carburant à 1 000 €, un prix de l'électricité autour de 75 €/MWh, 150 000 € d'abattement par enfant sur les successions (2022 et 2024). Aucun document ne propose de revaloriser le Smic lui-même.
+
+**Faisable ?** La mesure centrale pèse environ 40 Md€, soit 1,34 % du PIB, et les documents du candidat ne la chiffrent pas : le montant vient de la presse. Son financement n'est pas documenté. Et le calcul ne tombe pas juste : au salaire médian, supprimer la part salariale vieillesse rapporte environ 202 € par mois, pas 250 ; atteindre 250 suppose d'entamer les cotisations complémentaires, que l'État ne fixe pas seul. Le précédent de 2018 (suppression de cotisations compensée par 1,7 point de CSG) a été financé par un autre prélèvement, pas par des économies. Les autres mesures sont faisables ; le prix industriel garanti dix ans dépasse le cadre européen des aides d'État. **Très incertaine.**
+
+**Disent-ils ce qu'ils votent ?** Sur les quatre scrutins gelés, le groupe vote exactement sa ligne : contre l'impôt plancher sur les hauts patrimoines, contre la taxe Zucman, contre la TVA à 5,5 % sur l'énergie, pour la défiscalisation totale des heures supplémentaires. Les écarts sont ailleurs : la « règle d'or anti-hausse d'impôt » cohabite dans les propres textes du parti avec des hausses nommées (taxe sur les rachats d'actions, fiscalité de l'épargne) ; les 150 000 € de successions, promis deux fois, n'ont jamais été votés malgré une majorité qui disposait du 49.3 ; le groupe a voté la hausse de 1,4 point de la CSG sur le capital en décembre 2025 ; et l'accise sur l'électricité a été relevée en février 2024 sous le gouvernement Attal. **Écart important.**
+
+**Ce qui tient.** Le diagnostic est solide, y compris sur les heures travaillées par habitant. Les promesses fiscales de 2017 ont été tenues, souvent au-delà (c'est une cohérence, pas une solidité budgétaire : la Cour les juge non compensées). Le PFU a été autofinancé les premières années selon France Stratégie, qui ne détecte en revanche aucun effet sur l'investissement.
+
+## Axe 5. Sécurité, ordre public et libertés
+
+**Ce qu'ils constatent.** « Le compte n'y est pas » malgré 18 500 recrutements, des prisons à 130 %, des travaux d'intérêt général exécutés en 16 mois, « une peine prononcée doit être une peine exécutée », un narcotrafic qui touche tous les territoires.
+
+**Vérification.** Prisons, TIG, narcotrafic, violences contre les personnes et effectifs : exact, souvent au chiffre près. Deux constats sont contredits : 90 % des peines fermes sont exécutées dans les cinq ans (le problème mesuré est le délai, 14 mois, et un taux d'élucidation sous 8 % pour les cambriolages, pas l'inexécution) ; et « l'insécurité du quotidien » ne vaut pas pour les atteintes aux biens, en baisse de 14 à 24 % depuis 2016. Le document du parti attribue par ailleurs le plan de 15 000 places de prison au Parlement de 2008 : il a été lancé en 2018 par sa propre majorité. **Partiellement fondé.**
+
+**Ce qu'ils proposent.** Fin de l'« excuse de minorité » et comparution immédiate des mineurs, suppression du juge de l'application des peines, fin des « remises automatiques de peine », réécriture du code de procédure pénale, places de prison déclarées d'intérêt national, polices municipales armées et systématiques, interdiction des réseaux sociaux avant 15 ans, et en octobre 2026 : état d'urgence si nécessaire, suspension ciblée de réseaux sociaux, reconnaissance faciale des casseurs.
+
+**Faisable ?** Une partie est faite ou faisable par loi ordinaire : la rétention de sûreté des terroristes et la vidéoprotection algorithmique ont été validées en 2026. Deux mesures phares du candidat exigent plus : la fin de l'excuse de minorité suppose une révision constitutionnelle (articles de sa propre loi censurés en 2025, principe fondamental reconnu par les lois de la République), et l'interdiction des réseaux avant 15 ans a été censurée en août 2026 et se heurte au règlement européen sur les services numériques, même par référendum. Aucune mesure n'est chiffrée. Restreindre la libération sous contrainte, à 142 % d'occupation des prisons, aggrave une surpopulation déjà condamnée par la Cour européenne. **Conditionnelle, avec deux mesures phares « très incertaines » prises seules.**
+
+**Disent-ils ce qu'ils votent ?** Sur les trois scrutins où le programme se prononce (ordre public, narcotrafic, justice des mineurs), le groupe vote sa ligne ; il a voté à 82 % pour la présomption de légitime défense des policiers, dont le programme ne parle pas. La promesse de 10 000 policiers et gendarmes de 2017 a été tenue. Deux écarts : la « fin des remises automatiques de peine » est promise alors que la loi de décembre 2021, votée par sa majorité, l'a déjà faite ; et les mesures d'octobre 2026 (état d'urgence, suspension de réseaux) s'écartent du « cadre respectueux des libertés publiques » de la convention de 2025. Le droit de manifester n'est évaluable par aucun vote : le programme n'en dit rien, et le discours de campagne fait confiance aux préfets, ce qui concorde avec les interdictions préfectorales du 24 octobre sous un gouvernement dirigé par Renaissance. **Écart partiel.**
+
+**Ce qui tient.** Le diagnostic carcéral est exact au chiffre près. Deux mesures du programme sont passées de la promesse à la loi en 2026, par des textes de coalition sous un Premier ministre Renaissance, et ont été validées sans censure parce qu'elles avaient été réécrites après les censures de 2020 et 2025.
+
+## Axe 6. Institutions, démocratie et Europe
+
+**Ce qu'ils constatent.** Un « système devenu obsolète », une « vétocratie » de ceux qui empêchent d'agir, un « désordre institutionnel », une organisation territoriale qualifiée de « scandale national », une Europe où « la protection américaine ne va plus de soi ».
+
+**Vérification.** La défiance est au plus haut mesuré depuis 2009 (20 % de confiance dans l'Assemblée, Cevipof), trois Premiers ministres se sont succédé depuis 2024, le mode de scrutin a donné au camp présidentiel 60,8 % des sièges avec 32,3 % des voix en 2017, la fusion des régions n'a pas produit d'économies (Cour des comptes). La cause avancée, la « vétocratie », n'est pas établie : le blocage mesuré vient d'abord de l'absence de majorité. **Plutôt fondé.**
+
+**Ce qu'ils proposent.** Une « grande réforme institutionnelle soumise au vote des Français », une journée référendaire annuelle, 350 députés et 200 sénateurs, un principe constitutionnel de rapidité, un « spoils system », la démission automatique du gouvernement après trois ans de dérive budgétaire, des « États-Unis d'Europe » et un noyau de 8 à 10 pays.
+
+**Faisable ?** Les mesures centrales exigent une révision de la Constitution par l'article 89, donc l'accord du Sénat, où Renaissance compte 16 sénateurs sur 348. L'article 11 est écarté pour réviser la Constitution par le président du Conseil constitutionnel lui-même (9 octobre 2026) et par la doctrine. Les précédents de 2011, 2018 et 2019 montrent ce verrou. L'inéligibilité des parlementaires pour leurs votes se heurte à l'article 26. Les « États-Unis d'Europe » supposent une révision des traités à l'unanimité ; un noyau de 8 pays n'atteint pas le seuil des coopérations renforcées (9). Faisables : collectivités uniques, référendums locaux, journée référendaire dans le champ de l'article 11, réduction du nombre de députés seuls. **Très incertaine.**
+
+**Disent-ils ce qu'ils votent ?** Aucune des promesses institutionnelles de 2017 (parlementaires, proportionnelle, cumul, Cour de justice de la République) ni de 2022 (convention transpartisane) n'a été tenue. Le paquet de 2018-2019 a été bloqué par un veto du Sénat documenté par le gouvernement lui-même, puis abandonné faute de majorité en novembre 2023 : explication publique vérifiable. Deux objets restent sans explication : la proportionnelle, qui relève d'une loi ordinaire (adoptée en 1985 malgré le Sénat), et la dérive des textes de 2026, où la voie référendaire de la règle d'or et deux des trois sanctions des gouvernants ont disparu en trois mois sans que ce soit dit. Sur Schengen et la Corse, le groupe vote sa ligne ; sur le Mercosur, il s'abstient quand le gouvernement pose des conditions. **Écart partiel.**
+
+**Ce qui tient.** Le diagnostic de 2022 sur la représentativité est juste : la France est seule dans l'Union à élire sa chambre basse au scrutin majoritaire. Les constats de défiance correspondent aux mesures du Cevipof. Les collectivités uniques relèvent de la loi ordinaire et la proposition du groupe a franchi la première lecture, réduite à l'Alsace.
+
+## Les fils rouges
+
+1. **Le diagnostic est bon, la cause moins.** Sur les six axes, les chiffres avancés se vérifient dans la statistique publique. Ce qui ne tient pas, à chaque fois, c'est l'attribution : « deux tiers de la dette » au social, « vétocratie » au blocage, « inexécution des peines » à l'insécurité, cotisations salariales à la faiblesse du net.
+2. **Les mesures phares sont les moins solides.** Droit au brut (40 Md€ non chiffrés, gain surestimé), quotas votés par le Parlement (mécanisme censuré), fin de l'excuse de minorité (révision constitutionnelle), réforme institutionnelle par référendum (veto du Sénat), États-Unis d'Europe (unanimité des 27). Le reste du programme est souvent de rang législatif et parfois déjà fait.
+3. **Les votes du groupe suivent le programme écrit.** Sur les 23 scrutins gelés, le groupe vote sa ligne à chaque fois qu'elle existe. Les écarts sont dans les actes de gouvernement, dans les textes globaux de coalition, et dans le temps court de la campagne (positions de juillet 2026 disparues en octobre).
+4. **L'argent est le point faible, pas l'ordre public.** Les deux « écarts importants » sont sur la dette et la fiscalité : promesses fiscales tenues sans financement (62 Md€), successions promises deux fois et jamais votées, CSG relevée malgré la règle anti-hausse. Sur la sécurité et l'immigration, la cohérence est meilleure que l'image publique ne le laisse penser.
+5. **Le silence est un choix.** Aucun document ne propose de revaloriser le Smic, de traiter le droit de manifester, le 49.3, la proportionnelle ou la primauté du droit européen. Ce ne sont pas des contradictions, ce sont des absences, et elles sont nommées.
+
+## Angles morts et limites
+
+- Aucun chiffrage indépendant du plan Attal n'existe à ce jour : l'Institut Montaigne annonce le sien pour début 2027. Les comparaisons se font poste par poste.
+- Le scrutin le plus parlant pour la question d'origine de Dilhan (le Smic) n'existe pas encore : la proposition LFI est en niche le 29 octobre 2026. S'il a lieu, il remplace le scrutin sur l'impôt plancher dans les cinq verticales.
+- Plusieurs sources ont été lues par relais : Légifrance et le ministère de l'Intérieur bloquent l'accès ; les décisions du Conseil constitutionnel sont souvent lues via des commentaires ; les déclarations de campagne sont connues par le site de campagne ou des agrégateurs.
+- Le programme 2017 n'était pas dans le corpus (la hiérarchie du socle s'arrête à 2022) ; il a été reconstitué par sources secondaires. À corriger dans le socle.
+- Renaissance est la seule force à avoir gouverné sur toute la période : elle a mécaniquement plus d'objets d'écart possibles que les quatre suivantes. C'est documenté, pas compensé.
+
+## Ce que la revue contradictoire a changé
+
+Dix-huit verdicts, six déplacés. Dans le sens de la contradiction : cohérence des finances publiques (quatre objets d'écart, dont le vote de la CSG), diagnostic social (trois constats non établis, pas seulement des causes), faisabilité et cohérence du pouvoir d'achat (droit au brut non chiffré ; successions jamais votées), diagnostic sécurité (inexécution des peines contredite). Dans le sens de la défense : diagnostic immigration (« majoritairement familiale » exact hors étudiants, Ined sur l'irrégularité après entrée légale) et cohérence institutionnelle (un paquet bloqué par le Sénat compte pour un objet, pas quatre). Neuf propositions rejetées avec motif, dans `revue/arbitrage.md`.
+
+## Sources principales
+
+Les fiches par axe contiennent plus de 300 références numérotées. Les plus utilisées :
+
+1. Insee, Le compte des administrations publiques en 2025 (Insee Première n° 2106) et Informations rapides sur la dette au 2e trimestre 2026.
+2. Haut Conseil des finances publiques, avis sur le PLF et le PLFSS 2027 (octobre 2026).
+3. Cour des comptes, La situation et les perspectives des finances publiques (juillet 2024 et juillet 2026) ; rapport sur le plan « 15 000 places » ; rapport sur les TIG (mars 2025).
+4. Conseil d'orientation des retraites, rapport annuel (juin 2026).
+5. Conseil d'analyse économique, Focus n° 131 (avril 2026) ; Unédic, note de juin 2024.
+6. HCFiPS, note annuelle sur les fraudes sociales (janvier 2026).
+7. DGEF et Eurostat, premiers titres de séjour 2025 ; Eurostat, retours 2025 ; Sénat, avis budgétaires immigration et AME (PLF 2026).
+8. Conseil constitutionnel, décisions 2023-863 DC, 2024-6 RIP, 2025-886 DC, 2025-895 DC, 2026-906 DC, 2026-911 DC, 2026-915 DC.
+9. OCDE, Taxing Wages 2025 ; Insee, salaires 2024 et pouvoir d'achat 2025 ; Dares, part des salariés au Smic.
+10. SSMSI, bilan statistique 2025 ; ministère de la Justice, chiffres clés et population carcérale au 1er septembre 2026.
+11. Cevipof, Baromètre de la confiance politique, vague 17 (février 2026) [enquête académique].
+12. Assemblée nationale, open data des scrutins (23 scrutins gelés, plus le 4758), pages des dossiers législatifs.
+13. Lettre de Gabriel Attal aux Français (15 octobre 2026), site de campagne, conventions Renaissance 2025, programme Ensemble 2024, programme Macron 2022 [sources du parti, partie prenante].
+
+Étiquettes : iFRAP et Institut Montaigne (think tanks libéraux), OFCE (souvent classé keynésien), Fondation Jean-Jaurès (proche du PS), Public Sénat, LCP et presse généraliste sans étiquette, Politis (classé à gauche), CNews (classée à droite), rapports de mission gouvernementale (partie prenante).
