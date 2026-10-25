@@ -1,7 +1,7 @@
 # Méthodologie : la boucle verticale par verticale
 
 - Rédigé le : 2026-10-25
-- Statut : brouillon v0, à valider avec Dilhan avant la première verticale
+- Statut : v1, validé avec Dilhan au grill du 2026-10-25
 - Dépend de : `01-criteres.md` (quoi mesurer), `03-sources-et-hierarchie.md` (avec quoi)
 
 ## Principe
@@ -93,9 +93,14 @@ La page est produite dans le format défini dans `04-format-artifacts.md`, contr
 
 Quand les cinq verticales ont été relues avec la dernière version du socle : tableau comparatif (`04-synthese/`), un verdict par case, les convergences signalées, et la page de synthèse. Pas de note globale.
 
-## Ordre des verticales
+## Ordre des verticales (fixé au grill du 2026-10-25)
 
-À fixer avec Dilhan au grill. Critère proposé : un ordre neutre et justifiable, par exemple le score au premier tour des législatives de 2024 (ordre décroissant), ou un tirage au sort documenté. L'ordre est écrit ici une fois choisi.
+1. **Renaissance** : seule force au pouvoir sur toute la période couverte, donc la seule qui teste les trois comparaisons de la question Cohérence (discours, votes, actes). Si la grille tient sur elle, elle tiendra sur les autres. Justification publique : on commence par ceux qui gouvernent.
+2. **RN** (121 députés), 3. **LFI** (70), 4. **PS** (68), 5. **LR** : par poids décroissant à l'Assemblée nationale au 25 octobre 2026.
+
+## Publication du repo
+
+Le repo est écrit dès le départ comme s'il était public : pas de noms de famille, pas de données privées hors `00-contexte/` anonymisé. Il sera publié sur GitHub une fois la première verticale terminée et relue, sur feu vert explicite de Dilhan. Les pages pourront alors pointer vers la méthode et les sources.
 
 ## Ce qui n'entre pas dans la méthode
 
