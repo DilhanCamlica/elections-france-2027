@@ -30,6 +30,6 @@ Décisions prises par l'agent sans grill (routine) : mêmes cinq couleurs de ver
 
 Ajout du même jour, après lecture de `00-contexte/paysage-politique-2026-10.md` : les cinq forces ont un candidat déclaré, la couche « candidat » est disponible dès la première verticale ; le candidat PS vient de Place publique, dont les textes entrent dans le corpus PS au titre du candidat (règle déjà prévue).
 
-Reste ouvert : la liste nominative des scrutins (`03-sources/scrutins-selectionnes.md`), à proposer à Dilhan dès que la note de paysage politique est relue.
+Liste nominative des scrutins : proposition complète dans `03-sources/scrutins-selectionnes.md` (22 scrutins sur six axes, sélectionnés sans regarder les votes, équilibre d'origine gauche 5 / droite et RN 6 / EPR 2 / gouvernement et transpartisan 9). Gel soumis à Dilhan. Limites documentées : aucun scrutin sur l'AME, la durée de résidence, le droit de manifester, la proportionnelle ou le référendum sur la législature.
 
 Impact : aucun, aucune verticale encore faite.
