@@ -1,0 +1,1019 @@
+<title>Renaissance : ce qu'elle propose, ce qu'elle vote</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: page « Lecture » de la série. Une grille de 24 verdicts d'abord, puis six chapitres courts (un par axe), un chapitre sur la méthode de gouvernement, la carte des tendances, le hors grille, l'essentiel, les sources. Même système visuel que les pages « Vérification » : hexagone, échelle à cinq crans, détail replié. */
+:root{
+  --bg:#F4F6F9; --card:#FFFFFF; --ink:#16203A; --muted:#5B6478; --faint:#8A92A3; --line:#DDE2EA; --track:#E8ECF2;
+  --accent:#3346B8; --accent-soft:#E8EBFA; --cat1:#3346B8; --cat2:#2E9C8A; --cat3:#D07A2E; --cat4:#9AA3B5;
+  --v1:#C2402D; --v2:#D7772A; --v3:#C49A12; --v4:#5D9A45; --v5:#2C7A4E;
+  --v1s:#FBE8E4; --v2s:#FCEBDD; --v3s:#FAF1D6; --v4s:#E6F2E0; --v5s:#DCEFE3;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1320; --card:#171C2C; --ink:#E8EBF3; --muted:#A3ABBD; --faint:#7D869A; --line:#2A3247; --track:#252C40;
+  --accent:#8E9DF0; --accent-soft:#1E2546; --cat1:#8E9DF0; --cat2:#5CC7B4; --cat3:#EBA166; --cat4:#6B748A;
+  --v1:#F08A78; --v2:#F2A766; --v3:#E3C24F; --v4:#93CB7B; --v5:#6CC694;
+  --v1s:#3A1D19; --v2s:#3A2614; --v3s:#352C10; --v4s:#1C3020; --v5s:#17322A;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1320; --card:#171C2C; --ink:#E8EBF3; --muted:#A3ABBD; --faint:#7D869A; --line:#2A3247; --track:#252C40;
+  --accent:#8E9DF0; --accent-soft:#1E2546; --cat1:#8E9DF0; --cat2:#5CC7B4; --cat3:#EBA166; --cat4:#6B748A;
+  --v1:#F08A78; --v2:#F2A766; --v3:#E3C24F; --v4:#93CB7B; --v5:#6CC694;
+  --v1s:#3A1D19; --v2s:#3A2614; --v3s:#352C10; --v4s:#1C3020; --v5s:#17322A;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:0 3rem}
+.wrap{max-width:44rem;margin:0 auto}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--display);font-weight:650;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,6.6vw,3rem);letter-spacing:-0.015em}
+h2{font-size:clamp(1.45rem,4.4vw,1.9rem)}
+h3{font-size:1.1rem;font-family:var(--sans);font-weight:600}
+p{margin:.6rem 0}
+sup a{font-family:var(--mono);font-size:.68rem;text-decoration:none;padding:0 1px}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+.small{font-size:.85rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* hero */
+.hero{padding:2.25rem 0 .5rem;display:grid;gap:1.1rem}
+.rule{font-size:.95rem;color:var(--muted);margin:0}
+.hero-art{max-width:24rem;width:100%;height:auto;display:block;margin:.25rem auto 0}
+.quotes{margin:0;padding:1.1rem 1.2rem;background:var(--card);border:1px solid var(--line);border-radius:14px;display:grid;gap:.55rem}
+.quotes h2{font-size:1rem;font-family:var(--sans);font-weight:600;margin-bottom:.15rem}
+.quotes p{font-family:var(--display);font-size:clamp(1.08rem,3.8vw,1.3rem);line-height:1.4;font-weight:500;margin:0}
+.quotes p .q{color:var(--faint)}
+.quotes p .who{display:block;font-family:var(--sans);font-size:.8rem;color:var(--muted);font-weight:400;margin-top:.1rem}
+
+/* la grille */
+.grid{margin-top:1.75rem;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem}
+.grid h2{font-size:1.25rem;margin-bottom:.25rem}
+.grid .sub{font-size:.88rem;color:var(--muted);margin:0 0 1rem}
+.ghead{display:none}
+.grow{display:block;text-decoration:none;color:inherit;padding:.8rem 0;border-top:1px solid var(--line)}
+.grow:first-of-type{border-top:0}
+.grow:hover .gaxe{text-decoration:underline;text-decoration-color:var(--accent)}
+.gaxe{font-weight:600;font-size:.95rem;margin:0 0 .5rem;display:flex;gap:.6rem;align-items:baseline}
+.gaxe .n{font-family:var(--mono);color:var(--faint);font-weight:500;font-size:.8rem}
+.gcells{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.pill{border-radius:8px;padding:.45rem .5rem .5rem;min-width:0;display:grid;gap:.15rem;align-content:start}
+.pill .pq{font-family:var(--mono);font-size:.6rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);line-height:1.2}
+.pill .pv{font-size:.74rem;font-weight:600;line-height:1.25;color:var(--ink);overflow-wrap:anywhere;hyphens:auto}
+.pill .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:.3rem;transform:translateY(-1px)}
+@media (min-width:600px){
+  .ghead{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(4,minmax(0,1fr));gap:6px;font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding:0 0 .5rem}
+  .ghead span:first-child{visibility:hidden}
+  .grow{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(4,minmax(0,1fr));gap:6px;align-items:center;padding:.55rem 0}
+  .gaxe{margin:0;padding-right:.4rem}
+  .gcells{display:contents}
+  .pill .pq{display:none}
+}
+.c1{background:var(--v1s)} .c2{background:var(--v2s)} .c3{background:var(--v3s)} .c4{background:var(--v4s)} .c5{background:var(--v5s)}
+.d1{background:var(--v1)} .d2{background:var(--v2)} .d3{background:var(--v3)} .d4{background:var(--v4)} .d5{background:var(--v5)}
+.mline{margin-top:1rem;padding-top:1rem;border-top:2px solid var(--line);display:grid;gap:.5rem}
+.mline a{text-decoration:none;color:inherit}
+.mline .gaxe{margin:0}
+.mline .pill{max-width:17rem}
+@media (min-width:600px){.mline{grid-template-columns:minmax(0,1.5fr) minmax(0,2fr);align-items:center}}
+.tend{margin-top:1.25rem;padding-top:1rem;border-top:2px solid var(--line)}
+.tend h3{margin-bottom:.15rem}
+.tiles-t{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-top:.7rem}
+@media (min-width:600px){.tiles-t{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.tt{border-radius:8px;padding:.45rem .55rem .5rem .7rem;font-size:.78rem;line-height:1.3;background:var(--bg);border-left:4px solid var(--track);min-width:0}
+.tt.t4{border-left-color:var(--v4)} .tt.t3{border-left-color:var(--v3)} .tt.t2{border-left-color:var(--v2)} .tt.t1{border-left-color:var(--v1)}
+.tt b{font-weight:600;display:block}
+.tt span{color:var(--muted);font-size:.72rem}
+.legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;font-size:.8rem;color:var(--muted);margin:.7rem 0 0}
+.legend span{display:inline-flex;align-items:center;gap:.35rem}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block;flex:0 0 auto}
+
+/* chapters */
+.chapter{margin-top:3.5rem;scroll-margin-top:1rem}
+.ch-head{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.9rem;align-items:start;margin-bottom:1rem}
+.hexnum{width:2.6rem;height:2.6rem;display:grid;place-items:center;font-family:var(--mono);font-weight:500;font-size:1.05rem;color:var(--ink);clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);background:var(--accent-soft)}
+.ch-head .axe{font-family:var(--display);font-size:1.05rem;color:var(--muted);font-style:italic;margin:.15rem 0 .25rem}
+.verdict-chip{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;padding:.22rem .55rem;border-radius:999px;font-weight:500;white-space:nowrap;color:var(--ink)}
+.qb{margin:1.15rem 0}
+.qb .qh{display:flex;flex-wrap:wrap;gap:.4rem .7rem;align-items:center;margin-bottom:.3rem}
+.qb h3{font-size:1rem}
+.qb p{margin:.3rem 0;font-size:.98rem}
+.qb p b{font-weight:600}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem;margin:1.25rem 0}
+.panel h3{margin-bottom:.15rem}
+.panel .sub{font-size:.85rem;color:var(--muted);margin:0 0 .9rem}
+.src{font-size:.75rem;color:var(--faint);margin:.75rem 0 0}
+.true{border-left:3px solid var(--v4);background:var(--v4s);padding:.75rem 1rem;border-radius:0 10px 10px 0;margin:1.25rem 0;font-size:.95rem}
+.true b{font-weight:600}
+
+/* vote matrix */
+.votes{display:grid;gap:4px}
+.vr{display:grid;grid-template-columns:minmax(0,1fr) repeat(5,1.75rem) 2.4rem;gap:4px;align-items:center;padding:.35rem 0;border-top:1px solid var(--line)}
+.vr.vh{border-top:0;padding-bottom:.1rem}
+.vr.vh span{font-family:var(--mono);font-size:.66rem;color:var(--muted);text-align:center;letter-spacing:.02em}
+.vr.vh span:first-child{text-align:left}
+.vr.vh .epr{color:var(--ink);font-weight:500}
+.vr .vl{font-size:.8rem;line-height:1.3;min-width:0;padding-right:.3rem}
+.vr .vl small{display:block;color:var(--faint);font-family:var(--mono);font-size:.66rem}
+.vr .vl .tg{display:inline-block;font-family:var(--mono);font-size:.62rem;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 .3rem;margin-left:.2rem;vertical-align:1px}
+.vr i{display:grid;place-items:center;width:1.6rem;height:1.6rem;border-radius:50%;font-style:normal;font-family:var(--mono);font-size:.7rem;font-weight:500;margin:0 auto;color:var(--ink)}
+.vr i.p{background:var(--cat2);color:#fff}
+.vr i.c{background:var(--cat3);color:#fff}
+.vr i.a{background:var(--track);color:var(--muted)}
+.vr i.d{background:var(--card);border:2px dashed var(--faint);color:var(--muted)}
+.vr i.z{background:transparent;border:1px solid var(--line);color:var(--faint)}
+.vr .ok{font-family:var(--mono);font-size:.7rem;text-align:center;color:var(--muted)}
+.vr .ok.y{color:var(--v4);font-weight:500}
+.vr .ok.n{color:var(--v2);font-weight:500}
+.vr .eprc{background:var(--accent-soft);border-radius:6px;padding:.15rem 0}
+
+/* bar charts */
+.bars{display:grid;gap:.7rem}
+.bar{display:grid;gap:.2rem}
+.bar .bl{font-size:.85rem;color:var(--muted);display:flex;justify-content:space-between;gap:.5rem}
+.bar .bl strong{color:var(--ink);font-weight:600}
+.bar .bt{display:flex;align-items:center;gap:.5rem;min-width:0}
+.bar .fill{height:14px;border-radius:0 4px 4px 0;background:var(--cat4);flex:0 0 auto;min-width:3px}
+.bar.hl .fill{background:var(--accent)}
+.bar .val{font-family:var(--mono);font-size:.8rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{background:var(--bg);border-radius:10px;padding:.8rem .9rem;min-width:0}
+.tile .n{font-family:var(--display);font-size:1.6rem;font-weight:650;line-height:1.1;font-variant-numeric:tabular-nums lining-nums}
+.tile .n small{font-size:.9rem;font-weight:500;color:var(--muted)}
+.tile .l{font-size:.82rem;color:var(--muted);line-height:1.35;margin-top:.2rem}
+
+/* details */
+details.dig{margin-top:1rem;border-top:1px solid var(--line)}
+details.dig summary{cursor:pointer;list-style:none;padding:.9rem 0;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+details.dig summary::-webkit-details-marker{display:none}
+details.dig summary .chev{font-family:var(--mono);color:var(--accent);transition:transform .2s ease;font-size:1rem}
+details.dig[open] summary .chev{transform:rotate(90deg)}
+details.dig .body{padding:0 0 1rem}
+details.dig h4{font-size:.95rem;margin:1.25rem 0 .4rem;font-weight:600}
+details.dig ul{padding-left:1.15rem;margin:.4rem 0}
+details.dig li{margin:.35rem 0;font-size:.95rem}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:.75rem 0;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:30rem;font-size:.86rem}
+th,td{text-align:left;padding:.5rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.74rem;font-weight:600;color:var(--muted);background:var(--bg);letter-spacing:.02em}
+tr:last-child td{border-bottom:none}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.note{font-size:.88rem;color:var(--muted);border-left:2px solid var(--line);padding-left:.8rem;margin:.75rem 0}
+.dem{list-style:none;padding:0;margin:.4rem 0;display:grid;gap:.4rem}
+.dem li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.6rem;align-items:start;font-size:.92rem}
+.dem .st{font-family:var(--mono);font-size:.64rem;letter-spacing:.04em;text-transform:uppercase;padding:.15rem .4rem;border-radius:4px;white-space:nowrap;margin-top:.25rem;color:var(--ink)}
+
+/* closing */
+.final{margin-top:3.5rem;background:var(--ink);color:var(--bg);border-radius:16px;padding:1.5rem 1.4rem}
+.final h2{color:var(--bg)}
+.final ol{margin:.75rem 0 0;padding-left:1.2rem}
+.final li{margin:.55rem 0}
+.final .eyebrow{color:var(--bg);opacity:.7}
+
+footer{margin-top:3rem;font-size:.84rem;color:var(--muted)}
+footer h2{font-size:1.25rem;margin-bottom:.5rem;color:var(--ink)}
+ol.sources{padding-left:2rem;margin:.5rem 0}
+ol.sources li{margin:.3rem 0;word-break:break-word}
+ol.sources li:target{background:var(--accent-soft);border-radius:4px}
+.srcg{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin:1.1rem 0 .2rem}
+@media (max-width:420px){body{font-size:16px}.pill .pv{font-size:.7rem}.tile .n{font-size:1.45rem}.vr{grid-template-columns:minmax(0,1fr) repeat(5,1.55rem) 2.1rem}.vr i{width:1.45rem;height:1.45rem;font-size:.64rem}}
+</style>
+
+<main class="wrap" lang="fr">
+
+<header class="hero">
+  <span class="eyebrow">Lecture · programme et votes 2022-2026</span>
+  <h1>Renaissance&nbsp;: ce qu'elle propose, ce qu'elle vote</h1>
+  <p class="rule">Six sujets, quatre questions par sujet, un verdict sur la manière de gouverner. Les mêmes questions, les mêmes critères et les mêmes votes à l'Assemblée seront appliqués aux cinq forces de la série. La <a href="#note-methode">méthode</a> est en bas de page.</p>
+
+  <svg class="hero-art" viewBox="0 0 360 170" role="img" aria-labelledby="hx-t hx-d">
+    <title id="hx-t">Ce qu'ils disent, ce qu'ils votent</title>
+    <desc id="hx-d">À gauche, une page de programme avec des lignes de texte. À droite, une grille de votes avec des points colorés. Entre les deux, un hexagone qui représente la France.</desc>
+    <rect x="18" y="28" width="104" height="118" rx="8" style="fill:var(--card);stroke:var(--line);stroke-width:1.5"/>
+    <rect x="34" y="48" width="58" height="5" rx="2.5" style="fill:var(--ink)"/>
+    <rect x="34" y="63" width="72" height="4" rx="2" style="fill:var(--cat4)"/>
+    <rect x="34" y="75" width="64" height="4" rx="2" style="fill:var(--cat4)"/>
+    <rect x="34" y="87" width="70" height="4" rx="2" style="fill:var(--cat4)"/>
+    <rect x="34" y="99" width="48" height="4" rx="2" style="fill:var(--cat4)"/>
+    <rect x="34" y="111" width="66" height="4" rx="2" style="fill:var(--cat4)"/>
+    <text x="70" y="160" text-anchor="middle" style="font-family:var(--sans);font-size:10.5px;fill:var(--muted)">Ce qu'ils proposent</text>
+    <polygon points="180,50 212,68 212,104 180,122 148,104 148,68" style="fill:var(--accent-soft);stroke:var(--accent);stroke-width:2"/>
+    <text x="180" y="90" text-anchor="middle" style="font-family:var(--display);font-size:13px;fill:var(--ink);font-weight:650">France</text>
+    <line x1="124" y1="86" x2="144" y2="86" style="stroke:var(--accent);stroke-width:2"/>
+    <line x1="216" y1="86" x2="236" y2="86" style="stroke:var(--accent);stroke-width:2"/>
+    <rect x="238" y="28" width="104" height="118" rx="8" style="fill:var(--card);stroke:var(--line);stroke-width:1.5"/>
+    <g style="fill:var(--cat2)"><circle cx="258" cy="52" r="5"/><circle cx="278" cy="52" r="5"/><circle cx="318" cy="52" r="5"/><circle cx="258" cy="76" r="5"/><circle cx="298" cy="100" r="5"/><circle cx="318" cy="100" r="5"/><circle cx="258" cy="124" r="5"/><circle cx="278" cy="124" r="5"/><circle cx="298" cy="124" r="5"/></g>
+    <g style="fill:var(--cat3)"><circle cx="298" cy="52" r="5"/><circle cx="278" cy="76" r="5"/><circle cx="298" cy="76" r="5"/><circle cx="258" cy="100" r="5"/><circle cx="318" cy="124" r="5"/></g>
+    <g style="fill:var(--cat4)"><circle cx="318" cy="76" r="5"/><circle cx="278" cy="100" r="5"/></g>
+    <text x="290" y="160" text-anchor="middle" style="font-family:var(--sans);font-size:10.5px;fill:var(--muted)">Ce qu'ils votent</text>
+  </svg>
+
+  <section class="quotes" aria-labelledby="h-quotes">
+    <h2 id="h-quotes">La promesse, dans leurs mots</h2>
+    <p><span class="q">« </span>La France vit à crédit, et ce sont nos jeunes qui en payeront le prix.<span class="q"> »</span><span class="who">Gabriel Attal, lettre aux Français, 15 octobre 2026<sup><a href="#s1">1</a></sup></span></p>
+    <p><span class="q">« </span>[Le Smic est] devenu le salaire plafond pour beaucoup trop de nos compatriotes.<span class="q"> »</span><span class="who">Site de campagne, page « Travail et salaires »<sup><a href="#s2">2</a></sup></span></p>
+    <p><span class="q">« </span>Accueillir moins pour accueillir mieux.<span class="q"> »</span><span class="who">Site de campagne, page « Frontières »<sup><a href="#s3">3</a></sup></span></p>
+    <p><span class="q">« </span>Une peine prononcée doit être une peine exécutée.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
+    <p><span class="q">« </span>Je veux que la France fonce à 140, pas qu'elle roule à 80.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
+  </section>
+
+  <section class="grid" aria-labelledby="h-grid">
+    <h2 id="h-grid">La grille en un regard</h2>
+    <p class="sub">Quatre questions par sujet. Chaque pastille est un verdict sur une échelle de cinq crans, du rouge au vert. Touchez une ligne pour aller au chapitre.</p>
+    <div class="ghead" aria-hidden="true"><span>Axe</span><span>Le problème est-il réel&nbsp;?</span><span>Est-ce faisable&nbsp;?</span><span>Votent-ils ce qu'ils disent&nbsp;?</span><span>Répondent-ils aux demandes&nbsp;?</span></div>
+
+    <a class="grow" href="#finances">
+      <p class="gaxe"><span class="n">1</span>Finances publiques et dette</p>
+      <div class="gcells">
+        <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
+        <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
+        <div class="pill c2"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d2"></i>Écart important</span></div>
+        <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
+      </div>
+    </a>
+    <a class="grow" href="#travail">
+      <p class="gaxe"><span class="n">2</span>Travail, protection sociale et fraude</p>
+      <div class="gcells">
+        <div class="pill c3"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d3"></i>Partiellement fondé</span></div>
+        <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
+        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
+      </div>
+    </a>
+    <a class="grow" href="#immigration">
+      <p class="gaxe"><span class="n">3</span>Immigration</p>
+      <div class="gcells">
+        <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
+        <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
+        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
+      </div>
+    </a>
+    <a class="grow" href="#pouvoir-achat">
+      <p class="gaxe"><span class="n">4</span>Pouvoir d'achat et fiscalité</p>
+      <div class="gcells">
+        <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
+        <div class="pill c2"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d2"></i>Très incertaine</span></div>
+        <div class="pill c2"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d2"></i>Écart important</span></div>
+        <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
+      </div>
+    </a>
+    <a class="grow" href="#securite">
+      <p class="gaxe"><span class="n">5</span>Sécurité, ordre public et libertés</p>
+      <div class="gcells">
+        <div class="pill c3"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d3"></i>Partiellement fondé</span></div>
+        <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
+        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c4"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d4"></i>Répond</span></div>
+      </div>
+    </a>
+    <a class="grow" href="#institutions">
+      <p class="gaxe"><span class="n">6</span>Institutions, démocratie et Europe</p>
+      <div class="gcells">
+        <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
+        <div class="pill c2"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d2"></i>Très incertaine</span></div>
+        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
+      </div>
+    </a>
+
+    <div class="mline">
+      <a href="#methode"><p class="gaxe"><span class="n">+</span>Comment ils gouvernent</p></a>
+      <a href="#methode"><div class="pill c2"><span class="pq">Parole de méthode tenue&nbsp;?</span><span class="pv"><i class="dot d2"></i>Écart important de méthode</span></div></a>
+    </div>
+
+    <div class="tend">
+      <h3>Les tendances lourdes&nbsp;: le programme les voit-il venir&nbsp;?</h3>
+      <p class="sub">Quatorze évolutions de fond identifiées par les institutions publiques (Insee, Cour des comptes, Haut-commissariat au Plan, Arcom, Sénat). Ce que le programme en fait, sans juger si la réponse suffit.</p>
+      <div class="tiles-t">
+        <div class="tt t4"><b>Vieillissement</b><span>Traitée</span></div>
+        <div class="tt t3"><b>Solde naturel négatif</b><span>En partie</span></div>
+        <div class="tt t3"><b>Ménages d'une personne</b><span>En partie</span></div>
+        <div class="tt t4"><b>Charge de la dette</b><span>Traitée</span></div>
+        <div class="tt t4"><b>Productivité</b><span>Traitée</span></div>
+        <div class="tt t4"><b>IA et emplois</b><span>Traitée</span></div>
+        <div class="tt t3"><b>Départs en fin de carrière</b><span>En partie</span></div>
+        <div class="tt t4"><b>Climat et adaptation</b><span>Traitée</span></div>
+        <div class="tt t4"><b>Électrification</b><span>Traitée</span></div>
+        <div class="tt t3"><b>Eau et relève agricole</b><span>En partie</span></div>
+        <div class="tt t3"><b>Patrimoine et héritage</b><span>En partie</span></div>
+        <div class="tt t3"><b>Dépendance, médecins</b><span>En partie</span></div>
+        <div class="tt t4"><b>Défense</b><span>Traitée</span></div>
+        <div class="tt t4"><b>Information et plateformes</b><span>Traitée</span></div>
+      </div>
+      <div class="legend"><span><i class="sw" style="background:var(--v4)"></i>Traitée (8)</span><span><i class="sw" style="background:var(--v3)"></i>Traitée en partie (6)</span><span><i class="sw" style="background:var(--v2)"></i>Nommée sans mesure (0)</span><span><i class="sw" style="background:var(--v1)"></i>Absente (0)</span></div>
+      <p class="src">Détail au chapitre <a href="#tendances">Ce qui vient</a>.</p>
+    </div>
+  </section>
+</header>
+
+<!-- 1 -->
+<section class="chapter" id="finances" aria-labelledby="h-fin">
+  <div class="ch-head">
+    <div class="hexnum">1</div>
+    <div>
+      <p class="axe">Finances publiques et dette</p>
+      <h2 id="h-fin">Le constat est exact, le plan n'est ventilé qu'à 13 %, et les écarts sont dans les actes</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c4">Plutôt fondé</span></div>
+    <p>« La France vit à crédit »<sup><a href="#s1">1</a></sup>. Tout ce qui est chiffré se vérifie&nbsp;: la dette a augmenté de 363 milliards d'euros entre juin 2024 et juin 2026<sup><a href="#s24">24</a>,<a href="#s25">25</a></sup>, la charge d'intérêts atteindra 91 milliards en 2027<sup><a href="#s26">26</a></sup>, 57 € sur 100 € de dépense publique vont au social<sup><a href="#s30">30</a></sup>. Deux choses ne tiennent pas&nbsp;: les « deux tiers de notre dette » dus au modèle social viennent d'un essai d'auteur, pas d'une statistique publique&nbsp;; et la campagne ne cite jamais la cause côté recettes, chiffrée par la Cour des comptes à 62 milliards par an de baisses d'impôts 2018-2023 non compensées<sup><a href="#s28">28</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Un frein d'urgence de 20 milliards dès l'élection, 150 milliards d'économies sur le quinquennat dont deux tiers sur le social, les comptes sociaux à l'équilibre « en trois ans », le déficit sous 3 % « avant 2032 », l'équilibre en 2037, une règle d'or dans la Constitution, 100 000 postes publics en moins par départs volontaires, 7 milliards d'économies sur l'organisation territoriale<sup><a href="#s1">1</a>,<a href="#s4">4</a>,<a href="#s7">7</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c3">Conditionnelle</span></div>
+    <p>L'enveloppe est du bon ordre de grandeur&nbsp;: la Cour des comptes juge 135 milliards nécessaires d'ici 2031<sup><a href="#s27">27</a></sup>. Mais <b>seuls 19 milliards sur 150 sont ventilés</b>, aucun chiffreur indépendant n'a publié d'évaluation, et la cible « avant 2032 » est plus tardive que l'engagement européen de la France, 2029. Les 7 milliards territoriaux représentent 93 % du coût total de l'enchevêtrement des collectivités estimé par le rapport Ravignon<sup><a href="#s31">31</a></sup>&nbsp;: un plafond théorique, pas une économie attendue. Qui paie&nbsp;: deux tiers des économies visent les dépenses sociales, le détail n'est pas publié.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c2">Écart important</span></div>
+    <p>Le groupe vote sa ligne sur tous les scrutins budgétaires, qui sont des textes globaux et comptent moins. Les écarts sont dans les actes, et ils sont quatre&nbsp;: la trajectoire votée en 2023 manquée de 1,4 point en 2024, année où le candidat dirigeait le gouvernement<sup><a href="#s28">28</a></sup>&nbsp;; 62 milliards de baisses d'impôts non compensées, sans explication publique&nbsp;; la loi de finances rectificative refusée au printemps 2024 par le Premier ministre Attal et promise « dès les premières semaines » par le candidat Attal&nbsp;; et le vote du groupe, le 16 décembre 2025, pour la loi de financement qui relève la CSG sur le capital<sup><a href="#s19">19</a></sup>, contre la « règle d'or anti-hausse d'impôt » de son programme de 2024<sup><a href="#s13">13</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c3">Répond en partie</span></div>
+    <p>Trois demandes majoritaires sur quatre ont une mesure&nbsp;: réduire le déficit par la dépense plutôt que par l'impôt, réduire le train de vie de l'État, traiter la dette comme une urgence avec une règle d'or (79 % de favorables<sup><a href="#s82">82</a></sup>). La quatrième, faire contribuer d'abord les grandes entreprises et les plus aisés, reste un principe (« chacun contribuera à la hauteur de ses moyens »<sup><a href="#s1">1</a></sup>) que le refus de toute hausse d'impôt contredit ouvertement<sup><a href="#s4">4</a></sup>. Aller contre en le disant n'est pas une faute dans cette grille&nbsp;; ne pas le dire en serait une.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Position majoritaire du groupe (plus de 60 % des voix exprimées). Les textes budgétaires globaux comptent moins qu'une mesure précise.</p>
+    <div class="votes" role="table" aria-label="Votes sur les scrutins budgétaires">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Budget 2025, partie recettes alourdie en séance <span class="tg">global</span><small>12 nov. 2024, rejeté</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="c">C</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Censure du gouvernement Barnier après le 49.3 <span class="tg">motion</span><small>4 déc. 2024, adoptée</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="z">0</i></span><i class="z">0</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Budget 2026, partie recettes <span class="tg">global</span><small>21 nov. 2025, rejeté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="a">A</i></span><i class="c">C</i><i class="c">C</i><span class="ok">n. é.</span></div>
+      <div class="vr" role="row"><div class="vl">Rejet préalable du budget 2027 <span class="tg">motion</span><small>13 oct. 2026, rejetée</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="c">C</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Budget de la Sécu 2026, hausse de la CSG sur le capital <span class="tg">global</span><small>16 déc. 2025, adopté</small></div><i class="c">C</i><i class="p">P</i><span class="eprc"><i class="p">P</i></span><i class="d">÷</i><i class="c">C</i><span class="ok n">non</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span><span><i class="sw" style="background:var(--track);border-radius:50%"></i>A abstention</span><span><i class="sw" style="border:2px dashed var(--faint);border-radius:50%"></i>÷ divisé</span><span><i class="sw" style="border:1px solid var(--line);border-radius:50%"></i>0 aucune voix pour (motion)</span></div>
+    <p class="src">Open data des scrutins de l'Assemblée nationale<sup><a href="#s18">18</a>,<a href="#s19">19</a></sup>. « Ligne »&nbsp;: le vote du groupe EPR suit-il le programme écrit&nbsp;? « n. é. »&nbsp;: non évaluable.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le diagnostic chiffré est exact, chiffre pour chiffre. La protection sociale explique bien les deux tiers de l'écart de dépense avec la zone euro<sup><a href="#s29">29</a></sup>. Le groupe a voté de façon constante pour les trajectoires de redressement et déposé en 2024 des amendements chiffrés qui substituaient des économies à des hausses d'impôts, conformes à sa ligne.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Le plan de 150 milliards, ce qui est ventilé</h4>
+      <div class="tiles">
+        <div class="tile"><div class="n">150 <small>Md€</small></div><div class="l">d'économies annoncées sur le quinquennat<sup><a href="#s1">1</a></sup></div></div>
+        <div class="tile"><div class="n">19 <small>Md€</small></div><div class="l">détaillés poste par poste, soit 12,7 % du plan (calcul par nos soins)</div></div>
+        <div class="tile"><div class="n">135 <small>Md€</small></div><div class="l">jugés nécessaires d'ici 2031 par la Cour des comptes<sup><a href="#s27">27</a></sup></div></div>
+        <div class="tile"><div class="n">62 <small>Md€</small></div><div class="l">par an de baisses de prélèvements 2018-2023 non compensées selon la Cour<sup><a href="#s28">28</a></sup></div></div>
+      </div>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c4">traitée</span><span>Réduire le déficit surtout par la baisse des dépenses&nbsp;: plan de 150 Md€, frein de 20 Md€, aucune hausse d'impôt<sup><a href="#s1">1</a>,<a href="#s4">4</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Réduire le train de vie de l'État&nbsp;: 100 000 postes, 7 Md€ territoriaux, immobilier de l'État réduit de 25 %<sup><a href="#s1">1</a></sup>.</span></li>
+        <li><span class="st c3">en partie</span><span>Faire contribuer d'abord les grandes entreprises et les plus aisés&nbsp;: une taxe sur les rachats d'actions au programme de 2024<sup><a href="#s13">13</a></sup>, non reprise en 2026&nbsp;; rien de ciblé sur les hauts revenus. Contre-pied assumé&nbsp;: « aucune hausse d'impôt »<sup><a href="#s4">4</a></sup>, votes contre l'impôt plancher et la taxe Zucman<sup><a href="#s18">18</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Traiter la dette comme une urgence, règle d'or constitutionnelle<sup><a href="#s1">1</a></sup>.</span></li>
+        <li><span class="st c2">va contre</span><span>Maintenir les prestations, refuser les gels (demande contestée)&nbsp;: année blanche des prestations en 2028, annoncée et justifiée par le candidat<sup><a href="#s4">4</a></sup>.</span></li>
+      </ul>
+      <h4>Les divergences entre documents</h4>
+      <ul>
+        <li>Comptes sociaux à l'équilibre « en trois ans » dans la lettre<sup><a href="#s1">1</a></sup>, « en 2032 » dans le plan de septembre<sup><a href="#s7">7</a></sup>, « avant la fin du quinquennat » dans l'entretien de juillet<sup><a href="#s4">4</a></sup>.</li>
+        <li>120 à 150 Md€ d'économies en juillet<sup><a href="#s4">4</a></sup>, 150 Md€ ensuite<sup><a href="#s1">1</a></sup>.</li>
+        <li>La trajectoire soutenue par le groupe à l'Assemblée vise 3 % en 2029<sup><a href="#s26">26</a></sup>&nbsp;; le candidat vise « avant 2032 »<sup><a href="#s1">1</a></sup>.</li>
+        <li>Le parti proposait en 2025 d'exclure les investissements climat du calcul du déficit<sup><a href="#s12">12</a></sup>&nbsp;; la règle d'or du candidat ne prévoit pas cette exception.</li>
+      </ul>
+      <p class="note">Les 100 000 suppressions de postes proposées en 2026 avaient été refusées en 2022 par le même camp, qui en proposait 125 000 en 2017. Fait documenté, hors fenêtre du corpus des déclarations, donc sans poids dans le verdict.</p>
+    </div>
+  </details>
+</section>
+
+<!-- 2 -->
+<section class="chapter" id="travail" aria-labelledby="h-trav">
+  <div class="ch-head">
+    <div class="hexnum">2</div>
+    <div>
+      <p class="axe">Travail, protection sociale et fraude</p>
+      <h2 id="h-trav">Une réforme écrite article par article, le reste non chiffré, et cinq positions sur les retraites en quatre ans</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c3">Partiellement fondé</span></div>
+    <p>Les retraites pèsent « un quart de notre dépense publique »<sup><a href="#s1">1</a></sup>&nbsp;: exact, 24,3 % selon le Conseil d'orientation des retraites<sup><a href="#s32">32</a></sup>. L'écart d'heures travaillées vient bien du taux d'emploi des jeunes et des seniors, pas des personnes en emploi&nbsp;: la campagne lit ce point correctement<sup><a href="#s2">2</a></sup>. Trois constats ne tiennent pas&nbsp;: « nous avons mis fin au chômage de masse », alors que le chômage remonte depuis six trimestres (8,3 % mi-2026)<sup><a href="#s33">33</a></sup>&nbsp;; des dépenses de retraite « hors de contrôle », alors que le COR les projette stables en part de PIB jusqu'en 2045 et attribue le déficit au recul des ressources<sup><a href="#s32">32</a></sup>&nbsp;; et les « deux tiers de la dette », sans source.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Un système de retraite universel « sans âge légal » avec de la capitalisation pour tous<sup><a href="#s1">1</a></sup>, la reprise de la réforme de l'assurance chômage (8 mois d'affiliation sur 20, durée réduite de 18 à 15 mois)<sup><a href="#s15">15</a></sup>, une « année blanche » des prestations en 2028<sup><a href="#s4">4</a></sup>, un plan contre les arrêts maladie, 100 milliards d'économies sociales en cinq ans<sup><a href="#s1">1</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c3">Conditionnelle</span></div>
+    <p>La réforme de l'assurance chômage est la mesure la plus précise de tout le programme&nbsp;: déposée, articulée, sans obstacle européen. Son rendement annoncé va de 3,6 à 5 milliards selon le document&nbsp;; le Conseil d'analyse économique estime un plancher de 2,9 milliards<sup><a href="#s34">34</a></sup>, l'Unédic une fourchette de 4 à 5,4 milliards en régime de croisière<sup><a href="#s35">35</a></sup>. Le reste n'est pas chiffré&nbsp;: la retraite sans âge légal renvoie au système universel abandonné en 2020, la capitalisation suppose une double contribution des actifs pendant la transition. <b>Les mesures chiffrées couvrent moins de 10 % des 100 milliards annoncés.</b> Qui paie l'année blanche&nbsp;: les pensions portent 74 % du rendement, et l'effort pèse près de 1 % du revenu des 5 % les plus modestes contre moins de 0,3 % pour les 5 % les plus aisés<sup><a href="#s37">37</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <p>Sur la fraude et le chômage, discours, programme, votes et actes concordent. Sur les retraites, la séquence est la suivante&nbsp;: 65 ans promis en 2022<sup><a href="#s14">14</a></sup>, 64 ans votés en 2023, « vote contre » annoncé puis abstention en novembre 2025 sur la suspension de la réforme<sup><a href="#s21">21</a></sup>, vote pour la loi qui la contient en décembre<sup><a href="#s19">19</a></sup>, amendement en octobre 2026 pour l'annuler, pendant que le candidat propose un système sans âge légal. Chaque étape a une explication publique&nbsp;: le compromis de coalition contre la non-censure du PS. Second écart&nbsp;: pensions indexées sur l'inflation promises en 2024<sup><a href="#s13">13</a></sup>, année blanche proposée pour 2028.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c3">Répond en partie</span></div>
+    <p>Fraude, non-recours aux droits et retraites essentiellement publiques&nbsp;: traités. Le reste à charge en santé&nbsp;: en partie (mutuelle publique et fauteuils roulants en 2024, rien sur les franchises). Deux demandes larges n'ont pas de mesure&nbsp;: l'âge de départ, puisque le système « sans âge légal » ne garantit aucun âge pendant que le groupe demande le retour vers 64 ans&nbsp;; et la dépendance et le handicap, où le gel des prestations va contre, en termes généraux.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Retraites, fraude et budget de la Sécurité sociale.</p>
+    <div class="votes" role="table" aria-label="Votes sur le travail et la protection sociale">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Abroger les 64 ans et les 43 annuités (texte RN)<small>31 oct. 2024, rejeté</small></div><i class="z">·</i><i class="c">C</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Supprimer l'article abrogeant les 64 ans (texte LFI)<small>28 nov. 2024, rejeté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="c">C</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Suspendre la réforme des retraites (budget Sécu 2026)<small>12 nov. 2025, adopté</small></div><i class="c">C</i><i class="p">P</i><span class="eprc"><i class="a">A</i></span><i class="d">÷</i><i class="p">P</i><span class="ok n">partiel</span></div>
+      <div class="vr" role="row"><div class="vl">Budget de la Sécu 2026, avec la suspension <span class="tg">global</span><small>16 déc. 2025, adopté</small></div><i class="c">C</i><i class="p">P</i><span class="eprc"><i class="p">P</i></span><i class="d">÷</i><i class="c">C</i><span class="ok n">non</span></div>
+      <div class="vr" role="row"><div class="vl">Loi contre les fraudes sociales et fiscales <span class="tg">global</span><small>7 avr. 2026, adoptée</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span><span><i class="sw" style="background:var(--track);border-radius:50%"></i>A abstention</span><span><i class="sw" style="border:2px dashed var(--faint);border-radius:50%"></i>÷ divisé</span><span><i class="sw" style="border:1px solid var(--line);border-radius:50%"></i>· aucune voix exprimée</span></div>
+    <p class="src">Open data des scrutins<sup><a href="#s18">18</a>,<a href="#s19">19</a></sup>. LFI n'a exprimé aucune voix sur le texte RN du 31 octobre 2024.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le poids des retraites est celui du COR, chiffre pour chiffre. La réforme de l'assurance chômage est écrite article par article et son chiffrage reste encadré par les estimations indépendantes. Sur la fraude, le groupe a voté ce qu'il annonçait, et son propre texte met en garde contre l'idée que la fraude comblerait les déficits<sup><a href="#s16">16</a></sup>&nbsp;: 5 milliards de fraude estimée des allocataires<sup><a href="#s36">36</a></sup> contre 422 milliards de retraites versées<sup><a href="#s32">32</a></sup>.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>La réforme de l'assurance chômage, trois chiffrages</h4>
+      <div class="bars">
+        <div class="bar"><div class="bl"><span>Conseil d'analyse économique, borne basse<sup><a href="#s34">34</a></sup></span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.537)"></span><span class="val">2,9 Md€</span></div></div>
+        <div class="bar hl"><div class="bl"><span>Programme, version 2025 (PPL)<sup><a href="#s15">15</a></sup></span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.667)"></span><span class="val">3,6 Md€</span></div></div>
+        <div class="bar"><div class="bl"><span>Unédic, régime de croisière, borne basse<sup><a href="#s35">35</a></sup></span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.741)"></span><span class="val">4,0 Md€</span></div></div>
+        <div class="bar hl"><div class="bl"><span>Programme, version 2026 (candidat)<sup><a href="#s4">4</a></sup></span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.926)"></span><span class="val">5,0 Md€</span></div></div>
+        <div class="bar"><div class="bl"><span>Unédic, régime de croisière, borne haute<sup><a href="#s35">35</a></sup></span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 1)"></span><span class="val">5,4 Md€</span></div></div>
+      </div>
+      <p class="src">Rendement annuel. Le CAE présente son estimation comme une borne inférieure&nbsp;; la version à 5 Md€ lui est supérieure de 74 %.</p>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c2">non traitée</span><span>Ne pas reculer l'âge de départ&nbsp;: aucun âge garanti dans le système « sans âge légal »&nbsp;; le groupe demande au même moment le retour vers 64 ans, et le dit<sup><a href="#s21">21</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Garder des retraites et une assurance maladie essentiellement publiques&nbsp;: la répartition reste le socle, la capitalisation est un complément<sup><a href="#s12">12</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Renforcer la lutte contre la fraude sociale&nbsp;: proposition de loi du groupe devenue loi<sup><a href="#s16">16</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Lutter contre le non-recours&nbsp;: « solidarité à la source », versement automatique<sup><a href="#s12">12</a>,<a href="#s13">13</a></sup>.</span></li>
+        <li><span class="st c2">va contre</span><span>Augmenter les aides à la dépendance et au handicap&nbsp;: aucune mesure en 2026&nbsp;; le gel des prestations de 2028 est annoncé en termes généraux<sup><a href="#s4">4</a></sup>, et le gouvernement Lecornu avait inclus l'allocation aux adultes handicapés dans le gel proposé pour 2026.</span></li>
+        <li><span class="st c3">en partie</span><span>Ne pas augmenter le reste à charge en santé&nbsp;: mutuelle publique à 1 € par jour et fauteuils roulants remboursés à 100 % (programme 2024)<sup><a href="#s13">13</a></sup>&nbsp;; rien sur les franchises ni les longues maladies.</span></li>
+      </ul>
+      <h4>Qui gagne, qui perd</h4>
+      <ul>
+        <li>Année blanche 2028&nbsp;: les pensions portent 74 % du rendement&nbsp;; l'effort représente près de 1 % du revenu des 5 % les plus modestes et moins de 0,3 % pour les 5 % les plus aisés<sup><a href="#s37">37</a></sup>.</li>
+        <li>Assurance chômage&nbsp;: public touché d'âge médian 33 ans, gagnant environ 1 200 € par mois avant la perte d'emploi<sup><a href="#s34">34</a></sup>.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- 3 -->
+<section class="chapter" id="immigration" aria-labelledby="h-imm">
+  <div class="ch-head">
+    <div class="hexnum">3</div>
+    <div>
+      <p class="axe">Immigration, intégration, droits sociaux des étrangers</p>
+      <h2 id="h-imm">Des mesures calibrées sur le droit existant, sauf la mesure phare, déjà censurée une fois</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c4">Plutôt fondé</span></div>
+    <p>Des flux « trop souvent subis », une immigration « majoritairement familiale », une rétention limitée à 90 jours<sup><a href="#s3">3</a>,<a href="#s11">11</a></sup>. Les chiffres de stock sont ceux de l'Insee. La France délivre une part de titres pour motif de travail (13,5 %) deux fois et demie plus faible que la moyenne de l'Union (33,6 %)<sup><a href="#s39">39</a></sup>, et exécute 10,9 % de ses obligations de quitter le territoire contre 28,6 % dans l'Union<sup><a href="#s40">40</a></sup>. « Majoritairement familiale » est vrai hors étudiants (69 % des titres non étudiants), faux sur l'ensemble des flux (47,8 %)<sup><a href="#s38">38</a></sup>. Les prestations maintenues après l'expiration du titre ne concernent que l'assurance maladie.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Des quotas d'immigration économique votés par le Parlement tous les deux ans, un système à points, le regroupement familial après 24 mois de séjour au lieu de 18, la fin des prestations à l'expiration du titre, 3 000 places de rétention, la réforme de l'aide médicale de l'État, la transposition du pacte européen sur l'asile<sup><a href="#s3">3</a>,<a href="#s11">11</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c3">Conditionnelle</span></div>
+    <p>La plupart des mesures sont calibrées sur le droit existant&nbsp;: 24 mois est exactement le plafond de la directive européenne, le travail des demandeurs d'asile suit la directive de 2024, la réforme de l'AME a commencé par décret en février 2026. <b>Le point dur est le mécanisme des quotas</b>&nbsp;: le Conseil constitutionnel a censuré en janvier 2024, dans la loi que le groupe avait votée, l'obligation faite au Parlement de les voter<sup><a href="#s41">41</a></sup>. Une voie existe (un projet de loi périodique du gouvernement), le parti ne la nomme pas. Rien n'est chiffré&nbsp;; 3 000 places de rétention représentent environ 0,9 milliard d'investissement selon les ratios du Sénat<sup><a href="#s43">43</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <p>Le groupe a voté la rétention des étrangers condamnés, puis réécrit sa propre loi après censure jusqu'à validation en 2026<sup><a href="#s42">42</a></sup>&nbsp;: suite cohérente. Deux écarts&nbsp;: la dénonciation des accords franco-algériens de 1968, réclamée par Gabriel Attal en janvier 2025 puis rejetée par son groupe en octobre<sup><a href="#s22">22</a></sup>, avec une explication (réviser plutôt que dénoncer)&nbsp;; et les actes de gouvernement, un délai d'asile d'environ onze mois pour un objectif de six, des retours forcés en baisse de 32 % entre 2019 et 2024<sup><a href="#s40">40</a></sup>. Aucun scrutin public n'existe sur l'AME ni sur la durée de résidence&nbsp;: ces objets ne sont évaluables par les votes pour aucune force.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c3">Répond en partie</span></div>
+    <p>La demande la plus large, réduire l'immigration, a des mesures identifiables mais aucun volume cible. L'accueil des persécutés est traité par la procédure (délais, pacte européen), pas par l'accueil. Et le programme prend ouvertement le contre-pied d'une demande majoritaire, moins recourir à l'immigration de travail&nbsp;: « la préférence travail » est écrite et répétée, avec son motif, « les compétences, les talents dont nous avons besoin »<sup><a href="#s3">3</a></sup>.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Les trois textes de la législature viennent de la droite et du RN&nbsp;: aucun texte de gauche sur l'immigration n'a eu de scrutin public sur la période.</p>
+    <div class="votes" role="table" aria-label="Votes sur l'immigration">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Maintien en rétention des étrangers condamnés (texte LR)<small>8 juil. 2025, adopté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Dénoncer les accords franco-algériens de 1968 (texte RN)<small>30 oct. 2025, adopté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="c">C</i></span><i class="p">P</i><i class="p">P</i><span class="ok n">écart</span></div>
+      <div class="vr" role="row"><div class="vl">Taxe de titre de séjour portée de 200 à 1 000 € (texte UDR)<small>8 nov. 2024, rejeté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="c">C</i></span><i class="d">÷</i><i class="p">P</i><span class="ok">s. o.</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span><span><i class="sw" style="border:2px dashed var(--faint);border-radius:50%"></i>÷ divisé</span></div>
+    <p class="src">Open data des scrutins<sup><a href="#s18">18</a></sup>. « s. o. »&nbsp;: le programme ne dit rien du montant des taxes. Sur les accords de 1968, l'écart est avec le discours du président du groupe, pas avec le programme, qui est muet.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le constat sur la faible part de l'immigration de travail et la faible exécution des éloignements est exact et parmi les mieux sourcés du corpus<sup><a href="#s39">39</a>,<a href="#s40">40</a></sup>. Le parti a abandonné la condition de cinq ans de résidence pour les prestations, jugée disproportionnée par le Conseil constitutionnel, au profit d'une mesure compatible avec la jurisprudence.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Le motif des premiers titres de séjour, France et Union européenne</h4>
+      <div class="bars">
+        <div class="bar hl"><div class="bl"><span>France, part du motif travail</span></div><div class="bt"><span class="fill" style="width:calc((100% - 3.5rem) * 0.402)"></span><span class="val">13,5 %</span></div></div>
+        <div class="bar"><div class="bl"><span>Union européenne, part du motif travail</span></div><div class="bt"><span class="fill" style="width:calc((100% - 3.5rem) * 1)"></span><span class="val">33,6 %</span></div></div>
+        <div class="bar hl"><div class="bl"><span>France, éloignements exécutés</span></div><div class="bt"><span class="fill" style="width:calc((100% - 3.5rem) * 0.324)"></span><span class="val">10,9 %</span></div></div>
+        <div class="bar"><div class="bl"><span>Union européenne, éloignements exécutés</span></div><div class="bt"><span class="fill" style="width:calc((100% - 3.5rem) * 0.851)"></span><span class="val">28,6 %</span></div></div>
+      </div>
+      <p class="src">Eurostat, premiers titres par motif et retours à la suite d'une obligation de quitter le territoire, 2025<sup><a href="#s39">39</a>,<a href="#s40">40</a></sup>. Les deux séries ont des échelles différentes&nbsp;; chaque paire se lit à part.</p>
+      <h4>Ce que le groupe a voté en 2023, et ce que le programme en garde</h4>
+      <ul>
+        <li>Objectifs chiffrés fixés par le Parlement&nbsp;: mécanisme contraignant censuré<sup><a href="#s41">41</a></sup>, repris tel quel dans le programme, sans dire comment lever l'obstacle.</li>
+        <li>Regroupement familial durci&nbsp;: censuré comme cavalier, pas sur le fond&nbsp;; repris (24 mois, français, logement, ressources)<sup><a href="#s11">11</a></sup>.</li>
+        <li>Cinq ans de résidence pour les prestations&nbsp;: censuré comme cavalier, puis jugé disproportionné sur le fond en avril 2024&nbsp;; abandonné au profit de la fin des prestations à l'expiration du titre<sup><a href="#s11">11</a></sup>.</li>
+      </ul>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c4">traitée</span><span>Réduire le niveau de l'immigration&nbsp;: quotas, regroupement familial réduit, rétention, éloignements&nbsp;; aucun volume cible. Limite assumée&nbsp;: refus de « l'immigration zéro »<sup><a href="#s11">11</a></sup>.</span></li>
+        <li><span class="st c3">en partie</span><span>Accueillir les demandeurs d'asile persécutés&nbsp;: délais réduits, pacte européen&nbsp;; rien sur la part de la France dans l'accueil.</span></li>
+        <li><span class="st c2">va contre</span><span>Recourir moins à l'immigration de travail&nbsp;: « la préférence travail », assumée dans le programme et par le candidat<sup><a href="#s3">3</a>,<a href="#s11">11</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Conditionner l'intégration au français&nbsp;: titres de long séjour conditionnés au français et aux valeurs<sup><a href="#s13">13</a></sup>&nbsp;; l'histoire n'est pas nommée.</span></li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- 4 -->
+<section class="chapter" id="pouvoir-achat" aria-labelledby="h-pa">
+  <div class="ch-head">
+    <div class="hexnum">4</div>
+    <div>
+      <p class="axe">Pouvoir d'achat et fiscalité</p>
+      <h2 id="h-pa">Un diagnostic solide, une mesure phare de 40 milliards non chiffrée, et le Smic laissé de côté</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c4">Plutôt fondé</span></div>
+    <p>« Le travail ne paie pas assez », le Smic est devenu « le salaire plafond », un salarié « touche à peine plus de la moitié de ce que verse son patron »<sup><a href="#s2">2</a>,<a href="#s5">5</a></sup>. Le salaire médian est exact (2 190 € nets)<sup><a href="#s44">44</a></sup>, sa stagnation réelle depuis 2019 aussi, et le coin fiscal et social est parmi les trois plus élevés de l'OCDE (47,2 %)<sup><a href="#s45">45</a></sup>. Deux nuances&nbsp;: l'essentiel de l'écart entre le net et le coût du travail vient des cotisations patronales, pas des cotisations salariales que la mesure vise&nbsp;; et la part de salariés au Smic recule depuis 2023, de 17,3 % à 11,8 %<sup><a href="#s46">46</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Le « droit au brut »&nbsp;: supprimer des cotisations salariales pour donner 250 € nets de plus par mois au salaire médian, « financé à l'euro près par des économies »<sup><a href="#s5">5</a></sup>. Aucune hausse d'impôt sur le quinquennat<sup><a href="#s4">4</a></sup>, une prime carburant à 1 000 €, un prix de l'électricité autour de 75 € le mégawattheure<sup><a href="#s7">7</a></sup>, 150 000 € d'abattement par enfant sur les successions (2022 et 2024)<sup><a href="#s13">13</a>,<a href="#s14">14</a></sup>. Aucun document ne propose de revaloriser le Smic lui-même.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c2">Très incertaine</span></div>
+    <p>La mesure centrale pèse environ 40 milliards, soit 1,3 % du PIB, et les documents du candidat ne la chiffrent pas&nbsp;: le montant vient de la presse<sup><a href="#s17">17</a></sup>. Son financement n'est pas documenté. Et le calcul ne tombe pas juste&nbsp;: au salaire médian, supprimer la part salariale vieillesse rapporte environ 202 € par mois, pas 250 (calcul par nos soins à partir des barèmes publics)&nbsp;; atteindre 250 suppose d'entamer les cotisations complémentaires, que l'État ne fixe pas seul. Le précédent de 2018 a été financé par un autre prélèvement, la CSG, pas par des économies. <b>Qui gagne&nbsp;: environ 136 € par mois au Smic, 202 € au salaire médian, 292 € au plafond. Les gains croissent avec le salaire.</b></p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c2">Écart important</span></div>
+    <p>Sur les quatre scrutins retenus, le groupe vote exactement sa ligne. Les écarts sont ailleurs, et ils sont quatre&nbsp;: la « règle d'or anti-hausse d'impôt » cohabite dans les propres textes du parti avec des hausses nommées (taxe sur les rachats d'actions, fiscalité de l'épargne)<sup><a href="#s12">12</a>,<a href="#s13">13</a></sup>&nbsp;; les 150 000 € de successions, promis deux fois, n'ont jamais été votés malgré une majorité qui disposait du 49.3, sans explication publique&nbsp;; le groupe a voté la hausse de 1,4 point de la CSG sur le capital en décembre 2025<sup><a href="#s19">19</a></sup>&nbsp;; et l'accise sur l'électricité a été relevée en février 2024 sous le gouvernement Attal.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c3">Répond en partie</span></div>
+    <p>85 % des Français veulent une hausse du Smic, demande stable depuis 2018<sup><a href="#s80">80</a></sup>. Le programme nomme le problème et répond par un autre instrument, la baisse des cotisations&nbsp;; il ne propose pas de revaloriser le Smic. Le refus d'une forte hausse a été dit et motivé une fois, en 2024 (« une machine à détruire l'emploi »)<sup><a href="#s50">50</a></sup>, et aucun texte de 2026 ne le redit. La baisse des impôts des classes moyennes est servie&nbsp;; la taxation des très hauts patrimoines (74 % de favorables<sup><a href="#s81">81</a></sup>) est contredite ouvertement, par le refus de toute hausse d'impôt et par les votes du groupe.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Deux textes de gauche sur les hauts patrimoines, deux textes de droite et du RN sur des baisses ciblées.</p>
+    <div class="votes" role="table" aria-label="Votes sur la fiscalité">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Impôt plancher de 2 % sur les très hauts patrimoines (texte écologiste)<small>20 fév. 2025, adopté</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="a">A</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Taxe Zucman, budget 2026 (amendement PS)<small>31 oct. 2025, rejeté</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="c">C</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">TVA à 5,5 % sur l'énergie (amendement RN)<small>20 nov. 2025, rejeté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="c">C</i></span><i class="c">C</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Défiscalisation totale des heures supplémentaires (amendement LR)<small>25 oct. 2025, adopté</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Budget de la Sécu 2026, hausse de la CSG sur le capital <span class="tg">global</span><small>16 déc. 2025, adopté</small></div><i class="c">C</i><i class="p">P</i><span class="eprc"><i class="p">P</i></span><i class="d">÷</i><i class="c">C</i><span class="ok n">non</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span><span><i class="sw" style="background:var(--track);border-radius:50%"></i>A abstention</span><span><i class="sw" style="border:2px dashed var(--faint);border-radius:50%"></i>÷ divisé</span></div>
+    <p class="src">Open data des scrutins<sup><a href="#s18">18</a>,<a href="#s19">19</a></sup>. Si la proposition LFI sur le Smic à 1 700 € nets est votée le 29 octobre 2026, elle remplacera la ligne de l'impôt plancher, redondante avec la taxe Zucman&nbsp;: décision prise avant le vote.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le diagnostic est solide, y compris sur les heures travaillées par habitant. Les promesses fiscales de 2017 ont été tenues, souvent au-delà&nbsp;: c'est une cohérence entre promesse et acte, pas une solidité budgétaire, puisque la Cour des comptes les juge non compensées<sup><a href="#s28">28</a></sup>. Le prélèvement forfaitaire unique a été autofinancé les premières années selon France Stratégie, qui ne détecte en revanche aucun effet sur l'investissement<sup><a href="#s47">47</a></sup>.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Le « droit au brut » selon le salaire</h4>
+      <p class="sub">Gain mensuel net si la part salariale des cotisations vieillesse est supprimée. Calcul par nos soins à partir des taux et plafonds publics.</p>
+      <div class="bars">
+        <div class="bar"><div class="bl"><span>Au Smic (1 867 € bruts)</span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.466)"></span><span class="val">≈ 136 €</span></div></div>
+        <div class="bar hl"><div class="bl"><span>Au salaire médian</span><strong>promis&nbsp;: 250 €</strong></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 0.692)"></span><span class="val">≈ 202 €</span></div></div>
+        <div class="bar"><div class="bl"><span>Au plafond de la Sécurité sociale (4 005 € bruts)</span></div><div class="bt"><span class="fill" style="width:calc((100% - 4.5rem) * 1)"></span><span class="val">≈ 292 €</span></div></div>
+      </div>
+      <p class="src">Au Smic, les allègements existants portent sur la part patronale&nbsp;: la part salariale reste entière, d'où un gain proportionnel au salaire. Le coût total, environ 40 Md€, vient d'un relais de presse<sup><a href="#s17">17</a></sup>&nbsp;; aucun document du candidat ne le donne.</p>
+      <h4>Qui gagne, qui perd, sur les actes passés</h4>
+      <ul>
+        <li>Mesures socio-fiscales 2017-2022&nbsp;: +1,9 % de niveau de vie en moyenne, +3,3 % pour le 1 % le plus aisé, -1,1 % pour les chômeurs<sup><a href="#s48">48</a></sup>.</li>
+        <li>Remplacement de l'ISF par l'IFI et prélèvement forfaitaire unique&nbsp;: 1 % des foyers déclarent 96 % des dividendes&nbsp;; aucun effet détecté sur l'investissement ni les salaires<sup><a href="#s47">47</a></sup>.</li>
+        <li>Abattement de 150 000 € par enfant sur les successions&nbsp;: gain par enfant de 2 194 € à 22 500 €&nbsp;; 24 % des successions en ligne directe sont aujourd'hui taxées&nbsp;; coût de 1,8 à 3 Md€ par an<sup><a href="#s49">49</a></sup>.</li>
+      </ul>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c3">en partie</span><span>Augmenter le Smic et les salaires (85 %)<sup><a href="#s80">80</a></sup>&nbsp;: les salaires par le droit au brut, le Smic par rien. Refus d'une forte hausse assumé en 2024<sup><a href="#s50">50</a></sup>, tu depuis.</span></li>
+        <li><span class="st c4">traitée</span><span>Baisser les impôts des classes moyennes&nbsp;: « l'équivalent d'un 13<sup>e</sup> mois » par la baisse des cotisations<sup><a href="#s5">5</a></sup>, aucune hausse d'impôt<sup><a href="#s4">4</a></sup>.</span></li>
+        <li><span class="st c2">va contre</span><span>Taxer davantage les très hauts patrimoines (74 %)<sup><a href="#s81">81</a></sup>&nbsp;: refus assumé, « aucune hausse d'impôt »<sup><a href="#s4">4</a></sup>, votes contre l'impôt plancher et la taxe Zucman<sup><a href="#s18">18</a></sup>.</span></li>
+        <li><span class="st c3">en partie</span><span>Baisser la TVA sur les produits de première nécessité&nbsp;: la hausse est exclue, la baisse n'est pas proposée. Vote contre une TVA réduite sur l'énergie<sup><a href="#s18">18</a></sup>.</span></li>
+        <li><span class="st c2">va contre</span><span>Indexer les prestations sur l'inflation (demande forte)&nbsp;: année blanche de 2028, assumée par le candidat<sup><a href="#s4">4</a></sup>.</span></li>
+        <li><span class="st c4">traitée</span><span>Baisser le prix de l'énergie&nbsp;: par des aides (prime carburant à 1 000 €) plus que par le prix<sup><a href="#s7">7</a></sup>.</span></li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- 5 -->
+<section class="chapter" id="securite" aria-labelledby="h-sec">
+  <div class="ch-head">
+    <div class="hexnum">5</div>
+    <div>
+      <p class="axe">Sécurité, ordre public et libertés</p>
+      <h2 id="h-sec">Mieux aligné que son image sur les votes, mais deux mesures phares butent sur la Constitution</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c3">Partiellement fondé</span></div>
+    <p>Des prisons à 130 %, des travaux d'intérêt général exécutés en 16 mois, « une peine prononcée doit être une peine exécutée »<sup><a href="#s6">6</a>,<a href="#s11">11</a></sup>. Prisons, TIG, narcotrafic, violences contre les personnes&nbsp;: exact, souvent au chiffre près<sup><a href="#s51">51</a>,<a href="#s52">52</a>,<a href="#s54">54</a></sup>. Deux constats sont contredits&nbsp;: 90 % des peines fermes sont exécutées dans les cinq ans<sup><a href="#s55">55</a></sup>, le problème mesuré est le délai (14 mois) et un taux d'élucidation sous 8 % pour les cambriolages&nbsp;; et « l'insécurité du quotidien » ne vaut pas pour les atteintes aux biens, en baisse de 14 à 24 % depuis 2016<sup><a href="#s54">54</a></sup>. Le document du parti attribue par ailleurs le plan de 15 000 places de prison au Parlement de 2008&nbsp;: il a été lancé en 2018 par sa propre majorité<sup><a href="#s53">53</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Fin de l'« excuse de minorité » et comparution immédiate des mineurs, suppression du juge de l'application des peines, fin des « remises automatiques de peine », places de prison déclarées d'intérêt national, polices municipales armées, interdiction des réseaux sociaux avant 15 ans<sup><a href="#s6">6</a>,<a href="#s11">11</a></sup>&nbsp;; et depuis le 19 octobre 2026&nbsp;: état d'urgence « si nécessaire », couvre-feux, suspension ciblée de réseaux sociaux, reconnaissance faciale des casseurs<sup><a href="#s8">8</a>,<a href="#s9">9</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c3">Conditionnelle</span></div>
+    <p>Une grande partie est faite ou faisable par loi ordinaire&nbsp;: la rétention de sûreté des terroristes et la vidéoprotection algorithmique ont été validées en 2026<sup><a href="#s42">42</a>,<a href="#s58">58</a></sup>. <b>Deux mesures phares du candidat exigent plus</b>, et prises seules elles seraient « très incertaines »&nbsp;: la fin de l'excuse de minorité suppose une révision constitutionnelle, le Conseil ayant censuré en 2025 des articles de sa propre loi au nom d'un principe fondamental<sup><a href="#s56">56</a></sup>&nbsp;; l'interdiction des réseaux avant 15 ans a été censurée en août 2026<sup><a href="#s57">57</a></sup> et se heurte au règlement européen sur les services numériques, même par référendum. Aucune mesure n'est chiffrée.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <p>Sur les trois scrutins où le programme se prononce, le groupe vote sa ligne&nbsp;; il a aussi voté à 82 % pour la présomption de légitime défense des policiers, dont le programme ne parle pas<sup><a href="#s20">20</a></sup>. La promesse de 10 000 policiers et gendarmes de 2017 a été tenue. Deux écarts&nbsp;: la « fin des remises automatiques de peine » est promise alors que la loi de décembre 2021, votée par sa majorité, l'a déjà faite<sup><a href="#s59">59</a></sup>&nbsp;; et les mesures d'octobre 2026 s'écartent du « cadre respectueux des libertés publiques » de la convention de 2025<sup><a href="#s11">11</a></sup>. Le droit de manifester n'est évaluable par aucun vote&nbsp;: aucun texte de la législature ne le traite.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c4">Répond</span></div>
+    <p>La seule demande de premier rang de l'axe, plus d'autorité et de fermeté dans le maintien de l'ordre, a des mesures identifiables, surtout celles annoncées dans la semaine du 17 octobre 2026. Les demandes portées par les mobilisations de 2026 (encadrer l'usage de la force, garantir le droit de manifester, sanctionner les contrôles abusifs) n'ont pas de mesure&nbsp;: le programme ne les écarte pas par écrit, il n'en parle pas. Quand deux demandes s'opposent, fermeté et encadrement de la force, c'est la fermeté qui est servie.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Quatre textes d'ensemble&nbsp;: aucun texte de gauche ni du RN sur la sécurité n'a eu de scrutin d'ensemble sur la période.</p>
+    <div class="votes" role="table" aria-label="Votes sur la sécurité">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Loi « réponses immédiates » sur l'ordre public, vidéoprotection algorithmique <span class="tg">global</span><small>15 juil. 2026, adoptée</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Loi contre le narcotrafic (texte transpartisan du Sénat) <span class="tg">global</span><small>1<sup>er</sup> avr. 2025, adoptée</small></div><i class="c">C</i><i class="p">P</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Justice des mineurs (texte du groupe EPR) <span class="tg">global</span><small>13 fév. 2025, adoptée</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Présomption de légitime défense des forces de l'ordre (texte LR)<small>7 juil. 2026, adoptée</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="p">P</i></span><i class="p">P</i><i class="p">P</i><span class="ok">muet</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span></div>
+    <p class="src">Open data des scrutins<sup><a href="#s18">18</a>,<a href="#s20">20</a></sup>. « muet »&nbsp;: le programme ne dit rien de l'usage des armes par les forces de l'ordre&nbsp;; 55 députés EPR pour, 12 contre.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le diagnostic carcéral est exact au chiffre près<sup><a href="#s51">51</a>,<a href="#s53">53</a></sup>. Deux mesures du programme sont passées de la promesse à la loi en 2026, par des textes de coalition sous un Premier ministre Renaissance, et ont été validées sans censure parce qu'elles avaient été réécrites après les censures de 2020 et 2025.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Prisons et peines, les chiffres</h4>
+      <div class="tiles">
+        <div class="tile"><div class="n">90 020</div><div class="l">détenus au 1<sup>er</sup> septembre 2026, record&nbsp;; densité moyenne de 142 %<sup><a href="#s51">51</a></sup></div></div>
+        <div class="tile"><div class="n">90 %</div><div class="l">des peines de prison ferme exécutées dans les cinq ans&nbsp;; délai moyen de 14 mois<sup><a href="#s55">55</a></sup></div></div>
+        <div class="tile"><div class="n">16 <small>mois</small></div><div class="l">entre la condamnation et l'exécution d'un travail d'intérêt général<sup><a href="#s52">52</a></sup></div></div>
+        <div class="tile"><div class="n">-14 <small>à -24 %</small></div><div class="l">cambriolages et vols de véhicules depuis 2016<sup><a href="#s54">54</a></sup></div></div>
+      </div>
+      <h4>Ce que le juge a dit des mesures du programme</h4>
+      <ul>
+        <li>Justice des mineurs&nbsp;: la loi du groupe a été censurée en partie en juin 2025, au nom du principe fondamental d'atténuation de la responsabilité des mineurs<sup><a href="#s56">56</a></sup>. Supprimer l'excuse de minorité suppose donc de réviser la Constitution, ce que le candidat nomme sans décrire la voie.</li>
+        <li>Réseaux sociaux avant 15 ans&nbsp;: censure du 14 août 2026<sup><a href="#s57">57</a></sup>. Le candidat propose depuis un référendum, qui ne lève pas la contrainte du règlement européen.</li>
+        <li>Vidéoprotection algorithmique prolongée jusqu'en 2030 et rétention de sûreté terroriste&nbsp;: validées avec réserves en 2026<sup><a href="#s42">42</a>,<a href="#s58">58</a></sup>.</li>
+        <li>Remises de peine « automatiques »&nbsp;: supprimées par la loi du 22 décembre 2021, en vigueur depuis 2023<sup><a href="#s59">59</a></sup>. Un reliquat existe pour les personnes écrouées avant.</li>
+      </ul>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c4">traitée</span><span>Plus d'autorité et de fermeté dans le maintien de l'ordre&nbsp;: état d'urgence si nécessaire, couvre-feux, drones, polices municipales armées<sup><a href="#s8">8</a>,<a href="#s11">11</a></sup>.</span></li>
+        <li><span class="st c3">en partie</span><span>Plus de moyens pour la police et la justice&nbsp;: effectifs « préservés », sans objectif chiffré<sup><a href="#s4">4</a></sup>.</span></li>
+        <li><span class="st c2">non traitée</span><span>Encadrer l'usage de la force&nbsp;: programme muet&nbsp;; vote du groupe pour la présomption de légitime défense<sup><a href="#s20">20</a></sup>.</span></li>
+        <li><span class="st c2">non traitée</span><span>Garantir le droit de manifester&nbsp;: une formule de conciliation, confiance aux préfets<sup><a href="#s9">9</a></sup>&nbsp;; les mesures d'octobre vont dans le sens de restrictions, dites publiquement.</span></li>
+        <li><span class="st c2">non traitée</span><span>Sanctionner les violences et contrôles abusifs des forces de l'ordre&nbsp;: aucune mesure.</span></li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- 6 -->
+<section class="chapter" id="institutions" aria-labelledby="h-inst">
+  <div class="ch-head">
+    <div class="hexnum">6</div>
+    <div>
+      <p class="axe">Institutions, démocratie et Europe</p>
+      <h2 id="h-inst">Un diagnostic juste, des réformes qui exigent le Sénat ou l'unanimité des 27, et des promesses de 2017 non tenues</h2>
+    </div>
+  </div>
+
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils constatent</h3><span class="verdict-chip c4">Plutôt fondé</span></div>
+    <p>Un « système devenu obsolète », une « vétocratie » de ceux qui empêchent d'agir<sup><a href="#s6">6</a></sup>, une Europe où « la protection américaine ne va plus de soi »<sup><a href="#s3">3</a></sup>. La défiance est au plus haut mesuré depuis 2009 (20 % de confiance dans l'Assemblée)<sup><a href="#s60">60</a></sup>, trois Premiers ministres se sont succédé depuis 2024, le mode de scrutin a donné au camp présidentiel 60,8 % des sièges avec 32,3 % des voix en 2017, la fusion des régions n'a pas produit d'économies<sup><a href="#s66">66</a></sup>. La cause avancée, la « vétocratie », n'est pas établie&nbsp;: le blocage mesuré vient d'abord de l'absence de majorité.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Ce qu'ils proposent</h3></div>
+    <p>Une « grande réforme institutionnelle soumise au vote des Français », une journée référendaire annuelle, 350 députés et 200 sénateurs, un principe constitutionnel de rapidité, la démission automatique du gouvernement après trois ans de dérive budgétaire<sup><a href="#s6">6</a>,<a href="#s4">4</a></sup>, des « États-Unis d'Europe » et un noyau de 8 à 10 pays<sup><a href="#s7">7</a>,<a href="#s10">10</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Est-ce faisable&nbsp;?</h3><span class="verdict-chip c2">Très incertaine</span></div>
+    <p>Les mesures centrales exigent une révision de la Constitution par l'article 89, donc l'accord du Sénat, où Renaissance compte 16 sénateurs sur 348<sup><a href="#s61">61</a></sup>. L'article 11 est écarté pour réviser la Constitution par le président du Conseil constitutionnel lui-même, le 9 octobre 2026<sup><a href="#s65">65</a></sup>, et par la doctrine. Les précédents de 2011, 2018 et 2019 montrent ce verrou. Les « États-Unis d'Europe » supposent une révision des traités à l'unanimité&nbsp;; un noyau de 8 pays n'atteint pas le seuil des coopérations renforcées (9). Faisables&nbsp;: collectivités uniques, référendums locaux, journée référendaire dans le champ de l'article 11, réduction du nombre de députés seuls.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <p>Aucune des promesses institutionnelles de 2017 (parlementaires, proportionnelle, cumul) ni de 2022 (convention transpartisane)<sup><a href="#s14">14</a></sup> n'a été tenue. Le paquet de 2018-2019 a été bloqué par un veto du Sénat, documenté par le gouvernement lui-même<sup><a href="#s62">62</a></sup>, puis abandonné faute de majorité en 2023&nbsp;: explication publique vérifiable, qui compte pour un seul objet. Deux objets restent sans explication&nbsp;: la proportionnelle, qui relève d'une loi ordinaire que la majorité absolue de 2017-2022 pouvait voter seule<sup><a href="#s63">63</a></sup>, et la dérive des textes de 2026, où la voie référendaire de la règle d'or et deux des trois sanctions des gouvernants ont disparu en trois mois sans que ce soit dit. Sur Schengen et la Corse, le groupe vote sa ligne&nbsp;; sur le Mercosur, il s'abstient quand le gouvernement pose des conditions<sup><a href="#s23">23</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Répondent-ils aux demandes&nbsp;?</h3><span class="verdict-chip c3">Répond en partie</span></div>
+    <p>Les quatre demandes de premier rang sont présentes, aucune n'est traitée en entier&nbsp;: des référendums plus fréquents (79 % de favorables<sup><a href="#s83">83</a></sup>) sans initiative citoyenne, le groupe s'étant déclaré opposé au RIC le 4 février 2026 avec ses motifs<sup><a href="#s64">64</a></sup>&nbsp;; moins de parlementaires sans toucher à leurs avantages&nbsp;; une grande révision sans nouvelle Constitution. Sur le pouvoir national face à l'Union, le programme va dans l'autre sens et l'assume, avec un motif géopolitique<sup><a href="#s10">10</a></sup>.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Les votes des cinq groupes</h3>
+    <p class="sub">Une paire symétrique de résolutions, LFI sur le Mercosur et RN sur Schengen, et une révision constitutionnelle.</p>
+    <div class="votes" role="table" aria-label="Votes sur les institutions et l'Europe">
+      <div class="vr vh" role="row"><span>Scrutin</span><span>LFI</span><span>PS</span><span class="epr">EPR</span><span>LR</span><span>RN</span><span>Ligne</span></div>
+      <div class="vr" role="row"><div class="vl">Corse autonome, révision constitutionnelle <span class="tg">global</span><small>23 juin 2026, adoptée</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="p">P</i></span><i class="c">C</i><i class="c">C</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">S'opposer à l'accord UE-Mercosur (résolution LFI)<small>27 nov. 2025, adoptée</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="a">A</i></span><i class="p">P</i><i class="p">P</i><span class="ok n">partiel</span></div>
+      <div class="vr" role="row"><div class="vl">Refonder Schengen par une double frontière nationale (résolution RN)<small>8 oct. 2026, rejetée</small></div><i class="c">C</i><i class="c">C</i><span class="eprc"><i class="c">C</i></span><i class="d">÷</i><i class="p">P</i><span class="ok y">oui</span></div>
+      <div class="vr" role="row"><div class="vl">Rejeter l'accord commercial UE-États-Unis (résolution européenne)<small>4 fév. 2026, adoptée</small></div><i class="p">P</i><i class="p">P</i><span class="eprc"><i class="d">÷</i></span><i class="p">P</i><i class="p">P</i><span class="ok">n. é.</span></div>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--cat2);border-radius:50%"></i>P pour</span><span><i class="sw" style="background:var(--cat3);border-radius:50%"></i>C contre</span><span><i class="sw" style="background:var(--track);border-radius:50%"></i>A abstention</span><span><i class="sw" style="border:2px dashed var(--faint);border-radius:50%"></i>÷ divisé</span></div>
+    <p class="src">Open data des scrutins<sup><a href="#s18">18</a></sup>. Mercosur&nbsp;: 5 votants EPR sur 91, « abstention de vigilance » alignée sur les conditions posées par le gouvernement<sup><a href="#s23">23</a></sup>. Accord UE-États-Unis&nbsp;: 15 votants sur 92, divisés. Aucun scrutin n'existe sur la proportionnelle, le cumul, le référendum ou la primauté du droit européen.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Le diagnostic de 2022 sur la représentativité est juste&nbsp;: la France est seule dans l'Union à élire sa chambre basse au scrutin majoritaire. Les constats de défiance correspondent aux mesures du Cevipof<sup><a href="#s60">60</a></sup>. Les collectivités uniques relèvent de la loi ordinaire et la proposition du groupe a franchi la première lecture, réduite à l'Alsace.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Ce qui exige quoi</h4>
+      <div class="tbl"><table>
+        <thead><tr><th>Mesure</th><th>Rang de la norme</th><th>Verrou</th></tr></thead>
+        <tbody>
+          <tr><td>Réforme institutionnelle « soumise au vote des Français », principe de rapidité, démission automatique du gouvernement</td><td>Révision constitutionnelle (art. 89)</td><td>Accord du Sénat&nbsp;; l'article 11 est écarté pour réviser la Constitution<sup><a href="#s61">61</a>,<a href="#s65">65</a></sup></td></tr>
+          <tr><td>350 députés</td><td>Loi organique</td><td>Aucun pour les seuls députés&nbsp;: l'Assemblée a le dernier mot (art. 46)<sup><a href="#s61">61</a></sup></td></tr>
+          <tr><td>200 sénateurs</td><td>Loi organique relative au Sénat</td><td>Accord du Sénat</td></tr>
+          <tr><td>Journée référendaire annuelle, référendums locaux</td><td>Art. 11 et 72-1 existants, loi ordinaire</td><td>Aucun, dans le champ de l'article 11</td></tr>
+          <tr><td>« États-Unis d'Europe »</td><td>Révision des traités</td><td>Unanimité des 27&nbsp;; un noyau de 8 n'atteint pas le seuil de 9 des coopérations renforcées</td></tr>
+          <tr><td>Collectivités uniques</td><td>Loi ordinaire</td><td>Aucun&nbsp;; première lecture franchie, réduite à l'Alsace</td></tr>
+        </tbody>
+      </table></div>
+      <h4>Les demandes de l'axe et ce que le programme en fait</h4>
+      <ul class="dem">
+        <li><span class="st c3">en partie</span><span>Recourir plus souvent au référendum, y compris d'initiative citoyenne (79 %)<sup><a href="#s83">83</a></sup>&nbsp;: journée référendaire annuelle, oui&nbsp;; RIC, non, refus motivé du groupe le 4 février 2026<sup><a href="#s64">64</a></sup> après celui du président de la République en 2019<sup><a href="#s67">67</a></sup>.</span></li>
+        <li><span class="st c3">en partie</span><span>Réduire le nombre et les avantages des élus&nbsp;: le nombre, oui&nbsp;; les avantages, rien.</span></li>
+        <li><span class="st c3">en partie</span><span>Changer de Constitution&nbsp;: une révision présentée comme la plus grande depuis 1958, pas une nouvelle Constitution<sup><a href="#s6">6</a></sup>.</span></li>
+        <li><span class="st c2">va contre</span><span>Plus de pouvoir national face à l'Union&nbsp;: « États-Unis d'Europe », assumé en documents et en déclarations datées<sup><a href="#s7">7</a>,<a href="#s10">10</a></sup>.</span></li>
+        <li><span class="st c2">non traitée</span><span>Prendre en compte le vote blanc (demande forte)&nbsp;: écarté publiquement en 2019 (« Blanc ça ne décide pas »)<sup><a href="#s67">67</a></sup>, rien depuis.</span></li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- méthode -->
+<section class="chapter" id="methode" aria-labelledby="h-met">
+  <div class="ch-head">
+    <div class="hexnum">+</div>
+    <div>
+      <p class="axe">Comment ils gouvernent</p>
+      <h2 id="h-met">Des consultations organisées, puis des suites tenues en partie&nbsp;: six ruptures de méthode, chacune expliquée</h2>
+    </div>
+  </div>
+  <span class="verdict-chip c2">Écart important de méthode</span>
+  <p class="qb">Renaissance a gouverné neuf ans, dont quatre sans majorité absolue. Elle a donc mécaniquement plus d'actes à confronter que les forces qui n'ont pas gouverné&nbsp;: la synthèse le rappellera pour chacune. La fenêtre va de 2017 à 2026, les actes anciens pesant moins que les récents.</p>
+
+  <div class="qb">
+    <div class="qh"><h3>La parole de méthode</h3></div>
+    <p>Ce qui sortira de la Convention citoyenne pour le climat sera soumis « sans filtre » (avril 2019)<sup><a href="#s67">67</a>,<a href="#s68">68</a></sup>. Une « convention transpartisane » pour moderniser les institutions, « vous serez associés à chaque grande décision » (2022)<sup><a href="#s14">14</a></sup>. Sébastien Lecornu renonce au 49.3 (3 octobre 2025). Le candidat propose une journée référendaire annuelle<sup><a href="#s6">6</a></sup>, une « grande coalition des démocrates »<sup><a href="#s1">1</a></sup>, une convention de 150 jeunes tirés au sort<sup><a href="#s9">9</a></sup>. Aucun document de 2022, 2024 ou 2026 ne dit si le parti recourrait ou renoncerait au 49.3&nbsp;: un silence n'est pas une contradiction, il limite ce qu'on peut confronter.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Les actes de méthode, 2017-2026</h3></div>
+    <p>Six objets de rupture, chacun avec une explication publique au moins partielle, ce qui exclut le cran le plus sévère. Le « sans filtre »&nbsp;: trois propositions écartées d'emblée, une reprise réelle que les comptages indépendants situent entre 10 % et un tiers<sup><a href="#s69">69</a></sup>, une note de 3,3 sur 10 donnée par les citoyens eux-mêmes. Les référendums promis en 2019 et 2020&nbsp;: aucun tenu, le Sénat ayant refusé le même texte. Le renoncement au 49.3, suivi de trois 49.3 en janvier 2026, reconnus « avec regret »<sup><a href="#s71">71</a></sup>. La réforme des retraites de 2023, passée par un texte de financement, un vote bloqué au Sénat et le 49.3 face à une opinion majoritairement opposée<sup><a href="#s73">73</a>,<a href="#s79">79</a></sup>, « entre les sondages et l'intérêt général, je choisis l'intérêt général »<sup><a href="#s72">72</a></sup>. La proportionnelle, promise en 2017 et 2019, abandonnée en 2021 alors qu'une loi ordinaire suffisait<sup><a href="#s63">63</a></sup>. Le blocage de TikTok en Nouvelle-Calédonie en mai 2024, sous le gouvernement Attal, jugé illégal par le Conseil d'État<sup><a href="#s74">74</a></sup>.</p>
+  </div>
+  <div class="qb">
+    <div class="qh"><h3>Le comportement parlementaire du groupe</h3></div>
+    <p>Depuis 2024, le groupe EPR n'a déposé aucune motion de censure ni demande de référendum. Il a déposé près de 1 000 amendements pour empêcher le vote de la proposition LFI d'abrogation de la réforme des retraites (novembre 2024)<sup><a href="#s77">77</a></sup>, et voté avec le socle commun une motion de rejet de la loi Duplomb pour écarter 3 500 amendements (mai 2025)<sup><a href="#s78">78</a></sup>&nbsp;: un usage symétrique des outils que ses gouvernements reprochaient aux oppositions. Il ne contredit pas une promesse écrite du parti, qui n'en contient pas sur ce point.</p>
+  </div>
+
+  <div class="panel">
+    <h3>Le 49.3 suit la situation de majorité</h3>
+    <p class="sub">Recours à l'article 49.3 par législature depuis 2017, et nature de la majorité</p>
+    <div class="bars">
+      <div class="bar"><div class="bl"><span>2017-2022, majorité absolue</span><strong>Philippe</strong></div><div class="bt"><span class="fill" style="width:calc((100% - 3rem) * 0.0435)"></span><span class="val">1</span></div></div>
+      <div class="bar hl"><div class="bl"><span>2022-2024, majorité relative</span><strong>Borne, puis Attal</strong></div><div class="bt"><span class="fill" style="width:calc((100% - 3rem) * 1)"></span><span class="val">23</span></div></div>
+      <div class="bar"><div class="bl"><span>Depuis juillet 2024, coalition</span><strong>Barnier, Bayrou, Lecornu</strong></div><div class="bt"><span class="fill" style="width:calc((100% - 3rem) * 0.348)"></span><span class="val">8</span></div></div>
+    </div>
+    <p class="src">Assemblée nationale, fiche sur la responsabilité du gouvernement<sup><a href="#s70">70</a></sup>, complétée pour 2025-2026 par LCP<sup><a href="#s71">71</a></sup>. Les 23 recours de 2022-2024 sont tous sous Élisabeth Borne&nbsp;; aucun sous Gabriel Attal. Le seul recours de 2017-2022 (retraites, février 2020) faisait suite à 30 000 amendements restant à examiner.</p>
+  </div>
+
+  <div class="true"><b>Ce qui tient.</b> Les consultations ont eu lieu sans obligation, et les refus ont été dits et motivés en 2019 (vote blanc, RIC, ISF)<sup><a href="#s67">67</a></sup>. Des concessions réelles ont suivi les mobilisations&nbsp;: décembre 2018, grand débat, suspension des retraites en 2025. La loi de financement 2026 a été adoptée sans 49.3<sup><a href="#s75">75</a></sup>. La Convention citoyenne sur la fin de vie a abouti à une loi en août 2026<sup><a href="#s76">76</a></sup>. Les cahiers de doléances ont été numérisés, ouverts par arrêté en 2025, mise en ligne prévue en 2027.</div>
+
+  <details class="dig">
+    <summary>Creuser les données <span class="chev" aria-hidden="true">›</span></summary>
+    <div class="body">
+      <h4>Les six objets, et leur explication</h4>
+      <div class="tbl"><table>
+        <thead><tr><th>Promesse ou acte</th><th>Ce qui s'est passé</th><th>Explication publique</th></tr></thead>
+        <tbody>
+          <tr><td>« Sans filtre », 25 avril 2019<sup><a href="#s67">67</a></sup></td><td>3 propositions sur 149 écartées d'emblée&nbsp;; 10 % à un tiers reprises selon les comptages<sup><a href="#s69">69</a></sup></td><td>Le Parlement garde la main<sup><a href="#s68">68</a></sup>&nbsp;; partielle au regard de la promesse</td></tr>
+          <tr><td>Référendums promis en 2019 (article 11 élargi, RIP facilité) et 2020 (climat)</td><td>Aucun tenu&nbsp;; abandons en 2021 et 2023</td><td>Le Sénat a refusé de voter le même texte</td></tr>
+          <tr><td>Renoncement au 49.3, 3 octobre 2025</td><td>Trois 49.3 en janvier 2026</td><td>Nécessité d'un budget, reconnue « avec regret »<sup><a href="#s71">71</a></sup>&nbsp;; acceptée par le PS</td></tr>
+          <tr><td>Réforme des retraites 2023</td><td>Articles 47-1, 44-3 et 49.3 cumulés<sup><a href="#s73">73</a></sup>, opinion majoritairement opposée<sup><a href="#s79">79</a></sup></td><td>« L'intérêt général »<sup><a href="#s72">72</a></sup></td></tr>
+          <tr><td>Proportionnelle, 2017 et 2019</td><td>Abandonnée en mars 2021<sup><a href="#s63">63</a></sup>&nbsp;; loi ordinaire, Sénat non bloquant</td><td>Calendrier, crise sanitaire&nbsp;: faible</td></tr>
+          <tr><td>Blocage de TikTok, mai 2024</td><td>Jugé illégal par le Conseil d'État, avril 2025<sup><a href="#s74">74</a></sup></td><td>Ordre public, jugée insuffisante par le juge</td></tr>
+        </tbody>
+      </table></div>
+      <h4>Ce que vaut la séquence « dix ans » d'une vidéo très partagée</h4>
+      <p>Chaque affirmation de la vidéo de Clément Viktorovitch sur « dix ans d'ignorance » a été traitée comme une affirmation à vérifier. Confirmées&nbsp;: le pic des gilets jaunes, les refus du 25 avril 2019, la promesse « sans filtre », le « personne n'a gagné » de 2024, les revendications sur le bâti des lycées et la plateforme ouverte en réponse, « près de 8 000 » gardes à vue en majorité de mineurs en octobre 2026. Inexactes&nbsp;: le pic de mobilisation de 2023 était de 1,28 million selon l'Intérieur, pas 1 million&nbsp;; les blessés graves des gilets jaunes se comptent en dizaines (24 éborgnés, 5 mains arrachées selon le décompte indépendant), pas en centaines&nbsp;; les cahiers de doléances ont été ouverts&nbsp;; il est faux que rien n'ait été repris de la Convention climat. Non vérifiables&nbsp;: « jusqu'à 90 % » des actifs contre la réforme, le record de gardes à vue par jour. La thèse d'ensemble, une méthode qui consulte puis tranche seule, est appuyée par les faits vérifiés&nbsp;; plusieurs chiffres qui la portent sont faux.</p>
+      <p class="note">Une vidéo d'opinion n'est pas une source de verdict ici. Elle a servi de liste d'affirmations à vérifier, pas de preuve.</p>
+    </div>
+  </details>
+</section>
+
+<!-- tendances -->
+<section class="chapter" id="tendances" aria-labelledby="h-tend">
+  <div class="ch-head">
+    <div class="hexnum">›</div>
+    <div>
+      <p class="axe">Ce qui vient</p>
+      <h2 id="h-tend">Aucune tendance lourde n'est absente du programme&nbsp;; six ne sont touchées que par un côté</h2>
+    </div>
+  </div>
+  <p class="qb">Quatorze évolutions de fond, listées avant toute lecture de programme à partir des rapports de l'Insee, de la Cour des comptes, du Haut-commissariat au Plan, de l'Arcom et du Sénat. Ce chapitre dit si le programme les voit, pas si sa réponse suffit. Sur les quatorze, huit ont au moins une mesure qui répond au cœur de la tendance, et six sont traitées en partie&nbsp;: une mesure en touche un aspect, ou vient d'un programme antérieur non repris en 2026. Aucune n'est seulement nommée, aucune n'est absente.</p>
+  <ul>
+    <li><b>Solde naturel négatif</b>&nbsp;: la garde d'enfants est reliée au « désir d'enfant » et un congé de naissance est prévu<sup><a href="#s12">12</a></sup>&nbsp;; rien sur le cœur, le solde et les migrations.</li>
+    <li><b>Ménages d'une personne</b>&nbsp;: habitat intergénérationnel et logements modulables pour les personnes âgées seules<sup><a href="#s12">12</a></sup>&nbsp;; le nombre de ménages n'est pas abordé.</li>
+    <li><b>Départs en fin de carrière</b>&nbsp;: les tensions de recrutement sont traitées (métiers en tension, immigration de travail pilotée)<sup><a href="#s11">11</a></sup>&nbsp;; les départs des baby-boomers ne sont pas nommés.</li>
+    <li><b>Eau et relève agricole</b>&nbsp;: récupération des eaux de pluie et conflits d'usage<sup><a href="#s12">12</a></sup>&nbsp;; rien sur l'irrigation, et la relève agricole vient du programme de 2022.</li>
+    <li><b>Patrimoine et héritage</b>&nbsp;: l'abattement sur les successions touche la transmission<sup><a href="#s13">13</a></sup>&nbsp;; la concentration du patrimoine n'est pas évoquée.</li>
+    <li><b>Dépendance et démographie médicale</b>&nbsp;: trois appuis datent de 2022 à 2025 (fin du numerus clausus, garantie dépendance, 50 000 soignants en EHPAD)<sup><a href="#s12">12</a>,<a href="#s13">13</a>,<a href="#s14">14</a></sup>, aucun n'est repris en 2026.</li>
+  </ul>
+  <p class="note">Les documents du programme sont des sources du parti. La carte dit ce que Renaissance écrit, pas ce que ses mesures produiraient. Le programme présidentiel complet n'est pas publié au 25 octobre 2026&nbsp;: un statut peut changer à sa publication.</p>
+</section>
+
+<!-- hors grille -->
+<section class="chapter" id="hors-grille" aria-labelledby="h-hg">
+  <div class="ch-head">
+    <div class="hexnum">∅</div>
+    <div>
+      <p class="axe">Hors grille</p>
+      <h2 id="h-hg">Ce que le programme met en avant et que cette page ne juge pas</h2>
+    </div>
+  </div>
+  <p>Le site de campagne place l'école en premier « chantier capital » et « priorité absolue », puis l'intelligence artificielle et la « dette écologique ». La santé hors arrêts maladie, la défense, la fin de vie, le logement, l'agriculture et la culture sont aussi présents dans les programmes de 2022 à 2026. Aucun de ces thèmes n'entre dans les six axes de la série&nbsp;: ils ne reçoivent ici ni verdict ni vérification.</p>
+</section>
+
+<section class="final" aria-labelledby="h-final">
+  <span class="eyebrow">Ce qu'il faut retenir</span>
+  <h2 id="h-final" style="margin-top:.4rem">Un diagnostic exact, des mesures phares fragiles, des votes conformes et des écarts dans les actes</h2>
+  <ol>
+    <li>Sur les six sujets, les chiffres avancés se vérifient dans la statistique publique. Ce qui ne tient pas, à chaque fois, c'est la cause qu'on leur attribue&nbsp;: « deux tiers de la dette » au social, « vétocratie » au blocage, « inexécution des peines » à l'insécurité.</li>
+    <li>Les mesures les plus visibles sont les moins solides&nbsp;: droit au brut non chiffré et gain surestimé, quotas votés par le Parlement déjà censurés, fin de l'excuse de minorité et réforme institutionnelle qui exigent une révision constitutionnelle. Le reste du programme est souvent de rang législatif, et parfois déjà fait.</li>
+    <li>Sur les 23 scrutins retenus, le groupe vote sa ligne à chaque fois qu'elle existe. Les écarts sont dans les actes de gouvernement et dans les budgets de coalition, et ils portent sur l'argent (62 milliards de baisses d'impôts non financées, successions promises deux fois et jamais votées, CSG relevée malgré la règle anti-hausse) plutôt que sur l'ordre public ou l'immigration.</li>
+    <li>Le programme sert la plupart des demandes majoritaires et contredit ouvertement les autres, à une exception près&nbsp;: le Smic, demande la plus large de toutes, reçoit une réponse de côté, assumée en 2024 et tue depuis. Et la méthode est le point où l'écart entre la parole et les actes est le plus net sur dix ans&nbsp;: consultations suivies en partie, référendums promis jamais tenus, engagements rompus avec explication.</li>
+  </ol>
+</section>
+
+<footer>
+  <h2 id="sources">Sources</h2>
+  <p>Statistique publique et juridictions en priorité. Les documents du parti sont des sources partie prenante. Les relais de presse et les organismes engagés sont signalés entre crochets.</p>
+
+  <p class="srcg">Programme et déclarations (sources du parti, partie prenante)</p>
+  <ol class="sources" start="1">
+    <li id="s1"><a href="https://doc.parti.re/2026/Lettre-finances-publiques.pdf">Gabriel Attal, lettre aux Français sur les finances publiques, 15 octobre 2026</a></li>
+    <li id="s2"><a href="https://attalpresident.fr/programme/travail-salaires">Site de campagne, page « Travail et salaires », consultée le 25 octobre 2026</a></li>
+    <li id="s3"><a href="https://attalpresident.fr/programme/frontieres">Site de campagne, page « Frontières », consultée le 25 octobre 2026</a></li>
+    <li id="s4"><a href="https://attalpresident.fr/actualites/dans-le-parisien-gabriel-attal-vise-le-zero-deficit-en-2037">Entretien au Parisien, 2 juillet 2026, repris par le site de campagne (zéro déficit en 2037, aucune hausse d'impôt, année blanche)</a></li>
+    <li id="s5"><a href="https://attalpresident.fr/actualites/dans-le-telegramme-gabriel-attal-veut-un-choc-de-salaires-et-instaurer-le-droit-au-brut">Entretien au Télégramme, 22 juillet 2026, repris par le site de campagne (« droit au brut »)</a></li>
+    <li id="s6"><a href="https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958">Entretien au JDD, 2 août 2026, repris par le site de campagne (réforme institutionnelle, justice)</a></li>
+    <li id="s7"><a href="https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises">Plan de désendettement et « plan Messmer II », 23 septembre 2026</a></li>
+    <li id="s8"><a href="https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-mettre-fin-impunite">« Rétablir l'ordre et mettre fin à l'impunité », BFMTV, 19 octobre 2026, compte rendu de campagne</a></li>
+    <li id="s9"><a href="https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-pacte-avenir-jeunesse">« Rétablir l'ordre et pacte d'avenir pour la jeunesse », France 2, 23 octobre 2026, compte rendu de campagne</a></li>
+    <li id="s10"><a href="https://attalpresident.fr/actualites/gabriel-attal-dans-politico-europe-ukraine-ia-et-finances-publiques-quatre-priorites-pour-preparer-la-france-de-demain">Entretien à POLITICO, 24 septembre 2026, repris par le site de campagne (noyau européen de 8 à 10 pays)</a></li>
+    <li id="s11"><a href="https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf">Renaissance, convention « Une République ferme, une France apaisée », mai 2025</a></li>
+    <li id="s12"><a href="https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf">Renaissance, convention « Pour une nouvelle donne économique et climatique », juillet 2025</a></li>
+    <li id="s13"><a href="https://doc.ensemble-2024.fr/programme-legislatives-24.pdf">Coalition Ensemble, « Notre projet », programme des législatives, juin 2024</a></li>
+    <li id="s14"><a href="https://web.archive.org/web/20220317215226/https://avecvous.fr/wp-content/uploads/2022/03/Emmanuel-Macron-Avec-Vous-24-pages.pdf">Emmanuel Macron, « Avec vous », programme présidentiel, mars 2022 (archive)</a></li>
+    <li id="s15"><a href="https://www.assemblee-nationale.fr/dyn/17/dossiers/reforme_assurance_chomage_17e">Assemblée nationale, proposition de loi n° 1791 portant réforme de l'assurance chômage (groupe EPR), septembre 2025</a></li>
+    <li id="s16"><a href="https://www.assemblee-nationale.fr/dyn/17/dossiers/contre_fraudes_aides_publiques">Assemblée nationale, proposition de loi n° 447 contre les fraudes aux aides publiques (groupe EPR), octobre 2024, devenue loi</a></li>
+    <li id="s17"><a href="https://www.titrespresse.com/24113692603/gabriel-attal-renaissance">RMC, entretien de Gabriel Attal, octobre 2026, via Titres Presse [relais, date à confirmer]&nbsp;: « droit au brut » chiffré à environ 40 Md€</a></li>
+  </ol>
+
+  <p class="srcg">Votes à l'Assemblée nationale</p>
+  <ol class="sources" start="18">
+    <li id="s18"><a href="https://data.assemblee-nationale.fr/travaux-parlementaires/votes">Assemblée nationale, données ouvertes « Scrutins », XVII<sup>e</sup> législature, archive du 25 octobre 2026. Positions calculées par nos soins (règle des 60 % des voix exprimées)</a></li>
+    <li id="s19"><a href="https://www.assemblee-nationale.fr/dyn/17/scrutins/4758">Assemblée nationale, scrutin n° 4758, loi de financement de la sécurité sociale pour 2026, lecture définitive, 16 décembre 2025</a></li>
+    <li id="s20"><a href="https://www.assemblee-nationale.fr/dyn/17/scrutins/7987">Assemblée nationale, scrutin n° 7987, présomption de légitime défense des forces de l'ordre, 7 juillet 2026</a></li>
+    <li id="s21"><a href="https://www.publicsenat.fr/actualites/politique/suspension-de-la-reforme-des-retraites-vers-un-vote-contre-des-deputes-renaissance-mais-un-soutien-des-senateurs-macronistes">Public Sénat, « Suspension de la réforme des retraites : vers un vote contre des députés Renaissance », 17 octobre 2025</a></li>
+    <li id="s22"><a href="https://www.publicsenat.fr/actualites/politique/denonciation-de-laccord-franco-algerien-le-socle-commun-se-fracture-sur-une-resolution-rn">Public Sénat, « Dénonciation de l'accord franco-algérien : le socle commun se fracture », 30 octobre 2025</a></li>
+    <li id="s23"><a href="https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2025-2026/premiere-seance-du-jeudi-27-novembre-2025">Assemblée nationale, compte rendu de la première séance du 27 novembre 2025 (résolution Mercosur)</a></li>
+  </ol>
+
+  <p class="srcg">Finances publiques</p>
+  <ol class="sources" start="24">
+    <li id="s24"><a href="https://www.insee.fr/fr/statistiques/8997691">Insee, « Le compte des administrations publiques en 2025 », Insee Première n° 2106, mai 2026</a></li>
+    <li id="s25"><a href="https://www.insee.fr/fr/statistiques/9053525">Insee, dette publique à la fin du deuxième trimestre 2026, Informations rapides n° 239, septembre 2026</a></li>
+    <li id="s26"><a href="https://www.hcfp.fr/sites/default/files/2026-10/Avis%20HCFP%202026-5%20-%20PLF-PLFSS%202027.pdf">Haut Conseil des finances publiques, avis sur les projets de lois de finances et de financement pour 2027, septembre 2026</a></li>
+    <li id="s27"><a href="https://www.ccomptes.fr/sites/default/files/2026-07/20260625_RSPFP-2026.pdf">Cour des comptes, « La situation et les perspectives des finances publiques », juin 2026</a></li>
+    <li id="s28"><a href="https://www.ccomptes.fr/sites/default/files/2024-07/20240715-RSPFP-2024_0.pdf">Cour des comptes, « La situation et les perspectives des finances publiques », juillet 2024 (baisses de prélèvements non compensées, trajectoire 2024)</a></li>
+    <li id="s29"><a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/ou-la-france-depense-t-elle-davantage-que-ses-voisins-de-la-zone-euro">Banque de France, « Où la France dépense-t-elle davantage que ses voisins de la zone euro ? », Bulletin n° 259/4, juillet 2025</a></li>
+    <li id="s30"><a href="https://www.insee.fr/fr/statistiques/8735252">Insee, « Les dépenses publiques par fonction en 2024 », Insee Première n° 2093, février 2026</a></li>
+    <li id="s31"><a href="https://www.weka.fr/actualite/finances-locales/article/le-millefeuille-administratif-un-gisement-d-economies-evalue-a-75-milliards-d-euros-180831/">Weka, « Le millefeuille administratif, un gisement d'économies évalué à 7,5 milliards », mai 2024 [relais du rapport Ravignon, mission commandée par le gouvernement]</a></li>
+  </ol>
+
+  <p class="srcg">Travail et protection sociale</p>
+  <ol class="sources" start="32">
+    <li id="s32"><a href="https://www.cor-retraites.fr/sites/default/files/2026-06/Synth%C3%A8se_RA_2026_0.pdf">Conseil d'orientation des retraites, rapport annuel 2026, synthèse, juin 2026</a></li>
+    <li id="s33"><a href="https://www.journaldunet.com/business/1553489-le-taux-de-chomage-en-france-atteint-8-3-au-deuxieme-trimestre-2026-sixieme-hausse-consecutive/">Insee, taux de chômage au deuxième trimestre 2026, via Journal du Net, août 2026 [relais]</a></li>
+    <li id="s34"><a href="https://cae-eco.fr/static/pdf/CAE090_Assurance-chomage_260414.pdf">Conseil d'analyse économique, « Mesurer l'efficacité de l'assurance chômage », note n° 90, avril 2026</a></li>
+    <li id="s35"><a href="https://www.unedic.org/publications/previsions-financieres-de-l-unedic-juin-2024">Unédic, prévisions financières, juin 2024</a></li>
+    <li id="s36"><a href="https://www.strategie-plan.gouv.fr/files/files/Publications/2026/2026-01-13%20-%20HCFiPS%20-%20note%20annuelle%20fraude%20sociale/Note%20annuelle%20de%20suivi%20et%20d%27%C3%A9valuation%20des%20fraudes%20sociales%20VF.pdf">Haut Conseil du financement de la protection sociale, note annuelle sur les fraudes sociales, janvier 2026</a></li>
+    <li id="s37"><a href="https://www.ofce.fr/blog2024/fr/2025/20250630_PIM/">OFCE, « Impôts et prestations : quels effets attendre d'une année blanche ? », juin 2025 [centre de recherche de Sciences Po, souvent classé keynésien]</a></li>
+  </ol>
+
+  <p class="srcg">Immigration</p>
+  <ol class="sources" start="38">
+    <li id="s38"><a href="https://www.franceinfo.fr/societe/immigration/immigration-384-230-premiers-titres-de-sejour-delivres-en-2025-en-hausse-de-11-2-e-de-11-2_7767725.html">franceinfo, chiffres du ministère de l'Intérieur sur les titres de séjour 2025, janvier 2026 [relais]</a></li>
+    <li id="s39"><a href="https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table">Eurostat, premiers titres de séjour par motif (migr_resfirst), données 2025</a></li>
+    <li id="s40"><a href="https://ec.europa.eu/eurostat/databrowser/view/migr_eirtn/default/table">Eurostat, retours à la suite d'une obligation de quitter le territoire (migr_eirtn), données 2019-2025</a></li>
+    <li id="s41"><a href="https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm">Conseil constitutionnel, décision n° 2023-863 DC du 25 janvier 2024, loi pour contrôler l'immigration</a></li>
+    <li id="s42"><a href="https://www.conseil-constitutionnel.fr/decision/2026/2026906DC.htm">Conseil constitutionnel, décision n° 2026-906 DC du 23 juillet 2026, loi sur la sécurité, la rétention administrative et la prévention des attentats</a></li>
+    <li id="s43"><a href="https://www.senat.fr/rap/r25-004/r25-00412.html">Sénat, commission des finances, rapport sur l'extension des centres de rétention administrative, octobre 2025</a></li>
+  </ol>
+
+  <p class="srcg">Pouvoir d'achat et fiscalité</p>
+  <ol class="sources" start="44">
+    <li id="s44"><a href="https://www.insee.fr/fr/statistiques/8657156">Insee, « Les salaires dans le secteur privé en 2024 », Insee Première n° 2079, octobre 2025</a></li>
+    <li id="s45"><a href="https://www.oecd.org/content/dam/oecd/fr/topics/policy-issues/politique-fiscale/les-impots-sur-les-salaires-brochure.pdf">OCDE, « Les impôts sur les salaires 2026 », brochure, avril 2026</a></li>
+    <li id="s46"><a href="https://www.aladom.fr/actualites/secteur-service/10879/la-proportion-de-salaries-au-smic-a-baisse-en-2025/">Dares, part des salariés au Smic, via Aladom, 2025 [relais]</a></li>
+    <li id="s47"><a href="https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf">France Stratégie, comité d'évaluation des réformes de la fiscalité du capital, rapport final, octobre 2023</a></li>
+    <li id="s48"><a href="https://www.ipp.eu/publication/effets-redistributifs-des-mesures-socio-fiscales-du-quinquennat-2017-2022-a-destination-des-menages/">Institut des politiques publiques, « Effets redistributifs des mesures socio-fiscales du quinquennat 2017-2022 », note n° 81, mars 2022 [centre académique]</a></li>
+    <li id="s49"><a href="https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/relever-labattement-sur-les-droits-de-succession-a-150-000e-en-ligne-directe-enfants-et-100-000e-en-ligne-indirecte">Institut Montaigne, chiffrage de l'abattement de 150 000 € sur les successions, 2022 [think tank classé libéral]</a></li>
+    <li id="s50"><a href="https://www.franceinfo.fr/politique/nouveau-front-populaire/legislatives-2024-quatre-questions-sur-la-hausse-du-smic-a-1-600-euros-une-mesure-proposee-par-le-nouveau-front-populaire-et-qui-divise_6658143.html">franceinfo, « Quatre questions sur la hausse du Smic à 1 600 euros », juillet 2024 (déclaration de Gabriel Attal, alors Premier ministre)</a></li>
+  </ol>
+
+  <p class="srcg">Sécurité et libertés</p>
+  <ol class="sources" start="51">
+    <li id="s51"><a href="https://www.justice.gouv.fr/documentation/etudes-et-statistiques/au-1er-octobre-2026-7-personnes-detenues">Ministère de la Justice, population détenue au 1<sup>er</sup> octobre 2026</a></li>
+    <li id="s52"><a href="https://www.ccomptes.fr/sites/default/files/2025-03/20250304-Evaluation-2-peines-alternatives-a-l-incarceration.pdf">Cour des comptes, évaluation du travail d'intérêt général et de la détention à domicile, mars 2025</a></li>
+    <li id="s53"><a href="https://www.ccomptes.fr/fr/publications/le-plan-15000-places-de-prison-une-ambition-forte-une-concretisation-laborieuse">Cour des comptes, « Le plan 15 000 places de prison », décembre 2025</a></li>
+    <li id="s54"><a href="https://statistiques.interieur.gouv.fr/ssmsi/publications/insecurite-et-delinquance-en-2025-bilan-statistique-et-atlas-departemental">SSMSI (ministère de l'Intérieur), « Insécurité et délinquance en 2025 », bilan statistique, janvier 2026</a></li>
+    <li id="s55"><a href="https://www.justice.gouv.fr/sites/default/files/2026-03/Chiffres_Cles_2025_corrV2.pdf">Ministère de la Justice, « Les chiffres clés de la justice », édition 2025</a></li>
+    <li id="s56"><a href="https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm">Conseil constitutionnel, décision n° 2025-886 DC du 19 juin 2025, justice des mineurs</a></li>
+    <li id="s57"><a href="https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm">Conseil constitutionnel, décision n° 2026-911 DC du 14 août 2026, réseaux sociaux et mineurs</a></li>
+    <li id="s58"><a href="https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm">Conseil constitutionnel, décision n° 2026-915 DC du 14 août 2026, loi « réponses immédiates » sur l'ordre public</a></li>
+    <li id="s59"><a href="https://www.justice.gouv.fr/sites/default/files/migrations/portail/bo/2022/20221130/JUSD2231353C.pdf">Ministère de la Justice, circulaire du 3 novembre 2022 sur les réductions de peine (loi du 22 décembre 2021)</a></li>
+  </ol>
+
+  <p class="srcg">Institutions et Europe</p>
+  <ol class="sources" start="60">
+    <li id="s60"><a href="https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/">Cevipof, Baromètre de la confiance politique, vague 17, février 2026 [centre de recherche académique&nbsp;; enquête d'opinion réalisée par OpinionWay]</a></li>
+    <li id="s61"><a href="https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur">Constitution du 4 octobre 1958, texte en vigueur (articles 11, 26, 46, 72-1, 89)</a></li>
+    <li id="s62"><a href="https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE26330">Assemblée nationale, question écrite n° 26330 et réponse du gouvernement sur la révision constitutionnelle bloquée par le Sénat, 2020</a></li>
+    <li id="s63"><a href="https://www.franceinfo.fr/elections/legislatives/pourquoi-la-promesse-d-introduire-la-proportionnelle-aux-elections-legislatives-est-une-nouvelle-fois-enterree_4337817.html">franceinfo, « Pourquoi la promesse d'introduire la proportionnelle est une nouvelle fois enterrée », mars 2021</a></li>
+    <li id="s64"><a href="https://www.assemblee-nationale.fr/dyn/17/rapports/cion_lois/l17b2424_rapport-fond">Assemblée nationale, commission des lois, rapport sur la proposition de loi constitutionnelle instaurant un référendum d'initiative citoyenne, 4 février 2026</a></li>
+    <li id="s65"><a href="https://www.leclubdesjuristes.com/en-bref/jordan-bardella-reagit-aux-declarations-de-richard-ferrand-17821/">Le Club des juristes, déclarations de Richard Ferrand sur l'article 11, 9 octobre 2026 [think tank juridique, relais]</a></li>
+    <li id="s66"><a href="https://www.banquedesterritoires.fr/cour-des-comptes-la-reforme-territoriale-ne-generera-pas-necessairement-deconomies">Banque des Territoires, « Cour des comptes : la réforme territoriale ne générera pas nécessairement d'économies », 2019 [relais]</a></li>
+  </ol>
+
+  <p class="srcg">Méthode de gouvernement</p>
+  <ol class="sources" start="67">
+    <li id="s67"><a href="https://www.publicsenat.fr/actualites/politique/face-aux-francais-macron-se-defend-d-avoir-fait-fausse-route-mais-promet-une">Public Sénat, conférence de presse de clôture du grand débat, 25 avril 2019</a></li>
+    <li id="s68"><a href="https://www.brut.media/fr/videos/france/politique/convention-pour-le-climat-l-evolution-du-sans-filtre-d-emmanuel-macron">Brut, « L'évolution du sans filtre d'Emmanuel Macron », 2020</a></li>
+    <li id="s69"><a href="https://reporterre.net/Convention-pour-le-climat-seules-10-des-propositions-ont-ete-reprises-par-le-gouvernement">Reporterre, « Seules 10 % des propositions ont été reprises », 2021 [média écologiste, classé à gauche]</a></li>
+    <li id="s70"><a href="https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationale/evaluation-politiques-publiques-controle-gouvernement/la-mise-en-cause-de-la-responsabilite-du-gouvernement">Assemblée nationale, « La mise en cause de la responsabilité du Gouvernement », fiche de synthèse, décembre 2024</a></li>
+    <li id="s71"><a href="https://lcp.fr/actualites/avec-regret-sebastien-lecornu-utilise-le-493-sur-le-budget-quelles-reactions-a-l">LCP, « Avec regret, Sébastien Lecornu utilise le 49.3 sur le budget », 19 janvier 2026</a></li>
+    <li id="s72"><a href="https://lcp.fr/actualites/interview-d-emmanuel-macron-les-reactions-a-l-assemblee-174183">LCP, entretien d'Emmanuel Macron du 22 mars 2023 et réactions</a></li>
+    <li id="s73"><a href="https://www.publicsenat.fr/actualites/politique/du-47-1-au-49-3-retour-sur-la-bataille-des-retraites-au-parlement">Public Sénat, « Du 47-1 au 49-3 : retour sur la bataille des retraites au Parlement », 2023</a></li>
+    <li id="s74"><a href="https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-04-01/494511">Conseil d'État, décision n° 494511 du 1<sup>er</sup> avril 2025 (blocage de TikTok en Nouvelle-Calédonie)</a></li>
+    <li id="s75"><a href="https://www.banquedesterritoires.fr/lassemblee-adopte-definitivement-le-plfss">Banque des Territoires, « L'Assemblée adopte définitivement le PLFSS », 16 décembre 2025</a></li>
+    <li id="s76"><a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054706877">Loi n° 2026-794 du 18 août 2026 relative au droit à l'aide à mourir</a></li>
+    <li id="s77"><a href="https://lcp.fr/actualites/abrogation-de-la-retraite-a-64-ans-pas-de-vote-sur-la-proposition-de-loi-avant-l">LCP, « Abrogation de la retraite à 64 ans : pas de vote avant l'échéance », 28 novembre 2024</a></li>
+    <li id="s78"><a href="https://lcp.fr/actualites/loi-agricole-duplomb-une-motion-de-rejet-adoptee-a-front-renverse-pour-contrer-le-grand">LCP, « Loi Duplomb : une motion de rejet adoptée à front renversé », 26 mai 2025</a></li>
+    <li id="s79"><a href="https://elabe.fr/wp-content/uploads/2023/03/20230315_elabe_bfmtv_les-francais-et-la-reforme-des-retraites-vague-9.pdf">Elabe pour BFMTV, « Les Français et la réforme des retraites », mars 2023 [enquête d'opinion]</a></li>
+  </ol>
+
+  <p class="srcg">Demandes exprimées (inventaire)</p>
+  <ol class="sources" start="80">
+    <li id="s80"><a href="https://data.drees.solidarites-sante.gouv.fr/explore/dataset/431_le-barometre-d-opinion/information/">Drees, Baromètre d'opinion, vague 2025 (4 002 personnes), données publiées en juillet 2026 [statistique publique&nbsp;; enquête d'opinion]</a></li>
+    <li id="s81"><a href="https://elabe.fr/francais-et-impots/">Elabe pour BFMTV, « Les Français et les impôts », septembre 2025 [enquête d'opinion]</a></li>
+    <li id="s82"><a href="https://elabe.fr/fichier-pdf/13231-20260903_elabe_les-echos_les-francais-et-la-dette-publique/">Elabe pour Les Échos, « Les Français et la dette publique », septembre 2026 [enquête d'opinion]</a></li>
+    <li id="s83"><a href="https://www.sciencespo.fr/cevipof/sites/sciencespo.fr.cevipof/files/Barometre_confiance_CEVIPOFVague17_fev2026_vd1.pdf">Cevipof, Baromètre de la confiance politique, vague 17, résultats, février 2026 [centre de recherche académique&nbsp;; enquête d'opinion]</a></li>
+  </ol>
+
+  <h2 id="note-methode" style="margin-top:2rem">Note de méthode</h2>
+  <p><b>Périmètre.</b> Renaissance seule, avec son groupe à l'Assemblée nationale, Ensemble pour la République (EPR, 90 à 92 députés selon la date), et son candidat déclaré, Gabriel Attal. Les alliés (MoDem, Horizons) ne sont pas jugés. Corpus arrêté au 25 octobre 2026&nbsp;: lettre aux Français du 15 octobre, pages du site de campagne, entretiens repris par la campagne, deux conventions du parti de 2025, programme des législatives de 2024, programme présidentiel de 2022, treize propositions de loi du groupe, vingt-trois déclarations publiques de 2026, et quinze lois ou décisions de 2017 à 2026 pour la comparaison avec les actes. Aucun programme présidentiel 2027 complet n'existe à cette date.</p>
+  <p><b>Les questions.</b> Quatre par axe. Le problème est-il réel&nbsp;: le constat du parti confronté à la statistique publique. Est-ce faisable&nbsp;: rang de la norme nécessaire, obstacles juridiques, chiffrage comparé aux estimations indépendantes, et qui gagne ou perd quand c'est connu. Votent-ils ce qu'ils disent&nbsp;: discours, programme écrit, votes du groupe sur 23 scrutins gelés avant d'en connaître les positions (plus un complément découvert en relecture, le scrutin du 16 décembre 2025), et actes de gouvernement. Répondent-ils aux demandes&nbsp;: un inventaire de 47 demandes exprimées par les Français, gelé le 25 octobre 2026 avant toute lecture de programme, avec deux sources indépendantes au moins par demande (enquêtes d'opinion, cahiers du grand débat, revendications des mobilisations)&nbsp;; aller contre une demande en le disant n'est pas compté comme une faute, ne pas le dire l'est. Chaque verdict a cinq crans dont la définition est écrite à l'avance. Le verdict de méthode porte sur la manière de gouverner depuis 2017&nbsp;: engagements de méthode explicites et actes. La carte des tendances confronte le programme à quatorze évolutions de fond listées par des institutions publiques, gelées le 25 octobre 2026.</p>
+  <p><b>Les votes.</b> Position d'un groupe&nbsp;: celle qui réunit plus de 60 % de ses voix exprimées, calculée par nos soins à partir des données ouvertes, le champ « position majoritaire » de l'Assemblée s'étant révélé faux une fois sur deux. Un vote sur l'ensemble d'un budget ou d'une loi de coalition compte moins qu'un vote sur une mesure précise. Un silence du programme n'est pas une contradiction.</p>
+  <p><b>Relecture.</b> Chaque verdict a été relu par deux relecteurs indépendants, l'un chargé de défendre le parti, l'autre ses adversaires, puis arbitré sur la définition écrite du cran. Six verdicts sur dix-huit ont bougé lors de la première relecture, trois dans chaque sens. Renaissance est la seule force de la série à avoir gouverné sur toute la période&nbsp;: elle a mécaniquement plus d'objets d'écart possibles. C'est documenté, pas compensé, et rappelé dans la synthèse.</p>
+  <p><b>Limites.</b> Aucun chiffrage indépendant du plan du candidat n'existe à ce jour. Plusieurs sources officielles bloquent l'accès automatisé (Légifrance, ministère de l'Intérieur) et ont été lues par relais. Le programme de 2017 a été reconstitué par sources secondaires. Les fiches détaillées, les plus de 300 références, la liste des scrutins, l'inventaire des demandes, le registre des biais surveillés et le journal des décisions sont dans un dépôt de travail qui sera rendu public avec la série.</p>
+  <p>Même grille, mêmes scrutins et mêmes inventaires pour les quatre pages suivantes&nbsp;: Rassemblement national, La France insoumise, Parti socialiste, Les Républicains. Puis une page de synthèse, sans classement ni note.</p>
+</footer>
+
+</main>

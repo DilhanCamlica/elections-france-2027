@@ -4,7 +4,7 @@
 
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
-| 1 | Renaissance | `renaissance/` | 7 en v2 (écoute, méthode, tendances, effets distributifs faits, revus et arbitrés ; article long complété, soumis à Dilhan) | v2 | à produire (étape 8) | 2026-10-25 |
+| 1 | Renaissance | `renaissance/` | 8 en v2 (page produite, publiée en privé, en relecture par Dilhan ; boucle de révision à suivre) | v2 | publiée v1, privée : https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 | 2026-10-25 |
 | 2 | RN | `rn/` | 0 | | | |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |
