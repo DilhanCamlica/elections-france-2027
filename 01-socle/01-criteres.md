@@ -97,6 +97,8 @@ Mesure l'écart entre le programme et l'inventaire gelé des demandes exprimées
 | 4 | Répond | Le programme traite les demandes de premier rang de l'axe, avec une mesure identifiable pour chacune |
 | 5 | Répond et explique | Il traite les demandes de premier rang, nomme celles qu'il écarte et dit pourquoi |
 
+Règle du contre-pied « assumé » (ajout du 2026-10-25, arbitrage v2 Renaissance) : un engagement général, public et daté, qui exclut sans ambiguïté la demande (« aucune hausse d'impôt », « pas de retour sur l'âge légal ») vaut position assumée ; une position publique du groupe parlementaire (vote, communiqué) vaut position assumée du parti ; une formule qui reprend les mots de la demande sans la servir (« chacun contribuera à la hauteur de ses moyens ») ou un silence ne valent pas position assumée.
+
 Règle de neutralité : quand deux demandes **incompatibles** sont toutes deux dans l'inventaire (servir l'une réduit nécessairement l'autre : plus de fermeté et moins de force dans le maintien de l'ordre, majorité nette et culture du compromis), répondre à l'une n'est pas aller contre l'autre ; la fiche dit laquelle est servie. Précision du 2026-10-25 : deux demandes majoritaires qui peuvent coexister (baisser les impôts des classes moyennes et taxer les très hauts patrimoines ; réduire l'immigration et régulariser des travailleurs en tension) ne forment pas une paire : chacune est jugée séparément, et contredire l'une en l'assumant publiquement reste un cran 3.
 
 ### Échelle M (Méthode), nouvelle
@@ -111,7 +113,7 @@ Un seul verdict par parti, dans un chapitre à part. Matière : (a) la **parole 
 | 4 | Plutôt tenue | Nuances de calendrier ou d'ampleur |
 | 5 | Tenue | Parole de méthode et actes concordent sur tous les objets examinés |
 
-Pour une force qui n'a jamais gouverné au niveau national (LFI, RN), le verdict repose sur (a) et (c) seulement, et la fiche le dit. Registre des biais, ligne 14.
+Pour une force qui n'a jamais gouverné au niveau national (LFI, RN), le verdict repose sur (a) et (c) seulement, et la fiche le dit. Registre des biais, ligne 14. Précision du 2026-10-25 : un « engagement explicite » de méthode est une promesse formulée comme telle (« sans filtre », « je renonce au 49.3 », « référendum sur X ») ; une formule d'intention (« vous serez associés aux grandes décisions ») n'en est pas un et ne compte pas comme objet de rupture, mais les actes de méthode qui la contredisent (procédure de la réforme des retraites 2023, par exemple) comptent pour eux-mêmes.
 
 ## 5. Règle de sélection des scrutins
 

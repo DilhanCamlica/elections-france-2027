@@ -73,3 +73,9 @@ Impact sur les verticales : **Renaissance doit être relue en v2** avant sa page
 ## 2026-10-25 : règle des demandes opposées précisée
 
 - `01-criteres.md` §4 échelle E : la règle ne vaut que pour des demandes incompatibles. Deux demandes majoritaires compatibles sont jugées séparément. Motif : à l'axe 4 de Renaissance, « taxer les hauts patrimoines » avait été exemptée au titre de la paire avec « baisser les impôts » ; les deux coexistent dans l'opinion (63 % et 74 %) et dans les faits. Fiche corrigée : « va contre, et l'assume » (votes publics), verdict inchangé. S'applique aux cinq forces.
+
+## 2026-10-25 : précisions issues de la revue contradictoire v2 (Renaissance)
+
+- `01-criteres.md` échelle E : règle du contre-pied « assumé » (engagement général daté qui exclut la demande = assumé ; formule reprenant les mots de la demande ou silence = non assumé ; position publique du groupe = position du parti). Motif : la défense et la contradiction lisaient le même refus de deux façons opposées, et deux fiches aussi.
+- `01-criteres.md` échelle M : définition de l'« engagement explicite » de méthode, pour écarter les formules d'intention et garder les actes.
+- Verdicts Renaissance v2 après arbitrage : E 3, 3, 3, 3, 4, 3 ; M 2 ; carte 8 traitées, 6 en partie, 0 nommée, 0 absente. Détail dans `02-partis/renaissance/revue/arbitrage-v2.md`.
