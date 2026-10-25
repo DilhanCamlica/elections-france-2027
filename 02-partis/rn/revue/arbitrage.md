@@ -63,7 +63,7 @@
 | Méthode (M) | 3 Écart partiel (parole et comportement parlementaire seulement) | | | |
 | Carte des tendances | 5 traitées, 9 en partie, 0 nommée, 0 absente | | | |
 
-Sur 25 verdicts, 8 bougent par rapport aux brouillons : F axes 1 et 2 (2 vers 3, règle du niveau 4), C axes 1, 3, 4 (4 vers 3, lecture littérale de l'échelle), E axe 1 (4 vers 3, harmonisation), M (4 vers 3), et la carte (deux statuts). Quatre vont dans le sens du parti, quatre dans le sens contraire.
+Sur 25 verdicts, 8 bougent par rapport aux brouillons : F axes 1 et 2 (2 vers 3, règle du niveau 4), C axes 1, 3, 4 (4 vers 3, lecture littérale de l'échelle), E axe 1 (4 vers 3, harmonisation), M (4 vers 3), et la carte (deux statuts). Deux vont dans le sens du parti (F des axes 1 et 2, demandés par la défense), six dans le sens contraire (C des axes 1, 3 et 4, E de l'axe 1, M, tendance 9, demandés par la contradiction) ; la tendance 14 bouge dans le sens du parti à la demande de la défense.
 
 ## Complément après application (2026-10-26)
 

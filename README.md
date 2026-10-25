@@ -69,7 +69,7 @@ Voir `01-socle/CHANGELOG.md` et le tableau de bord en tête de `02-partis/README
 | Qui paie pour qui ? (série précédente) | publiée, partagée | https://claude.ai/artifact/95kD4VLYrjVh3kH9rZXxfc |
 | Immigration : vrai ou faux ? (série précédente) | publiée, partagée | https://claude.ai/artifact/V1w68c2LjyuVbLEgFnuan4 |
 | Renaissance : ce qu'elle propose, ce qu'elle vote | publiée (v1.1), partagée, en relecture | https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 |
-| Le RN : ce qu'il propose, ce qu'il vote | à faire (verticale 2) | |
+| Le RN : ce qu'il propose, ce qu'il vote | verticale 2 : étapes 1 à 7 faites, article en relecture, page à produire | |
 | LFI : ce qu'elle propose, ce qu'elle vote | à faire (verticale 3) | |
 | Le PS : ce qu'il propose, ce qu'il vote | à faire (verticale 4) | |
 | LR : ce qu'ils proposent, ce qu'ils votent | à faire (verticale 5) | |

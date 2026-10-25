@@ -1,4 +1,4 @@
-# Reprise de session : état au 2026-10-25, soir
+# Reprise de session : état au 2026-10-26, matin
 
 Ce fichier est le point d'entrée d'une session qui reprend le travail après un compactage ou un redémarrage. Il complète `CLAUDE.md` (règles) et `README.md` (structure) par ce qu'aucun fichier ne dit : où on en est exactement, ce qui est décidé mais pas encore fait, les pièges rencontrés. Il est réécrit à chaque fin de session.
 
@@ -7,65 +7,67 @@ Ce fichier est le point d'entrée d'une session qui reprend le travail après un
 1. `CLAUDE.md`, puis `README.md`.
 2. Ce fichier.
 3. `01-socle/01-criteres.md` (v2) et `01-socle/04-format-artifacts.md` (v2) en entier ; `01-socle/CHANGELOG.md` pour l'historique des décisions.
-4. Pour produire la page Renaissance : `02-partis/renaissance/article-long.md` (y compris le complément v2), les six fiches `02-partis/renaissance/axes/*.md` (lire au moins les verdicts, « Ce qui tient », les matrices de votes et les sections Q5), `methode.md`, `tendances.md`, `hors-grille.md`.
-5. Le gabarit HTML : la page « Immigration : vrai ou faux ? » (https://claude.ai/artifact/V1w68c2LjyuVbLEgFnuan4), à relire avec l'outil Artifact (`action: "read"`) ; son HTML complet est sauvegardé par l'outil dans un fichier local indiqué dans le résultat. La page « Qui paie pour qui ? » (https://claude.ai/artifact/95kD4VLYrjVh3kH9rZXxfc) utilise le même système (composants : barres, barres empilées, tuiles, matrice de points, ticket de caisse, axe d'estimations, blocs repliables, échelle de verdict à cinq crans, thème clair et sombre, Newsreader, Public Sans, IBM Plex Mono).
+4. Pour produire la page RN : `02-partis/rn/article-long.md` (avec les corrections de Dilhan quand il l'aura challengé), `02-partis/rn/revue/arbitrage.md` (grille finale et règles appliquées), les six fiches `02-partis/rn/axes/*.md` (verdicts, « Ce qui tient », matrices de votes, tableaux Q5 complets), `methode.md`, `tendances.md`, `hors-grille.md`, `votes/scrutins.md` (divergences UDR).
+5. Le gabarit HTML : `05-artifacts/renaissance.html` (v1.1), à reprendre tel quel pour le CSS et la structure ; les URL des pages « Immigration : vrai ou faux ? » et « Qui paie pour qui ? » sont dans `05-artifacts/README.md`.
 
 ## État exact
 
-- **Socle : v2**, validé par Dilhan en deux grills le 2026-10-25. Six questions (Diagnostic, Mesures, Faisabilité avec effets distributifs, Cohérence, Écoute, Méthode) et une carte des tendances. Deux inventaires gelés dans `03-sources/` : `demandes-exprimees.md` (47 demandes) et `tendances-lourdes.md` (14 tendances). Liste de 23 scrutins gelée plus un complément (4758) dans `03-sources/scrutins-selectionnes.md`, positions des cinq groupes dans `scrutins-positions.md`.
-- **Verticale 1, Renaissance : étapes 1 à 7 faites en v2.** Verdicts finaux après deux revues contradictoires et deux arbitrages (`revue/arbitrage.md`, `revue/arbitrage-v2.md`) :
+- **Socle : v2**, inchangé depuis le 2026-10-25. Les retours de la verticale RN pour la boucle de révision sont dans `02-partis/rn/revue/retours-socle.md` (8 lignes) : aucun n'a encore été appliqué au socle ni aux fiches Renaissance.
+- **Verticale 1, Renaissance : étape 8 faite**, page publiée et partagée (v1.1), URL dans `05-artifacts/README.md`. Dilhan n'a pas fini sa relecture de la page ; ses retours restent attendus.
+- **Verticale 2, RN : étapes 1 à 7 faites en v2 le 2026-10-25 et le 2026-10-26.** Corpus (45 archives, `01-corpus.md`, 83 identifiants C-RN), six fiches extraites puis contrôlées (54 corrections), étapes 3 à 5 et Q5 par six agents, chapitre Méthode, carte des tendances, revue contradictoire (défense, contradiction), arbitrage appliqué, article long écrit par l'agent principal et **soumis à Dilhan le 2026-10-26**. Grille finale :
 
 | Axe | D | F | C | E |
 |---|---|---|---|---|
-| 1 Finances publiques et dette | 4 Plutôt fondé | 3 Conditionnelle | 2 Écart important | 3 Répond en partie |
-| 2 Travail, protection sociale, fraude | 3 Partiellement fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
-| 3 Immigration | 4 Plutôt fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
-| 4 Pouvoir d'achat et fiscalité | 4 Plutôt fondé | 2 Très incertaine | 2 Écart important | 3 Répond en partie |
-| 5 Sécurité, ordre public, libertés | 3 Partiellement fondé | 3 Conditionnelle | 3 Écart partiel | 4 Répond |
-| 6 Institutions, démocratie, Europe | 4 Plutôt fondé | 2 Très incertaine | 3 Écart partiel | 3 Répond en partie |
-| Méthode (M) | 2 Écart important de méthode | | | |
-| Carte des tendances | 8 traitées, 6 en partie, 0 nommée, 0 absente | | | |
+| 1 Finances publiques et dette | 4 Plutôt fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
+| 2 Travail, protection sociale, fraude | 3 Partiellement fondé | 3 Conditionnelle | 4 Plutôt cohérent | 3 Répond en partie |
+| 3 Immigration | 3 Partiellement fondé | 2 Très incertaine | 3 Écart partiel | 3 Répond en partie |
+| 4 Pouvoir d'achat et fiscalité | 4 Plutôt fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
+| 5 Sécurité, ordre public, libertés | 3 Partiellement fondé | 3 Conditionnelle | 4 Plutôt cohérent | 4 Répond |
+| 6 Institutions, démocratie, Europe | 4 Plutôt fondé | 2 Très incertaine | 4 Plutôt cohérent | 3 Répond en partie |
+| Méthode (M) | 3 Écart partiel (parole et comportement parlementaire seulement, pas d'actes de gouvernement) | | | |
+| Carte des tendances | 5 traitées, 9 en partie, 0 nommée, 0 absente | | | |
 
-- **Article long soumis à Dilhan** (`article-long.md`, v1 puis complément v2). Il ne l'a pas encore challengé ligne par ligne ; sa remarque de fond (analyse « lisse ») a été traitée par le passage en v2.
-- **Étape 8 faite : page Renaissance publiée le 2026-10-25**, URL https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2, partagée par Dilhan (toute personne avec le lien), HTML archivé dans `05-artifacts/renaissance.html` (139 Ko, 83 sources, contrôle par `_scripts/verifie-page.py`, capture à 390 px en clair et en sombre faite). **v1.1** après le premier retour de Dilhan : les 47 demandes de l'inventaire figurent dans les blocs « Creuser » avec leur intensité (premier rang marqué) et un statut qui distingue traitée, en partie, non traitée, va contre et l'assume, va contre en général, opposée servie ; la note de méthode définit les quatre intensités, le premier rang, la règle des demandes incompatibles et le contre-pied assumé. **Règle pour les pages suivantes : l'inventaire entier, pas un extrait.** Dilhan poursuit sa relecture. **Prochaine étape : ses retours sur la page (boucle de révision), puis la question de la publication GitHub, puis verticale 2 : RN.**
-- Git : repo local `~/Documents/Politique/elections-france-2027`, branche `main`, 31 commits environ, **rien n'est poussé, aucun remote**. Publication GitHub décidée « après la première verticale, sur feu vert explicite de Dilhan » : pas encore demandée.
+- **Prochaine étape : le challenge de l'article par Dilhan, puis la page RN (étape 8)** selon la marche à suivre ci-dessous. Titre prévu au socle : « Le RN : ce qu'il propose, ce qu'il vote ». La page doit lister les 47 demandes avec intensité et statut (règle « l'inventaire entier, pas un extrait ») : les tableaux Q5 des fiches 1, 2, 4, 5, 6 ont le statut en deuxième colonne ; **la fiche 3 a un tableau à colonnes différentes (mesure puis statut dans le texte)** : lire le verdict E et le tableau ensemble pour fixer les six statuts.
+- Git : repo local `~/Documents/Politique/elections-france-2027`, branche `main`, environ 45 commits, **rien n'est poussé, aucun remote**. Publication GitHub : décidée « après la première verticale relue, sur feu vert explicite de Dilhan » ; pas encore demandée.
 
-## Marche à suivre pour une page (étape 8, suivie pour Renaissance ; à reprendre pour les quatre suivantes)
+## Marche à suivre pour une page (étape 8, suivie pour Renaissance ; à reprendre pour le RN)
 
-1. Lire `01-socle/04-format-artifacts.md` v2 : titre « Renaissance : ce qu'elle propose, ce qu'elle vote », surtitre « Lecture · programme et votes 2022-2026 », grille 6 × 4 (24 pastilles) plus une ligne « Comment ils gouvernent » et la carte des tendances en tuiles, six chapitres courts (3 à 4 lignes par question, un panneau visuel maximum, encadré « Ce qui tient », bloc « Creuser »), chapitre « Comment ils gouvernent », chapitre court « Ce qui vient », « Hors grille », « Ce qu'il faut retenir » (quatre points, pas de note globale), sources par axe étiquetées, note de méthode avec dates de gel.
-2. Repartir du HTML de la page immigration (relue via l'outil Artifact), garder le CSS, remplacer le contenu. Charger les skills `artifact-design` puis `dataviz` avant d'écrire (règle de l'outil Artifact).
-3. Matrices de votes : scrutins de l'axe en lignes, cinq groupes en colonnes (LFI, SOC, EPR, DR, RN), positions dans `03-sources/scrutins-positions.md` ; le 4758 figure en complément pondéré à part aux axes 1, 2 et 4.
-4. Les 18 + 6 + 1 verdicts et leurs phrases de conclusion sont dans les fiches (`**Verdict …**`) ; les « Ce qui tient » sont à reprendre tels quels, condensés.
-5. Écrire le fichier dans `05-artifacts/<slug>.html`, le passer au contrôle : `_scripts/verifie-page.py` (balises, ancres, sources citées et numérotées, tirets, squelette) puis `_scripts/lint-texte.py`. Capture à 390 px en clair et en sombre avec le navigateur intégré (`resize_window` 390 × 844, `colorScheme`), **sur la page publiée** : le navigateur intégré ne lit ni `file://` ni un serveur local. Donc publier d'abord en privé, regarder, corriger en une passe, republier. Pour Renaissance, cette passe a corrigé la coupure des libellés longs dans la grille (« Partiellement fondé », « Conditionnelle » : `hyphens:auto`, `lang="fr"`).
-6. Publier avec l'outil Artifact (`icon` sur la première publication, `description` d'une phrase). Une nouvelle page est privée : le dire à Dilhan. Inscrire l'URL dans `05-artifacts/README.md` et `README.md`, archiver le HTML, commiter `🖼️ artifact: renaissance v1`.
-7. Dans la note de méthode de la page : périmètre (Renaissance seul, groupe EPR, candidat Attal), corpus arrêté au 2026-10-25, 23 scrutins gelés plus 4758, inventaire des demandes et liste des tendances gelés le 2026-10-25, lien vers le repo quand il sera public.
+1. Lire `01-socle/04-format-artifacts.md` v2 : titre, surtitre « Lecture · programme et votes 2022-2026 », grille 6 × 4 (24 pastilles) plus une ligne « Comment ils gouvernent » et la carte des tendances en tuiles, six chapitres courts (3 à 4 lignes par question, un panneau visuel maximum, encadré « Ce qui tient », bloc « Creuser » avec la matrice de votes et **toutes les demandes de l'axe** avec intensité et statut), chapitre « Comment ils gouvernent », « Hors grille », « Ce qu'il faut retenir » (quatre points, pas de note globale), sources par axe étiquetées, note de méthode avec dates de gel.
+2. Repartir de `05-artifacts/renaissance.html` : garder le CSS et les composants (`.grid`, `.pill`, `.mline`, `.tend`, `.qb`, `.panel`, `.votes`, `.true`, `details.dig`, `ul.dem` avec `.st` et `.ti`), remplacer le contenu. Charger les skills `artifact-design` puis `dataviz` avant d'écrire (règle de l'outil Artifact).
+3. Matrices de votes : scrutins de l'axe en lignes, cinq groupes en colonnes (LFI, SOC, EPR, DR, RN), positions dans `03-sources/scrutins-positions.md` ; le 4758 en complément pondéré à part aux axes 1, 2 et 4 ; pour le RN, une ligne ou une note sur les divergences de l'UDR (217, 468, 3684, 881, 3182) depuis `02-partis/rn/votes/scrutins.md`.
+4. Les 24 + 1 verdicts et leurs phrases de conclusion sont dans les fiches (`**Verdict …**`) ; les « Ce qui tient » sont à reprendre condensés ; la note de méthode dit que le RN n'a pas d'actes de gouvernement à confronter et que son verdict M ne se compare pas à celui de Renaissance (registre des biais, lignes 2 et 14).
+5. Écrire `05-artifacts/rn.html`, contrôler : `python3 _scripts/verifie-page.py 05-artifacts/rn.html` puis `_scripts/lint-texte.py`. Publier d'abord en privé (icône « ballot », description d'une phrase), vérifier à 390 px en clair et en sombre dans le navigateur intégré sur la page publiée (il ne lit ni `file://` ni un serveur local ; le contenu est dans un iframe : défilement et clics par coordonnées), corriger en une passe, republier.
+6. Inscrire l'URL dans `05-artifacts/README.md` et `README.md`, dire à Dilhan que la page est privée, commiter `🖼️ artifact: rn v1`.
+7. Note de méthode de la page : périmètre (RN seul, groupe RN, candidate Marine Le Pen, UDR cité quand il diverge), corpus arrêté au 2026-10-25, 23 scrutins gelés plus 4758, inventaire des demandes et liste des tendances gelés le 2026-10-25, pas de programme 2027 publié, réforme des retraites du 17 novembre 2026 hors corpus.
 
 ## Décisions prises, non dérivables des fichiers de contenu
 
-- Sous-agents : Opus pour recherche, vérification, revue ; Sonnet pour extraction, transcripts, scripts, carte des tendances. L'agent principal seul sur Fable. Toujours passer `model` explicitement.
+- Sous-agents : Opus pour recherche, vérification, revue ; Sonnet pour extraction mécanique, scripts, carte des tendances. L'agent principal seul sur Fable. Toujours passer `model` explicitement. Les lancer par vagues (trois axes à la fois) pour garder la relecture digeste, chaque rapport limité à 15 ou 25 lignes.
 - Les sous-agents ne commitent pas ; l'agent principal commite par étape (`CLAUDE.md`).
 - Grill-me (une question à la fois, recommandation à chaque fois) dès qu'un choix de forme, de compréhension ou d'expérience de lecture se présente ; sinon on fait, on ne demande pas.
-- Dilhan veut qu'on lui renvoie en sparring les cadrages de ses remarques que les données ne soutiennent pas (« guerre civile », « sans du tout s'adapter »), tout en retenant les critères de fond. Mémoire Claude : `analyse-politique-pas-seulement-les-faits.md`.
-- Ordre des verticales : Renaissance, RN, LFI, PS, LR.
-- Date d'arrêt du corpus : fixée au début de chaque verticale (Renaissance : 2026-10-25), réalignée à la fin des cinq.
+- Ordre des verticales : Renaissance, RN, LFI, PS, LR. Date d'arrêt du corpus : fixée au début de chaque verticale (Renaissance et RN : 2026-10-25), réalignée à la fin des cinq.
+- Règles d'arbitrage appliquées aux deux verticales et à reprendre pour les suivantes (`02-partis/rn/revue/arbitrage.md`, « Règles appliquées ») : une source de niveau 4 ne décide jamais seule d'un cran ; en C, un décalage documenté sur un objet vaut cran 3 même expliqué, le cran 4 est réservé aux nuances ; un énoncé non vérifiable n'est pas faux ; un même refus se lit de la même façon sur deux axes ; un relais de presse unique ne déplace pas un cran ; mesures de 2024 vivantes en Q5, mesures de 2022 non reprises insuffisantes ; carte : « traitée » exige le cœur de la tendance et une pièce de 2024 ou plus récente.
 
 ## En suspens (à exécuter quand c'est possible)
 
-- **Scrutin Smic** : la PPL LFI n° 3176 (Smic à 1 700 € net) est en niche le 29 octobre 2026. Si un scrutin a lieu, il remplace le n° 881 dans la liste gelée (décision écrite avant tout vote), et la matrice de l'axe 4 est à refaire pour les cinq forces ; la ligne Smic de Q5 axe 4 peut changer.
-- **Transcript Manon Bril** (France Inter) : aucun sous-titre, aucun outil de transcription audio installé (ni whisper, ni mlx_whisper). Sans effet sur l'étude.
-- **Publication GitHub** du repo : décidée après la première verticale relue ; à demander à Dilhan au moment de la page.
-- **Programme 2017** et discours au Congrès de 2017 : à archiver dans `02-partis/renaissance/corpus/` (règle v2 du corpus), reconstitués pour l'instant par sources secondaires.
-- **Retours du socle** : tous traités (`02-partis/renaissance/revue/retours-socle.md`), sauf la ligne 6 (Smic) qui attend le 29 octobre.
+- **Challenge de l'article RN par Dilhan**, puis page RN.
+- **Boucle de révision après le RN** : les 8 lignes de `02-partis/rn/revue/retours-socle.md` (lecture de §6 pour les divergences Renaissance ; scrutin 3213 ; Cevipof dans les motifs D ; règle du niveau 4 en F ; transparence du chiffrage ; lecture de l'échelle C ; plafond de 64 ans d'Orléans), plus les retours Renaissance déjà traités. Chaque modification du socle passe par `01-socle/CHANGELOG.md`.
+- **17 novembre 2026** : réforme des retraites du RN ; réexaminer F et C de l'axe 2 et la divergence de corpus sur l'âge.
+- **Scrutin Smic** : PPL LFI n° 3176 en niche le 29 octobre 2026 ; si un scrutin a lieu, il remplace le 881 dans la liste gelée et les matrices de l'axe 4 des deux verticales sont à refaire.
+- **Publication GitHub** du repo : à demander à Dilhan.
+- **Programme 2017** de Renaissance : à archiver dans `02-partis/renaissance/corpus/`.
+- Pour la synthèse : les scrutins de la XVIe législature (3213, 1662, 909, 831) sont cités en contexte dans les fiches RN ; décider d'un traitement commun aux cinq forces.
 
 ## Pièges rencontrés
 
-- Accès refusés (403) : Légifrance, résultats électoraux du ministère de l'Intérieur, pages DGEF, Interstats, JDD, CNews, Europe 1 ; Mediapart payant. Contournements dans `01-socle/03-sources-et-hierarchie.md` §6.
-- Le champ « position majoritaire » de l'open data de l'Assemblée est faux une fois sur deux : recalcul par la règle des 60 % (`03-sources/scrutins-positions.md`).
-- Les agents d'extraction inventent des « divergences » qui n'en sont pas : définition stricte dans le brief d'étape 2.
-- Les relecteurs lisent la ligne 2 du registre des biais et la notion de contre-pied « assumé » de façons opposées : règles écrites en v2 (`01-criteres.md`, échelles C, E, M).
-- Deux rédacteurs sur un même fichier : ne jamais lancer en parallèle deux agents qui écrivent dans la même fiche (effets distributifs puis Q5 ont été séquencés pour ça).
-- La carte des tendances tend au « tout traité » : statut « traitée en partie » ajouté pour ça.
+- Accès refusés (403) : Légifrance, résultats électoraux du ministère de l'Intérieur, pages DGEF, Interstats, EUR-Lex (arrêts de la CJUE et directives lus par relais), NORMLEX, JDD, CNews, Europe 1 ; Mediapart payant. Contournements dans `01-socle/03-sources-et-hierarchie.md` §6.
+- Le champ « position majoritaire » de l'open data de l'Assemblée est faux une fois sur deux : recalcul par la règle des 60 % (`03-sources/scrutins-positions.md`). Le script `_scripts/votes-parti.py` produit `votes/scrutins.md` pour un groupe et ses alliés hors périmètre.
+- Les agents d'extraction inventent des « divergences » qui n'en sont pas ; les agents de vérification lisent parfois des résumés de moteur de recherche au lieu d'ouvrir les pages : exiger « page ouverte ou le dire », et un chiffreur de chaque bord ou le dire.
+- Les sous-agents de vérification classent facilement au cran 2 en F sur un seul think tank : rappeler la règle du niveau 4.
+- Deux rédacteurs sur un même fichier : jamais en parallèle. Un sous-agent qui ajoute une fiche au corpus peut réutiliser un identifiant déjà pris (doublon C-RN-82 corrigé en C-RN-83) : vérifier le dernier identifiant avant d'ajouter.
+- Les documents de plus de 20 Mo (programmes RN 2024 et 2022) ne sont pas versionnés : copie texte plus somme de contrôle.
+- La carte des tendances tend au « tout traité » ; la revue l'a ramenée de 6 à 5 traitées.
 
 ## Contexte familial d'origine
 
-`00-contexte/echange-famille-2026-10-25.md`. Les deux pages déjà partagées à la famille sont les deux artifacts cités plus haut. Le point C-D-E de l'échange (violences, interdiction de manifester, Mediapart) est documenté dans `00-contexte/contexte-actualite-octobre-2026.md` et, pour la méthode de gouvernement, dans `02-partis/renaissance/methode.md`. Les affirmations de la vidéo longue de Viktorovitch sont triées (confirmées, inexactes, non vérifiables) dans ce même fichier.
+`00-contexte/echange-famille-2026-10-25.md`. Les pages déjà partagées à la famille sont les trois artifacts cités dans `05-artifacts/README.md`.
