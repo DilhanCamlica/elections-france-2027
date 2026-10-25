@@ -4,7 +4,7 @@
 - Sélection faite le 2026-10-25 sur l'objet, la date et l'auteur du texte seulement, **sans avoir regardé les positions des groupes** : colonnes de vote masquées à la lecture de la note de paysage, recherche complémentaire menée par un sous-agent avec consigne de ne pas reporter les votes (voir `scrutins-candidats-complement.md`, section « Méthode », qui signale aussi trois scrutins dont le résultat global a été aperçu par accident dans un résumé de moteur de recherche : 4244, 8611, 5313 ; l'agent principal, qui a fait la sélection, ne l'a pas vu).
 - Règle : `01-socle/01-criteres.md` §5. Deux à quatre scrutins par axe ; mesure précise de préférence ; textes globaux pondérés à part ; recherche du scrutin symétrique quand un texte vient d'un seul camp.
 - Période : XVIIe législature (juillet 2024 à octobre 2026). Groupes suivis : LFI-NFP, SOC, EPR, DR, RN. Source des positions, le moment venu : open data de l'Assemblée nationale (jeu « Scrutins ») et pages https://www.assemblee-nationale.fr/dyn/17/scrutins/<n>.
-- Équilibre d'origine des textes retenus (hors textes du gouvernement et textes transpartisans) : gauche 5 (LFI 3, écologistes 1, PS 1), droite et RN 6 (RN 4, LR 1, UDR 1), EPR 2.
+- Compte : **23 scrutins** dans les six axes (4, 4, 3, 4, 4, 4), plus 3 réserves et 1 hors sélection. Équilibre d'origine des textes retenus (hors gouvernement et transpartisan), après confirmation des auteurs : gauche 5 (LFI 3, écologistes 1, PS 1), droite et RN 8 (RN 4, LR 3, UDR 1), EPR 2.
 
 ## Axe 1 : Finances publiques et dette
 
@@ -34,7 +34,7 @@ Paire symétrique sur les retraites : un texte RN (217) et un texte LFI (468) su
 
 | N° | Date | Objet | Nature | Origine |
 |---|---|---|---|---|
-| 2958 | 08/07/2025 | Ensemble de la PPL sur le maintien en rétention des étrangers condamnés | PPL, mesure précise | À confirmer (fiche du dossier) |
+| 2958 | 08/07/2025 | Ensemble de la PPL sur le maintien en rétention des étrangers condamnés | PPL, mesure précise | Sénat, LR (Eustache-Brinio) |
 | 3260 | 30/10/2025 | Résolution visant à dénoncer les accords franco-algériens de 1968 | Résolution (art. 34-1) | RN |
 | 351 | 08/11/2024 | Amendement n° 58 au PLF 2025 : taxe de délivrance de titre de séjour portée de 200 à 1 000 € | Amendement, mesure précise | UDR |
 
@@ -60,11 +60,11 @@ Réserve : 8854 (16/10/2026, RN, exonération de droits de succession sur la ré
 | N° | Date | Objet | Nature | Origine |
 |---|---|---|---|---|
 | 8279 | 15/07/2026 | Ensemble du projet de loi visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public (première lecture) | Texte global thématique | Gouvernement |
-| 1194 | 01/04/2025 | Ensemble de la PPL visant à sortir la France du piège du narcotrafic (première lecture) | Texte global thématique | Sénat, transpartisane |
+| 1194 | 01/04/2025 | Ensemble de la PPL visant à sortir la France du piège du narcotrafic (première lecture) | Texte global thématique | Sénat, transpartisane (Blanc, LR ; Durain, SER) |
 | 805 | 13/02/2025 | Ensemble de la PPL visant à restaurer l'autorité de la justice à l'égard des mineurs délinquants (première lecture) | Texte global thématique | EPR (Attal) |
-| 7987 | 2026 (date à confirmer) | PPL instaurant une présomption de légitime défense des forces de l'ordre | PPL, mesure précise | À confirmer (texte attendu du RN) |
+| 7987 | 07/07/2026 | PPL instaurant une présomption de légitime défense des forces de l'ordre (n° 691) | PPL, mesure précise | LR (Pauget, Droite républicaine) |
 
-Le n° 7987 avait été écarté par le sous-agent parce qu'il avait aperçu son résultat ; l'agent principal, qui ne l'a pas vu, le retient pour l'objet (seul texte de la période portant sur les pouvoirs de la police) et pour la symétrie d'origine. Limite documentée : **aucun scrutin à l'intitulé explicite sur le droit de manifester** ; le contenu du n° 8279 doit être lu pour savoir s'il en traite.
+Le n° 7987 avait été écarté par le sous-agent parce qu'il avait aperçu son résultat ; l'agent principal, qui ne l'a pas vu, l'a retenu pour l'objet (seul texte de la période portant sur les pouvoirs de la police). Son auteur, confirmé après gel, est LR et non RN : l'axe compte donc trois textes d'origine gouvernement, Sénat transpartisan et EPR, et un texte LR ; aucun texte de gauche ou du RN sur la sécurité n'a eu de scrutin d'ensemble sur la période. Limite documentée après lecture du dossier (voir `scrutins-positions.md`, « Compléments au gel ») : **le projet de loi n° 8279 ne contient aucune disposition sur les manifestations sur la voie publique ni sur le droit de manifester** (il vise les rassemblements festifs, les manifestations sportives et la vidéoprotection). **Le droit de manifester est donc « non évaluable par les votes » pour les cinq forces** ; il sera traité par le discours et le programme seulement.
 
 ## Axe 6 : Institutions, démocratie et Europe
 
@@ -89,6 +89,6 @@ Limite documentée : **aucun scrutin sur la proportionnelle, le cumul des mandat
 
 ## À faire au gel
 
-1. Confirmer les auteurs marqués « à confirmer » (2958, 7987, 1194) sur les fiches de dossier législatif, sans ouvrir les pages de scrutin.
-2. Lire le texte du projet de loi n° 8279 pour vérifier s'il touche au droit de manifester.
-3. Remplacer 881 par le scrutin Smic s'il a lieu le 29 octobre.
+1. Fait le 25/10/2026 : auteurs de 2958, 7987 et 1194 confirmés sur les données ouvertes des dossiers législatifs (voir ci-dessus).
+2. Fait le 25/10/2026 : le projet de loi n° 8279 ne traite pas du droit de manifester (voir axe 5).
+3. À faire : remplacer 881 par le scrutin sur la PPL n° 3176 (Smic) s'il a lieu le 29 octobre 2026. Au 25 octobre, aucun scrutin n'existe.

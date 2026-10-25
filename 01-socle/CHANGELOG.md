@@ -30,12 +30,14 @@ Décisions prises par l'agent sans grill (routine) : mêmes cinq couleurs de ver
 
 Ajout du même jour, après lecture de `00-contexte/paysage-politique-2026-10.md` : les cinq forces ont un candidat déclaré, la couche « candidat » est disponible dès la première verticale ; le candidat PS vient de Place publique, dont les textes entrent dans le corpus PS au titre du candidat (règle déjà prévue).
 
-Liste nominative des scrutins : proposition complète dans `03-sources/scrutins-selectionnes.md` (22 scrutins sur six axes, sélectionnés sans regarder les votes, équilibre d'origine gauche 5 / droite et RN 6 / EPR 2 / gouvernement et transpartisan 9). Gel soumis à Dilhan. Limites documentées : aucun scrutin sur l'AME, la durée de résidence, le droit de manifester, la proportionnelle ou le référendum sur la législature.
+Liste nominative des scrutins : proposition complète dans `03-sources/scrutins-selectionnes.md` (23 scrutins sur six axes, sélectionnés sans regarder les votes, équilibre d'origine gauche 5 / droite et RN 6 / EPR 2 / gouvernement et transpartisan 9). Gel soumis à Dilhan. Limites documentées : aucun scrutin sur l'AME, la durée de résidence, le droit de manifester, la proportionnelle ou le référendum sur la législature.
 
 Impact : aucun, aucune verticale encore faite.
 
 ## 2026-10-25 : gel des scrutins, lancement de la verticale 1 (Renaissance)
 
-- `03-sources/scrutins-selectionnes.md` gelé tel que proposé (22 scrutins), sur accord de Dilhan. Les positions de vote n'ont été extraites qu'après ce gel.
+- `03-sources/scrutins-selectionnes.md` gelé tel que proposé (23 scrutins, comptés 22 par erreur dans la première version), sur accord de Dilhan. Les positions de vote n'ont été extraites qu'après ce gel.
 - Verticale Renaissance ouverte : date d'arrêt du corpus 2026-10-25, voir `02-partis/renaissance/00-perimetre.md`.
 - Impact : aucun sur d'autres verticales.
+
+- Après gel, compléments : auteurs confirmés (2958 LR Sénat, 7987 LR, 1194 transpartisan Sénat), le texte 8279 ne traite pas du droit de manifester, qui devient « non évaluable par les votes ». Positions extraites dans `03-sources/scrutins-positions.md` (27 scrutins dont réserves). Anomalie documentée : le champ « position majoritaire » du jeu open data est peu fiable, la position est recalculée (règle des 60 %).
