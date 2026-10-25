@@ -8,6 +8,7 @@ Produire une lecture neutre, sourcée et tranchante des programmes de cinq force
 
 ## Ordre de lecture obligatoire
 
+0. `00-contexte/reprise-session.md` : l'état exact du travail, les décisions en suspens, les pièges, la prochaine étape. Réécrit à chaque fin de session. À lire en premier si tu reprends une session.
 1. `README.md` : pourquoi, quoi, structure.
 2. `01-socle/00-methodologie.md` : la boucle de travail verticale par verticale.
 3. `01-socle/01-criteres.md` : axes, questions, échelles de verdict, périmètre de chaque force.
