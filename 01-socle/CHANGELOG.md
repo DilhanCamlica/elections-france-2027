@@ -69,3 +69,7 @@ Impact sur les verticales : **Renaissance doit être relue en v2** avant sa page
 ## 2026-10-25 : carte des tendances, quatrième statut
 
 - `01-criteres.md` §8 : ajout de « traite en partie ». Motif : la première carte (Renaissance) classait 13 tendances sur 14 « traitées », dont 5 par rattachement partiel ; sans ce statut, la carte serait presque toujours verte pour tout grand programme et ne distinguerait rien. Appliqué à Renaissance (8 / 5 / 1 / 0). S'applique aux cinq forces.
+
+## 2026-10-25 : règle des demandes opposées précisée
+
+- `01-criteres.md` §4 échelle E : la règle ne vaut que pour des demandes incompatibles. Deux demandes majoritaires compatibles sont jugées séparément. Motif : à l'axe 4 de Renaissance, « taxer les hauts patrimoines » avait été exemptée au titre de la paire avec « baisser les impôts » ; les deux coexistent dans l'opinion (63 % et 74 %) et dans les faits. Fiche corrigée : « va contre, et l'assume » (votes publics), verdict inchangé. S'applique aux cinq forces.

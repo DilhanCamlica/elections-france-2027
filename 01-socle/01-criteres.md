@@ -97,7 +97,7 @@ Mesure l'écart entre le programme et l'inventaire gelé des demandes exprimées
 | 4 | Répond | Le programme traite les demandes de premier rang de l'axe, avec une mesure identifiable pour chacune |
 | 5 | Répond et explique | Il traite les demandes de premier rang, nomme celles qu'il écarte et dit pourquoi |
 
-Règle de neutralité : quand deux demandes opposées sont toutes deux dans l'inventaire (réduire l'immigration et régulariser les travailleurs, baisser les impôts et taxer les hauts patrimoines), répondre à l'une n'est pas aller contre l'autre ; la fiche dit laquelle est servie.
+Règle de neutralité : quand deux demandes **incompatibles** sont toutes deux dans l'inventaire (servir l'une réduit nécessairement l'autre : plus de fermeté et moins de force dans le maintien de l'ordre, majorité nette et culture du compromis), répondre à l'une n'est pas aller contre l'autre ; la fiche dit laquelle est servie. Précision du 2026-10-25 : deux demandes majoritaires qui peuvent coexister (baisser les impôts des classes moyennes et taxer les très hauts patrimoines ; réduire l'immigration et régulariser des travailleurs en tension) ne forment pas une paire : chacune est jugée séparément, et contredire l'une en l'assumant publiquement reste un cran 3.
 
 ### Échelle M (Méthode), nouvelle
 
