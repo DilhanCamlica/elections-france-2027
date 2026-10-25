@@ -79,6 +79,14 @@ Paire symétrique de résolutions : une de LFI (Mercosur), une du RN (Schengen).
 
 Limite documentée : **aucun scrutin sur la proportionnelle, le cumul des mandats, le référendum ou la primauté du droit européen**. Réserve : 3182 (Nouvelle-Calédonie, CMP, 28/10/2025).
 
+## Compléments découverts en revue (v2)
+
+Scrutins décisifs trouvés après le gel, pondérés à part, appliqués aux cinq forces dès leur découverte.
+
+| N° | Date | Objet | Nature | Découvert par | Positions (LFI, SOC, EPR, DR, RN) |
+|---|---|---|---|---|---|
+| 4758 | 16/12/2025 | Ensemble du PLFSS 2026, lecture définitive (contient la suspension de la réforme des retraites et la hausse de 1,4 point de la CSG sur le capital) | Texte global | Revue contradictoire Renaissance, 25/10/2026 | contre (0p 69c), pour (64p 0c 5a), pour (91p 0c), divisé (18p 3c 28a), contre (0p 123c) |
+
 ## Hors sélection, notés pour contexte
 
 - 3054 (08/09/2025) : confiance au gouvernement Bayrou. Politique générale, non thématique.

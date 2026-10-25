@@ -53,6 +53,16 @@ Divergences entre documents ou entre parti et candidat : …
 
 **Verdict Cohérence : <1-5, libellé>.** Justification.
 
+## Q5. Répondent-ils aux demandes ? (Écoute, v2)
+
+Inventaire gelé : `03-sources/demandes-exprimees.md`, section de l'axe.
+
+| Demande (intensité) | Traitée par le programme ? (mesure, référence) | Si contredite : assumée publiquement ? (référence) |
+|---|---|---|
+| | | |
+
+**Verdict Écoute : <1-5, libellé>.** Justification qui cite la définition du cran. Rappel : aller contre une demande n'est pas une faute, ne pas le dire en est une ; quand deux demandes opposées sont inscrites, dire laquelle est servie.
+
 ## Ce qui tient
 
 Encadré obligatoire et sincère : ce qui est solide dans la position du parti sur cet axe.

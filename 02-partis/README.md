@@ -4,13 +4,13 @@
 
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
-| 1 | Renaissance | `renaissance/` | 6 (revue contradictoire arbitrée ; article long soumis à Dilhan) | v1 | | 2026-10-25 |
+| 1 | Renaissance | `renaissance/` | 7 (article long soumis) ; **à relire en v2** : Q5 sur six axes, chapitre Méthode, carte des tendances, effets distributifs | v1, relecture v2 à faire | | 2026-10-25 |
 | 2 | RN | `rn/` | 0 | | | |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |
 | 5 | LR | `lr/` | 0 | | | |
 
-Étapes (voir `01-socle/00-methodologie.md`) : 1 corpus, 2 extraction par axe, 3 diagnostics, 4 faisabilité, 5 cohérence, 6 revue contradictoire, 7 article long et challenge, 8 page.
+Étapes (voir `01-socle/00-methodologie.md`) : 1 corpus, 2 extraction par axe, 3 diagnostics, 4 faisabilité, 5 cohérence, 5 bis écoute, méthode et tendances (v2), 6 revue contradictoire, 7 article long et challenge, 8 page.
 
 Quand le socle change (voir `01-socle/CHANGELOG.md`), la colonne « version du socle appliquée » dit quelles verticales doivent être relues.
 
@@ -36,6 +36,8 @@ Chaque dossier `02-partis/<parti>/` suit la structure de `_gabarit/` :
     defense.md             rapport du relecteur qui défend le parti
     contradiction.md       rapport du relecteur qui défend ses adversaires
     arbitrage.md           arbitrages de l'agent principal
+  methode.md               chapitre Méthode (Q6), gabarit _gabarit/methode.md (v2)
+  tendances.md             carte des tendances lourdes : traite / nomme / absent (v2)
   article-long.md          l'article soumis à Dilhan, avec ses corrections
   hors-grille.md           thèmes majeurs du programme non traités
 ```

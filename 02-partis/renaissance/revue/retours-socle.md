@@ -1,6 +1,6 @@
 # Retours pour la boucle de révision du socle (après la verticale Renaissance)
 
-- Alimenté au fil des étapes. Traité à la fin de la verticale (étape 8), avec entrée dans `01-socle/CHANGELOG.md` pour chaque modification retenue.
+- Alimenté au fil des étapes. **Lignes 1 à 13 traitées dans le socle v2 du 2026-10-25** (voir `01-socle/CHANGELOG.md`). La ligne 6 (scrutin Smic) reste à exécuter après le 29 octobre 2026.
 
 | N° | Constat | Fichier du socle concerné | Proposition |
 |---|---|---|---|

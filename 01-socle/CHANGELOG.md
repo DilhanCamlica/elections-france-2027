@@ -41,3 +41,20 @@ Impact : aucun, aucune verticale encore faite.
 - Impact : aucun sur d'autres verticales.
 
 - Après gel, compléments : auteurs confirmés (2958 LR Sénat, 7987 LR, 1194 transpartisan Sénat), le texte 8279 ne traite pas du droit de manifester, qui devient « non évaluable par les votes ». Positions extraites dans `03-sources/scrutins-positions.md` (27 scrutins dont réserves). Anomalie documentée : le champ « position majoritaire » du jeu open data est peu fiable, la position est recalculée (règle des 60 %).
+
+## 2026-10-25 : socle v2 après la verticale Renaissance et le second grill
+
+Déclencheur : remarque de Dilhan après l'article long Renaissance, jugé « lisse ». Diagnostic partagé : la grille v1, dérivée des pages de vérification, ne mesurait que des faits et rien de la relation entre le parti et le pays. Quatre décisions au grill, toutes sur la recommandation de l'agent :
+
+| Fichier | Décision | Pourquoi |
+|---|---|---|
+| `01-criteres.md` §3, §4 | **Q5 Écoute** par axe (échelle E) : le programme traite-t-il les demandes exprimées, et assume-t-il celles qu'il contredit ? | La grille ne voyait pas si le parti répond à ce que les gens demandent. Neutralité : aller contre n'est pas une faute, ne pas le dire en est une |
+| `01-criteres.md` §3, §4 | **Q6 Méthode**, un chapitre par parti (échelle M), fenêtre depuis 2012 pondérée par l'ancienneté | 49.3, consultations sans suite, réponses aux mobilisations étaient invisibles ou réduits à un décompte. Fenêtre 2012 pour que le PS et LR aient des actes à confronter |
+| `01-criteres.md` §7 | **Inventaire des demandes** commun, gelé avant lecture des programmes, règle des deux sources, demandes opposées inscrites | Pour que « ce que les Français demandent » ne soit pas notre opinion |
+| `01-criteres.md` §8 | **Carte des tendances lourdes** à partir des institutions, trois statuts, pas de verdict | Pour voir ce que chaque programme ignore, sans que la liste vienne de nous |
+| `01-criteres.md` §3 | **Effets distributifs** dans Q3, décrits sans note | Qui gagne, qui perd |
+| `04-format-artifacts.md` | Grille 6 × 4 + ligne Méthode + carte des tendances ; deux chapitres nouveaux | Grill : le croisement écoute × axe est ce qui répond à la remarque |
+
+Corrections issues des retours de la verticale Renaissance (`02-partis/renaissance/revue/retours-socle.md`, lignes 1 à 13) : définition de la divergence (brief étape 2) ; programmes des mandats exercés au corpus (§6) ; règle de recalcul des positions de vote et archivage des déclarations (`03-sources-et-hierarchie.md` §5 bis) ; processus d'étiquetage (§2 ter) ; liste des blocages d'accès (§6) ; ligne 2 du registre reformulée, lignes 14 à 16 ajoutées ; règle « le verdict F suit la mesure la plus structurante » écrite (§4) ; section « compléments découverts en revue » dans la liste des scrutins (4758) ; les sous-agents ne commitent plus (`CLAUDE.md`) ; précisions D (prévision non vérifiable, bilan relève de C) et C (un paquet bloqué compte pour un objet, « plusieurs » = trois ou plus).
+
+Impact sur les verticales : **Renaissance doit être relue en v2** avant sa page : Q5 sur les six axes, chapitre Méthode, carte des tendances, effets distributifs ; les dix-huit verdicts v1 ne changent pas de définition sauf les précisions D et C, à vérifier. Date d'arrêt de la relecture : à fixer au lancement.

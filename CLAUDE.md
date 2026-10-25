@@ -56,7 +56,7 @@ Repo local, branche `main`. Commits par étape logique, messages en français, p
 - `🖼️ artifact:` code HTML publié ou mis à jour
 - `🛠️ scripts:` outillage
 
-Pas de push sans demande explicite de Dilhan.
+Pas de push sans demande explicite de Dilhan. **Les sous-agents ne commitent pas** : l'agent principal commite par étape logique, après relecture.
 
 ## Interaction avec Dilhan
 

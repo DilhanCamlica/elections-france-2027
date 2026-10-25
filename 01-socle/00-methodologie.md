@@ -1,7 +1,7 @@
 # Méthodologie : la boucle verticale par verticale
 
 - Rédigé le : 2026-10-25
-- Statut : v1, validé avec Dilhan au grill du 2026-10-25
+- Statut : v2, validée au second grill du 2026-10-25 (ajout des questions Écoute et Méthode, de l'inventaire des demandes, de la carte des tendances)
 - Dépend de : `01-criteres.md` (quoi mesurer), `03-sources-et-hierarchie.md` (avec quoi)
 
 ## Principe
@@ -23,6 +23,10 @@ Contenu minimal validé :
 - hiérarchie et étiquetage des sources ;
 - format des pages ;
 - registre des biais et parades.
+
+## Phase 0 bis : les deux inventaires communs (v2)
+
+Avant la première verticale relue en v2, deux documents sont construits une fois pour les cinq forces et gelés : l'inventaire des demandes exprimées (`03-sources/demandes-exprimees.md`, sans lecture d'aucun programme) et la liste des tendances lourdes (`03-sources/tendances-lourdes.md`, à partir des institutions). Toute modification ultérieure passe par le changelog et s'applique aux cinq forces.
 
 ## Phase 1 à 5 : une verticale
 
@@ -67,9 +71,15 @@ Verdict sur l'échelle « Cohérence ».
 
 Exécutant : sous-agent Sonnet pour l'extraction des votes (mécanique), sous-agent Opus pour la comparaison.
 
+### Étape 5 bis. Écoute, méthode, tendances (v2)
+
+- **Q5 Écoute**, par axe : confronter le tableau Q2 à l'inventaire gelé des demandes ; dire quelles demandes larges sont traitées, lesquelles sont absentes, lesquelles sont contredites et si le parti l'assume publiquement. Verdict E. Exécutant : le même sous-agent que les étapes 3 à 5 de l'axe.
+- **Q6 Méthode**, un chapitre par parti : parole de méthode du programme ; actes de méthode depuis 2012 pondérés par l'ancienneté (49.3 rapportés à la majorité, consultations et leurs suites, réponses aux mobilisations, référendums) ; comportement parlementaire. Verdict M. Exécutant : un sous-agent Opus dédié, brief `02-partis/_gabarit/briefs/etape-5bis-methode.md`.
+- **Carte des tendances**, par parti : pour chaque tendance de la liste gelée, traite / nomme sans mesure / absent, avec la référence du corpus. Exécutant : sous-agent Sonnet (lecture du corpus), vérifié par l'agent principal.
+
 ### Étape 6. Revue contradictoire
 
-Deux sous-agents Opus indépendants relisent l'ensemble de la verticale :
+Deux sous-agents Opus indépendants relisent l'ensemble de la verticale (six axes, chapitre Méthode, carte des tendances) :
 - l'un avec la consigne de défendre la force étudiée (trouver les faiblesses de notre critique, les sources oubliées, les contextes manquants) ;
 - l'autre avec la consigne de défendre ses adversaires (trouver les complaisances, les « ce qui tient » trop généreux).
 

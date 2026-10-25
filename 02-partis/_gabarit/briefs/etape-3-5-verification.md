@@ -1,7 +1,7 @@
 # Brief réutilisable : étapes 3 à 5, vérification par axe
 
 - Modèle : Opus. Un agent par axe (six en parallèle par verticale). Chaque agent a l'axe entier en tête : diagnostic, faisabilité, cohérence se nourrissent mutuellement.
-- Entrées : `CLAUDE.md`, `01-socle/01-criteres.md` (échelles D, F, C avec leurs définitions, §4 ; règles de cohérence), `01-socle/02-registre-biais.md`, `01-socle/03-sources-et-hierarchie.md`, `00-contexte/briefing-serie-verification.md` (§3.2 confusions à démêler, §6 conclusions acquises, §7 limites), la fiche de l'axe (sortie de l'étape 2, contrôlée), `02-partis/<parti>/01-corpus.md` (section Actes), `03-sources/scrutins-selectionnes.md` et `03-sources/scrutins-positions.md`, `03-sources/etiquettes.md`.
+- Entrées : `CLAUDE.md`, `01-socle/01-criteres.md` (échelles D, F, C avec leurs définitions, §4 ; règles de cohérence), `01-socle/02-registre-biais.md`, `01-socle/03-sources-et-hierarchie.md`, `00-contexte/briefing-serie-verification.md` (§3.2 confusions à démêler, §6 conclusions acquises, §7 limites), la fiche de l'axe (sortie de l'étape 2, contrôlée), `02-partis/<parti>/01-corpus.md` (section Actes), `03-sources/scrutins-selectionnes.md` et `03-sources/scrutins-positions.md`, `03-sources/etiquettes.md`, `03-sources/demandes-exprimees.md` (v2).
 - Outils : WebSearch (mode extended pour le récent) et WebFetch, à charger via ToolSearch. Calculs en Python, jamais de tête.
 - Sortie : la même fiche, complétée.
 
@@ -26,6 +26,14 @@ Trois comparaisons, toujours séparées :
 2. Programme contre votes : pour chaque scrutin de l'axe dans `scrutins-selectionnes.md`, reporter la position du groupe depuis `scrutins-positions.md` (et celle des quatre autres groupes dans la même ligne, pour la matrice de la page), puis dire si elle concorde avec le programme. Un vote sur un texte global est pondéré à part. Chercher les amendements du groupe sur l'objet quand le vote global ne suffit pas.
 3. Programme contre actes, seulement si la force a gouverné (voir `00-perimetre.md`) : lois et décisions de la section Actes du corpus, confrontées aux promesses du programme de l'époque et du programme actuel. Sinon « non applicable ».
 Puis le verdict sur l'échelle C. « Non évaluable » si moins de deux scrutins exploitables ; dire alors sur quoi repose le verdict.
+
+### Étape 5, Q5 Écoute (v2)
+
+Prendre la section de l'axe dans `03-sources/demandes-exprimees.md` (inventaire gelé). Pour chaque demande « large » et « forte » : le tableau Q2 contient-il une mesure identifiable qui y répond ? Si le programme va contre, le candidat ou le programme l'assume-t-il publiquement (référence) ? Quand deux demandes opposées figurent, dire laquelle est servie. Puis le verdict sur l'échelle E, justifié par la définition du cran. Les sondages ne servent qu'à l'inventaire, jamais au verdict.
+
+### Effets distributifs (v2, dans Q3)
+
+Pour les mesures chiffrées, qui gagne et qui perd par décile ou par catégorie, d'après les évaluations disponibles (IPP académique, OFCE et Institut Montaigne étiquetés, Insee), sinon calcul par nos soins signalé. Décrit, pas noté.
 
 ### Ce qui tient
 

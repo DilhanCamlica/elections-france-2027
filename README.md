@@ -12,12 +12,16 @@ Il prolonge une série de pages de vérification d'affirmations politiques (« Q
 
 Cinq forces : La France insoumise (LFI), Parti socialiste (PS), le parti présidentiel (Renaissance, ex-LREM), Les Républicains (LR), Rassemblement national (RN). Le périmètre exact de chaque force (parti seul ou coalition) est fixé dans `01-socle/01-criteres.md`.
 
-Pour chacune, sur des axes thématiques communs, quatre questions :
+Pour chacune, sur des axes thématiques communs, six questions (socle v2) :
 
 1. **Diagnostic** : le problème que le parti dit vouloir régler est-il fondé dans les données ?
 2. **Mesures** : que propose-t-il précisément, dans ses propres mots ?
-3. **Faisabilité** : juridique, budgétaire, opérationnelle.
+3. **Faisabilité** : juridique, budgétaire, opérationnelle, avec les effets distributifs quand ils sont connus.
 4. **Cohérence** : ce qu'il dit en public, ce qu'il écrit dans son programme, ce qu'il vote à l'Assemblée et au Sénat, et ce qu'il a fait quand il était au pouvoir.
+5. **Écoute** : le programme traite-t-il les demandes les plus exprimées par la population (inventaire commun, gelé avant lecture des programmes) ? Quand il va contre, le dit-il ?
+6. **Méthode** : comment le parti gouverne ou gouvernerait (49.3, consultations et leurs suites, réponses aux mobilisations, référendums), fenêtre depuis 2012.
+
+Plus une carte des tendances lourdes identifiées par les institutions (vieillissement, IA, climat, dette, patrimoine, défense), pour voir ce que chaque programme regarde ou ignore.
 
 Puis une synthèse comparative qui met les cinq forces côte à côte et fait ressortir les convergences.
 

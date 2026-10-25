@@ -10,7 +10,7 @@ Remplir UNIQUEMENT :
 1. L'en-tête (date, corpus arrêté au, auteur « sous-agent Opus, étape 2 », statut brouillon, version du socle).
 2. Q1 « Dans leurs mots » : le diagnostic du parti sur l'axe, reproduit fidèlement. Citations de 15 mots maximum avec identifiant et page, sinon paraphrase fidèle avec identifiant. Distinguer parti, candidat, programme antérieur. Laisser « Vérification » et « Verdict » avec la mention « (étape 3) ».
 3. Q2 tableau des mesures : chaque mesure précise dans la formulation du parti, chiffrage avancé ou « non chiffré », document et date. 10 à 20 lignes par axe, sans sélection orientée.
-4. Q2 divergences : documents qui se contredisent, candidat qui s'écarte du programme. Factuel, deux références à chaque fois.
+4. Q2 divergences : deux documents du corpus prennent des positions **incompatibles sur le même objet**. Un silence n'est pas une divergence ; deux instruments différents pour un même but non plus ; une précision successive non plus. Factuel, deux références à chaque fois. (Règle v2, après 14 fausses divergences sur 20 retirées au contrôle de la verticale Renaissance.)
 5. Section « Déclarations publiques récentes sur cet axe » : date, média, identifiant, paraphrase courte.
 6. Convergences : « (à compléter en synthèse) », sauf proximité ou opposition revendiquée par le parti lui-même.
 7. Sources : documents du corpus utilisés.
