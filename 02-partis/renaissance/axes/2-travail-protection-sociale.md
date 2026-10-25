@@ -3,8 +3,8 @@
 - Rédigé le : 2026-10-25
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
-- Auteur : sous-agent Opus, étape 2, relu par (à désigner, contrôle étape 2)
-- Statut : brouillon
+- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2)
+- Statut : revu (étape 2)
 - Version du socle : v1
 
 Sigles : PPL (proposition de loi), PLFSS (projet de loi de financement de la sécurité sociale), LFSS (loi de financement de la sécurité sociale), EPR (groupe Ensemble pour la République), RSA (revenu de solidarité active), CETU (compte épargne-temps universel), PEE (plan d'épargne entreprise), OCDE (Organisation de coopération et de développement économiques), Dares (direction statistique du ministère du Travail).
@@ -20,7 +20,7 @@ Convention de lecture : `[C-R-nn]` renvoie à `../01-corpus.md`. Pour les PDF, �
 - Retraites, poids et déséquilibre. Le système de retraite « représente un quart de notre dépense publique et qui prend l'eau » [C-R-02, p. 2]. Entre 1995 et 2025, les dépenses de retraite auraient augmenté de 20 % en proportion de la richesse nationale, pendant que la part de l'éducation et de la recherche baissait de 15 % [C-R-05, page web]. Sur 100 € de dépense publique, 57 € financeraient le modèle social [C-R-05].
 - Dette et modèle social. « Deux tiers de notre dette proviennent de l'absence de contrôle de notre modèle social » [C-R-05], « en particulier les retraites et la santé » [C-R-05]. Le candidat parle d'une « progression incontrôlée des dépenses de solidarité » (compte rendu de campagne) et dit : « nous payons notre modèle social avec la carte de crédit de nos enfants » [C-R-08].
 - Dépenses sociales « hors de contrôle » : arrêts maladie, assurance chômage, retraites [C-R-02, p. 2]. Une « dérive des arrêts maladie » est évoquée, sans chiffre [C-R-08].
-- Âge légal. Les réformes passées qui ont reculé l'âge n'auraient pas réglé le déficit (propos rapportés, BFMTV, 27 janvier 2026) [C-R-41].
+- Âge légal. Les réformes passées qui ont reculé l'âge n'auraient pas réglé le déficit (propos rapportés, BFMTV, 27 janvier 2026, relais non archivé) [C-R-41].
 - Emploi. « Nous avons réussi à mettre fin au chômage de masse » [C-R-06]. Au premier trimestre 2026, 5,7 millions de demandeurs d'emploi : « Ce n'est pas compatible avec l'ambition du plein emploi » [C-R-06].
 - Quantité de travail. La France travaillerait en moyenne 110 heures de moins qu'ailleurs, selon l'OCDE [C-R-06]. Le taux d'emploi des jeunes serait de 34,5 % contre 50 % en Allemagne, avec une entrée sur le marché du travail à 22 ou 23 ans contre 20 ou 21 ans (OCDE, Education at a Glance 2024, cité par le candidat) [C-R-06].
 - Travail et rémunération. Le Smic serait devenu « le salaire plafond pour beaucoup trop » de Français [C-R-06]. Le code du travail serait passé de 5 000 à 11 000 articles entre 2004 et 2025 [C-R-06].
@@ -54,7 +54,7 @@ Convention de lecture : `[C-R-nn]` renvoie à `../01-corpus.md`. Pour les PDF, �
 
 (étape 3)
 
-**Verdict Diagnostic :** (étape 3)
+**Verdict Diagnostic : (étape 3).**
 
 ## Q2. Ce qu'ils proposent (mesures)
 
@@ -62,24 +62,21 @@ Les chiffrages sont ceux que le document avance. « Non chiffré » : le documen
 
 | Mesure | Formulation du parti (citation de 15 mots maximum ou paraphrase fidèle) | Chiffrage du parti | Document | Date |
 |---|---|---|---|---|
-| Retraite : système universel sans âge légal | « un système universel, plus juste, sans âge légal, avec de la capitalisation pour tous » ; un système qui « ne pourra plus être en déficit » | Non chiffré (inclus dans les 150 Md€ d'économies, dont deux tiers sur le social) | [C-R-02, p. 2] | 2026-10-15 |
-| Retraite : la durée de cotisation remplace l'âge | « l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation » ; décotes et surcotes [C-R-41] | Non chiffré | [C-R-06] ; [C-R-41] | non datée ; 2026-01-27 |
+| Retraite : système universel sans âge légal, fondé sur la durée de cotisation | « un système universel, plus juste, sans âge légal, avec de la capitalisation pour tous » ; un système qui « ne pourra plus être en déficit » [C-R-02, p. 2]. « l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation » [C-R-06] ; décotes et surcotes [C-R-41]. « Une nouvelle réforme des retraites sera engagée » [C-R-08] | Non chiffré (inclus dans les 150 Md€ d'économies, dont deux tiers sur le social) | [C-R-02, p. 2] ; [C-R-06] ; [C-R-08] ; [C-R-41] | 2026-10-15 ; non datée ; 2026-07-03 ; 2026-01-27 |
 | Retraite : méthode | Réforme des retraites à travailler avec les partenaires sociaux, en laissant patronat et syndicats négocier « sans que le Gouvernement n'intervienne sans cesse » | Sans objet | [C-R-02, p. 2] | 2026-10-15 |
-| Retraite : rétablir la réforme de 2023 | Amendement EPR (avec un amendement Horizons) visant à revenir sur la suspension de la réforme de 2023, présenté comme une étape en attendant la réforme portée par G. Attal (selon la presse) | Non chiffré dans la source | [C-R-20] (presse) | dépôt 2026-10-08 selon la presse |
+| Retraite : rétablir la réforme de 2023 | Amendement EPR (avec un amendement Horizons) visant à revenir sur la suspension de la réforme de 2023, présenté comme une étape en attendant la réforme portée par G. Attal (selon la presse) | Non chiffré dans la source | [C-R-20] (presse, non archivée) | octobre 2026 (date exacte de dépôt non vérifiée) |
 | Retraite : pilier de capitalisation | Compléter la répartition « via une couche de retraites par investissement », par exemple via le PEE ou un fonds souverain | Rendement annoncé de 3 à 4 % minimum, contre 0,5 % | [C-R-16, p. 16 et 17] | 2025-07-21 |
 | Prestations : « année blanche » | Dès le budget 2028, gel temporaire des prestations sociales, « tout en protégeant les petites retraites » | Non chiffré séparément | [C-R-08] | 2026-07-03 |
 | Économies sur les dépenses sociales | Deux tiers des 150 Md€ d'économies du quinquennat sur les dépenses sociales : arrêts maladie, assurance chômage, retraites | Deux tiers de 150 Md€ (120 à 150 Md€ en juillet [C-R-08]) | [C-R-02, p. 2] ; [C-R-04] ; [C-R-11] | 2026-10-15 ; 2026-09-23 |
 | Arrêts maladie | « un plan d'action sévère contre la dérive des arrêts maladie » (compte rendu de campagne) | Non chiffré | [C-R-08] | 2026-07-03 |
-| Assurance chômage : affiliation | Ouverture des droits subordonnée à 8 mois d'affiliation sur 20 (contre 6 sur 24), pour les moins de 55 ans ; modulation possible pour seniors et saisonniers | 3,6 Md€ d'économies pour la réforme (chiffre du gouvernement de mai 2024, repris) | [C-R-23, p. 3 à 5, art. 1] | 2025-09-16 |
-| Assurance chômage : durée | Durée maximale d'indemnisation de 18 à 15 mois pour les moins de 55 ans quand les indicateurs sont favorables ; entrée en vigueur au 1er janvier 2026, nouveaux demandeurs seulement | Inclus dans les 3,6 Md€ | [C-R-23, p. 4 et 5, art. 2 et 3] | 2025-09-16 |
-| Assurance chômage : reprise de la réforme de 2024 | Reprise de la réforme engagée comme Premier ministre, « qui incite au travail » | 100 000 emplois [C-R-05, C-R-06] ; « plus de 4 milliards d'euros » [C-R-05] ; 5 Md€ [C-R-08] | [C-R-05] ; [C-R-06] ; [C-R-08] | non datées ; 2026-07-03 |
+| Assurance chômage : reprise de la réforme de mai 2024 (PPL n° 1791) | Candidat : reprise de la réforme engagée comme Premier ministre [C-R-08], « qui incite au travail » [C-R-06]. Contenu déposé par le groupe EPR : ouverture des droits subordonnée à 8 mois d'affiliation sur 20 (contre 6 sur 24) pour les moins de 55 ans, modulation possible pour les salariés âgés et les saisonniers (art. 1) ; durée maximale d'indemnisation de 18 à 15 mois pour les moins de 55 ans quand les indicateurs sont favorables (art. 2) ; entrée en vigueur au 1er janvier 2026, nouveaux demandeurs seulement (art. 3) [C-R-23] | 3,6 Md€ (chiffre du gouvernement de mai 2024, repris) [C-R-23, p. 3] ; « plus de 4 milliards d'euros » [C-R-05] ; 5 Md€ [C-R-08] ; 100 000 emplois [C-R-05 ; C-R-06] | [C-R-23, p. 3 à 5] ; [C-R-05] ; [C-R-06] ; [C-R-08] | 2025-09-16 ; non datées ; 2026-07-03 |
 | Assurance chômage des entrepreneurs | Donner aux entrepreneurs la possibilité de cotiser et d'avoir droit aux allocations chômage | Non chiffré | [C-R-16, p. 23] | 2025-07-21 |
 | Heures supplémentaires | Supprimer le plafond légal de 220 heures supplémentaires par an et par salarié (à défaut d'accord collectif) ; instaurer « un droit au travail » | Non chiffré | [C-R-06] | non datée |
 | Semaine en quatre jours | Promotion de la semaine en quatre jours « là où c'est possible », nombre d'heures mensuelles maintenu [C-R-06] ; à promouvoir « en commençant par un Etat exemplaire » [C-R-16] | Non chiffré | [C-R-06] ; [C-R-16, p. 5 et 32] | non datée ; 2025-07-21 |
 | Compte épargne-temps universel | Mise en place du CETU [C-R-16] ; en 2022, compte pour monétiser RTT et congés ou les garder [C-R-18] | Non chiffré | [C-R-16, p. 32] ; [C-R-18, p. 13] | 2025-07-21 ; 2022-03-17 |
 | Code du travail | Réécrire un code réduit à « quelques articles fondamentaux », une « Constitution du travail », le reste relevant des branches et entreprises | Non chiffré | [C-R-06] | non datée |
 | Reconversion et pénibilité | Droit à la reconversion professionnelle, objectif de « pas plus de 10 ans dans des métiers très exposés » | Non chiffré | [C-R-16, p. 32] | 2025-07-21 |
-| Aides sociales versées à la source | « Solidarité à la source / aide sociale unifiée » [C-R-16] ; versement automatique des aides dès 2025 [C-R-17] ; en 2022, versement automatique (prime d'activité, allocations familiales, APL, RSA) | Non chiffré | [C-R-16, p. 33] ; [C-R-17, p. 8] ; [C-R-18, p. 11] | 2025-07-21 ; 2024-06-20 ; 2022-03-17 |
+| Aides sociales versées à la source | Travaux sur « la solidarité à la source/l'aide sociale unifiée », pour corriger notamment « les cas, restreints, où le travail paie moins que les aides sociales » [C-R-16] ; versement automatique des aides dès 2025 [C-R-17] ; en 2022, versement automatique (prime d'activité, allocations familiales, APL, RSA) | Non chiffré | [C-R-16, p. 33] ; [C-R-17, p. 8] ; [C-R-18, p. 11] | 2025-07-21 ; 2024-06-20 ; 2022-03-17 |
 | Fraude aux aides publiques | Suspension du versement d'une aide en cas d'indices de fraude, trois mois maximum ; rejet en cas de fraude avérée ; échanges d'informations entre services, y compris préfectures et organismes sociaux sur les titres d'identité et de séjour | Non chiffré | [C-R-22, p. 4, 6 et 7, art. 1 et 2] | 2024-10-15 (loi n° 2025-594) |
 | Fraudes sociales et fiscales (2024) | « Une lutte implacable contre toutes les fraudes sociales et fiscales » ; projet de loi dès l'été ; facture informative à l'hôpital et en ville à partir de 2025, notamment pour repérer la fraude | Non chiffré | [C-R-17, p. 4, 6 et 12] | 2024-06-20 |
 | Retraites (2024) | Revaloriser les retraites « pour suivre l'inflation » ; pensions agricoles calculées sur les 25 meilleures années à partir du 1er janvier 2026 | Environ 100 € par mois pour près de la moitié des futurs retraités agricoles | [C-R-17, p. 3, 6 et 12] | 2024-06-20 |
@@ -92,22 +89,23 @@ Non repris dans le corpus de 2026 : aucune mesure sur le RSA n'apparaît dans le
 ### Divergences entre documents
 
 1. **Âge légal de départ.** 2022 : relèvement progressif à 65 ans [C-R-18, p. 13 ; C-R-19, p. 3]. 2026 : suppression de l'âge légal, seule la durée de cotisation compte [C-R-02, p. 2 ; C-R-06 ; C-R-41 ; C-R-47]. Pour mémoire, la loi de 2023 a fixé 64 ans [A-R-06].
-2. **Réforme de 2023 et sa suspension.** Le groupe EPR dépose en octobre 2026 un amendement pour revenir sur la suspension votée en LFSS 2026 [A-R-14], donc pour rétablir le relèvement à 64 ans, selon la presse [C-R-20]. Le candidat propose au même moment un système sans âge légal [C-R-02, p. 2]. Selon la presse, l'exposé des motifs de l'amendement présente lui-même ce rétablissement comme une étape « en attendant » la réforme portée par G. Attal [C-R-20].
+2. **Réforme de 2023 et sa suspension.** Le groupe EPR dépose en octobre 2026 un amendement pour revenir sur la suspension votée en LFSS 2026 [A-R-14], donc pour rétablir le relèvement à 64 ans, selon la presse [C-R-20]. Le candidat propose au même moment un système sans âge légal [C-R-02, p. 2]. Selon la presse, l'exposé des motifs de l'amendement présente lui-même ce rétablissement comme une étape « en attendant » la réforme portée par G. Attal [C-R-20]. Source de presse seule, non archivée.
 3. **Indexation des pensions.** 2024 : revalorisation des retraites « pour suivre l'inflation » [C-R-17, p. 3 et 12]. 2026 : « année blanche » des prestations sociales dès le budget 2028, petites retraites protégées [C-R-08]. Le document de 2026 ne précise pas si toutes les pensions sont concernées.
-4. **Régime universel.** 2022 : concertations sur un régime universel « seulement pour les générations futures » [C-R-18, p. 13]. 2026 : « système universel » sans âge légal avec capitalisation pour tous [C-R-02, p. 2]. La presse rapporte en novembre 2025 une application automatique aux nouveaux entrants, au choix pour les actifs (LCP, source secondaire listée dans `01-corpus.md`) ; ce point n'apparaît pas dans la lettre.
-5. **Capitalisation.** Convention 2025 : une « couche » de capitalisation qui complète la répartition [C-R-16, p. 17]. Lettre 2026 : « capitalisation pour tous » [C-R-02, p. 2]. L'ampleur n'est chiffrée dans aucun des deux.
-6. **Rendement de la réforme de l'assurance chômage.** 3,6 Md€ [C-R-23, p. 3] ; « plus de 4 milliards d'euros » [C-R-05] ; 5 Md€ [C-R-08]. Les 100 000 emplois [C-R-05 ; C-R-06] ne figurent pas dans la PPL [C-R-23].
-7. **Calendrier d'équilibre de la sécurité sociale** (lié aux deux tiers d'économies sociales, détaillé en axe 1) : « en trois ans » [C-R-02, p. 1] ; « avant la fin du quinquennat » [C-R-08] ; « en 2032 » [C-R-11].
-8. **Montant des économies dont deux tiers sur le social.** 120 à 150 Md€ [C-R-08] puis 150 Md€ [C-R-02 ; C-R-04 ; C-R-11].
-9. **RSA.** 2022 : RSA conditionné à une activité [C-R-18, p. 13]. Aucune mention du RSA dans le programme 2024 [C-R-17] ni dans les documents de campagne 2026 archivés.
+4. **Rendement de la réforme de l'assurance chômage.** 3,6 Md€ [C-R-23, p. 3] ; « plus de 4 milliards d'euros » [C-R-05] ; 5 Md€ [C-R-08]. Les 100 000 emplois [C-R-05 ; C-R-06] ne figurent pas dans la PPL [C-R-23].
+5. **Calendrier d'équilibre de la sécurité sociale** (lié aux deux tiers d'économies sociales, détaillé en axe 1) : « en trois ans » [C-R-02, p. 1] ; « avant la fin du quinquennat » [C-R-08] ; « en 2032 » [C-R-11].
+6. **Montant des économies dont deux tiers sur le social.** 120 à 150 Md€ [C-R-08] puis 150 Md€ [C-R-02 ; C-R-04 ; C-R-11].
 
 ## Q3. Est-ce faisable ?
 
 (étape 3 à 5)
 
+**Verdict Faisabilité : (étape 3 à 5).**
+
 ## Q4. Disent-ils ce qu'ils votent ?
 
 (étape 3 à 5)
+
+**Verdict Cohérence : (étape 3 à 5).**
 
 ## Déclarations publiques récentes sur cet axe
 
@@ -116,7 +114,7 @@ Non repris dans le corpus de 2026 : aucune mesure sur le RSA n'apparaît dans le
 | [C-R-41] | 2026-01-27 | BFMTV (relais Orange actu, 6Medias) | Pour la suppression de l'âge légal ; seule resterait la durée de cotisation, avec décotes et surcotes ; les reculs d'âge passés n'auraient pas réglé le déficit. |
 | [C-R-44] / [C-R-01] | 2026-05-22 | franceinfo, Public Sénat | Déclaration de candidature. `01-corpus.md` signale une suppression de l'âge légal « évoquée selon la presse » ; le compte rendu de Public Sénat consulté ne contient rien sur les retraites ni le travail. Non vérifié. |
 | [C-R-47] | 2026-06-30 (date non confirmée) | LCI, Grand Entretien (relais Entrevue) | Suppression de l'âge légal, seule une durée de cotisation conservée ; pilier de capitalisation en complément. |
-| [C-R-48] / [C-R-08] | 2026-07-02 | Le Parisien (site de campagne) | Année blanche des prestations en 2028, petites retraites protégées ; reprise de la réforme chômage (5 Md€) ; nouvelle réforme des retraites ; plan contre la dérive des arrêts maladie. |
+| [C-R-48] / [C-R-08] | 2026-07-02 | Le Parisien (site de campagne) | Année blanche des prestations en 2028, petites retraites protégées ; reprise de la réforme chômage (5 Md€) ; nouvelle réforme des retraites ; plan d'action sur les arrêts maladie. |
 | [C-R-60] / [C-R-02] | 2026-10-15 | AFP (lettre aux Français) | Deux tiers des 150 Md€ sur les dépenses sociales (arrêts maladie, chômage, retraites) ; système universel sans âge légal avec capitalisation. |
 
 Hors section f mais cité dans `01-corpus.md` (section e, source secondaire n° 3) : LCP, 2025-11-10, annonce d'une PPL « retraite universelle » (même droit par euro cotisé, pas d'âge légal, pension minimale comme seule condition de départ, nouveaux entrants). Aucun dépôt trouvé.
@@ -150,7 +148,7 @@ Constats de l'étape 2, à reprendre :
 3. Site de campagne, « Dette de l'État », non daté, consulté le 2026-10-25. https://attalpresident.fr/programme/dette-de-letat [C-R-05] [partie prenante]
 4. Site de campagne, « Travail et salaires », non daté, consulté le 2026-10-25. https://attalpresident.fr/programme/travail-salaires [C-R-06] [partie prenante]
 5. Site de campagne, « Dans Le Parisien : Gabriel Attal vise le zéro déficit en 2037 », 2026-07-03. https://attalpresident.fr/actualites/dans-le-parisien-gabriel-attal-vise-le-zero-deficit-en-2037 [C-R-08] [partie prenante]
-6. Site de campagne, « Plan de désendettement et plan Messmer II », 2026-09-23. https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises [C-R-11] [partie prenante]
+6. Site de campagne, « Gabriel Attal présente un plan de désendettement et un « Messmer II » pour sortir des dépendances françaises », 2026-09-23. https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises [C-R-11] [partie prenante]
 7. Renaissance, « Pour une nouvelle donne économique et climatique », restitution de conventions, 2025-07-21. https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf [C-R-16] [partie prenante]
 8. Coalition Ensemble, « Notre projet », législatives 2024, 2024-06-20. https://doc.ensemble-2024.fr/programme-legislatives-24.pdf [C-R-17] [partie prenante]
 9. Emmanuel Macron, « Avec vous », programme présidentiel, 2022-03-17. https://web.archive.org/web/20220317215226/https://avecvous.fr/wp-content/uploads/2022/03/Emmanuel-Macron-Avec-Vous-24-pages.pdf [C-R-18] [partie prenante]

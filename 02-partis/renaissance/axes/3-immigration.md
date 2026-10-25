@@ -3,8 +3,8 @@
 - Rédigé le : 2026-10-25
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
-- Auteur : sous-agent Opus, étape 2, relu par (à désigner, contrôle étape 2)
-- Statut : brouillon
+- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2)
+- Statut : revu (étape 2)
 - Version du socle : v1
 
 Sigles : AME (aide médicale de l'État), CRA (centre de rétention administrative), OQTF (obligation de quitter le territoire français), OFII (Office français de l'immigration et de l'intégration), ITF (interdiction du territoire français), PPL (proposition de loi), EPR (groupe Ensemble pour la République), MNA (mineurs non accompagnés), CC (Conseil constitutionnel).
@@ -20,16 +20,16 @@ Convention de lecture : `[C-R-nn]` renvoie à `../01-corpus.md`. Pour les PDF, �
 - Flux. Il faut « maîtriser les flux migratoires, qui sont, aujourd'hui, trop souvent subis » [C-R-07, page web].
 - Chiffres avancés pour 2024 : 7,7 millions d'immigrés (11,3 % de la population), 6 millions d'étrangers (8,8 %), 2,9 millions de visas délivrés, 157 947 demandeurs d'asile enregistrés dont 130 952 primo-demandeurs [C-R-07].
 - Choix de l'immigration : selon le titre de l'entretien à Europe 1, « aujourd'hui, on ne choisit pas notre immigration » [C-R-42] (page non ouverte, titre seul).
-- Édito de la convention signé par G. Attal, alors secrétaire général : « Le contrôle de nos frontières reste un défi » [C-R-15, p. 5].
 
 **Le parti (convention régalienne de mai 2025)**
 
+- Édito de la convention signé par G. Attal, alors secrétaire général du parti : « Le contrôle de nos frontières reste un défi » [C-R-15, p. 5].
 - Tous les pays occidentaux connaissent une augmentation des flux migratoires sous l'effet des « désordres du monde » [C-R-15, p. 50].
 - Les conséquences de l'immigration non maîtrisée pèsent « principalement sur les plus fragiles », chez l'accueillant comme chez l'accueilli [C-R-15, p. 50].
 - Besoins économiques : 10 % des médecins des hôpitaux formés à l'étranger ; 350 000 offres d'emploi non pourvues, chiffre qui « doublera d'ici 2030 » [C-R-15, p. 51].
 - Asile : la demande « va croître dans les années à venir » [C-R-15, p. 51].
 - Structure des flux : il faut « passer d'une immigration majoritairement familiale et subie à une immigration principalement économique et pilotée » [C-R-15, p. 51].
-- Irrégularité : une grande partie de l'immigration clandestine viendrait de personnes entrées légalement et maintenues « en dépit des règles » [C-R-15, p. 53].
+- Irrégularité : une grande partie de l'immigration irrégulière (« immigration clandestine » dans le texte) viendrait de personnes entrées légalement et maintenues « en dépit des règles » [C-R-15, p. 53].
 - Prestations : le versement des prestations sociales ne cesse pas à l'expiration du titre de séjour, « ce n'est aujourd'hui pas le cas » [C-R-15, p. 53].
 - Rétention : la durée de rétention est « actuellement de 90 jours » [C-R-15, p. 53].
 - Cadre du débat : « cessons de considérer l'immigration comme une chance ou une malchance en soi » [C-R-15, p. 51].
@@ -41,7 +41,7 @@ Convention de lecture : `[C-R-nn]` renvoie à `../01-corpus.md`. Pour les PDF, �
 
 **Le programme des législatives 2024 (coalition Ensemble)**
 
-- Bilan revendiqué : « près de 12 000 personnes » expulsées depuis 2017 (étrangers délinquants ou radicalisés) [C-R-17, p. 7].
+- Bilan revendiqué : « près de 12 000 personnes » expulsées depuis 2017, au titre de l'expulsion de « tout étranger délinquant ou radicalisé » [C-R-17, p. 7].
 
 **Le programme présidentiel 2022 (Emmanuel Macron)**
 
@@ -52,7 +52,7 @@ Convention de lecture : `[C-R-nn]` renvoie à `../01-corpus.md`. Pour les PDF, �
 
 (étape 3)
 
-**Verdict Diagnostic :** (étape 3)
+**Verdict Diagnostic : (étape 3).**
 
 ## Q2. Ce qu'ils proposent (mesures)
 
@@ -61,7 +61,7 @@ Les chiffrages sont ceux que le document avance. « Non chiffré » : le documen
 | Mesure | Formulation du parti (citation de 15 mots maximum ou paraphrase fidèle) | Chiffrage du parti | Document | Date |
 |---|---|---|---|---|
 | Orientation générale | « accueillir moins pour accueillir mieux » ; privilégier l'immigration de travail « au détriment d'autres types d'immigration comme le regroupement familial » ; « la préférence travail » [C-R-07 ; C-R-15, p. 51] | Non chiffré (aucun volume cible) | [C-R-07] ; [C-R-15, p. 51] | non datée ; 2025-05-26 |
-| Système à points | Admission « par points » sur le modèle canadien : offre d'emploi stable, logement, français, connaissance et respect des valeurs [C-R-07] ; qualifications, âge, français, offre d'emploi ferme [C-R-15] ; points modulés selon la coopération des pays d'origine sur les laissez-passer consulaires [C-R-15] | Non chiffré | [C-R-07] ; [C-R-15, p. 52] ; [C-R-42] | non datée ; 2025-05-26 ; 2026-04-27 |
+| Système à points | « système à points comme au Canada » : offre d'emploi stable, logement, français, connaissance et respect des valeurs [C-R-07] ; admission par points sur critères objectifs : qualifications, âge, français, offre d'emploi ferme [C-R-15] ; points modulés selon la coopération des pays d'origine sur les laissez-passer consulaires [C-R-15] | Non chiffré | [C-R-07] ; [C-R-15, p. 52] ; [C-R-42] | non datée ; 2025-05-26 ; 2026-04-27 |
 | Quotas votés par le Parlement | Profils et volumes définis par les acteurs économiques et partenaires sociaux, intégrés au conseil d'administration de l'OFII, quotas « soumises au vote du Parlement » [C-R-15] ; votés tous les deux ans [C-R-47] ; quotas limitatifs par métier, secteur et origine géographique [C-R-53] | Non chiffré | [C-R-15, p. 52] ; [C-R-42] ; [C-R-47] ; [C-R-53] | 2025-05-26 ; 2026-04-27 ; 2026-06-30 ; 2026-08-10 |
 | Offres d'emploi accessibles depuis l'étranger | Création d'un vivier d'offres d'emploi accessible depuis l'étranger, sur la base des besoins votés | Non chiffré | [C-R-15, p. 52] | 2025-05-26 |
 | Démarches des étrangers en situation régulière | Réforme de l'accès en préfecture, externalisation de la préparation des dossiers, renouvellement des titres en amont | Non chiffré | [C-R-15, p. 52] | 2025-05-26 |
@@ -72,7 +72,7 @@ Les chiffrages sont ceux que le document avance. « Non chiffré » : le documen
 | Interdiction du territoire | Toute condamnation pour délit d'un étranger en situation irrégulière assortie d'une ITF (aujourd'hui réservée aux délits passibles de plus de 3 ans), avec rétention ou assignation à résidence | Non chiffré | [C-R-15, p. 53] | 2025-05-26 |
 | Rétention administrative (général) | Augmentation de la durée de rétention, « actuellement de 90 jours » ; expulsions accélérées pour les étrangers condamnés pour crimes ou appartenance à une organisation criminelle ; loi d'urgence pour construire prisons et CRA, places de CRA comptées dans le ratio de la loi SRU | 3 000 places de CRA supplémentaires à l'horizon 2030 ; durée cible non chiffrée | [C-R-15, p. 34 et 53] | 2025-05-26 |
 | Rétention jusqu'à 210 jours (ciblée) | Rétablir le maintien en rétention de 180 à 210 jours pour les étrangers condamnés à une ITF pour terrorisme ou expulsés pour activités terroristes ; allonger jusqu'à 210 jours pour ceux qui représentent une menace grave pour l'ordre public après condamnation définitive pour atteintes aux personnes | Non chiffré | [C-R-25, p. 5, 6 et 16, art. 7 et 8] | 2025-12-02 (loi n° 2026-667) |
-| Contrôle des frontières | « Border force » : état-major national et régionaux réunissant police aux frontières, douanes, renseignement [C-R-15] ; en 2022, « force des frontières » et réforme de Schengen [C-R-18 ; C-R-19] ; opérations « Colbert » de filtrage aux frontières [C-R-15, p. 23] | Non chiffré | [C-R-15, p. 23 et 54] ; [C-R-18, p. 19] ; [C-R-19, p. 4] | 2025-05-26 ; 2022 |
+| Contrôle des frontières | « Border force » : état-major national et régionaux réunissant police aux frontières, douanes, renseignement [C-R-15] ; en 2022, « force des frontières » et réforme de Schengen [C-R-18 ; C-R-19] | Non chiffré | [C-R-15, p. 54] ; [C-R-18, p. 19] ; [C-R-19, p. 4] | 2025-05-26 ; 2022 |
 | Employeurs | Sanctions renforcées contre les employeurs d'étrangers en situation irrégulière (interdiction de gérance) | Non chiffré | [C-R-15, p. 54] | 2025-05-26 |
 | AME | « Réformer l'AME en mettant en œuvre les recommandations du rapport Evin-Stefanini » | Non chiffré | [C-R-15, p. 54] | 2025-05-26 |
 | Droit européen et asile | Transposition intégrale du pacte asile et migrations (filtrage aux frontières de l'Union) ; pression pour modifier la directive « Retour » (délai de départ volontaire des OQTF) ; diplomatie migratoire liant aide au développement, immigration et commerce ; délais d'instruction de l'asile réduits ; sanctions contre les passeurs alignées sur la traite | Non chiffré | [C-R-15, p. 54] | 2025-05-26 |
@@ -88,21 +88,21 @@ Les chiffrages sont ceux que le document avance. « Non chiffré » : le documen
 
 ### Divergences entre documents
 
-1. **Centres hors du territoire national.** 2024 : ouverture de « centres de rétention aux frontières extérieures de l'Europe » pour examiner la situation des migrants avant leur arrivée [C-R-17, p. 7] ; la convention 2025 soutient le filtrage aux frontières de l'Union prévu par le pacte [C-R-15, p. 54]. Juin 2026 : refus des centres de retour hors de l'Union, comparés à des « camps » selon le relais de presse [C-R-47]. Les deux objets ne sont pas identiques (examen à l'entrée contre retour après refus) ; le rapprochement est à trancher à l'étape 5.
-2. **Critère d'origine géographique.** Convention 2025 : points « modulés » selon la coopération du pays d'origine sur les laissez-passer consulaires [C-R-15, p. 52]. Août 2026 : quotas « par origine géographique » selon la presse [C-R-53]. Le corpus ne dit pas si les deux recouvrent la même chose.
-3. **Périmètre de l'allongement de la rétention.** Convention 2025 : augmentation générale de la durée de rétention au-delà de 90 jours, sans durée cible [C-R-15, p. 53]. PPL 2180 : jusqu'à 210 jours pour deux catégories précises (terrorisme, menace grave après condamnation) [C-R-25, art. 7 et 8]. Pas de contradiction écrite, mais un périmètre différent.
-4. **Fréquence et forme des quotas.** Convention : quotas définis avec les partenaires sociaux et votés par le Parlement, sans fréquence [C-R-15, p. 52]. 2026 : vote tous les deux ans [C-R-47] ; quotas « limitatifs » par métier et secteur [C-R-53]. Précisions successives, pas d'opposition écrite.
-5. **AME.** Seule la convention 2025 en parle (réforme selon le rapport Evin-Stefanini) [C-R-15, p. 54]. Le programme 2022 [C-R-18], le programme 2024 [C-R-17] et les pages de campagne 2026 archivées [C-R-07] n'en disent rien. Aucune divergence écrite dans le corpus ; absence à noter.
-6. **Loi immigration de 2023 (loi du 26 janvier 2024) [A-R-09].** Aucun document du corpus de l'axe ne la commente nommément. L'édito de la convention mentionne des « lois importantes » votées contre l'immigration irrégulière [C-R-15, p. 5]. Pas de divergence documentable à ce stade.
-7. **Droit du sol.** Seule la convention 2025 prend position (refus de la suppression sur le territoire hexagonal) [C-R-15, p. 51]. Les documents de campagne 2026 archivés n'en parlent pas.
+Aucune contradiction écrite entre deux documents du corpus n'est établie à l'étape 2.
+
+Les rapprochements examinés au brouillon ont été retirés au contrôle, parce qu'ils portent sur des objets différents, des précisions successives ou des silences : centres aux frontières extérieures (2024) et centres de retour hors de l'Union (2026) ; points modulés selon la coopération consulaire (2025) et quotas par origine géographique (2026) ; allongement général de la rétention (2025) et 210 jours pour deux catégories (PPL n° 2180) ; fréquence des quotas ; AME, loi du 26 janvier 2024 [A-R-09] et droit du sol, traités dans un seul document ou dans aucun. Détail et motifs : `../revue/controle-etape-2-axes-1-3.md`. Ces points restent de la matière pour Q4 (étape 5).
 
 ## Q3. Est-ce faisable ?
 
 (étape 3 à 5)
 
+**Verdict Faisabilité : (étape 3 à 5).**
+
 ## Q4. Disent-ils ce qu'ils votent ?
 
 (étape 3 à 5)
+
+**Verdict Cohérence : (étape 3 à 5).**
 
 ## Déclarations publiques récentes sur cet axe
 
