@@ -4,7 +4,7 @@
 
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
-| 1 | Renaissance | `renaissance/` | 5 (étapes 1 à 5 faites, brouillons avant revue contradictoire) | v1 | | 2026-10-25 |
+| 1 | Renaissance | `renaissance/` | 6 (revue contradictoire arbitrée ; article long soumis à Dilhan) | v1 | | 2026-10-25 |
 | 2 | RN | `rn/` | 0 | | | |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |
