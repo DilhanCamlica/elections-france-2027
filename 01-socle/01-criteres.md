@@ -129,7 +129,7 @@ Un inventaire unique, par axe, construit une fois pour les cinq forces et **gel�
 
 ## 8. Carte des tendances lourdes (nouveau)
 
-Une liste unique dans `03-sources/tendances-lourdes.md`, établie à partir des institutions prospectives et statistiques (Insee, COR, HCFP, France Stratégie, OCDE, FMI, Haut conseil pour le climat, Banque de France, Drees, SIPRI, Commission européenne), avec chiffre et horizon. Pour chaque parti, la carte dit, tendance par tendance : **traite** (mesure identifiable), **nomme sans mesure**, **absent**. Pas de verdict : une carte en trois couleurs, consolidée dans la synthèse sous « les problèmes que personne ne traite ».
+Une liste unique dans `03-sources/tendances-lourdes.md`, établie à partir des institutions prospectives et statistiques (Insee, COR, HCFP, France Stratégie, OCDE, FMI, Haut conseil pour le climat, Banque de France, Drees, SIPRI, Commission européenne), avec chiffre et horizon. Pour chaque parti, la carte dit, tendance par tendance : **traite** (une ou plusieurs mesures identifiables répondent au cœur de la tendance), **traite en partie** (une mesure touche un aspect secondaire de la tendance, ou vient d'un programme antérieur non repris ; ajout du 2026-10-25 après la première carte, où 13 tendances sur 14 étaient « traitées » avec 5 rattachements partiels), **nomme sans mesure**, **absent**. Pas de verdict : une carte en trois couleurs, consolidée dans la synthèse sous « les problèmes que personne ne traite ».
 
 ## 9. « Ce qui tient »
 

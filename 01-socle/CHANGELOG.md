@@ -65,3 +65,7 @@ Impact sur les verticales : **Renaissance doit être relue en v2** avant sa page
 - `03-sources/demandes-exprimees.md` : 47 demandes sur six axes, règle des deux sources, paires opposées inscrites, construite sans lecture d'aucun programme, gelée. **Ajout au socle** (`01-criteres.md` §7 et échelle E) : une quatrième intensité, « majoritaire sans mobilisation », de premier rang au même titre que « large ». Motif : les mobilisations de rue 2023-2026 sont surtout sociales ; sans cette intensité, des demandes majoritaires non portées par la rue (règle d'or, moins d'immigration de travail, plus de pouvoir national face à l'UE) sortaient du premier rang, ce qui aurait biaisé la question Écoute contre la droite. C'est le biais 15 du registre, traité à la construction.
 - Étiquettes ajoutées au registre à la demande du sous-agent : organisation syndicale, collectif militant, enquête d'opinion (avec commanditaire), think tank d'entreprises, encyclopédie collaborative, presse spécialisée, revue académique.
 - Impact : la relecture Q5 de Renaissance peut commencer.
+
+## 2026-10-25 : carte des tendances, quatrième statut
+
+- `01-criteres.md` §8 : ajout de « traite en partie ». Motif : la première carte (Renaissance) classait 13 tendances sur 14 « traitées », dont 5 par rattachement partiel ; sans ce statut, la carte serait presque toujours verte pour tout grand programme et ne distinguerait rien. Appliqué à Renaissance (8 / 5 / 1 / 0). S'applique aux cinq forces.
