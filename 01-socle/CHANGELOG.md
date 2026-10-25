@@ -26,7 +26,9 @@ Neuf décisions, toutes prises sur la recommandation de l'agent, sauf la remarqu
 | `04-format-artifacts.md` §2 | Titre : **« Le RN : ce qu'il propose, ce qu'il vote »**, surtitre « Lecture · programme et votes 2022-2026 » | Descriptif, sans jugement avant lecture, annonce la mécanique |
 | `00-methodologie.md` | **Repo GitHub public après la première verticale**, écrit dès maintenant comme public | Rend la méthode vérifiable par les lecteurs ; pas de brouillons en ligne |
 
-Décisions prises par l'agent sans grill (routine) : date d'arrêt du corpus au 31 octobre 2026 ; mêmes cinq couleurs de verdict pour les trois échelles ; deux à quatre scrutins par axe.
+Décisions prises par l'agent sans grill (routine) : mêmes cinq couleurs de verdict pour les trois échelles ; deux à quatre scrutins par axe ; date d'arrêt du corpus fixée au début de chaque verticale puis réalignée à la fin (d'abord écrite « 31 octobre 2026 » puis corrigée le même jour à la lecture de la note de paysage : le programme LFI 2027 paraît le 6 novembre).
+
+Ajout du même jour, après lecture de `00-contexte/paysage-politique-2026-10.md` : les cinq forces ont un candidat déclaré, la couche « candidat » est disponible dès la première verticale ; le candidat PS vient de Place publique, dont les textes entrent dans le corpus PS au titre du candidat (règle déjà prévue).
 
 Reste ouvert : la liste nominative des scrutins (`03-sources/scrutins-selectionnes.md`), à proposer à Dilhan dès que la note de paysage politique est relue.
 

@@ -17,6 +17,8 @@ Règle générale : **une force = un parti = un groupe parlementaire**. On juge 
 
 Quand le parti et son candidat désigné divergent, les deux positions sont documentées, la source de chacune est nommée, et le choix retenu pour le verdict est écrit dans la fiche.
 
+**État des candidatures au 25 octobre 2026** (source : `00-contexte/paysage-politique-2026-10.md`) : les cinq forces ont un candidat déclaré. LFI : Jean-Luc Mélenchon. PS : Raphaël Glucksmann, issu de Place publique, vainqueur de la primaire PS / Place publique / GRS du 11 octobre 2026 (Karim Bouamrane, PS, candidat hors primaire). Renaissance : Gabriel Attal (Édouard Philippe, Horizons, est hors périmètre). LR : Bruno Retailleau. RN : Marine Le Pen (candidature conditionnée à la décision de la Cour de cassation attendue au plus tard début avril 2027 : contrainte de faisabilité à documenter, sans commentaire). La couche « candidat » est donc disponible dès la première verticale. Pour le PS, les textes de Place publique entrent dans le corpus au titre du candidat, conformément à la règle ci-dessus.
+
 ## 2. Axes thématiques : six
 
 Chaque axe est traité pour chaque force, avec le même volume.
@@ -108,7 +110,7 @@ Fait foi, par ordre de priorité :
 
 Quand deux documents divergent, le plus récent prime, et la divergence est documentée (elle compte pour Q4).
 
-**Date d'arrêt du corpus : 31 octobre 2026.** Ce qui paraît après est intégré par la boucle de révision, avec une nouvelle date d'arrêt écrite dans le changelog.
+**Date d'arrêt du corpus.** Chaque verticale fixe sa date d'arrêt le jour où elle commence et l'écrit dans `00-perimetre.md`. À la fin de la cinquième verticale, la révision finale réaligne les cinq sur une date commune, écrite dans le changelog. Pourquoi : les programmes 2027 paraissent de façon échelonnée (celui de LFI est annoncé pour le 6 novembre 2026) et une date unique fixée aujourd'hui exclurait des documents officiels disponibles au moment où leur verticale est traitée.
 
 ## 7. « Ce qui tient »
 

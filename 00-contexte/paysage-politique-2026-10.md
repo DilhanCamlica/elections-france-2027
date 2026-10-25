@@ -9,7 +9,7 @@ statut: note de cadrage
 
 **Date de rédaction :** 25 octobre 2026.
 **Périmètre :** La France insoumise (LFI), Parti socialiste (PS), Renaissance (coalition Ensemble pour la République), Les Républicains (LR), Rassemblement national (RN).
-**Avertissement :** note de cadrage, pas une évaluation. Elle recense des faits, des documents et des positions publiées. Elle ne juge ni leur pertinence, ni leur faisabilité, ni leur chiffrage.
+**Avertissement :** note de cadrage, pas une évaluation. **Note de l'agent principal (25/10/2026) :** cette note décrit Renaissance avec sa coalition ; le périmètre retenu par le socle est Renaissance seul et son groupe EPR, voir `01-socle/01-criteres.md` §1. Elle recense des faits, des documents et des positions publiées. Elle ne juge ni leur pertinence, ni leur faisabilité, ni leur chiffrage.
 
 **Méthode et limites**
 
