@@ -45,5 +45,24 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Revues et analyses académiques (Annales HSS, The Conversation avec auteurs universitaires) | revue ou analyse académique | Auteurs identifiés, relecture éditoriale ou par les pairs |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
 | 21News (site d'information belge) | relais, fiabilité non établie | Site d'information en ligne sans rédaction identifiée publiquement ; cité seulement comme relais d'une déclaration quand le média d'origine n'est pas accessible (proposé par le sous-agent corpus RN, 2026-10-25) |
+| Europe 1 | radio du groupe Lagardère, contrôlé par le groupe Bolloré, classée à droite | Ligne éditoriale documentée par la presse et l'Arcom (mises en demeure 2024-2025) ; étiquette déjà utilisée dans `02-partis/renaissance/methode.md`, inscrite ici le 2026-10-25 |
+| ICI (ex-France Bleu) | radio publique, presse généraliste | Service public, pas de ligne politique revendiquée |
+| Boursorama (reprises AFP, Reuters) | agrégateur, relais de dépêches d'agences | Reprend les dépêches à l'identique ; le média d'origine est indiqué |
+| Titres presse, Orange actu, Yahoo actualités | agrégateur, relais | Reprises d'articles de presse ; le média d'origine est indiqué quand il est connu |
+| Maire-info | site d'information de l'Association des maires de France, relais | Édité par une association d'élus, partie prenante sur les finances locales |
+| Acteurs publics | presse spécialisée (secteur public), relais | Sans ligne politique revendiquée |
+| Banque des Territoires (Localtis) | média d'un établissement public (Caisse des dépôts), relais | Information sur les collectivités, source officielle indirecte |
+| Previssima, Legifiscal, FIPECO | presse ou site spécialisé (protection sociale, fiscalité, finances publiques), relais | FIPECO est animé par un ancien magistrat de la Cour des comptes ; les deux autres sont des sites d'information professionnels sans ligne politique revendiquée |
+| La finance pour tous | site d'éducation financière de l'Institut pour l'éducation financière du public, relais | Association reconnue d'intérêt général, barèmes et pédagogie |
+| Lookuptax, comparateurs de prix des carburants | sites commerciaux, relais | Données reprises d'autorités (CRE, ministère) ; à recouper |
+| Les Surligneurs | site de vérification juridique animé par des universitaires | Vérification du droit dans le discours politique, auteurs identifiés, relecture éditoriale |
+| Presse juridique spécialisée (Dalloz actualité, Actu-juridique, Le Monde du droit, EU Law Live, eucrim, Law Society Gazette) | presse juridique spécialisée, relais | Comptes rendus de décisions ; l'arrêt ou la décision reste la source à citer quand il est accessible |
+| CMS Francis Lefebvre et autres cabinets d'avocats | cabinet d'avocats, relais juridique | Analyses professionnelles, partie prenante possible selon le dossier |
+| Agence Europe, European Newsroom | presse spécialisée sur l'Union européenne, relais | Agences d'information européennes, sans ligne politique revendiquée |
+| CMPF (Centre for Media Pluralism and Media Freedom, Institut universitaire européen) | centre de recherche académique | Financé par l'Union européenne, méthodologie publiée |
+| Projet Arcadie, Legiwatch, Datan | outils indépendants de suivi parlementaire | Données ouvertes de l'Assemblée retraitées ; méthode publiée ; à recouper avec l'open data |
+| CRSI France | association de réflexion sur la sécurité intérieure, relais | Reprend les bilans du SSMSI ; orientation non établie, à recouper |
+| CNAFAL | association familiale laïque, classée à gauche | Confédération nationale des associations familiales laïques, positions publiques ; utilisée seulement comme hébergeur d'un document officiel |
+| TSA (Tout sur l'Algérie) | quotidien en ligne algérien, relais | Relais du rapport annuel du ministère de l'Intérieur français ; à recouper |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
