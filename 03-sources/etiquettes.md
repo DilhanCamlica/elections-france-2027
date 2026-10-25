@@ -44,5 +44,6 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Presse spécialisée (L'Etudiant, Café pédagogique, Option Finance) | presse spécialisée, relais | Sans ligne politique revendiquée |
 | Revues et analyses académiques (Annales HSS, The Conversation avec auteurs universitaires) | revue ou analyse académique | Auteurs identifiés, relecture éditoriale ou par les pairs |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
+| 21News (site d'information belge) | relais, fiabilité non établie | Site d'information en ligne sans rédaction identifiée publiquement ; cité seulement comme relais d'une déclaration quand le média d'origine n'est pas accessible (proposé par le sous-agent corpus RN, 2026-10-25) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
