@@ -3,7 +3,7 @@
 - Rédigé le : 2026-10-25
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
-- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus
+- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
 - Statut : revu (étape 6, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
 - Version du socle : v1
 
@@ -230,6 +230,23 @@ Trois scrutins sur quatre sont exploitables pour la cohérence ; le seuil de deu
 - **Prisons.** Le retard du plan de 15 000 places a des causes nommées par la Cour des comptes (foncier, urbanisme, contentieux, inflation) [28].
 
 **Verdict Cohérence : 3, écart partiel.** Programme et votes concordent sur les trois objets où le programme se prononce (8279, 1194, 805), et le groupe a voté pour la présomption de légitime défense à 82 % sans que le programme en parle ; les actes concordent sur les lois antiterroristes et de séparatisme, et la promesse des 10 000 policiers et gendarmes est tenue. La formule « interrompue par la dissolution » est incomplète, pas inexacte, et les drones ne sont plus un objet censuré. Restent deux écarts documentés : la « fin des remises automatiques de peine » promise alors que la loi de décembre 2021 l'a déjà faite (un reliquat existe pour les écroués d'avant 2023) ; les mesures d'octobre 2026 (état d'urgence, suspension de réseaux) face au « cadre respectueux des libertés publiques » de la convention. Les effectifs, chiffrés en 2022 et absents en 2026, sont une absence, pas une contradiction (règle de l'étape 2 : un silence n'est pas une divergence). Le retard des places de prison a des causes nommées par la Cour des comptes. Deux objets, expliqués ou de calendrier : cran 3 retenu (« concordance sur l'essentiel, décalage documenté sur un ou deux objets »). Le cran 2 est écarté parce que l'explication du candidat sur l'excuse de minorité est incomplète, pas inexacte, et que les écarts restants sont expliqués ou de calendrier. Le cran 4 est exclu : un objet au moins, la promesse d'une suppression déjà faite en 2021, n'est pas une nuance de calendrier ou d'ampleur.
+
+## Q5. Répondent-ils aux demandes ? (Écoute, v2)
+
+Inventaire gelé : `03-sources/demandes-exprimees.md`, section « Axe 5 ». Les numéros de mesure renvoient au tableau Q2.
+
+| Demande (intensité) | Traitée par le programme ? (mesure, référence) | Si contredite : assumée publiquement ? (référence) |
+|---|---|---|
+| Plus d'autorité et de fermeté dans le maintien de l'ordre (large, premier rang) | **Oui.** Mesure 17 : état d'urgence « si nécessaire », couvre-feux, reconnaissance faciale des casseurs, militaires pour la garde des bâtiments publics, drones [C-R-12, section 1 ; C-R-13, section 1]. S'y ajoutent les mesures 11 (polices municipales systématiques et armées) et 12 (présence sur le terrain) [C-R-15, p. 19-21 et 26] | Sans objet : demande servie |
+| Donner plus de moyens à la police, à la gendarmerie et à la justice (forte) | **En partie.** Mesure 25 : effectifs de la Justice et de l'Intérieur « sanctuarisés » puis « préservés », sans objectif chiffré [C-R-08 ; C-R-04]. Mesure 4 : places de prison, sans nombre [C-R-15, p. 34 ; C-R-10]. Mesure 11 : dotation du FIPD augmentée [C-R-15, p. 19-21]. Mesure 1 : magistrats redéployés, pas ajoutés [C-R-15, p. 36-37] | Sans objet : pas de contre-pied |
+| Rétablir la peine de mort (contestée) | **Non.** Aucune position dans le corpus | Sans objet : silence, pas de contre-pied écrit |
+| Encadrer l'usage de la force par les forces de l'ordre (forte) | **Non.** Programme muet sur l'usage des armes. Le groupe EPR a voté pour la présomption de légitime défense (scrutin 7987, 55 pour, 12 contre), sans mesure correspondante au programme (Q4) | Demande opposée à la ligne « fermeté », qui est servie. Règle de neutralité : elle n'est pas comptée comme contredite |
+| Garantir le droit de manifester (forte) | **Non.** Aucune mesure sur le régime des manifestations (constat de Q2). Seule une formule : « concilier le droit de manifester » et la sécurité, avec confiance aux préfets pour « encadrer les manifestations » [C-R-13, section 1] | Les mesures d'octobre (état d'urgence, couvre-feux, suspension ciblée de réseaux sociaux) vont dans le sens de restrictions. Elles sont dites publiquement par le candidat, en déclarations datées : BFMTV, 19 octobre 2026 [C-R-61, C-R-12] ; France 2, 23 octobre 2026 [C-R-63, C-R-13] |
+| Sanctionner les violences et les contrôles abusifs ou discriminatoires des forces de l'ordre (forte) | **Non.** Aucune mesure dans le corpus | Sans objet : silence, pas de contre-pied écrit |
+
+**Verdict Écoute : 4, Répond.** L'axe compte une seule demande de premier rang : plus d'autorité et de fermeté dans le maintien de l'ordre (« large »). Le programme la traite avec des mesures identifiables (mesures 11, 12 et 17) : c'est la définition du cran 4 (« traite les demandes de premier rang de l'axe, avec une mesure identifiable pour chacune »). Le cran 3 est écarté : la demande de premier rang est traitée en entier, et le programme ne prend le contre-pied d'aucune demande de l'inventaire. Le cran 5 est écarté : le programme ne nomme pas les demandes qu'il laisse de côté (encadrer l'usage de la force, sanctionner les contrôles abusifs) et ne dit pas pourquoi ; sur le droit de manifester, il n'offre qu'une formule de conciliation. Les quatre demandes « fortes » non traitées pèsent sur la lecture, pas sur le cran, qui ne regarde que le premier rang. Quand deux demandes s'opposent (fermeté et encadrement de la force), c'est la fermeté qui est servie.
+
+**Ce que l'écoute ajoute.** Le programme répond à la demande majoritaire d'ordre, surtout par des mesures annoncées dans la semaine du 17 octobre. Les demandes portées par les mobilisations de 2026 (encadrement de la force, droit de manifester, contrôles) n'ont pas de mesure : le programme ne les écarte pas par écrit, il n'en parle pas. La demande de moyens, centrale chez les gilets jaunes, reçoit une garantie d'effectifs sans objectif chiffré.
 
 ## Ce qui tient
 

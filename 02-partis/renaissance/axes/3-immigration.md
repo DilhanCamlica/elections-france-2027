@@ -3,7 +3,7 @@
 - Rédigé le : 2026-10-25
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
-- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus
+- Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
 - Statut : revu (étape 6, arbitrage du 2026-10-25) ; Q1 « Dans leurs mots » et Q2 revus (étape 2)
 - Version du socle : v1
 
@@ -191,6 +191,23 @@ Le programme est donc cohérent avec ce que le groupe a voté en 2023, au point 
 | [C-R-42] | 2026-04-27 | Europe 1 | Besoins fixés avec les partenaires sociaux, quotas votés au Parlement, permis à points de type canadien, durée de séjour plus longue avant le regroupement familial. Page non ouverte (accès refusé) : contenu repris de `01-corpus.md`. |
 | [C-R-47] | 2026-06-30 (date non confirmée) | LCI, Grand Entretien (relais Entrevue) | Quotas votés tous les deux ans par le Parlement ; priorité à l'immigration de travail sur le regroupement familial et une partie de l'immigration étudiante ; « accueillir moins pour accueillir mieux » ; refus des centres de retour hors de l'Union, exemples britannique et italien jugés non probants. Rien sur l'AME. |
 | [C-R-53] | 2026-08-10 | CNews (relais JDD) | Quotas limitatifs par métier, secteur et origine géographique ; refus de « l'immigration zéro ». Page non ouverte (accès refusé) : contenu repris de `01-corpus.md`. |
+
+## Q5. Répondent-ils aux demandes ? (Écoute, v2)
+
+Inventaire gelé : `03-sources/demandes-exprimees.md`, section « Axe 3 ». Six demandes, dont trois de premier rang (deux « larges », une « majoritaire sans mobilisation »).
+
+| Demande (intensité) | Traitée par le programme ? (mesure, référence) | Si contredite : assumée publiquement ? (référence) |
+|---|---|---|
+| Réduire le niveau de l'immigration (large, premier rang) | **Oui, sans volume cible.** « accueillir moins pour accueillir mieux » [C-R-07 ; C-R-15, p. 51] ; quotas votés par le Parlement, limitatifs par métier, secteur et origine [C-R-15, p. 52 ; C-R-53] ; regroupement familial qui « doit donc diminuer » [C-R-07] et conditions durcies [C-R-15, p. 53] ; rétention et éloignements [C-R-15, p. 53]. Aucun volume ni objectif chiffré | Sans objet. Limite posée et assumée : refus de « l'immigration zéro » [C-R-53, 2026-08-10 ; C-R-15, p. 50] |
+| Accueillir les demandeurs d'asile persécutés et prendre sa part de l'accueil (large, premier rang) | **En partie.** Le programme traite la procédure, pas l'accueil : travail sans délai pour les demandeurs de pays à « très forte présomption de l'asile » [C-R-15, p. 53] ; délais d'instruction réduits et transposition du pacte asile et migrations [C-R-15, p. 54]. Aucune mesure ni engagement sur la part de la France dans l'accueil. Le programme ne dit pas si la baisse visée porte aussi sur l'asile | Pas de contre-pied écrit : rien dans le corpus ne s'oppose à l'accueil des persécutés |
+| Recourir moins à l'immigration de travail (majoritaire sans mobilisation, premier rang) | **Non : le programme va contre.** « la préférence travail » ; privilégier l'immigration de travail « au détriment d'autres types d'immigration » [C-R-07 ; C-R-15, p. 51] ; vivier d'offres d'emploi accessible depuis l'étranger [C-R-15, p. 52]. Les quotas limitatifs par métier encadrent ce flux [C-R-53] ; la part du travail monte, son volume n'est pas chiffré | **Assumée.** Dans le programme écrit [C-R-07 ; C-R-15, p. 51] et dans des déclarations datées du candidat : priorité à l'immigration de travail sur le regroupement familial [C-R-47, 2026-06-30, date non confirmée] ; besoins fixés avec les partenaires sociaux [C-R-42, 2026-04-27]. Motif donné : accueillir « les compétences, les talents dont nous avons besoin » [C-R-07]. La demande contraire n'est pas nommée |
+| Régulariser les travailleurs sans papiers des métiers en tension (contestée) | **Non.** Aucune mesure de régularisation dans le tableau Q2 | Demande opposée à « réduire le niveau de l'immigration » : c'est cette dernière que le programme sert. Non comptée comme contredite (règle de neutralité) |
+| Restreindre l'accès des étrangers aux prestations sociales non contributives (contestée) | **En partie, de façon limitée.** Fin de toute prestation à l'expiration du titre de séjour [C-R-15, p. 53] ; réforme de l'AME selon le rapport Evin-Stefanini [C-R-15, p. 54] ; échange d'informations contre la fraude [C-R-22]. La condition de cinq ans de résidence votée en 2023 est abandonnée (Q4) : l'égalité d'accès des étrangers en situation régulière, formulation contraire de l'inventaire, est donc préservée | Les deux formulations opposées sont servies en partie ; aucune n'est prise à contre-pied |
+| Conditionner l'intégration à l'apprentissage du français et de l'histoire (forte) | **Oui pour le français.** Titres de long séjour conditionnés au français et au respect des valeurs [C-R-17, p. 7 ; C-R-18, p. 19] ; exigences de français pour la famille [C-R-15, p. 53] ; français et « connaître nos valeurs » dans le système à points [C-R-07]. L'histoire n'est pas nommée | Sans objet |
+
+**Verdict Écoute : 3, Répond en partie.** Définition du cran 3 retenue : le programme « traite une partie des demandes de premier rang » et « va contre en l'assumant ». Il traite la plus large (réduire l'immigration) avec des mesures identifiables, mais sans volume. Il traite l'asile par la procédure, pas par l'accueil. Il prend à contre-pied la demande de moins recourir à l'immigration de travail, et il le dit, dans le programme écrit comme dans les entretiens du candidat. Le cran 4 est écarté : une demande de premier rang est contredite et une autre n'a pas de mesure d'accueil identifiable. Le cran 1 est écarté : le contre-pied est assumé publiquement. Le cran 2 est écarté : la demande la plus large est traitée. Le cran 5 est écarté : le programme ne nomme pas la demande qu'il écarte.
+
+**Ce que l'écoute ajoute.** La Cohérence (cran 3) mesurait l'accord entre dire et faire. L'Écoute montre où se place le choix central du programme : il sert la demande la plus large, réduire l'immigration, et prend à contre-pied, ouvertement, la demande majoritaire de moins recourir au travail étranger. Sur l'accueil des persécutés, autre demande large, le programme parle de délais et de procédure plutôt que d'accueil.
 
 ## Ce qui tient
 
