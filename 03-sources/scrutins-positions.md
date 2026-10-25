@@ -1,7 +1,7 @@
 # Positions de vote des groupes sur les scrutins sélectionnés
 
 - Date d'extraction : 2026-10-25.
-- Statut : extraction mécanique sur la liste gelée de `scrutins-selectionnes.md` (23 scrutins numérotés dans les six axes, 3 scrutins de réserve, 1 scrutin hors sélection : 27 extraits). Aucune interprétation : des chiffres et des faits.
+- Statut : extraction mécanique sur la liste gelée de `scrutins-selectionnes.md` (23 scrutins numérotés dans les six axes, 3 scrutins de réserve, 1 scrutin hors sélection : 27 extraits ; plus le complément v2 n° 4758, ajouté le 2026-10-25 avec le détail des 12 groupes). Aucune interprétation : des chiffres et des faits.
 - Source : jeu open data « Scrutins » de l'Assemblée nationale, XVIIe législature (https://data.assemblee-nationale.fr/travaux-parlementaires/votes), fichiers JSON `VTANR5L17V<n>.json`.
 - Version du jeu de données : 9 097 scrutins (n° 1 à 9 097), le dernier daté du 23/10/2026. Archive récupérée le 2026-10-25 à 16:02 (heure de Paris), fichiers lus en lecture seule. Référentiel des organes : AMO10 (députés actifs et organes), complété par AMO30 (historique) pour l'ancien code du groupe UDR.
 
@@ -48,6 +48,7 @@ Groupes suivis : LFI-NFP (La France insoumise - Nouveau Front Populaire), SOC (S
 | 3096 | rés. 4 | 25/10/2025 | [Réserve] PLF 2026, amdt 269 Wauquiez (indexation barème IR) | adopté | pour (59p 0c 0a) | contre (0p 59c 2a) | pour (39p 6c 4a) | pour (27p 0c 0a) | pour (80p 0c 0a) |
 | 3182 | rés. 6 | 28/10/2025 | [Réserve] PPLO report renouvellement Nouvelle-Calédonie | adopté | contre (0p 66c 0a) | pour (56p 4c 6a) | pour (82p 0c 0a) | pour (43p 0c 0a) | contre (0p 116c 0a) |
 | 8895 | hors | 20/10/2026 | [Hors sélection] PLFSS 2027, motion de rejet préalable (Panot) | rejeté | pour (53p 0c 0a) | pour (38p 0c 0a) | contre (0p 65c 0a) | contre (0p 31c 0a) | contre (0p 78c 0a) |
+| 4758 | compl. | 16/12/2025 | [Complément v2] PLFSS 2026, lecture définitive, ensemble | adopté | contre (0p 69c 0a) | pour (64p 0c 5a) | pour (91p 0c 0a) | divisé (18p 3c 28a) | contre (0p 123c 0a) |
 
 `*` Scrutin 519 : motion de censure, seuls les pour sont décomptés (voir la section du scrutin).
 
@@ -145,7 +146,8 @@ Autres groupes (contexte) :
 ### Scrutin 8707 (13/10/2026, axe 1)
 
 - Intitulé exact : la motion de rejet préalable, déposée par M. Boris Vallaud, du projet de loi de finances pour 2027 (première lecture).
-- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "La France insoumise - Nouveau Front Populaire"Président du groupe "Socialistes et apparentés".
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "La France insoumise - Nouveau Front Populaire"
+Président du groupe "Socialistes et apparentés".
 - Sort : **rejeté**. Votants : 385. Suffrages exprimés : 385.
 - Totaux : pour 149, contre 236, abstention 0, non votants 1.
 
@@ -203,7 +205,9 @@ Autres groupes (contexte) :
 ### Scrutin 468 (28/11/2024, axe 2)
 
 - Intitulé exact : l'amendement de suppression n° 4 de M. Sitzenstuhl et les amendements identiques suivants à l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).
-- Type de vote : scrutin public ordinaire. Demandeur : Président du groupe "Ensemble pour la République"Président du groupe "La France insoumise - Nouveau Front Populaire"Président du groupe "Droite Républicaine".
+- Type de vote : scrutin public ordinaire. Demandeur : Président du groupe "Ensemble pour la République"
+Président du groupe "La France insoumise - Nouveau Front Populaire"
+Président du groupe "Droite Républicaine".
 - Sort : **rejeté**. Votants : 342. Suffrages exprimés : 341.
 - Totaux : pour 100, contre 241, abstention 1, non votants 2.
 
@@ -232,7 +236,12 @@ Autres groupes (contexte) :
 ### Scrutin 3684 (12/11/2025, axe 2)
 
 - Intitulé exact : l'article 45 bis (examen prioritaire) du projet de loi de financement de la sécurité sociale pour 2026 (première lecture).
-- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"Président du groupe "Ensemble pour la République"Présidente du groupe "La France insoumise - Nouveau Front Populaire"Président du groupe "Socialistes et apparentés"Président du groupe "Horizons & Indépendants"Président du groupe "Libertés, Indépendants, Outre-mer et Territoires".
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"
+Président du groupe "Ensemble pour la République"
+Présidente du groupe "La France insoumise - Nouveau Front Populaire"
+Président du groupe "Socialistes et apparentés"
+Président du groupe "Horizons & Indépendants"
+Président du groupe "Libertés, Indépendants, Outre-mer et Territoires".
 - Sort : **adopté**. Votants : 505. Suffrages exprimés : 401.
 - Totaux : pour 255, contre 146, abstention 104, non votants 13.
 
@@ -319,7 +328,8 @@ Autres groupes (contexte) :
 ### Scrutin 3260 (30/10/2025, axe 3)
 
 - Intitulé exact : la proposition de résolution visant à dénoncer les accords franco-algériens du 27 décembre 1968 (article 34-1 de la Constitution).
-- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"Présidente du groupe "La France insoumise - Nouveau Front Populaire".
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"
+Présidente du groupe "La France insoumise - Nouveau Front Populaire".
 - Sort : **adopté**. Votants : 374. Suffrages exprimés : 369.
 - Totaux : pour 185, contre 184, abstention 5, non votants 14.
 
@@ -551,7 +561,8 @@ Autres groupes (contexte) :
 ### Scrutin 805 (13/02/2025, axe 5)
 
 - Intitulé exact : l'ensemble de la proposition de loi visant à restaurer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents (première lecture).
-- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"Président du groupe "Ensemble pour la République".
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"
+Président du groupe "Ensemble pour la République".
 - Sort : **adopté**. Votants : 183. Suffrages exprimés : 183.
 - Totaux : pour 125, contre 58, abstention 0, non votants 1.
 
@@ -696,7 +707,9 @@ Autres groupes (contexte) :
 ### Scrutin 5313 (04/02/2026, axe 6)
 
 - Intitulé exact : l'article unique de la proposition de résolution européenne visant à rejeter le projet d’accord sur les droits de douane et le commerce du 27 juillet 2025 entre l’Union européenne et les États-Unis.
-- Type de vote : scrutin public ordinaire. Demandeur : Président du groupe "Ensemble pour la République"Présidente du groupe "La France insoumise - Nouveau Front Populaire"Président du groupe "Gauche Démocrate et Républicaine".
+- Type de vote : scrutin public ordinaire. Demandeur : Président du groupe "Ensemble pour la République"
+Présidente du groupe "La France insoumise - Nouveau Front Populaire"
+Président du groupe "Gauche Démocrate et Républicaine".
 - Sort : **adopté**. Votants : 97. Suffrages exprimés : 90.
 - Totaux : pour 83, contre 7, abstention 7, non votants 2.
 
@@ -812,7 +825,8 @@ Autres groupes (contexte) :
 ### Scrutin 8895 (20/10/2026, axe hors)
 
 - Intitulé exact : la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de financement de la sécurité sociale pour 2027 (première lecture).
-- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"Présidente du groupe "La France insoumise - Nouveau Front Populaire".
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe "Rassemblement National"
+Présidente du groupe "La France insoumise - Nouveau Front Populaire".
 - Sort : **rejeté**. Votants : 387. Suffrages exprimés : 387.
 - Totaux : pour 128, contre 259, abstention 0, non votants 1.
 
@@ -837,6 +851,37 @@ Autres groupes (contexte) :
 | GDR | 17 | 9 | 1 | 0 | 0 | pour | pour |
 | LIOT | 23 | 0 | 14 | 0 | 0 | contre | contre |
 | NI | 11 | 0 | 3 | 0 | 0 | contre | contre |
+
+### Scrutin 4758 (16/12/2025, complément v2, axes 1, 2 et 4)
+
+Scrutin découvert après le gel (revue contradictoire Renaissance, 25/10/2026), inscrit dans la section « Compléments découverts en revue » de `scrutins-selectionnes.md`, pondéré à part comme texte global. Extrait le 2026-10-25 du même jeu de données que les autres (`VTANR5L17V4758.json`), même méthode.
+
+- Intitulé exact : l'ensemble du projet de loi de financement de la sécurité sociale pour 2026 (lecture définitive).
+- Type de vote : scrutin public solennel. Demandeur : Conférence des Présidents.
+- Sort : **adopté**. Votants : 569. Suffrages exprimés : 479.
+- Totaux : pour 247, contre 232, abstention 90, non votants 0.
+
+Groupes suivis en priorité :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| LFI-NFP | 71 | 0 | 69 | 0 | 0 | contre | contre |
+| SOC | 69 | 64 | 0 | 5 | 0 | pour | pour |
+| EPR | 91 | 91 | 0 | 0 | 0 | pour | pour |
+| DR | 49 | 18 | 3 | 28 | 0 | divisé | contre |
+| RN | 123 | 0 | 123 | 0 | 0 | contre | contre |
+
+Autres groupes (contexte) :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| UDR | 16 | 0 | 16 | 0 | 0 | contre | contre |
+| Dem | 36 | 36 | 0 | 0 | 0 | pour | pour |
+| HOR | 34 | 9 | 0 | 25 | 0 | abstention | pour |
+| EcoS | 38 | 2 | 9 | 27 | 0 | abstention | contre |
+| GDR | 17 | 1 | 10 | 2 | 0 | contre | abstention |
+| LIOT | 22 | 20 | 0 | 2 | 0 | pour | pour |
+| NI | 9 | 6 | 2 | 1 | 0 | pour | pour |
 
 ## Anomalies
 

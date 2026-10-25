@@ -5,7 +5,7 @@
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
 | 1 | Renaissance | `renaissance/` | 8 en v2 (page produite, publiée en privé, en relecture par Dilhan ; boucle de révision à suivre) | v2 | publiée v1, privée : https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 | 2026-10-25 |
-| 2 | RN | `rn/` | 0 | | | |
+| 2 | RN | `rn/` | 1 en cours (périmètre écrit, votes du groupe et divergences UDR extraits, corpus en constitution) | v2 | | 2026-10-25 |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |
 | 5 | LR | `lr/` | 0 | | | |
@@ -31,7 +31,7 @@ Chaque dossier `02-partis/<parti>/` suit la structure de `_gabarit/` :
     5-securite-libertes.md
     6-institutions-democratie-europe.md
   votes/
-    scrutins.md            position du groupe sur chaque scrutin gelé, avec lien, et position des quatre autres groupes
+    scrutins.md            position du groupe sur chaque scrutin gelé, avec lien, et divergences du groupe hors périmètre cité au socle (produit par `_scripts/votes-parti.py` depuis `03-sources/scrutins-positions.md`)
   revue/
     defense.md             rapport du relecteur qui défend le parti
     contradiction.md       rapport du relecteur qui défend ses adversaires
