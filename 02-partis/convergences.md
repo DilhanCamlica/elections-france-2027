@@ -44,4 +44,9 @@ Relevé depuis la verticale Renaissance (`renaissance/axes/5-securite-libertes.m
 
 ## Axe 6 : Institutions, démocratie et Europe
 
-(vide)
+Relevé depuis la verticale Renaissance (`renaissance/axes/6-institutions-democratie-europe.md`, étapes 3 à 5, 2026-10-25), sources : `00-contexte/paysage-politique-2026-10.md` §3.4 à 5.4 ; à confirmer par chaque verticale.
+
+- Règle d'or budgétaire inscrite dans la Constitution par référendum : RN (dans les douze mois suivant l'élection, réf. 102 et 103 de la note de paysage) et Renaissance dans sa version de juillet 2026 [C-R-08]. Même objet, même voie ; la lettre d'octobre de Renaissance ne mentionne plus le référendum [C-R-02].
+- Recours accru au référendum : Renaissance (journée référendaire annuelle [C-R-10]), LR (référendum sur l'immigration, référendum pénal, réf. 84), RN (priorité nationale « si nécessaire par référendum constitutionnel », réf. 98). Instrument commun, objets différents ; l'usage de l'article 11 pour réviser la Constitution est écarté par le président du Conseil constitutionnel (9 octobre 2026).
+- Vote 8611 (refonder Schengen, résolution RN) : EPR, LFI-NFP et SOC contre ; RN pour ; DR divisé.
+- Vote 4244 (opposition à l'accord UE-Mercosur, résolution LFI) : LFI-NFP, SOC, DR et RN pour ; EPR abstention.

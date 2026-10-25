@@ -28,6 +28,10 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Fédération des acteurs de la solidarité (FAS) | fédération d'associations de solidarité, partie prenante | Fédération d'associations gestionnaires de l'hébergement et de l'accueil des demandeurs d'asile, positions publiques sur les politiques migratoires |
 | GISTI | association de défense des droits des étrangers | Groupe d'information et de soutien des immigré·es, objet statutaire |
 | Datan | agrégateur des données ouvertes de l'Assemblée | Site indépendant qui republie les scrutins publics ; la source primaire reste le scrutin de l'Assemblée |
+| Cevipof (Centre de recherches politiques de Sciences Po) | centre de recherche académique ; son baromètre est une enquête d'opinion (terrain OpinionWay) | Laboratoire de Sciences Po et du CNRS ; le Baromètre de la confiance politique est cofinancé par des partenaires publics et privés listés dans chaque vague. Utilisable pour mesurer une opinion, pas pour un verdict |
+| SIPRI (Stockholm International Peace Research Institute) | institut de recherche indépendant, financement majoritairement public suédois | Fondation indépendante, financement de base par le gouvernement suédois |
+| Le Club des juristes | think tank juridique | Association de juristes (universitaires, avocats, magistrats), se présente comme le premier think tank juridique français |
+| Toute l'Europe | site d'information sur l'UE, financement public | Site d'information sur l'Union européenne financé en partie par des fonds publics ; ligne pédagogique revendiquée |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
