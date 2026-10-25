@@ -361,3 +361,8 @@ Hors liste mais citée par la commande : la loi n° 2026-794 du 18 août 2026 re
 5. Assemblée nationale, dossier du projet de loi contre les fraudes sociales et fiscales. https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N52985
 6. Assemblée nationale, dossier fin de vie. https://www.assemblee-nationale.fr/dyn/17/dossiers/fin_de_vie_17e
 7. web.archive.org, index des PDF d'avecvous.fr (CDX), consulté 2026-10-25. http://web.archive.org/cdx/search/cdx?url=avecvous.fr*&filter=mimetype:application/pdf
+
+## Ajouts proposés (étapes 3 à 5, 2026-10-25)
+
+- Programme présidentiel 2017 (« Programme En Marche ! », avril 2017) et discours au Congrès du 3 juillet 2017 : nécessaires à la comparaison programme / actes sur 2017-2022, reconstitués par sources secondaires aux axes 1 et 6. Hors hiérarchie actuelle du socle (§6 des critères, qui ne remonte qu'à 2022) ; proposition de révision dans `revue/retours-socle.md`, ligne 2. À archiver dans `corpus/` dès validation.
+- Amendements EPR I-2085 et I-2086 au PLF 2025 (substitution d'économies à des hausses d'impôts), repris à l'axe 1 : à fichier comme [C-R-34] et [C-R-35].

@@ -32,6 +32,10 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | SIPRI (Stockholm International Peace Research Institute) | institut de recherche indépendant, financement majoritairement public suédois | Fondation indépendante, financement de base par le gouvernement suédois |
 | Le Club des juristes | think tank juridique | Association de juristes (universitaires, avocats, magistrats), se présente comme le premier think tank juridique français |
 | Toute l'Europe | site d'information sur l'UE, financement public | Site d'information sur l'Union européenne financé en partie par des fonds publics ; ligne pédagogique revendiquée |
+| Option Finance, EpargneBourse, France Épargne | presse financière spécialisée | Sites et hebdomadaire d'information financière à destination des épargnants et des directions financières ; pas de ligne politique revendiquée, fiabilité inégale des valeurs de marché quotidiennes |
+| Essai d'auteur (exemple : N. Dufourcq, « La Dette sociale de la France », Odile Jacob) | essai d'auteur, pas une statistique publique | Ouvrage signé par une personne, sans validation institutionnelle |
+| Rapport de mission commandé par un gouvernement (exemple : rapport Ravignon, 2024) | source officielle, partie prenante | Mission confiée par le gouvernement dont la force étudiée faisait partie ; à signaler quand il appuie ou contredit cette force |
+| Observatoire des inégalités | association, classée à gauche | Association indépendante, financement mixte, ligne éditoriale revendiquée sur les inégalités ; utilisée comme relais de l'IPP |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.

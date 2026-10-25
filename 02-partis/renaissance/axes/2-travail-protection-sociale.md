@@ -302,3 +302,7 @@ Constats de l'étape 2, à reprendre :
 55. `00-contexte/briefing-serie-verification.md` §6.1, conclusions de la page « Qui paie pour qui ? », relue dans sa version publiée le 2026-10-25 (sources primaires : HCFiPS, Insee, Drees, OCDE, citées dans la page).
 56. France Stratégie, « Où réduire le poids de la dépense publique ? », 2019-01-17. https://www.strategie-plan.gouv.fr/publications/reduire-poids-de-depense-publique
 57. `00-contexte/paysage-politique-2026-10.md`, sections 1.4 à 5.4 (positions publiées) et tableau des conditions de non-censure du PS, 2026-10-25.
+
+## Arbitrage de l'agent principal (2026-10-25) : chiffrage de l'assurance chômage
+
+Deux estimations institutionnelles existent pour la réforme proposée (affiliation 8 mois sur 20, durée de 18 à 15 mois) : le Conseil d'analyse économique (Focus n° 131, avril 2026) estime l'effet net à environ 2,9 Md€ par an ; l'Unédic (note de juin 2024) estime l'économie brute en régime de croisière entre 4,0 et 5,4 Md€. Les périmètres diffèrent (effet net après comportements contre économie brute). Le chiffrage du parti (3,6 Md€ ou 5 Md€ selon le document) va donc de « dans la fourchette » (Unédic) à +74 % (CAE). Les deux fiches (axes 1 et 2) présentent désormais les deux estimations ; le verdict Faisabilité 3 tient dans les deux cas. Détail dans `../revue/arbitrage-etapes-1-5.md`.
