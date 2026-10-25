@@ -91,11 +91,11 @@ Mesure l'écart entre le programme et l'inventaire gelé des demandes exprimées
 
 | Cran | Libellé | Définition |
 |---|---|---|
-| 1 | Va contre sans le dire | Le programme prend le contre-pied d'une demande « large » de l'inventaire sans l'assumer publiquement (ni dans le programme, ni dans une déclaration du candidat) |
-| 2 | Ne traite pas | Les demandes « larges » de l'axe sont absentes du programme, sans explication |
-| 3 | Répond en partie | Le programme traite une partie des demandes larges, ou traite les demandes fortes mais pas les larges, ou va contre en l'assumant |
-| 4 | Répond | Le programme traite les demandes larges de l'axe, avec une mesure identifiable pour chacune |
-| 5 | Répond et explique | Il traite les demandes larges, nomme celles qu'il écarte et dit pourquoi |
+| 1 | Va contre sans le dire | Le programme prend le contre-pied d'une demande de premier rang (« large » ou « majoritaire sans mobilisation ») de l'inventaire sans l'assumer publiquement (ni dans le programme, ni dans une déclaration du candidat) |
+| 2 | Ne traite pas | Les demandes de premier rang de l'axe sont absentes du programme, sans explication |
+| 3 | Répond en partie | Le programme traite une partie des demandes de premier rang, ou traite les demandes fortes mais pas celles de premier rang, ou va contre en l'assumant |
+| 4 | Répond | Le programme traite les demandes de premier rang de l'axe, avec une mesure identifiable pour chacune |
+| 5 | Répond et explique | Il traite les demandes de premier rang, nomme celles qu'il écarte et dit pourquoi |
 
 Règle de neutralité : quand deux demandes opposées sont toutes deux dans l'inventaire (réduire l'immigration et régulariser les travailleurs, baisser les impôts et taxer les hauts patrimoines), répondre à l'une n'est pas aller contre l'autre ; la fiche dit laquelle est servie.
 
@@ -125,7 +125,7 @@ Date d'arrêt : fixée au début de chaque verticale, réalignée à la fin.
 
 ## 7. Inventaire des demandes exprimées (nouveau)
 
-Un inventaire unique, par axe, construit une fois pour les cinq forces et **gelé avant toute lecture de programme**, dans `03-sources/demandes-exprimees.md`. Sources croisées et étiquetées : synthèse officielle du grand débat 2019 et analyses publiées des cahiers de doléances ; revendications écrites des mobilisations 2018-2026 ; baromètre d'opinion de la Drees (statistique publique) ; baromètres de priorités Cevipof, Ipsos, Elabe, Eurobaromètre (enquêtes d'opinion, étiquetées) ; pétitions de l'Assemblée au-dessus du seuil ; Défenseur des droits et CNCDH. Une demande entre si au moins deux sources indépendantes la portent. Intensité notée : « large » (majorité dans une enquête représentative et portée par une mobilisation), « forte » (mobilisation ou pétition massive sans majorité mesurée), « contestée » (opinion divisée). Les demandes opposées sont toutes deux inscrites. Les sondages ne servent qu'à cet inventaire, jamais à un verdict de fait.
+Un inventaire unique, par axe, construit une fois pour les cinq forces et **gelé avant toute lecture de programme**, dans `03-sources/demandes-exprimees.md`. Sources croisées et étiquetées : synthèse officielle du grand débat 2019 et analyses publiées des cahiers de doléances ; revendications écrites des mobilisations 2018-2026 ; baromètre d'opinion de la Drees (statistique publique) ; baromètres de priorités Cevipof, Ipsos, Elabe, Eurobaromètre (enquêtes d'opinion, étiquetées) ; pétitions de l'Assemblée au-dessus du seuil ; Défenseur des droits et CNCDH. Une demande entre si au moins deux sources indépendantes la portent. Intensité notée : « large » (majorité dans une enquête représentative et portée par une mobilisation), « majoritaire sans mobilisation » (majorité mesurée, aucune mobilisation ne la porte : ajout du 2026-10-25, sans lui les demandes majoritaires non portées par la rue, souvent de droite, sortiraient du premier rang), « forte » (mobilisation ou pétition massive sans majorité mesurée), « contestée » (opinion divisée). Pour l'échelle E, les demandes « larges » et « majoritaires sans mobilisation » sont de premier rang. Les demandes opposées sont toutes deux inscrites. Les sondages ne servent qu'à cet inventaire, jamais à un verdict de fait.
 
 ## 8. Carte des tendances lourdes (nouveau)
 

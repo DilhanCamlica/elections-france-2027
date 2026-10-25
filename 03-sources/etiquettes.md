@@ -36,6 +36,13 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Essai d'auteur (exemple : N. Dufourcq, « La Dette sociale de la France », Odile Jacob) | essai d'auteur, pas une statistique publique | Ouvrage signé par une personne, sans validation institutionnelle |
 | Rapport de mission commandé par un gouvernement (exemple : rapport Ravignon, 2024) | source officielle, partie prenante | Mission confiée par le gouvernement dont la force étudiée faisait partie ; à signaler quand il appuie ou contredit cette force |
 | Observatoire des inégalités | association, classée à gauche | Association indépendante, financement mixte, ligne éditoriale revendiquée sur les inégalités ; utilisée comme relais de l'IPP |
+| Organisations syndicales (CGT, CFDT, FO, Solidaires, UNSA, Confédération paysanne, organisations lycéennes et étudiantes) | organisation syndicale, partie prenante | Objet statutaire de défense d'intérêts |
+| Collectifs de mobilisation (gilets jaunes, Peuple RÉVOLTÉ, plateforme du Vrai débat) | collectif militant, partie prenante | Textes revendicatifs, auteurs non représentatifs |
+| Instituts de sondage (Ipsos, Elabe, Ifop, Odoxa, OpinionWay, CSA, Verian) | enquête d'opinion, avec mention du commanditaire | Mesure d'opinion, admise pour l'inventaire des demandes seulement (`01-socle/03-sources-et-hierarchie.md` §2 bis) |
+| Institut de l'Entreprise | think tank d'entreprises | Association financée par des entreprises |
+| Wikipédia | encyclopédie collaborative, relais | À recouper avec une source primaire |
+| Presse spécialisée (L'Etudiant, Café pédagogique, Option Finance) | presse spécialisée, relais | Sans ligne politique revendiquée |
+| Revues et analyses académiques (Annales HSS, The Conversation avec auteurs universitaires) | revue ou analyse académique | Auteurs identifiés, relecture éditoriale ou par les pairs |
 | Chaîne YouTube d'opinion ou de vulgarisation | vidéo d'opinion, pas une source de verdict | Exemples : Clément Viktorovitch, L'esprit critique, Éthique et tac |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
