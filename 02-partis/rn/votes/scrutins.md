@@ -1,14 +1,14 @@
-# Rassemblement National : positions sur les scrutins gelés, et divergences du groupe UDR
+# Rassemblement National : positions sur les scrutins gelés, et divergences de UDR
 
 - Produit le : 2026-10-25 par `_scripts/votes-parti.py` (mécanique, aucune interprétation)
 - Source : `03-sources/scrutins-positions.md` (extraction du 2026-10-25, jeu open data « Scrutins » de l'Assemblée nationale, règle des 60 %)
-- Groupe étudié : Rassemblement National (RN). Groupe hors périmètre, cité quand il diverge (`01-socle/01-criteres.md` §1) : Union des droites pour la République (UDR).
-- Lecture : une « divergence » est une position majoritaire différente entre les deux groupes sur le même scrutin ; « partielle » quand l'un des deux est divisé ; un groupe qui n'exprime aucun vote n'est pas comparé. Un vote sur un texte global est pondéré à part (`01-criteres.md` §4, échelle C).
+- Groupe étudié : Rassemblement National (RN). Groupe(s) hors périmètre, cité(s) quand ils divergent (`01-socle/01-criteres.md` §1) : Union des droites pour la République (UDR).
+- Lecture : une « divergence » est une position majoritaire différente entre le groupe étudié et le groupe cité sur le même scrutin ; « partielle » quand l'un des deux est divisé ; un groupe qui n'exprime aucun vote n'est pas comparé. Un vote sur un texte global est pondéré à part (`01-criteres.md` §4, échelle C).
 - Les fiches par axe (`../axes/`) reportent ces positions dans leur tableau Q4, avec celles des quatre autres groupes suivis.
 
 ## Tableau
 
-| N° | Axe | Date | Objet court | Sort | RN | UDR | Divergence |
+| N° | Axe | Date | Objet court | Sort | RN | UDR | Div. UDR |
 |---|---|---|---|---|---|---|---|
 | 438 | 1 | 12/11/2024 | PLF 2025, 1re partie (recettes) | rejeté | contre (0p 125c 0a) | contre (0p 16c 0a) | non |
 | 519 | 1 | 04/12/2024 | Motion de censure Barnier (49.3 sur PLFSS 2025) | adopté | pour (motion) (123p 0c 0a) | pour (motion) (16p 0c 0a) | non |

@@ -9,6 +9,8 @@ des 60 % telles qu'elles figurent dans le registre.
 
 Usage :
   python3 _scripts/votes-parti.py --parti rn --groupe RN --allie UDR --nom-groupe "Rassemblement National" --nom-allie "Union des droites pour la République"
+  python3 _scripts/votes-parti.py --parti renaissance --groupe EPR --allie Dem,HOR --nom-groupe "Ensemble pour la République" --nom-allie "Les Démocrates (MoDem),Horizons et indépendants"
+Plusieurs groupes hors périmètre : codes et noms séparés par des virgules, dans le même ordre.
 """
 import argparse, re, sys, datetime, pathlib
 
@@ -84,41 +86,52 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--parti", required=True, help="slug du dossier 02-partis/<parti>")
     ap.add_argument("--groupe", required=True, help="code du groupe dans le registre (RN, EPR, LFI-NFP, SOC, DR)")
-    ap.add_argument("--allie", required=True, help="code du groupe hors périmètre cité quand il diverge")
+    ap.add_argument("--allie", required=True, help="code(s) du ou des groupes hors périmètre cités quand ils divergent, séparés par des virgules")
     ap.add_argument("--nom-groupe", required=True)
     ap.add_argument("--nom-allie", required=True)
     a = ap.parse_args()
+    allies = [x.strip() for x in a.allie.split(",")]
+    noms_allies = [x.strip() for x in a.nom_allie.split(",")]
+    if len(noms_allies) != len(allies):
+        sys.exit("autant de noms que de codes pour --allie / --nom-allie")
     text = REG.read_text(encoding="utf-8")
     scr = parse(text)
     oc = objets_courts(text)
     scr.sort(key=lambda s: axe_key(s["axe"]))
     today = datetime.date.today().isoformat()
+    lib_allies = ", ".join(f"{n} ({c})" for c, n in zip(allies, noms_allies))
     L = []
-    L.append(f"# {a.nom_groupe} : positions sur les scrutins gelés, et divergences du groupe {a.allie}")
+    L.append(f"# {a.nom_groupe} : positions sur les scrutins gelés, et divergences de {', '.join(allies)}")
     L.append("")
     L.append(f"- Produit le : {today} par `_scripts/votes-parti.py` (mécanique, aucune interprétation)")
     L.append(f"- Source : `03-sources/scrutins-positions.md` (extraction du 2026-10-25, jeu open data « Scrutins » de l'Assemblée nationale, règle des 60 %)")
-    L.append(f"- Groupe étudié : {a.nom_groupe} ({a.groupe}). Groupe hors périmètre, cité quand il diverge (`01-socle/01-criteres.md` §1) : {a.nom_allie} ({a.allie}).")
-    L.append("- Lecture : une « divergence » est une position majoritaire différente entre les deux groupes sur le même scrutin ; « partielle » quand l'un des deux est divisé ; un groupe qui n'exprime aucun vote n'est pas comparé. Un vote sur un texte global est pondéré à part (`01-criteres.md` §4, échelle C).")
+    L.append(f"- Groupe étudié : {a.nom_groupe} ({a.groupe}). Groupe(s) hors périmètre, cité(s) quand ils divergent (`01-socle/01-criteres.md` §1) : {lib_allies}.")
+    L.append("- Lecture : une « divergence » est une position majoritaire différente entre le groupe étudié et le groupe cité sur le même scrutin ; « partielle » quand l'un des deux est divisé ; un groupe qui n'exprime aucun vote n'est pas comparé. Un vote sur un texte global est pondéré à part (`01-criteres.md` §4, échelle C).")
     L.append("- Les fiches par axe (`../axes/`) reportent ces positions dans leur tableau Q4, avec celles des quatre autres groupes suivis.")
     L.append("")
     L.append("## Tableau")
     L.append("")
-    L.append(f"| N° | Axe | Date | Objet court | Sort | {a.groupe} | {a.allie} | Divergence |")
-    L.append("|---|---|---|---|---|---|---|---|")
-    n_div = n_part = n_tot = 0
+    cols = " | ".join(f"{c} | Div. {c}" for c in allies)
+    L.append(f"| N° | Axe | Date | Objet court | Sort | {a.groupe} | {cols} |")
+    L.append("|---|---|---|---|---|---|" + "---|---|" * len(allies))
+    n_div = {c: 0 for c in allies}; n_part = {c: 0 for c in allies}; n_tot = 0
     for s in scr:
-        g = s["rows"].get(a.groupe); al = s["rows"].get(a.allie)
-        d = diverge(g, al)
-        if d == "oui": n_div += 1
-        if d == "partielle": n_part += 1
+        g = s["rows"].get(a.groupe)
+        cells = []
+        for c in allies:
+            al = s["rows"].get(c)
+            d = diverge(g, al)
+            if d == "oui": n_div[c] += 1
+            if d == "partielle": n_part[c] += 1
+            cells.append(f"{cell(al)} | {d}")
         n_tot += 1
-        L.append(f"| {s['num']} | {axe_court(s['axe'])} | {s['date']} | {oc.get(s['num'], s['titre'][:80])} | {s['sort']} | {cell(g)} | {cell(al)} | {d} |")
+        L.append(f"| {s['num']} | {axe_court(s['axe'])} | {s['date']} | {oc.get(s['num'], s['titre'][:80])} | {s['sort']} | {cell(g)} | " + " | ".join(cells) + " |")
     L.append("")
     L.append("## Compte")
     L.append("")
     L.append(f"- Scrutins détaillés dans le registre : {n_tot}.")
-    L.append(f"- Divergences nettes entre {a.groupe} et {a.allie} : {n_div}. Divergences partielles (un groupe divisé) : {n_part}.")
+    for c in allies:
+        L.append(f"- Divergences nettes entre {a.groupe} et {c} : {n_div[c]}. Divergences partielles (un groupe divisé) : {n_part[c]}.")
     L.append("")
     L.append("## Intitulés exacts")
     L.append("")
@@ -127,7 +140,7 @@ def main():
     out = ROOT / "02-partis" / a.parti / "votes" / "scrutins.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
-    print(f"écrit {out.relative_to(ROOT)} : {n_tot} scrutins, {n_div} divergences nettes, {n_part} partielles")
+    print(f"écrit {out.relative_to(ROOT)} : {n_tot} scrutins ; divergences nettes : " + ", ".join(f"{c} {n_div[c]}" for c in allies))
 
 if __name__ == "__main__":
     main()
