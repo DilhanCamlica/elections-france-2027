@@ -33,7 +33,14 @@ Relevé depuis la verticale Renaissance (`renaissance/axes/3-immigration.md`), s
 
 ## Axe 5 : Sécurité, ordre public et libertés
 
-(vide)
+Relevé depuis la verticale Renaissance (`renaissance/axes/5-securite-libertes.md`), sources : `00-contexte/paysage-politique-2026-10.md` §1.4 à 5.4 et scrutins gelés ; à confirmer par chaque verticale.
+
+- Narcotrafic : loi « sortir la France du piège du narcotrafic » (scrutin 1194) votée par EPR, SOC, DR et RN ; LFI-NFP contre. Origine sénatoriale transpartisane (LR et socialiste).
+- Présomption de légitime défense des forces de l'ordre : proposée par LR (PPL n° 691) et le RN ; votée par EPR (55 pour, 12 contre), DR et RN au scrutin 7987 ; LFI-NFP et SOC contre. Absente du programme de Renaissance.
+- Mineurs à partir de 16 ans : Renaissance (atténuation de peine dérogeable et comparution immédiate dès 16 ans, puis fin de l'excuse de minorité) [C-R-21 ; C-R-12] et RN (majorité pénale à 16 ans). Même sens, instruments différents.
+- Rétention de sûreté : étendue par Renaissance aux condamnés pour terrorisme (loi n° 2026-667) [C-R-25] ; proposée aussi par LR, sans chiffre.
+- Seuils minimaux de peine : Renaissance (quatre types de peines avec seuils minimaux) [C-R-15], LR (peines minimales pour les crimes graves), RN (peines planchers pour les récidivistes). Même sens, ampleur différente.
+- Maintien de l'ordre, sens opposés : PS (droit de manifester, désescalade) et LFI (interdiction des LBD, démantèlement des BRAV-M) d'un côté ; Renaissance (drones, reconnaissance faciale des casseurs, état d'urgence si nécessaire) [C-R-12 ; C-R-13] de l'autre.
 
 ## Axe 6 : Institutions, démocratie et Europe
 
