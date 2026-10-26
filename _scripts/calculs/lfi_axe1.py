@@ -53,3 +53,16 @@ print("aides 166 - deficit Etat 2024 151.1 =",round(166-151.1,1),"; perimetre st
 print("dette 2027 hausse avec deficit 5%:",round(0.05*pib27),"Md€")
 print("fraude 2 Md€ vs ecart TVA 12:",round(2/12*100),"%")
 print("BdF part 13% 2027 de dette ~121.7%*PIB:",round(0.13*1.217*pib27))
+print("---- étape 6 (arbitrage, 2026-10-26)")
+# Base ISF : France Stratégie 2023 (IFI = 29,4 % de l'ISF potentiel en 2018 : 1,29 / 4,39) prolongée par l'IFI 2025 de la DGFiP (2,3 Md€)
+part_ifi=1.29/4.39
+isf25=2.3/part_ifi
+print("part IFI dans ISF potentiel 2018",round(part_ifi*100,1),"% ; ISF potentiel 2025",round(isf25,2),"Md€ ; 10 Md€ au-dessus de",round((10/isf25-1)*100),"%")
+pi10=3.2/1.5*10
+solde=24.7
+for pfu in (1.9,1.3):
+    surplus=(10-isf25)+(9-pfu)+(pi10-17)
+    print(f"PFU base {pfu}: surplus ISF {10-isf25:.2f} + PFU {9-pfu:.2f} + point d'indice {pi10-17:.2f} = {surplus:.2f} Md€ ; surévaluation du solde {surplus/solde*100:.1f} %")
+pib27=91/0.029
+print("pôle public bancaire réaffecté : 100 Md€ =",round(100/pib27*100,2),"points de PIB 2027 par an")
+print("PFU : 9 Md€ (contre-budget) contre 3 à 4 Md€ (I-CF847) : x",round(9/4,2),"à",round(9/3,2))
