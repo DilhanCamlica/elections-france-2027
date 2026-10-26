@@ -73,5 +73,26 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Moneyvox | site d'information sur l'argent et la consommation, relais | Site grand public sur la banque et l'épargne, sans ligne politique revendiquée ; inscrit le 2026-10-26 (corpus LFI) |
 | Cryptoast | site d'information sur les cryptoactifs, relais | Média spécialisé sans ligne politique revendiquée ; sert à retrouver un numéro d'amendement, le texte est lu sur le site de l'Assemblée ; inscrit le 2026-10-26 (corpus LFI) |
 | LAEC.fr | site militant indépendant, relais du programme LFI 2022 | Le site se présente comme « une initiative indépendante » dont le contenu n'engage que son équipe ; il ne tient pas lieu de source du parti ; inscrit le 2026-10-26 (corpus LFI, fiche C-LFI-26) |
+| Délits d'opinion | site d'information politique en ligne, relais | Site d'actualité parlementaire ; relais d'un vote en commission ; inscrit le 2026-10-26 (verticale LFI) |
+| Allodocteurs, Mediadi | site d'information santé, relais | Relais d'un avis du CESE, d'une étude de l'Inserm et de données de l'OCDE ; inscrits le 2026-10-26 (verticale LFI) |
+| La Retraite en clair | site commercial d'information sur la retraite, relais | Durées d'assurance par génération, à recouper avec la Cnav ; inscrit le 2026-10-26 (verticale LFI) |
+| Euronews | presse généraliste européenne, relais | Chaîne d'information européenne ; inscrit le 2026-10-26 (verticale LFI) |
+| legislation.gov.uk | archive officielle britannique du droit de l'Union, relais | Texte des traités et directives tel que repris dans le droit britannique, utilisé quand EUR-Lex est inaccessible ; inscrit le 2026-10-26 (verticale LFI) |
+| lagen.nu, Lawplayer | site de republication de textes juridiques, relais | Textes officiels republiés ; la source primaire reste le Journal officiel ou EUR-Lex ; inscrits le 2026-10-26 (verticale LFI) |
+| Bloomberg Tax, Tradingsat, Le Média de l'Investisseur | presse économique et financière spécialisée, relais | Sans ligne politique revendiquée ; relais de rapports publics et de données de marché ; inscrits le 2026-10-26 (verticale LFI) |
+| France terre d'asile | association gestionnaire de l'accueil des demandeurs d'asile, partie prenante | Positions publiques sur la politique migratoire, chiffrages propres ; inscrit le 2026-10-26 (verticale LFI) |
+| Amnesty International, Médecins du Monde | ONG de défense des droits humains ou médicale, partie prenante | Positions publiques sur l'asile, le sauvetage en mer et l'usage de la force ; inscrits le 2026-10-26 (verticale LFI) |
+| InfoMigrants | média d'information sur les migrations (France Médias Monde), relais | Service public audiovisuel extérieur ; relais de bilans officiels ; inscrit le 2026-10-26 (verticale LFI) |
+| Barreau de Paris | ordre professionnel des avocats, relais juridique | Tableaux de synthèse des textes européens ; inscrit le 2026-10-26 (verticale LFI) |
+| CBS News, La Presse (Tunisie), Dakaractu, eNCA | presse généraliste étrangère, relais | Reprises de dépêches ou comptes rendus ; le média d'origine est indiqué ; inscrits le 2026-10-26 (verticale LFI) |
+| Weka, Tripalio | presse professionnelle (secteur public, droit social), relais | Sans ligne politique revendiquée ; inscrits le 2026-10-26 (verticale LFI) |
+| Institut Jacques Delors | think tank pro-européen | Fondation créée par l'ancien président de la Commission, positions favorables à l'intégration européenne ; inscrit le 2026-10-26 (verticale LFI) |
+| Mouvement européen | association pro-européenne, partie prenante | Association militante pour l'intégration européenne ; inscrit le 2026-10-26 (verticale LFI) |
+| Agra Presse, La France agricole | presse agricole spécialisée, relais | Sans ligne politique revendiquée ; relais des positions des filières ; inscrits le 2026-10-26 (verticale LFI) |
+| 6Médias | agence de contenus, relais | Articles syndiqués dans la presse régionale ; inscrit le 2026-10-26 (verticale LFI) |
+| Police et Réalités | site d'information sur la police, orientation à préciser, relais | Utilisé comme relais d'un bilan de l'IGPN ; à recouper avec la source primaire ; inscrit le 2026-10-26 (verticale LFI) |
+| Union syndicale des magistrats | organisation syndicale de magistrats, partie prenante | Syndicat majoritaire de la magistrature ; inscrit le 2026-10-26 (verticale LFI) |
+| Chambre de commerce du Luxembourg | organisation patronale, partie prenante | Positions sur l'indexation des salaires au Luxembourg ; inscrit le 2026-10-26 (verticale LFI) |
+| Linfodurable, Connaissance des énergies, Planète Grandes Écoles, Sorenir | sites d'information thématiques ou commerciaux, relais | Relais de données publiques (énergie, droits de succession) ; la source primaire est citée quand elle est accessible ; inscrits le 2026-10-26 (verticale LFI) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.

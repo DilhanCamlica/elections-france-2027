@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|---|
 | 1 | Renaissance | `renaissance/` | 8 en v2.2 (boucle de révision du 2026-10-26 faite : v2.1 et v2.2 appliquées, F axe 5 et C axe 6 déplacés, M 2 confirmé, page v1.2 republiée à la même URL) | v2.2 | publiée v1.2, partagée : https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 | 2026-10-26 |
 | 2 | RN | `rn/` | 8 en v2.2 (page produite et publiée en privé le 2026-10-26, en relecture par Dilhan ; boucle de révision à suivre) | v2.2 | publiée v1, privée : https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b | 2026-10-26 |
-| 3 | LFI | `lfi/` | 2 (corpus de 89 fiches arrêté au 2026-10-26 ; six fiches extraites puis contrôlées, 71 corrections, une divergence retenue à l'axe 4 ; programme 2027 attendu le 6 novembre 2026, boucle de révision prévue) ; étapes 3 à 5 à lancer | v2.2 | | 2026-10-26 |
+| 3 | LFI | `lfi/` | 5 (six fiches aux étapes 3 à 5 et Q5, brouillons ; grille provisoire D 4/3/3/4/4/4, F 3/3/3/3/3/2, C 3/2/4/3/4/4, E 3/3/3/4/3/3 ; programme 2027 attendu le 6 novembre 2026, boucle de révision prévue) ; étape 5 bis à lancer | v2.2 | | 2026-10-26 |
 | 4 | PS | `ps/` | 0 | | | |
 | 5 | LR | `lr/` | 0 | | | |
 

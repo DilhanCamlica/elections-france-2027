@@ -75,7 +75,7 @@ Paire symétrique de résolutions : une de LFI (Mercosur), une du RN (Schengen).
 | 7454 | 23/06/2026 | Ensemble du projet de loi constitutionnelle pour une Corse autonome au sein de la République (première lecture) | Révision constitutionnelle | Gouvernement |
 | 4244 | 27/11/2025 | Résolution invitant le Gouvernement à s'opposer à l'accord UE-Mercosur | Résolution (art. 34-1) | LFI (Panot) |
 | 8611 | 08/10/2026 | Résolution visant à refonder l'espace Schengen par une double frontière nationale et européenne | Résolution (art. 34-1) | RN |
-| 5313 | 04/02/2026 | Article unique de la résolution européenne rejetant l'accord UE-États-Unis du 27 juillet 2025 | Résolution européenne | LFI (Maurel), cosignée dans 8 groupes |
+| 5313 | 04/02/2026 | Article unique de la résolution européenne rejetant l'accord UE-États-Unis du 27 juillet 2025 | Résolution européenne | GDR (Maurel, groupe Gauche démocrate et républicaine), cosignée dans 8 groupes ; auteur corrigé le 2026-10-26 à la verticale LFI, le gel du 2026-10-25 l'attribuait à LFI par erreur (PPRE n° 1763) ; la sélection, faite sur l'objet, n'est pas modifiée |
 
 Limite documentée : **aucun scrutin sur la proportionnelle, le cumul des mandats, le référendum ou la primauté du droit européen**. Réserve : 3182 (Nouvelle-Calédonie, CMP, 28/10/2025).
 
