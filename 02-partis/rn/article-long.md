@@ -1,7 +1,7 @@
 # Le RN : ce qu'il propose, ce qu'il vote
 
 - Article long soumis à Dilhan le 2026-10-26 (étape 7 de la méthode). Les corrections issues de son challenge seront intégrées ici avant la page.
-- Corpus et données arrêtés au 2026-10-25. Socle v2. Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` (plus de 400 références), `methode.md`, `tendances.md`, revue contradictoire et arbitrage dans `revue/`.
+- Corpus et données arrêtés au 2026-10-25. Socle v2, puis v2.1 le 2026-10-26 (pondération de la cohérence par la mesure structurante, décidée au premier challenge de Dilhan : voir « Ce que le challenge a changé »). Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` (plus de 400 références), `methode.md`, `tendances.md`, revue contradictoire et arbitrage dans `revue/`.
 
 ## Ce qu'on a lu
 
@@ -15,14 +15,14 @@ Le RN n'a jamais gouverné au niveau national : la comparaison entre programme e
 |---|---|---|---|---|
 | 1. Finances publiques et dette | Plutôt fondé | Conditionnelle | Écart partiel | Répond en partie |
 | 2. Travail, protection sociale, fraude | **Partiellement fondé** | Conditionnelle | Plutôt cohérent | Répond en partie |
-| 3. Immigration | **Partiellement fondé** | **Très incertaine** | Écart partiel | Répond en partie |
+| 3. Immigration | **Partiellement fondé** | **Très incertaine** | **Écart important** | Répond en partie |
 | 4. Pouvoir d'achat et fiscalité | Plutôt fondé | Conditionnelle | Écart partiel | Répond en partie |
 | 5. Sécurité, ordre public, libertés | **Partiellement fondé** | Conditionnelle | Plutôt cohérent | Répond |
 | 6. Institutions, démocratie, Europe | Plutôt fondé | **Très incertaine** | Plutôt cohérent | Répond en partie |
 | Comment ils gouvernent | Écart partiel de méthode (parole et comportement parlementaire seulement) | | | |
 | Carte des tendances | 5 traitées, 9 en partie, 0 nommée, 0 absente | | | |
 
-Lecture en une phrase : les constats chiffrés sont exacts à la bonne échelle, mais les interprétations qui portent les mesures (le coût de l'immigration, le « laxisme », la fraude) le sont moins ; les deux mesures qui structurent le projet (référendum sur l'immigration et la priorité nationale, primauté de la Constitution sur le droit de l'Union) butent sur une révision constitutionnelle et sur les traités ; les votes du groupe suivent son programme presque partout, et les écarts se logent dans les écarts entre ce qu'il écrit dans ses textes chiffrés et ce qu'il dit à la tribune.
+Lecture en une phrase : les constats chiffrés sont exacts à la bonne échelle, mais les interprétations qui portent les mesures (le coût de l'immigration, le « laxisme », la fraude) le sont moins ; les deux mesures qui structurent le projet (référendum sur l'immigration et la priorité nationale, primauté de la Constitution sur le droit de l'Union) butent sur une révision constitutionnelle et sur les traités ; les votes du groupe suivent son programme presque partout, et le seul écart qui touche le cœur d'une mesure structurante est sur la priorité nationale elle-même : prestations « réservées aux Français » à la tribune, ouvertes après cinq ans de travail dans les textes chiffrés.
 
 ## Axe 1. Finances publiques et dette
 
@@ -62,7 +62,7 @@ Lecture en une phrase : les constats chiffrés sont exacts à la bonne échelle,
 
 **Faisable ?** Le référendum par l'article 11 pour réviser la Constitution est contesté par la doctrine et par le président du Conseil constitutionnel ; l'article 89 suppose l'accord du Sénat. Et une révision ne lève pas le droit de l'Union : pour les citoyens européens, une condition de nationalité sur les prestations heurte le traité lui-même. Le parti nomme ces obstacles et propose la révision pour les lever, ce qui exclut le cran le plus bas. Les autres mesures vont de « infaisable en l'état » (asile dans les consulats, contraire à la convention de Genève et au pacte européen) à « plutôt faisable » (droit du sol). Les chiffrages sont hors d'échelle : les 1,3 Md€ économisés sur l'AME représentent 94 % de sa dépense réelle de 2024 ; les 29 Md€ valent 4,2 fois l'estimation du coût net publiée par l'Observatoire de l'immigration et de la démographie lui-même (classé à droite). **Très incertaine.**
 
-**Disent-ils ce qu'ils votent ?** Les deux scrutins exploitables suivent le programme (rétention des étrangers condamnés, dénonciation de l'accord de 1968), sans divergence de l'UDR ; aucun scrutin n'existe sur l'AME, les régularisations ou les quotas. Un objet d'écart : les prestations. Le président du parti (1er mai 2026) et la candidate (septembre 2026) les annoncent « réservées aux Français » ; les textes chiffrés de 2025 et 2026 les ouvrent aux étrangers après cinq ans de travail. Pour un étranger qui a six ans de travail, les deux positions sont incompatibles et tenues en même temps. **Écart partiel.**
+**Disent-ils ce qu'ils votent ?** Les deux scrutins exploitables suivent le programme (rétention des étrangers condamnés, dénonciation de l'accord de 1968), sans divergence de l'UDR ; aucun scrutin n'existe sur l'AME, les régularisations ou les quotas. Un objet d'écart : les prestations. Le président du parti (1er mai 2026) et la candidate (septembre 2026) les annoncent « réservées aux Français » ; les textes chiffrés de 2025 et 2026 les ouvrent aux étrangers après cinq ans de travail. Pour un étranger qui a six ans de travail, les deux positions sont incompatibles et tenues en même temps. Cet écart porte sur le contenu même de la priorité nationale, la mesure qui structure l'axe : par la règle de pondération adoptée le 26 octobre, il pèse à lui seul le cran le plus bas après la contradiction. **Écart important.**
 
 **Ce qui tient.** Le constat sur les éloignements est exact et précis, et le régime dérogatoire de 1968 est réel (un rapport de députés du parti présidentiel en demande aussi la dénonciation). La dynamique de l'AME est réelle, et le groupe a traduit son programme par un amendement chiffré. Le parti nomme l'obstacle constitutionnel et européen là où d'autres forces proposent des mesures sans en traiter la constitutionnalité.
 
@@ -112,7 +112,7 @@ Lecture en une phrase : les constats chiffrés sont exacts à la bonne échelle,
 
 1. **Les chiffres sont exacts, les lectures moins.** Sur les six axes, les constats chiffrés se vérifient. Ce qui ne tient pas, ce sont les interprétations : « guichet social » pour un écart de recours, « laxisme » face à 86,5 % de réponse pénale, 10 à 25 Md€ de fraude attribués à une Cour qui dit 6 à 8, « sans précédent » pour un déficit qui a été à 8,9 %.
 2. **Deux mesures portent le projet, et toutes deux exigent de réviser la Constitution puis les traités.** Le référendum sur l'immigration et la priorité nationale, la primauté de la Constitution sur le droit de l'Union. Le parti nomme les obstacles et la voie pour les lever ; cette voie passe par l'unanimité de 26 autres États. Le reste du programme est souvent de rang législatif, et deux contraintes européennes ordinaires (directive TVA pour les carburants, directive sur les résidents de longue durée pour les prestations) ne sont pas nommées.
-3. **Le groupe vote ce qu'il écrit.** Sur les 23 scrutins gelés, pas un vote contraire au programme ; les changements de position (impôt minimal) sont expliqués à la tribune. Les trois écarts partiels viennent d'ailleurs : de ce que le discours dit en plus des textes chiffrés (prestations « réservées aux Français ») ou de ce que les textes chiffrés élargissent sans le dire (C3S, collectivités).
+3. **Le groupe vote ce qu'il écrit, et le discours en dit plus que les textes.** Sur les 23 scrutins gelés, pas un vote contraire au programme ; les changements de position (impôt minimal) sont expliqués à la tribune. Les écarts viennent d'ailleurs : de ce que le discours promet en plus des textes chiffrés (prestations « réservées aux Français », quand les textes disent cinq ans de travail) ou de ce que les textes chiffrés élargissent sans le dire (C3S, collectivités). Le premier touche le cœur de la mesure structurante de l'immigration et pèse donc plus lourd que les deux autres, qui portent sur des lignes secondaires.
 4. **Les chiffrages dépassent les assiettes.** 1,3 Md€ sur une AME qui en coûte 1,4 ; 6,1 Md€ sur des prestations qui en versent 5,8 aux étrangers ; 18 Md€ de TVA sur un écart de 12 ; 13,1 Md€ sur une contribution nette de 9,3. Le plan est ventilé, ce qui est un mérite, et c'est cette ventilation qui rend les écarts visibles.
 5. **L'opposition n'a pas d'actes.** Le RN n'a jamais gouverné : il n'a ni les 62 Md€ de baisses non compensées ni les 49.3 de ses adversaires à justifier. Sa cohérence est meilleure que celle de Renaissance ; les deux ne se comparent pas terme à terme, et chaque fiche le dit.
 
@@ -124,6 +124,10 @@ Lecture en une phrase : les constats chiffrés sont exacts à la bonne échelle,
 - Pour les retraites et la fiscalité, les chiffreurs indépendants trouvés sont tous classés libéraux (Institut Montaigne, iFRAP) ; aucune estimation de l'OFCE ou de l'IPP n'existe sur ces mesures. Les verdicts se lisent donc sur la Cour des comptes et la Cnav.
 - Le scrutin sur le Smic (proposition LFI du 29 octobre 2026) n'existe pas encore ; s'il a lieu, il remplace le scrutin sur l'impôt plancher dans les cinq verticales.
 - Plusieurs sources ont été lues par relais ou par résumé de moteur de recherche ; elles sont marquées comme telles dans les fiches.
+
+## Ce que le challenge a changé
+
+Premier challenge de Dilhan (26 octobre 2026), sur la cohérence. Six affirmations entendues sur le RN ont été vérifiées : deux tiennent (vote contre la taxe Zucman, expliqué en séance et doublé d'un impôt sur la fortune financière ; recul du droit de manifester, comme position assumée et sans vote), deux sont inversées ou introuvables (le groupe a voté pour l'abrogation et pour la suspension de la réforme des retraites, pas contre ; aucune cession d'industrie ou de participation publique dans le corpus, qui propose l'inverse), deux relèvent de l'écoute et des effets distributifs plutôt que de la cohérence (impôts des plus riches, classes populaires : le programme vote ce qu'il écrit, mais ses baisses d'impôts chiffrées vont en euros vers le haut de l'échelle, et c'est écrit dans « Qui gagne, qui perd »). Le challenge a aussi révélé que la grille comptait les écarts sans les peser : le socle passe en v2.1, la cohérence est désormais pondérée par la mesure structurante de l'axe, et l'axe 3 passe d'« écart partiel » à « écart important ». Renaissance sera relue avec la même règle.
 
 ## Ce que la revue contradictoire a changé
 

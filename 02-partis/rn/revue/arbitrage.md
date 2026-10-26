@@ -82,3 +82,18 @@ Sur 25 verdicts, 8 bougent par rapport aux brouillons : F axes 1 et 2 (2 vers 3,
 ## Retours au socle (reportés dans `retours-socle.md`)
 
 Lignes 3 à 8 ajoutées : scrutin 3213 (XVIe) dans la synthèse ; Cevipof dans les motifs D des deux verticales ; règle du niveau 4 en F appliquée dans les deux sens ; règle de la mesure structurante qui pénalise le parti qui chiffre (registre, lignes 6 et 8) ; lecture de l'échelle C harmonisée ; plafond de 64 ans d'Orléans à réexaminer le 17 novembre 2026.
+
+## Addendum du 2026-10-26 : pondération de l'échelle C (socle v2.1, challenge de Dilhan)
+
+Règle ajoutée au socle après le challenge de l'article : un décalage documenté qui porte sur le cœur de la mesure structurante de l'axe (celle du verdict F) ou sur la promesse centrale de la campagne vaut à lui seul le cran 2 ; les autres décalages comptent comme des objets ; « Ce qui tient » dit quel poids couvre la concordance. Appliquée aux six verdicts C du RN :
+
+| Axe | Mesure structurante | Objet d'écart retenu à l'étape 6 | Touche-t-il le cœur ? | C avant | C après |
+|---|---|---|---|---|---|
+| 1 | Plan de 140 Md€ | Collectivités (8,2 Md€ prévus, amendements I-546 et I-74 adoptés) | Non : une ligne du plan, environ 6 % du total | 3 | **3** |
+| 2 | Retraite à 60 ou 62 ans selon l'âge d'entrée | Aucun (plafond de 64 ans d'Orléans : nuance, texte non publié) | Non ; si le 17 novembre 2026 confirme un âge cible au-delà de 62 ans, oui, et le cran deviendrait 2 | 4 | **4** |
+| 3 | Référendum sur l'immigration et la priorité nationale | Prestations « réservées aux Français » (discours) contre cinq ans de travail (textes chiffrés) | **Oui** : c'est le contenu même de la priorité nationale | 3 | **2 Écart important** |
+| 4 | TVA à 5,5 % sur l'énergie | C3S élargie des zones de relocalisation à tout le territoire | Non : autre mesure ; la TVA énergie concorde entre discours, programme et vote (4038) | 3 | **3** |
+| 5 | Peines planchers | Aucun | Non | 4 | **4** |
+| 6 | Primauté de la Constitution sur le droit de l'Union | Aucun | Non | 4 | **4** |
+
+Grille C finale : 3, 4, 2, 3, 4, 4. Renaissance sera relue avec la même règle à la boucle de révision (`retours-socle.md`, ligne 9).

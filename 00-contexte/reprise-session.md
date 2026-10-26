@@ -1,4 +1,4 @@
-# Reprise de session : état au 2026-10-26, matin
+# Reprise de session : état au 2026-10-26, après le premier challenge de l'article RN
 
 Ce fichier est le point d'entrée d'une session qui reprend le travail après un compactage ou un redémarrage. Il complète `CLAUDE.md` (règles) et `README.md` (structure) par ce qu'aucun fichier ne dit : où on en est exactement, ce qui est décidé mais pas encore fait, les pièges rencontrés. Il est réécrit à chaque fin de session.
 
@@ -12,7 +12,7 @@ Ce fichier est le point d'entrée d'une session qui reprend le travail après un
 
 ## État exact
 
-- **Socle : v2**, inchangé depuis le 2026-10-25. Les retours de la verticale RN pour la boucle de révision sont dans `02-partis/rn/revue/retours-socle.md` (8 lignes) : aucun n'a encore été appliqué au socle ni aux fiches Renaissance.
+- **Socle : v2.1** depuis le 2026-10-26 : l'échelle C est pondérée par la mesure structurante de l'axe (décision de Dilhan au challenge de l'article RN, `01-socle/CHANGELOG.md`). Appliquée au RN ; Renaissance à relire à la boucle de révision. Les retours de la verticale RN pour la boucle de révision sont dans `02-partis/rn/revue/retours-socle.md` (9 lignes) : aucun n'a encore été appliqué aux fiches Renaissance.
 - **Verticale 1, Renaissance : étape 8 faite**, page publiée et partagée (v1.1), URL dans `05-artifacts/README.md`. Dilhan n'a pas fini sa relecture de la page ; ses retours restent attendus.
 - **Verticale 2, RN : étapes 1 à 7 faites en v2 le 2026-10-25 et le 2026-10-26.** Corpus (45 archives, `01-corpus.md`, 83 identifiants C-RN), six fiches extraites puis contrôlées (54 corrections), étapes 3 à 5 et Q5 par six agents, chapitre Méthode, carte des tendances, revue contradictoire (défense, contradiction), arbitrage appliqué, article long écrit par l'agent principal et **soumis à Dilhan le 2026-10-26**. Grille finale :
 
@@ -20,14 +20,14 @@ Ce fichier est le point d'entrée d'une session qui reprend le travail après un
 |---|---|---|---|---|
 | 1 Finances publiques et dette | 4 Plutôt fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
 | 2 Travail, protection sociale, fraude | 3 Partiellement fondé | 3 Conditionnelle | 4 Plutôt cohérent | 3 Répond en partie |
-| 3 Immigration | 3 Partiellement fondé | 2 Très incertaine | 3 Écart partiel | 3 Répond en partie |
+| 3 Immigration | 3 Partiellement fondé | 2 Très incertaine | 2 Écart important (pondération v2.1) | 3 Répond en partie |
 | 4 Pouvoir d'achat et fiscalité | 4 Plutôt fondé | 3 Conditionnelle | 3 Écart partiel | 3 Répond en partie |
 | 5 Sécurité, ordre public, libertés | 3 Partiellement fondé | 3 Conditionnelle | 4 Plutôt cohérent | 4 Répond |
 | 6 Institutions, démocratie, Europe | 4 Plutôt fondé | 2 Très incertaine | 4 Plutôt cohérent | 3 Répond en partie |
 | Méthode (M) | 3 Écart partiel (parole et comportement parlementaire seulement, pas d'actes de gouvernement) | | | |
 | Carte des tendances | 5 traitées, 9 en partie, 0 nommée, 0 absente | | | |
 
-- **Prochaine étape : le challenge de l'article par Dilhan, puis la page RN (étape 8)** selon la marche à suivre ci-dessous. Titre prévu au socle : « Le RN : ce qu'il propose, ce qu'il vote ». La page doit lister les 47 demandes avec intensité et statut (règle « l'inventaire entier, pas un extrait ») : les tableaux Q5 des fiches 1, 2, 4, 5, 6 ont le statut en deuxième colonne ; **la fiche 3 a un tableau à colonnes différentes (mesure puis statut dans le texte)** : lire le verdict E et le tableau ensemble pour fixer les six statuts.
+- **Challenge en cours** : premier retour de Dilhan traité le 2026-10-26 (six affirmations vérifiées, pondération C adoptée) ; question suivante posée à Dilhan : une septième question « pour qui » (public revendiqué contre bénéficiaires des mesures chiffrées). **Prochaine étape : la suite du challenge, puis la page RN (étape 8)** selon la marche à suivre ci-dessous. Titre prévu au socle : « Le RN : ce qu'il propose, ce qu'il vote ». La page doit lister les 47 demandes avec intensité et statut (règle « l'inventaire entier, pas un extrait ») : les tableaux Q5 des fiches 1, 2, 4, 5, 6 ont le statut en deuxième colonne ; **la fiche 3 a un tableau à colonnes différentes (mesure puis statut dans le texte)** : lire le verdict E et le tableau ensemble pour fixer les six statuts.
 - Git : repo local `~/Documents/Politique/elections-france-2027`, branche `main`, environ 45 commits, **rien n'est poussé, aucun remote**. Publication GitHub : décidée « après la première verticale relue, sur feu vert explicite de Dilhan » ; pas encore demandée.
 
 ## Marche à suivre pour une page (étape 8, suivie pour Renaissance ; à reprendre pour le RN)
