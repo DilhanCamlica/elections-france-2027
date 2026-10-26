@@ -5,7 +5,7 @@
 - Auteur : <sous-agent Opus, étape 5 bis>, relu par <…>
 - Statut : brouillon | revu | validé
 - Version du socle : v<n>
-- Passé gouvernemental dans la fenêtre 2012-2026 : <oui, périodes | non : le verdict repose sur la parole de méthode et le comportement parlementaire>
+- Passé gouvernemental dans la fenêtre 2012-2026 : <oui, périodes | non : le verdict repose sur la parole de méthode, le comportement parlementaire et la discipline interne>
 
 ## (a) La parole de méthode
 
