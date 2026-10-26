@@ -1,7 +1,7 @@
 # Renaissance : ce qu'elle propose, ce qu'elle vote
 
 - Article long soumis à Dilhan le 2026-10-25 (étape 7 de la méthode). Les corrections issues de son challenge seront intégrées ici avant la page.
-- Corpus et données arrêtés au 2026-10-25. Socle v1. Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` (plus de 300 références), revue contradictoire dans `revue/`.
+- Relu à la boucle de révision du socle le 2026-10-26 (v2.1 et v2.2, voir « Ce que la boucle de révision a changé »). Corpus et données arrêtés au 2026-10-25 (bloc valeurs : 2026-10-26). Socle v2.2. Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` (plus de 300 références), revue contradictoire dans `revue/`.
 
 ## Ce qu'on a lu
 
@@ -187,6 +187,8 @@ Verdict : **écart important de méthode**. Six objets de rupture documentés, c
 6. Le blocage de TikTok en Nouvelle-Calédonie en mai 2024, sous le gouvernement Attal, jugé illégal par le Conseil d'État.
 
 Ce qui tient : le 49.3 suit la situation de majorité (un seul recours en cinq ans de majorité absolue, 23 sous la majorité relative, 8 sous la coalition, et la loi de financement 2026 adoptée sans 49.3) ; les refus de 2019 (vote blanc, RIC, ISF) ont été dits et motivés devant la presse ; les cahiers de doléances ont été numérisés, ouverts par arrêté en 2025, mise en ligne prévue en 2027 ; des concessions réelles ont suivi les mobilisations (décembre 2018, grand débat, suspension des retraites en 2025) ; la Convention citoyenne sur la fin de vie a abouti à une loi en août 2026.
+
+Les valeurs affichées et la discipline interne (bloc ajouté le 26 octobre 2026, même collecte pour les cinq forces, fenêtre 2017-2026). Ce que le parti écrit : les statuts de 2017 engagent les adhérents à respecter une charte des valeurs dans leurs interventions publiques, y compris en fonction élective ; le Corpus des valeurs de 2022 engage à « combattre implacablement » le racisme et l'antisémitisme, sans règle d'investiture ni de sanction : un principe, pas un engagement explicite ; le règlement intérieur permet de refuser une adhésion pour des propos contraires aux valeurs. Le seul engagement explicite est la règle du casier judiciaire vierge de janvier 2017, tenue à la lettre cette année-là et non reconduite en 2022. Ce que le parti a fait : quatre cas documentés dans le périmètre admis (candidats investis, élus, dirigeants ; actes publics du parti), tous entre 2017 et 2019 : une investiture suspendue le jour même puis retirée (Charente-Maritime, 2017), un maintien après excuses conforme à la condition posée la veille (Guadeloupe, 2017), un avertissement à un député en trois jours (2018), l'exclusion d'une députée après vingt-et-une semaines (2019). Aucun cas pour les 555 candidats de 2022 et les 443 de 2024 ; aucune condamnation définitive. Aucun engagement explicite rompu : le bloc n'ajoute aucun objet aux six ci-dessus et le verdict reste « écart important de méthode ». Réserve : aucun recensement de presse comparable à ceux qui ont visé les candidats du RN en 2017 et 2024 n'existe pour ce parti ; l'absence de cas après 2019 peut tenir à l'absence d'enquêtes autant qu'à l'absence de faits. Le bloc ne compare pas les forces entre elles.
 
 ## Ce que vaut la séquence « dix ans » de la vidéo partagée
 
