@@ -4,8 +4,8 @@
 
 | Ordre | Force | Dossier | Étape atteinte | Version du socle appliquée | Page | Dernière révision |
 |---|---|---|---|---|---|---|
-| 1 | Renaissance | `renaissance/` | 8 en v2 (page publiée et partagée, v1.1 ; à relire avec le socle v2.1 à la boucle de révision) | v2 (v2.1 à appliquer) | publiée v1.1, partagée : https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 | 2026-10-25 |
-| 2 | RN | `rn/` | 7 (article long challengé une première fois le 2026-10-26 : pondération C appliquée, axe 3 C 3 vers 2) ; 8 page à produire | v2.1 | à produire | 2026-10-26 |
+| 1 | Renaissance | `renaissance/` | 8 en v2 (page publiée et partagée, v1.1 ; à relire avec le socle v2.1 à la boucle de révision) | v2 (v2.1 et v2.2 à appliquer) | publiée v1.1, partagée : https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 | 2026-10-25 |
+| 2 | RN | `rn/` | 7 (article long challengé deux fois le 2026-10-26 : pondération C, axe 3 C 3 vers 2 ; bloc (d) valeurs instruit, M maintenu à 3) ; 8 page à produire | v2.2 | à produire | 2026-10-26 |
 | 3 | LFI | `lfi/` | 0 | | | |
 | 4 | PS | `ps/` | 0 | | | |
 | 5 | LR | `lr/` | 0 | | | |

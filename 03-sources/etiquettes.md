@@ -64,5 +64,10 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | CRSI France | association de réflexion sur la sécurité intérieure, relais | Reprend les bilans du SSMSI ; orientation non établie, à recouper |
 | CNAFAL | association familiale laïque, classée à gauche | Confédération nationale des associations familiales laïques, positions publiques ; utilisée seulement comme hébergeur d'un document officiel |
 | TSA (Tout sur l'Algérie) | quotidien en ligne algérien, relais | Relais du rapport annuel du ministère de l'Intérieur français ; à recouper |
+| StreetPress | média d'enquête en ligne, classé à gauche | Ligne éditoriale revendiquée sur les discriminations et l'extrême droite ; utilisé comme pointeur vers des actes publics (bloc d), jamais seul |
+| BuzzFeed News (France, archives), Brut, La Minute, Bon Pote | média en ligne, relais | Enquêtes ou reprises ; à recouper avec un acte public du parti ou une décision de justice |
+| Times of Israël, France 24, Sud Radio, presse régionale et belge (ICI, La Voix du Nord, Le Soir, RTBF) | presse généraliste, relais | Reprises de dépêches ou comptes rendus ; Sud Radio à ligne marquée (classée à droite) ; le média d'origine est indiqué |
+| Associations parties civiles (Licra, SOS Racisme, UEJF, J'accuse) | association partie prenante | Parties civiles dans les procédures citées ; leurs communiqués ne prouvent pas une condamnation |
+| JDD | hebdomadaire du groupe Lagardère, contrôlé par le groupe Bolloré, classé à droite | Ligne éditoriale documentée depuis 2023 ; déjà cité dans les fiches Renaissance, étiquette inscrite le 2026-10-26 |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
