@@ -150,7 +150,7 @@ Ce qui tient : une parole de méthode précise sur le référendum (immigration 
 
 ## Qui gagne, qui perd (effets distributifs des mesures chiffrées)
 
-- TVA à 5,5 % sur l'énergie : environ 250 € par an pour le dixième des ménages les plus modestes, 590 € pour le dixième le plus aisé (calcul par nos soins sur Budget de famille) ; en part du revenu, le gain est plus fort en bas.
+- TVA à 5,5 % sur l'énergie : environ 250 € par an pour le dixième des ménages les plus modestes, 590 € pour le dixième le plus aisé (calcul par nos soins sur Budget de famille) ; selon la Cour des comptes, une baisse de TVA sur le gaz et l'électricité rapporte 130 € au dernier décile et 82 € aux trois premiers déciles réunis. En euros, le gain croît avec le niveau de vie ; aucune source lue ne le mesure en part du revenu.
 - Exonération d'impôt sur le revenu des moins de 30 ans : 0 € au Smic (déjà non imposable), environ 11 800 € par an à quatre Smic (calcul par nos soins). Le gain croît avec le salaire.
 - Condition de cinq ans de travail pour les prestations : perte concentrée sur les ménages étrangers extra-européens récents, souvent dans les premiers déciles ; aucune microsimulation publique n'existe.
 - Aide médicale d'urgence : la dépense d'AME étant de 1,4 Md€, l'économie de 1,3 Md€ laisse 87 M€ pour des soins urgents qui en coûtent 71 M€ aujourd'hui.
