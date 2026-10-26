@@ -57,7 +57,7 @@ Repo local, branche `main`. Commits par étape logique, messages en français, p
 - `🖼️ artifact:` code HTML publié ou mis à jour
 - `🛠️ scripts:` outillage
 
-Pas de push sans demande explicite de Dilhan. **Les sous-agents ne commitent pas** : l'agent principal commite par étape logique, après relecture.
+Dépôt public sur GitHub depuis le 2026-10-26 (`origin`, compte DilhanCamlica) : pousser `main` après chaque commit ; ne jamais pousser le tag local `avant-publication-2026-10-26` ni forcer. **Les sous-agents ne commitent pas** : l'agent principal commite par étape logique, après relecture.
 
 ## Interaction avec Dilhan
 

@@ -28,7 +28,7 @@ Ce fichier est le point d'entrée d'une session qui reprend le travail après un
 | Carte des tendances | 5 traitées, 9 en partie, 0 nommée, 0 absente | | | |
 
 - **Prochaine étape : les retours de Dilhan sur la page RN (privée) ; puis la question GitHub (publication du repo, « sur feu vert explicite ») ; puis la verticale 3 (LFI)** selon la marche à suivre ci-dessous, avec les règles v2.2 et les précisions du 2026-10-26 dès l'étape 1. Titre prévu au socle : « Le RN : ce qu'il propose, ce qu'il vote ». La page doit lister les 47 demandes avec intensité et statut (règle « l'inventaire entier, pas un extrait ») : les tableaux Q5 des fiches 1, 2, 4, 5, 6 ont le statut en deuxième colonne ; **la fiche 3 a un tableau à colonnes différentes (mesure puis statut dans le texte)** : lire le verdict E et le tableau ensemble pour fixer les six statuts.
-- Git : repo local `~/Documents/Politique/elections-france-2027`, branche `main`, environ 45 commits, **rien n'est poussé, aucun remote**. Publication GitHub : décidée « après la première verticale relue, sur feu vert explicite de Dilhan » ; pas encore demandée.
+- Git : repo `~/Documents/Politique/elections-france-2027`, branche `main`, **public sur GitHub depuis le 2026-10-26** : https://github.com/DilhanCamlica/elections-france-2027 (compte personnel DilhanCamlica, pas l'organisation brulance-tech). Remote `origin` en HTTPS ; le dépôt a son propre `credential.helper` (configuration locale du repo, liste réinitialisée) qui fournit le jeton du compte DilhanCamlica via `gh auth token --user DilhanCamlica`, sans changer le compte actif de gh, qui reste brulance-tech (la clé SSH du Mac est celle de brulance-tech, donc ne pas passer le remote en SSH ; le helper global de gh seul donnait un 403). Avant la publication, l'historique a été réécrit pour retirer l'échange familial et les transcripts de vidéos de tiers (conservés en local, ignorés par git ; sauvegarde de l'ancien historique sous le tag local `avant-publication-2026-10-26`, à ne jamais pousser). Règle depuis la publication : pousser `main` après chaque commit.
 
 ## Boucle de révision du socle après deux verticales : faite le 2026-10-26
 
@@ -60,7 +60,6 @@ Pour les verticales suivantes : la synthèse devra repasser, pour les cinq force
 - **Lignes 3 et 8 de `02-partis/rn/revue/retours-socle.md`** (scrutin 3213 à la synthèse ; plafond de 64 ans d'Orléans le 17 novembre 2026). Chaque modification du socle passe par `01-socle/CHANGELOG.md`.
 - **17 novembre 2026** : réforme des retraites du RN ; réexaminer F et C de l'axe 2 et la divergence de corpus sur l'âge.
 - **Scrutin Smic** : PPL LFI n° 3176 en niche le 29 octobre 2026 ; si un scrutin a lieu, il remplace le 881 dans la liste gelée et les matrices de l'axe 4 des deux verticales sont à refaire.
-- **Publication GitHub** du repo : à demander à Dilhan.
 - **Programme 2017** de Renaissance : à archiver dans `02-partis/renaissance/corpus/`.
 - Pour la synthèse : les scrutins de la XVIe législature (3213, 1662, 909, 831) sont cités en contexte dans les fiches RN ; décider d'un traitement commun aux cinq forces.
 
