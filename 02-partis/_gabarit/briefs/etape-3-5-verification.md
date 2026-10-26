@@ -25,7 +25,7 @@ Trois comparaisons, toujours séparées :
 1. Discours public (section « Déclarations publiques récentes ») contre programme écrit (Q2) : concordances et écarts.
 2. Programme contre votes : pour chaque scrutin de l'axe dans `scrutins-selectionnes.md`, reporter la position du groupe depuis `scrutins-positions.md` (et celle des quatre autres groupes dans la même ligne, pour la matrice de la page), puis dire si elle concorde avec le programme. Un vote sur un texte global est pondéré à part. Chercher les amendements du groupe sur l'objet quand le vote global ne suffit pas.
 3. Programme contre actes, seulement si la force a gouverné (voir `00-perimetre.md`) : lois et décisions de la section Actes du corpus, confrontées aux promesses du programme de l'époque et du programme actuel. Sinon « non applicable ».
-Puis le verdict sur l'échelle C. « Non évaluable » si moins de deux scrutins exploitables ; dire alors sur quoi repose le verdict.
+Puis le verdict sur l'échelle C. « Non évaluable » si moins de deux scrutins exploitables ; dire alors sur quoi repose le verdict. **Pondération (v2.1)** : nommer la mesure la plus structurante de l'axe (la même que pour le verdict F) et dire si un décalage la touche en son cœur (objet principal, périmètre, montant global, calendrier central) ou touche la promesse centrale de la campagne : un tel décalage vaut à lui seul le cran 2 ; les autres décalages comptent comme des objets. Dans « Ce qui tient », dire quel poids couvre la concordance (part des mesures chiffrées, place dans la campagne).
 
 ### Étape 5, Q5 Écoute (v2)
 

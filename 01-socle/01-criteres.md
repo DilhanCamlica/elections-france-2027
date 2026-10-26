@@ -1,7 +1,7 @@
 # Critères : périmètre, axes, questions, échelles, scrutins, demandes, tendances
 
 - Rédigé le : 2026-10-25
-- Statut : **v2**, validée avec Dilhan au second grill du 2026-10-25, après la verticale Renaissance (voir `CHANGELOG.md`). La v1 posait quatre questions de faits ; la v2 ajoute deux questions sur la relation entre le parti et le pays (écoute, méthode), une carte des tendances lourdes et les effets distributifs.
+- Statut : **v2.1**, validée avec Dilhan au second grill du 2026-10-25, après la verticale Renaissance (voir `CHANGELOG.md`) ; pondération de l'échelle C par la mesure structurante ajoutée le 2026-10-26 après le challenge de l'article RN. La v1 posait quatre questions de faits ; la v2 ajoute deux questions sur la relation entre le parti et le pays (écoute, méthode), une carte des tendances lourdes et les effets distributifs.
 
 ## 1. Périmètre des cinq forces
 
@@ -84,6 +84,8 @@ Précision v2 : une prévision (« la demande va croître ») est « non vérifi
 | 5 | Cohérent | Discours, programme, votes et actes concordent sur tous les objets examinés |
 
 Règles : « non évaluable » si moins de deux scrutins exploitables ; un silence n'est pas une contradiction ; un vote sur un texte global est pondéré à part ; la comparaison programme / actes s'applique aux forces qui ont gouverné sur la période et compte pleinement pour elles (voir registre des biais, ligne 2, reformulée en v2) ; un paquet de mesures bloqué par un même obstacle compte pour un objet.
+
+**Pondération par la mesure structurante (v2.1, 2026-10-26, décidée avec Dilhan au challenge de l'article RN).** Compter les objets d'écart sans les peser donnait le même cran à un parti fidèle sur neuf objets mineurs et infidèle sur l'objet majeur qu'à un parti fidèle sur l'objet majeur et infidèle sur neuf détails. Règle : la **mesure la plus structurante de l'axe** est celle qui porte déjà le verdict F (poids budgétaire ou place dans la campagne) ; elle est nommée une fois par axe et sert aux deux échelles. Un décalage documenté qui porte sur le cœur de cette mesure (son objet principal, son périmètre, son montant global ou son calendrier central) ou sur la **promesse centrale de la campagne** vaut à lui seul le cran 2 ; un décalage sur une ligne secondaire de cette mesure ou sur une autre mesure compte comme un objet, selon la définition des crans. La justification du verdict C nomme la mesure structurante et dit si elle est touchée. « Ce qui tient » dit quel poids couvre la concordance (part des mesures chiffrées, place dans la campagne). Le poids vient du parti lui-même, jamais d'un jugement sur l'importance du problème : c'est ce qui garde la règle symétrique. Pondérer par l'impact des mesures sur les problèmes a été écarté parce qu'il demanderait de décider quels problèmes comptent.
 
 ### Échelle E (Écoute), nouvelle
 
