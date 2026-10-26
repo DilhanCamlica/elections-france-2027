@@ -6,7 +6,7 @@ Sortie : liste des problèmes, code retour 1 s'il y en a.
 import sys, re, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-targets = [pathlib.Path(p) for p in sys.argv[1:]] or [ROOT]
+targets = [pathlib.Path(p).resolve() for p in sys.argv[1:]] or [ROOT]
 BAD = {"—": "tiret cadratin", "–": "tiret demi-cadratin"}
 problems = []
 for t in targets:
@@ -19,7 +19,7 @@ for t in targets:
         for i, line in enumerate(text.splitlines(), 1):
             for ch, name in BAD.items():
                 if ch in line:
-                    problems.append(f"{f.relative_to(ROOT)}:{i}: {name}")
+                    problems.append(f"{f.relative_to(ROOT) if f.is_relative_to(ROOT) else f}:{i}: {name}")
 for p in problems:
     print(p)
 print(f"{len(problems)} problème(s)" if problems else "OK : aucun tiret long")

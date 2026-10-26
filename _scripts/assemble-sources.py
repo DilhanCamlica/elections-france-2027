@@ -4,6 +4,8 @@
 Entrée : un fichier HTML « source » dans lequel les appels de sources sont des jetons :
   {{S:<fiche>:<n>}}   source n° n de la fiche <fiche> (1 à 6 pour les axes, M pour methode.md, T pour tendances.md)
   {{C:<nn>}}          document du corpus [C-<PARTI>-nn] décrit dans 01-corpus.md
+  {{CSS}}             contenu de la feuille de style recopié depuis la page gabarit (--gabarit) ; le jeton se place entre <style> et </style>
+  {{HERO_SVG}}        dessin d'en-tête (bloc <svg class="hero-art">…</svg>) recopié depuis la page gabarit
   Plusieurs jetons collés ({{S:1:27}}{{S:1:62}}) forment un seul exposant « 27,62 ».
   Un jeton peut porter plusieurs numéros : {{S:1:27;62}}.
   Le bloc {{SOURCES}} est remplacé par la liste numérotée, groupée (corpus d'abord, puis par fiche).
@@ -12,7 +14,9 @@ Sortie : le fichier HTML final, où chaque jeton devient <sup><a href="#sN">N</a
 sources sont numérotées s1..sN dans l'ordre de première apparition, sans doublon d'URL.
 
 Usage :
-  python3 _scripts/assemble-sources.py --parti rn --prefixe C-RN --src <src.html> --out 05-artifacts/rn.html
+  python3 _scripts/assemble-sources.py --parti rn --prefixe C-RN --nom-parti "Rassemblement national" \
+      --src 05-artifacts/sources/rn.src.html --gabarit 05-artifacts/renaissance.html --out 05-artifacts/rn.html
+Le fichier source d'une page vit dans 05-artifacts/sources/<slug>.src.html ; la page publiée est la sortie.
 """
 import argparse, re, pathlib, html, sys
 
@@ -101,6 +105,7 @@ def main():
     ap.add_argument("--src", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--nom-parti", default="Rassemblement national")
+    ap.add_argument("--gabarit", help="page HTML dont on recopie le bloc <style> ({{CSS}}) et le dessin d'en-tête ({{HERO_SVG}})")
     a = ap.parse_args()
     base = ROOT / "02-partis" / a.parti
     fiches = {k: parse_sources(base / "axes" / v) for k, v in FICHES.items()}
@@ -108,6 +113,18 @@ def main():
     fiches["T"] = parse_sources(base / "tendances.md")
     corpus = parse_corpus(base / "01-corpus.md", a.prefixe)
     src = pathlib.Path(a.src).read_text(encoding="utf-8")
+    if a.gabarit:
+        g = pathlib.Path(a.gabarit).read_text(encoding="utf-8")
+        css = re.search(r"<style>.*?</style>", g, re.S)
+        hero = re.search(r'<svg class="hero-art".*?</svg>', g, re.S)
+        if not css or not hero:
+            sys.exit("gabarit : bloc <style> ou <svg class=\"hero-art\"> introuvable")
+        # {{CSS}} est posé entre <style> et </style> dans la source : on insère le contenu seul, sans balises
+        css_inner = re.sub(r"</?style>", "", css.group(0)).strip("\n")
+        src = src.replace("{{CSS}}", css_inner).replace("{{HERO_SVG}}", hero.group(0))
+    for jeton in ("{{CSS}}", "{{HERO_SVG}}"):
+        if jeton in src:
+            sys.exit(f"jeton {jeton} présent dans la source : passer --gabarit")
 
     order = []          # clés (groupe, n) dans l'ordre d'apparition
     numero = {}         # clé -> numéro de page
