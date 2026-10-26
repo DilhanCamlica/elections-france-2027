@@ -1,6 +1,6 @@
 # Registre des biais et parades
 
-- Rédigé le : 2026-10-25, v2 le même jour (lignes 2 reformulée, 14 à 16 ajoutées après la verticale Renaissance et le second grill).
+- Rédigé le : 2026-10-25, v2 le même jour (lignes 2 reformulée, 14 à 16 ajoutées après la verticale Renaissance et le second grill) ; ligne 17 ajoutée le 2026-10-26 (v2.2).
 - Statut : vivant. Tout biais identifié s'ajoute ici avec sa parade et la date.
 
 Un biais listé ici n'est pas un biais corrigé. C'est un biais surveillé. La revue contradictoire (étape 6) vérifie explicitement chaque ligne pour chaque verticale.
@@ -23,6 +23,7 @@ Un biais listé ici n'est pas un biais corrigé. C'est un biais surveillé. La r
 | 14 | **La méthode pèse sur ceux qui ont gouverné** (v2) | Q6 a des actes à confronter pour Renaissance, le PS et LR, pas pour LFI et le RN ; les premiers peuvent perdre des points que les seconds ne peuvent pas perdre | Fenêtre depuis 2012 avec pondération par l'ancienneté ; pour toutes les forces, la parole de méthode du programme et le comportement parlementaire comptent ; la fiche de chaque force sans passé gouvernemental dit sur quoi repose son verdict ; la synthèse présente les verdicts M avec cette réserve écrite |
 | 15 | **L'inventaire des demandes est notre choix** (v2) | Choisir les mobilisations ou les enquêtes qui servent une thèse ; confondre popularité et validité | Inventaire unique, gelé avant lecture des programmes, règle des deux sources indépendantes, demandes opposées inscrites toutes deux, intensité notée sans jugement ; les sondages ne servent qu'à cet inventaire ; l'échelle E ne sanctionne pas d'aller contre une demande, seulement de ne pas le dire |
 | 16 | **La liste des tendances est notre prospective** (v2) | Retenir les tendances qui donnent raison à un camp (climat pour la gauche, dette pour la droite, immigration pour le RN) | Liste établie à partir des institutions publiques et internationales, avec chiffre et horizon ; une tendance entre si une institution la documente ; les divergences entre institutions sont notées ; la carte ne porte pas de verdict |
+| 17 | **Les cas individuels mesurent l'attention médiatique** (v2.2) | Compter les propos de membres d'un parti revient à compter les enquêtes de presse qui lui sont consacrées ; les grands partis et les partis les plus surveillés en ont plus ; un adhérent n'engage pas le parti | Bloc (d) de la question Méthode : objet = le parti et sa réaction, pas la personne ; périmètre limité aux candidats investis, élus et dirigeants ; faits de niveau 3 ou acte public du parti ; même collecte pour les cinq forces, rapportée au nombre de candidats ; pas d'échelle à part ; vocabulaire judiciaire ou cité |
 
 ## Ce que le registre ne prétend pas
 

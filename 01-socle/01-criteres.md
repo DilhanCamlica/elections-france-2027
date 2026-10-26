@@ -1,7 +1,7 @@
 # Critères : périmètre, axes, questions, échelles, scrutins, demandes, tendances
 
 - Rédigé le : 2026-10-25
-- Statut : **v2.1**, validée avec Dilhan au second grill du 2026-10-25, après la verticale Renaissance (voir `CHANGELOG.md`) ; pondération de l'échelle C par la mesure structurante ajoutée le 2026-10-26 après le challenge de l'article RN. La v1 posait quatre questions de faits ; la v2 ajoute deux questions sur la relation entre le parti et le pays (écoute, méthode), une carte des tendances lourdes et les effets distributifs.
+- Statut : **v2.2**, validée avec Dilhan au second grill du 2026-10-25, après la verticale Renaissance (voir `CHANGELOG.md`) ; pondération de l'échelle C par la mesure structurante (v2.1) et bloc (d) « valeurs affichées et discipline interne » dans la question Méthode (v2.2) ajoutés le 2026-10-26 après le challenge de l'article RN. La v1 posait quatre questions de faits ; la v2 ajoute deux questions sur la relation entre le parti et le pays (écoute, méthode), une carte des tendances lourdes et les effets distributifs.
 
 ## 1. Périmètre des cinq forces
 
@@ -41,7 +41,7 @@ Quand le parti et son candidat divergent, les deux positions sont documentées e
 | **Q3 Faisabilité** | Juridique (Constitution, Union européenne, jurisprudence), budgétaire, opérationnelle. **Nouveau en v2 : effets distributifs** des mesures chiffrées (qui gagne, qui perd, par décile), décrits sans note | F |
 | **Q4 Cohérence** | Discours public, programme écrit, votes, actes concordent-ils ? | C |
 | **Q5 Écoute** (nouveau) | Le programme traite-t-il, sur cet axe, les demandes les plus exprimées par la population ? Quand il va contre, le dit-il ? | E |
-| **Q6 Méthode** (nouveau, un chapitre par parti, pas par axe) | Comment le parti gouverne ou gouvernerait : respect de la parole de méthode, usage des outils de passage en force, suites données aux consultations et aux mobilisations | M |
+| **Q6 Méthode** (nouveau, un chapitre par parti, pas par axe) | Comment le parti gouverne ou gouvernerait : respect de la parole de méthode, usage des outils de passage en force, suites données aux consultations et aux mobilisations ; et, depuis la v2.2, ce qu'il fait de ses valeurs affichées quand ses candidats ou élus y contreviennent (bloc d) | M |
 
 S'y ajoute une **carte des tendances lourdes** par parti (section 8), sans verdict.
 
@@ -115,7 +115,15 @@ Un seul verdict par parti, dans un chapitre à part. Matière : (a) la **parole 
 | 4 | Plutôt tenue | Nuances de calendrier ou d'ampleur |
 | 5 | Tenue | Parole de méthode et actes concordent sur tous les objets examinés |
 
-Pour une force qui n'a jamais gouverné au niveau national (LFI, RN), le verdict repose sur (a) et (c) seulement, et la fiche le dit. Registre des biais, ligne 14. Précision du 2026-10-25 : un « engagement explicite » de méthode est une promesse formulée comme telle (« sans filtre », « je renonce au 49.3 », « référendum sur X ») ; une formule d'intention (« vous serez associés aux grandes décisions ») n'en est pas un et ne compte pas comme objet de rupture, mais les actes de méthode qui la contredisent (procédure de la réforme des retraites 2023, par exemple) comptent pour eux-mêmes.
+Pour une force qui n'a jamais gouverné au niveau national (LFI, RN), le verdict repose sur (a), (c) et (d) seulement, et la fiche le dit. Registre des biais, ligne 14. Précision du 2026-10-25 : un « engagement explicite » de méthode est une promesse formulée comme telle (« sans filtre », « je renonce au 49.3 », « référendum sur X ») ; une formule d'intention (« vous serez associés aux grandes décisions ») n'en est pas un et ne compte pas comme objet de rupture, mais les actes de méthode qui la contredisent (procédure de la réforme des retraites 2023, par exemple) comptent pour eux-mêmes.
+
+**(d) Valeurs affichées et discipline interne (v2.2, 2026-10-26, décidé avec Dilhan au challenge de l'article RN).** Pour les cinq forces, fenêtre 2017-2026. L'objet jugé est le parti comme organisation, jamais une personne : ce qu'il dit de ses valeurs (statuts, charte, engagements explicites comme « tolérance zéro », participation à des mobilisations contre le racisme ou l'antisémitisme), et ce qu'il fait quand un de ses candidats investis, élus ou cadres nationaux y contrevient (retrait ou maintien d'investiture, exclusion, suspension, silence ; délai de réaction ; récidive). Règles :
+1. **Périmètre des personnes** : candidats investis à une élection nationale ou européenne, élus (députés, sénateurs, eurodéputés, exécutifs locaux), membres de la direction nationale. Jamais un adhérent, un sympathisant ou un salarié : ce sont des personnes privées. Les personnes sont désignées par leur fonction (« un candidat investi dans telle circonscription », « un conseiller régional ») ; le nom n'apparaît que pour un élu national ou un dirigeant déjà nommé dans les documents du parti.
+2. **Faits admis** : une condamnation définitive (injure publique, provocation à la haine ou à la discrimination, apologie, contestation de crime contre l'humanité : niveau 3) ; un acte public du parti (retrait d'investiture, exclusion, suspension, communiqué) ; une investiture ou une fonction maintenue après une publication documentée par au moins deux médias indépendants, auquel cas c'est le maintien qui est le fait, pas la publication ; les rapports de la CNCDH, du Défenseur des droits et de la Dilcrah (niveau 2). La presse (niveau 5) pointe vers un acte public, elle ne prouve pas seule ; un contenu connu par une seule capture de presse, sans acte du parti ni décision de justice, n'entre pas.
+3. **Collecte symétrique** : la même recherche, avec les mêmes requêtes et les mêmes sources, pour les cinq forces ; les cas rapportés au nombre de candidats investis quand il s'agit d'une élection ; les cas antérieurs à 2017 cités en contexte seulement.
+4. **Vocabulaire** : « antisémite », « raciste », « haineux » n'apparaissent qu'en qualification judiciaire citée ou en citation attribuée (y compris quand c'est le parti lui-même qui qualifie ainsi un propos de l'un des siens). Hors citation, on écrit « publication visée par une condamnation pour… » ou « propos pour lesquels le parti a retiré l'investiture ».
+5. **Poids dans M** : un engagement explicite de valeurs (« aucun candidat qui… », « tolérance zéro ») rompu par des investitures ou des fonctions maintenues est un objet de rupture de méthode au même titre qu'un engagement de procédure ; la réaction systématique et rapide compte dans « Ce qui tient ». Le bloc ne reçoit pas d'échelle à part : une note de valeurs par parti deviendrait un verdict moral, ce que le socle refuse. Les positions sur l'état de droit, les juges, le référendum et le pluralisme restent jugées aux axes 6 et Méthode (a), (c).
+Registre des biais, ligne 17.
 
 ## 5. Règle de sélection des scrutins
 
