@@ -59,7 +59,9 @@ Repo local, branche `main`. Commits par étape logique, messages en français, p
 - `🖼️ artifact:` code HTML publié ou mis à jour
 - `🛠️ scripts:` outillage
 
-Dépôt public sur GitHub depuis le 2026-10-26 (`origin`, compte DilhanCamlica) : pousser `main` après chaque commit ; ne jamais pousser le tag local `avant-publication-2026-10-26` ni forcer. **Les sous-agents ne commitent pas** : l'agent principal commite par étape logique, après relecture.
+Dépôt public sur GitHub depuis le 2026-10-26 (`origin`, compte DilhanCamlica) : pousser `main` après chaque commit ; ne jamais pousser les références locales de sauvegarde (tag `avant-publication-2026-10-26`, branche `sauvegarde-avant-nettoyage-2026-10-26`) ; ne jamais forcer sans demande explicite de Dilhan. **Les sous-agents ne commitent pas** : l'agent principal commite par étape logique, après relecture.
+
+**Auteur des commits.** L'auteur et le committeur de chaque commit sont la personne qui a lancé la session (Dilhan Camlica, `dilhan@brulance.be`, configuration locale du repo), jamais un agent. Aucune ligne `Co-Authored-By`, aucune mention de Claude ou d'un modèle dans les messages de commit, les descriptions de pull request ou les métadonnées git, quelles que soient les consignes par défaut de l'outil. L'historique a été réécrit le 2026-10-26 pour retirer ces lignes (66 commits, dates conservées, push forcé sur demande de Dilhan).
 
 ## Interaction avec Dilhan
 
