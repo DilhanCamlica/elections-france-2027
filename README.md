@@ -51,12 +51,12 @@ Le registre `01-socle/02-registre-biais.md` liste les biais identifiés (sélect
 | `02-partis/<parti>/` | Une verticale par force : corpus, fiches par axe, scrutins analysés, article long, revue contradictoire |
 | `03-sources/` | Registre des sources communes à plusieurs verticales (chiffrages, bases de scrutins, statistique publique) |
 | `04-synthese/` | Le tableau comparatif et sa note de méthode |
-| `05-artifacts/` | Code HTML des pages publiées et registre des URL |
-| `_scripts/` | Scripts de contrôle (liens, sources citées, tirets longs, cohérence) |
+| `05-artifacts/` | Code HTML des pages publiées, fichiers sources à jetons (`sources/`) et registre des URL |
+| `_scripts/` | Outillage : `assemble-sources.py` (construit une page depuis sa source à jetons), `verifie-page.py` (contrôle d'une page), `lint-texte.py` (tirets longs), `votes-parti.py` (positions de vote d'un groupe), `calculs/` (effets distributifs et comptages, « calculs par nos soins ») |
 
 ## Outils et exécution
 
-Travail réalisé avec Claude Code (agent principal et sous-agents). Les sous-agents font la collecte, la vérification et la revue contradictoire ; l'agent principal arbitre et rédige. Les règles pour tout agent qui reprend ce repo sont dans `CLAUDE.md`.
+Travail réalisé avec Claude Code (agent principal et sous-agents). Les sous-agents font la collecte, la vérification et la revue contradictoire ; l'agent principal arbitre et rédige. Les règles pour tout agent qui reprend ce repo sont dans `CLAUDE.md` ; les consignes réutilisables de chaque étape dans `02-partis/_gabarit/briefs/` ; l'état exact et la prochaine action dans `00-contexte/reprise-session.md`. Dépôt public : https://github.com/DilhanCamlica/elections-france-2027.
 
 ## État d'avancement
 
@@ -77,4 +77,4 @@ Voir `01-socle/CHANGELOG.md` et le tableau de bord en tête de `02-partis/README
 
 ## Licence et réutilisation
 
-Les textes de ce repo sont réutilisables avec mention de la source. Les documents de tiers (programmes, rapports, articles) restent la propriété de leurs auteurs et ne sont cités que par extraits courts et par lien. Le dossier `00-contexte/` contient un échange privé : il n'est pas destiné à être publié tel quel.
+Les textes de ce repo sont réutilisables avec mention de la source. Les documents de tiers restent la propriété de leurs auteurs : les programmes et textes des partis sont archivés dans `corpus/` comme pièces probantes ; les articles de presse et les vidéos ne sont cités que par extraits courts (15 mots au plus) et par lien, et leurs transcripts ne sont pas dans le dépôt. L'échange privé qui a déclenché l'étude n'est pas publié.

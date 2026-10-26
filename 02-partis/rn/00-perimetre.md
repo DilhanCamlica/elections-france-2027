@@ -3,7 +3,7 @@
 - Ouverte le : 2026-10-25
 - Date d'arrêt du corpus : 2026-10-25 (règle : `01-socle/01-criteres.md` §6 ; même date que la verticale Renaissance, réalignement prévu à la fin des cinq verticales)
 - Version du socle appliquée : v2 (2026-10-25)
-- Statut : étape 1 en cours
+- Statut : verticale terminée (étapes 1 à 8, socle v2.2), page publiée en privé le 2026-10-26
 
 ## Force étudiée
 

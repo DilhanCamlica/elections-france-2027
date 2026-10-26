@@ -38,19 +38,19 @@ Constituer la liste des documents qui font foi pour cette force : programme(s), 
 
 Règle : le corpus est arrêté à une date, écrite en tête du dossier. Ce qui paraît après est traité dans la boucle de révision, pas au fil de l'eau.
 
-Exécutant : sous-agent Opus (recherche), vérifié par l'agent principal.
+Exécutant : sous-agent Opus (recherche), vérifié par l'agent principal. Brief : `02-partis/_gabarit/briefs/etape-1-corpus.md`.
 
 ### Étape 2. Extraction par axe
 
 Pour chaque axe du socle, une fiche `axes/<axe>.md` qui reprend, dans les mots du parti : le diagnostic qu'il pose, les mesures qu'il propose, le chiffrage qu'il avance, et les déclarations publiques récentes. Pas d'analyse à ce stade : on reproduit fidèlement, avec la référence au document du corpus.
 
-Exécutant : sous-agent Opus. Contrôle : un deuxième sous-agent relit chaque fiche contre le corpus pour vérifier qu'aucune mesure n'est déformée ni omise.
+Exécutant : sous-agent Opus. Contrôle : un deuxième sous-agent relit chaque fiche contre le corpus pour vérifier qu'aucune mesure n'est déformée ni omise. Brief : `02-partis/_gabarit/briefs/etape-2-extraction.md`.
 
 ### Étape 3. Vérification des diagnostics
 
 Pour chaque diagnostic posé par le parti, chercher les données publiques qui le confirment, le nuancent ou le contredisent. Réutiliser les conclusions acquises de la série précédente (`00-contexte/briefing-serie-verification.md`, section 6) en signalant leur date. Appliquer les confusions à démêler (section 3.2 du briefing). Verdict sur l'échelle « Diagnostic ».
 
-Exécutant : sous-agent Opus par axe, en parallèle.
+Exécutant : sous-agent Opus par axe, en parallèle, lancés par vagues de trois axes. Brief des étapes 3 à 5 : `02-partis/_gabarit/briefs/etape-3-5-verification.md`.
 
 ### Étape 4. Faisabilité
 
@@ -83,15 +83,15 @@ Deux sous-agents Opus indépendants relisent l'ensemble de la verticale (six axe
 - l'un avec la consigne de défendre la force étudiée (trouver les faiblesses de notre critique, les sources oubliées, les contextes manquants) ;
 - l'autre avec la consigne de défendre ses adversaires (trouver les complaisances, les « ce qui tient » trop généreux).
 
-Les deux rapports sont archivés dans `revue/`. L'agent principal arbitre et documente ses arbitrages.
+Les deux rapports sont archivés dans `revue/`. L'agent principal arbitre et documente ses arbitrages. Brief : `02-partis/_gabarit/briefs/etape-6-revue.md`.
 
 ### Étape 7. Article long et challenge
 
-L'agent principal rédige l'article long dans la conversation (verdicts par axe, tableaux, « ce qui tient », angles morts, sources). Dilhan challenge. Les corrections sont intégrées dans le dossier.
+L'agent principal rédige l'article long dans la conversation (verdicts par axe, tableaux, « ce qui tient », angles morts, sources). Dilhan challenge. Les corrections sont intégrées dans le dossier. Brief : `02-partis/_gabarit/briefs/etape-7-article.md`.
 
 ### Étape 8. Page
 
-La page est produite dans le format défini dans `04-format-artifacts.md`, contrôlée par les scripts de `_scripts/`, vérifiée à 390 px en clair et en sombre, puis publiée. Le code HTML est archivé dans `05-artifacts/`. L'URL est inscrite dans `README.md`.
+La page est produite dans le format défini dans `04-format-artifacts.md`, contrôlée par les scripts de `_scripts/`, vérifiée à 390 px en clair et en sombre, puis publiée. Le code HTML est archivé dans `05-artifacts/`, avec son fichier source à jetons. L'URL est inscrite dans `README.md`. Brief : `02-partis/_gabarit/briefs/etape-8-page.md`.
 
 ## Boucle de révision (après chaque verticale)
 

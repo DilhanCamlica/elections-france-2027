@@ -2,8 +2,8 @@
 
 - Rédigé le : 2026-10-25
 - Date d'arrêt des données : 2026-10-25
-- Auteur : sous-agent Opus, étape 1
-- Statut : brouillon
+- Auteur : sous-agent Opus, étape 1 ; complété par les sous-agents des étapes 3 à 6 (C-RN-53 à C-RN-83)
+- Statut : revu (verticale terminée)
 - Règle appliquée : `01-socle/01-criteres.md` §6 (hiérarchie du corpus) et `01-socle/03-sources-et-hierarchie.md` (archivage, étiquetage)
 
 Périmètre (voir `00-perimetre.md`) : le parti Rassemblement national (RN), le groupe Rassemblement National à l'Assemblée nationale, et sa candidate déclarée Marine Le Pen (présidente du groupe). Jordan Bardella, président du parti, parle pour le parti. Le groupe Union des droites pour la République (UDR) est hors périmètre ; un texte dont le premier signataire est UDR est signalé comme tel.

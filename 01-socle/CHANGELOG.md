@@ -107,3 +107,10 @@ Report de `02-partis/rn/revue/retours-socle.md`, lignes 5, 6 et 7, et de l'instr
 - Lignes 3 (scrutin 3213, XVIe législature) et 8 (plafond de 64 ans d'Orléans) du même fichier : en suspens (synthèse ; réforme du 17 novembre 2026).
 - Impact : **Renaissance**, six fiches relues (justifications C avec mesure structurante, « Poids de la concordance », reclassement des écarts de montant en écarts de chiffrage, motif D de l'axe 6 sans le Cevipof, verdicts F disant que le niveau 4 ne décide pas) ; bloc (d) instruit, M maintenu au cran 2 ; deux crans déplacés par application littérale de règles existantes, F axe 5 de 3 à 2 (le verdict suit la mesure structurante, la fin de l'excuse de minorité, révision constitutionnelle) et C axe 6 de 3 à 2 (le paquet de 2018-2019 bloqué par le Sénat est un objet, expliqué ou non : trois objets) ; détail dans `02-partis/renaissance/revue/arbitrage-v3.md`. Ajout à `03-sources-et-hierarchie.md` : l'Unédic (organisme paritaire, partie prenante sur l'assurance chômage) est classée au niveau 2 pour ses prévisions financières. **RN** : aucun cran ne bouge ; le périmètre matériel est noté dans les angles morts de `02-partis/rn/methode.md` (requêtes neutres sur le motif, aucun cas sur le sexe ou l'orientation trouvé, à revérifier à la synthèse).
 
+## 2026-10-26 : publication du dépôt, briefs des étapes 1, 6, 7 et 8
+
+- `00-methodologie.md` : dépôt public sur GitHub (https://github.com/DilhanCamlica/elections-france-2027) ; chaque étape renvoie à son brief réutilisable dans `02-partis/_gabarit/briefs/` (quatre briefs ajoutés : corpus, revue et arbitrage, article, page). Version du socle inchangée (v2.2).
+- Hors dépôt : l'échange familial d'origine et les transcripts de vidéos de tiers (retirés de l'historique avant publication, conservés en local).
+- Pages : la note de méthode des deux pages publiées renvoie au dépôt (republication à la même URL).
+- Impact : aucun sur les verdicts.
+

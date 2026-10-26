@@ -1,0 +1,16 @@
+# Brief : étape 8, la page publiée
+
+- Exécutant : l'agent principal écrit la page ; un sous-agent Sonnet la publie (lecture puis publication avec l'outil Artifact), pour que le HTML en ligne ne charge pas le contexte principal.
+- Format : `01-socle/04-format-artifacts.md` (v2). Registre des pages et procédure détaillée : `05-artifacts/README.md`.
+
+## Marche à suivre
+
+1. Charger les skills `artifact-design` puis `dataviz` avant d'écrire (règle de l'outil Artifact).
+2. Écrire `05-artifacts/sources/<slug>.src.html` avec des jetons : `{{CSS}}` entre `<style>` et `</style>`, `{{HERO_SVG}}` à la place du dessin d'en-tête, `{{S:<fiche>:<n>}}` pour la source n de la fiche (1 à 6, M, T), `{{C:<nn>}}` pour un document du corpus, `{{SOURCES}}` à la place de la liste des sources. Repartir de la page la plus récente (`05-artifacts/rn.html`) pour la structure et les composants (`.grid`, `.pill`, `.mline`, `.tend`, `.qb`, `.panel`, `.votes`, `.true`, `details.dig`, `ul.dem` avec `.st` et `.ti`, tableau des cas du bloc valeurs, panneaux « Qui gagne, qui perd » aux axes 1, 2 et 4) ; remplacer le contenu.
+3. Contenu obligatoire : titre et surtitre du socle ; grille 6 × 4 plus la ligne « Comment ils gouvernent » ; carte des tendances en tuiles ; six chapitres courts (3 à 4 lignes par question, un panneau visuel maximum, encadré « Ce qui tient » terminé par « Poids de la concordance »), bloc « Creuser » avec la matrice de votes (cinq groupes, scrutins de l'axe, 4758 pondéré à part aux axes 1, 2 et 4, divergences d'un allié hors périmètre en note) et **toutes les demandes de l'axe** avec intensité et statut ; chapitre « Comment ils gouvernent » avec ses quatre blocs ; « Hors grille » ; « Ce qu'il faut retenir » (quatre points, pas de note globale) ; note de méthode (périmètre, dates de gel, règles v2.1 et v2.2, relecture, limites, lien vers le dépôt GitHub).
+4. Assembler : `python3 _scripts/assemble-sources.py --parti <slug> --prefixe C-<XX> --nom-parti "…" --src 05-artifacts/sources/<slug>.src.html --gabarit 05-artifacts/rn.html --out 05-artifacts/<slug>.html` (le gabarit fournit le CSS et le dessin d'en-tête ; pour regénérer une page existante, lui passer sa propre version publiée comme gabarit).
+5. Contrôler : `python3 _scripts/verifie-page.py 05-artifacts/<slug>.html`, puis `python3 _scripts/lint-texte.py`.
+6. Publier en privé par un sous-agent Sonnet (icône `ballot`, description d'une phrase), puis vérifier à 390 px en clair et en sombre dans le navigateur intégré sur la page publiée (il ne lit ni `file://` ni un serveur local ; le contenu est dans un iframe : cliquer dans la grille pour sauter à un chapitre, faire défiler par coordonnées après un clic de focus). Corriger en une passe, republier.
+7. Inscrire l'URL dans `05-artifacts/README.md`, `README.md`, `02-partis/README.md` ; commiter `🖼️ artifact: <slug> v1` ; dire à Dilhan que la page est privée (il la partage depuis le menu Share après relecture).
+
+Une mise à jour republie toujours à la même URL (outil Artifact avec `url`), jamais une nouvelle page. La page Renaissance (première verticale) a une numérotation de sources manuelle (s1 à s97), sans fichier source : la modifier directement dans `05-artifacts/renaissance.html` en gardant la numérotation contiguë.
