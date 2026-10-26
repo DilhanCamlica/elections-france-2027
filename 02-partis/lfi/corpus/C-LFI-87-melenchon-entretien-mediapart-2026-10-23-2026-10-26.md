@@ -15,7 +15,7 @@ Tirets cadratins et demi-cadratins du texte d'origine remplacés.
 
 ## Position
 
-Il décrit une « crise sociale devenue crise politique » pouvant devenir crise de régime, et affirme que LFI plaide pour la non-violence et n'adhère pas aux stratégies de « guérilla urbaine ». Il annonce une refonte de la police « de la cave au grenier » : police de proximité, formation permanente, fin des débuts de carrière dans les zones les plus difficiles, réexamen des armes intermédiaires (grenades), instance de recours indépendante à la place de l'Inspection générale de la police nationale (IGPN). Il présente la 6e République et l'assemblée constituante comme débouché, et juge la motion de censure « inévitable » si le budget n'intègre pas les revendications.
+Il décrit une « crise sociale devenue crise politique » pouvant devenir crise de régime, et affirme que LFI plaide pour la non-violence et n'adhère pas aux stratégies de « guérilla urbaine ». Il annonce une refonte de la police « de la cave au grenier » : police de proximité, formation permanente, fin des débuts de carrière dans les zones les plus difficiles, mise en question des grenades, le choix des armes étant renvoyé aux « spécialistes » (paraphrase corrigée au contrôle de l'étape 2, le 2026-10-26 : l'entretien ne parle pas de « réexamen »), instance de recours indépendante à la place de l'Inspection générale de la police nationale (IGPN). Il présente la 6e République et l'assemblée constituante comme débouché, et juge la motion de censure « inévitable » si le budget n'intègre pas les revendications.
 
 ## Contexte
 
