@@ -94,5 +94,9 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Union syndicale des magistrats | organisation syndicale de magistrats, partie prenante | Syndicat majoritaire de la magistrature ; inscrit le 2026-10-26 (verticale LFI) |
 | Chambre de commerce du Luxembourg | organisation patronale, partie prenante | Positions sur l'indexation des salaires au Luxembourg ; inscrit le 2026-10-26 (verticale LFI) |
 | Linfodurable, Connaissance des énergies, Planète Grandes Écoles, Sorenir | sites d'information thématiques ou commerciaux, relais | Relais de données publiques (énergie, droits de succession) ; la source primaire est citée quand elle est accessible ; inscrits le 2026-10-26 (verticale LFI) |
+| Ma Commune | presse locale en ligne, relais de dépêches AFP | Le média d'origine est indiqué ; inscrit le 2026-10-26 (verticale LFI, méthode) |
+| Politis | hebdomadaire classé à gauche | Ligne éditoriale revendiquée ; inscrit le 2026-10-26 (verticale LFI, méthode) |
+| Radio J, i24NEWS | médias communautaires ou israéliens d'information, relais ; partie prenante possible sur les sujets liés à l'antisémitisme et au Proche-Orient | Radio communautaire juive française ; chaîne d'information israélienne ; inscrits le 2026-10-26 (verticale LFI, méthode) |
+| Lyon Capitale, LyonMag | presse régionale, relais | Même ligne que la presse régionale déjà inscrite ; inscrits le 2026-10-26 (verticale LFI, méthode) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
