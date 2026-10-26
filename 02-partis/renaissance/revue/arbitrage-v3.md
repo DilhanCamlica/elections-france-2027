@@ -13,8 +13,9 @@
 | Axe 2, Cohérence | 3 | **3** | Maintenu. Mesure structurante nommée ; l'objet retraites est un décalage documenté sur un objet, cran 3 |
 | Axe 3, Cohérence | 3 | **3** | Maintenu. Mesure structurante : quotas votés par le Parlement, non touchée |
 | Axe 4, Cohérence | 2 | **2** | Maintenu. Mesure structurante : droit au brut, non touché ; le cran 2 tient par le nombre d'objets |
-| Axe 5, Cohérence | 3 | **3** | Maintenu |
-| Axe 6, Cohérence | 3 | **3** | Maintenu. Paquet de révision bloqué par le Sénat = un objet ; mesure structurante : réforme institutionnelle par référendum |
+| Axe 5, Faisabilité | 3 | **2** | **Déplacé.** La fiche nomme la fin de l'excuse de minorité comme mesure structurante et la place seule au cran 2 (révision constitutionnelle) ; garder le cran 3 parce que les deux mesures phares « ne dominent pas l'axe » en volume contredit la règle v2 « F suit la mesure la plus structurante, pas la moyenne », appliquée à l'axe 3 du RN |
+| Axe 5, Cohérence | 3 | **3** | Maintenu. La gradation « nous reverrons » (2024) vers « fin de l'excuse » (2026) reste lue comme un durcissement expliqué, pas un objet (étape 6) |
+| Axe 6, Cohérence | 3 | **2** | **Déplacé.** Le paquet de révision de 2018-2019 compte pour un objet (règle du paquet) ; à l'étape 6 il n'était pas compté parce qu'expliqué par le Sénat, lecture que la précision du 2026-10-26 écarte (l'explication distingue les crans 1 et 2, pas 3 et 4). Trois objets avec la proportionnelle et les retraits de 2026 : cran 2 par définition. La mesure structurante (réforme par référendum) n'est pas touchée |
 | Axe 6, Diagnostic | 4 | **4** | Maintenu, motif réécrit sans le baromètre du Cevipof comme fondement (retour 4) |
 | Méthode | 2 | **2** | Maintenu après le bloc (d) : aucun engagement explicite de valeurs rompu, aucun objet ajouté aux six des blocs (b) et (c) ; le bloc (d) entre dans « Ce qui tient » |
 | Divergences, fiches 1 et 2 | divergences | **écarts de chiffrage** | Reclassés (retour 1) ; aucun objet du verdict C n'en dépendait |
@@ -33,7 +34,22 @@ Les lignes « Cohérence » et « Divergences » sont confirmées à la lecture 
 
 ## Fiches : pondération v2.1 et retours 1, 4, 5
 
-Section complétée à la réception du rapport du sous-agent des fiches (voir ci-dessous).
+**Mesures structurantes retenues** (celles du verdict F, écrites dans F et C) : axe 1, plan de 150 Md€ ; axe 2, retraite sans âge légal (premier poids budgétaire, lettre et deux entretiens) ; axe 3, quotas votés par le Parlement ; axe 4, droit au brut ; axe 5, fin de l'excuse de minorité ; axe 6, réforme institutionnelle par référendum. Aucun décalage documenté ne touche le cœur de l'une d'elles : les crans 2 des axes 1 et 4 tiennent par le nombre d'objets (quatre chacun ; trois sans le scrutin 4758, texte global, ce que les fiches disent depuis la précision du retour 7). Phrases « Poids de la concordance » ajoutées aux six « Ce qui tient » (reprises condensées dans la page).
+
+**Reclassements (retour 1)** : les écarts de montant 120 à 150 Md€ puis 150 Md€ (fiche 1) et 3,6 / 4 / 5 Md€ (fiche 2) passent de « Divergences » à « Écarts de chiffrage » ; aucun objet des verdicts C n'en dépendait, écrit dans les deux fiches. La date d'équilibre des comptes sociaux (« en trois ans » contre « 2032 ») reste une divergence : deux positions incompatibles sur le même objet, pas une précision.
+
+**Motif D de la fiche 6 (retour 4)** : réécrit sur l'instabilité, la représentativité, les régions et l'abstention ; le Cevipof rapporté comme constat d'opinion. **Niveau 4 (retour 5)** : phrase ajoutée aux verdicts F des axes 1, 2, 4, 5 et 6 (l'axe 3 n'en cite aucun).
+
+**Sept doutes du sous-agent, tranchés** :
+1. Axe 5, F : fondé, cran 2 (tableau).
+2. Axe 5, C : écarté, la gradation reste une gradation.
+3. Axe 6, C : fondé, cran 2 (tableau).
+4. Axe 3, « origine géographique » ajoutée aux quotas en août 2026 : précision qui déplace la mesure dans le même sens, examinée en F ; ni contradiction entre documents (contrôle de l'étape 2) ni décalage avec un vote ou un acte. Écarté.
+5. Axe 1, F : cran 3 tient sur la condition de majorité, la cible 2032 et l'écart de +74 % avec le CAE. Confirmé.
+6. Sources : l'Unédic entre au niveau 2 de la hiérarchie (organisme paritaire, partie prenante, prévisions financières) ; le Club des juristes reste au niveau 4 (think tank), ses analyses sont citées et étiquetées sans fonder seules un cran.
+7. Divergence « date d'équilibre » : maintenue (ci-dessus).
+
+**Grille Renaissance après la boucle** : D 4/3/4/4/3/4 ; F 3/3/3/2/**2**/2 ; C 2/3/3/2/3/**2** ; E 3/3/3/3/4/3 ; M 2 ; carte 8 / 6 / 0 / 0. Deux crans déplacés, tous deux dans le sens contraire au parti, tous deux par application littérale de règles déjà écrites ; à signaler à Dilhan avec les motifs, qui peut les contester.
 
 ## Retour pour le socle
 
