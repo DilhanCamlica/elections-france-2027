@@ -69,5 +69,9 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Times of Israël, France 24, Sud Radio, presse régionale et belge (ICI, La Voix du Nord, Le Soir, RTBF) | presse généraliste, relais | Reprises de dépêches ou comptes rendus ; Sud Radio à ligne marquée (classée à droite) ; le média d'origine est indiqué |
 | Associations parties civiles (Licra, SOS Racisme, UEJF, J'accuse) | association partie prenante | Parties civiles dans les procédures citées ; leurs communiqués ne prouvent pas une condamnation |
 | JDD | hebdomadaire du groupe Lagardère, contrôlé par le groupe Bolloré, classé à droite | Ligne éditoriale documentée depuis 2023 ; déjà cité dans les fiches Renaissance, étiquette inscrite le 2026-10-26 |
+| Brussels Signal | média en ligne bruxellois classé à droite conservatrice, relais | Site d'information basé à Bruxelles, ligne éditoriale conservatrice revendiquée sur l'Union européenne et les migrations ; inscrit le 2026-10-26 (corpus LFI, fiche C-LFI-75) |
+| Moneyvox | site d'information sur l'argent et la consommation, relais | Site grand public sur la banque et l'épargne, sans ligne politique revendiquée ; inscrit le 2026-10-26 (corpus LFI) |
+| Cryptoast | site d'information sur les cryptoactifs, relais | Média spécialisé sans ligne politique revendiquée ; sert à retrouver un numéro d'amendement, le texte est lu sur le site de l'Assemblée ; inscrit le 2026-10-26 (corpus LFI) |
+| LAEC.fr | site militant indépendant, relais du programme LFI 2022 | Le site se présente comme « une initiative indépendante » dont le contenu n'engage que son équipe ; il ne tient pas lieu de source du parti ; inscrit le 2026-10-26 (corpus LFI, fiche C-LFI-26) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
