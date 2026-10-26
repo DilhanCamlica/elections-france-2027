@@ -5,3 +5,7 @@ node_modules/
 __pycache__/
 # PDF de plus de 20 Mo : lien et somme de contrôle seulement
 *.large.pdf
+
+# Matière privée ou de tiers, conservée en local, hors dépôt public
+00-contexte/echange-famille-2026-10-25.md
+00-contexte/transcripts/

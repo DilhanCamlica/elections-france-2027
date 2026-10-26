@@ -18,7 +18,7 @@ Produire une lecture neutre, sourcée et tranchante des programmes de cinq force
 7. `01-socle/CHANGELOG.md` : ce qui a changé et pourquoi.
 8. `02-partis/README.md` : état d'avancement et gabarit d'une verticale.
 
-Les notes de `00-contexte/` se lisent à la demande (actualité d'octobre 2026, paysage politique, transcripts, échange d'origine).
+Les notes de `00-contexte/` se lisent à la demande (actualité d'octobre 2026, paysage politique). L'échange d'origine et les transcripts des vidéos sont hors dépôt public (`.gitignore`), présents seulement sur le Mac de Dilhan.
 
 ## Règles non négociables
 

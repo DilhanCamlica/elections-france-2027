@@ -110,7 +110,7 @@ Quand les cinq verticales ont été relues avec la dernière version du socle : 
 
 ## Publication du repo
 
-Le repo est écrit dès le départ comme s'il était public : pas de noms de famille, pas de données privées hors `00-contexte/` anonymisé. Il sera publié sur GitHub une fois la première verticale terminée et relue, sur feu vert explicite de Dilhan. Les pages pourront alors pointer vers la méthode et les sources.
+Le repo est écrit dès le départ comme s'il était public : pas de noms de famille, pas de données privées hors `00-contexte/` anonymisé. Publié sur GitHub le 2026-10-26 (https://github.com/DilhanCamlica/elections-france-2027), sur feu vert de Dilhan, après la relecture de la première verticale ; l'échange familial d'origine et les transcripts de vidéos de tiers sont restés hors dépôt. Les pages pourront pointer vers la méthode et les sources.
 
 ## Ce qui n'entre pas dans la méthode
 

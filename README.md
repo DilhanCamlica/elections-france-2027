@@ -46,7 +46,7 @@ Le registre `01-socle/02-registre-biais.md` liste les biais identifiés (sélect
 
 | Dossier | Contenu |
 |---|---|
-| `00-contexte/` | Ce qui a déclenché l'étude : l'échange familial, le briefing de la série précédente, les transcripts des vidéos partagées, les notes de contexte sur l'actualité et le paysage politique d'octobre 2026 |
+| `00-contexte/` | Ce qui a déclenché l'étude : le briefing de la série précédente, les notes de contexte sur l'actualité et le paysage politique d'octobre 2026, la reprise de session. L'échange familial d'origine et les transcripts des vidéos partagées (textes de tiers) sont conservés en local et ne font pas partie du dépôt public |
 | `01-socle/` | Méthode, critères et échelles, registre des biais, hiérarchie des sources, format des pages, changelog |
 | `02-partis/<parti>/` | Une verticale par force : corpus, fiches par axe, scrutins analysés, article long, revue contradictoire |
 | `03-sources/` | Registre des sources communes à plusieurs verticales (chiffrages, bases de scrutins, statistique publique) |
