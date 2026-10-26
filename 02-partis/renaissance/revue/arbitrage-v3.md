@@ -49,7 +49,7 @@ Les lignes « Cohérence » et « Divergences » sont confirmées à la lecture 
 6. Sources : l'Unédic entre au niveau 2 de la hiérarchie (organisme paritaire, partie prenante, prévisions financières) ; le Club des juristes reste au niveau 4 (think tank), ses analyses sont citées et étiquetées sans fonder seules un cran.
 7. Divergence « date d'équilibre » : maintenue (ci-dessus).
 
-**Grille Renaissance après la boucle** : D 4/3/4/4/3/4 ; F 3/3/3/2/**2**/2 ; C 2/3/3/2/3/**2** ; E 3/3/3/3/4/3 ; M 2 ; carte 8 / 6 / 0 / 0. Deux crans déplacés, tous deux dans le sens contraire au parti, tous deux par application littérale de règles déjà écrites ; à signaler à Dilhan avec les motifs, qui peut les contester.
+**Grille Renaissance après la boucle** : D 4/3/4/4/3/4 ; F 3/3/3/2/**2**/2 ; C 2/3/3/2/3/**2** ; E 3/3/3/3/4/3 ; M 2 ; carte 8 / 6 / 0 / 0. Deux crans déplacés, tous deux dans le sens contraire au parti, tous deux par application littérale de règles déjà écrites ; signalés à Dilhan avec les motifs ; **confirmés par Dilhan le 2026-10-26**.
 
 ## Retour pour le socle
 
