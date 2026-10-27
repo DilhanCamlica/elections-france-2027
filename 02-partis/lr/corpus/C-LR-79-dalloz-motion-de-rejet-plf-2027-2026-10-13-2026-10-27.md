@@ -15,7 +15,7 @@ Identifiant provisoire (à renuméroter en C-LR-nn à l'intégration).
 
 ## Position (paraphrase)
 
-Elle répond aux socialistes que le texte demande un effort aux hauts revenus, la contribution différentielle sur les hauts revenus étant reconduite de façon pérenne jusqu'au retour à l'équilibre. Elle juge les prélèvements obligatoires déjà trop hauts, défend une baisse des dépenses plutôt que des taxes, rappelle les budgets socialistes de 2012 à 2016 et annonce le vote du groupe contre la motion de rejet.
+Elle répond aux socialistes que le texte demande un effort aux hauts revenus, la contribution différentielle sur les hauts revenus que « nous avons reconduit », dit-elle, de façon pérenne jusqu'au retour à l'équilibre. Elle juge les prélèvements obligatoires déjà trop hauts, défend une baisse des dépenses plutôt que des taxes, rappelle les budgets socialistes de 2012 à 2016 et annonce le vote du groupe contre la motion de rejet.
 
 ## Citations (15 mots au plus)
 

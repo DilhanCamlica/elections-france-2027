@@ -21,6 +21,9 @@ Il cite 91 milliards d'intérêts de la dette en 2027 et juge la réduction du d
 
 - « le redressement budgétaire doit s’opérer intégralement par la réduction des dépenses publiques » (N. Ray, compte rendu de l'AN)
 - « notre groupe ne mêlera pas sa voix aux forces du chaos » (même source)
+- « notre proposition d'une allocation sociale unique et plafonnée à 70 % du smic » (N. Ray, compte rendu de l'AN ; ajoutée au contrôle de l'étape 2, compte rendu relu le 2026-10-27)
+- « l'instauration, pour les étrangers, d'un délai de carence avant de percevoir des allocations » (même source ; ajoutée au contrôle)
+- « la limitation des frais de l'hébergement d'urgence » (même source ; ajoutée au contrôle)
 
 ## Contexte
 

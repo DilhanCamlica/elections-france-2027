@@ -24,7 +24,7 @@ Il propose une « Priorité Travail » : sortir des 35 heures en renvoyant le te
 
 ## Contexte
 
-Tribune du 1er mai, distincte de la présentation des brochures (section a). Elle reprend des mesures des brochures « Travail gagnant » et « Famille » ; le montant de 240 euros par enfant est à rapprocher de la brochure « Famille » à l'étape 2.
+Tribune publiée sur le site du parti le 2 mai 2026 (correction du contrôle de l'étape 2 : la page est datée du 2 mai, pas du 1er), distincte de la présentation des brochures (section a). Elle reprend des mesures des brochures « Travail gagnant » et « Famille » ; le montant de 240 euros par enfant est à rapprocher de la brochure « Famille » à l'étape 2.
 
 ## Relevé de la page (source du parti, partie prenante)
 

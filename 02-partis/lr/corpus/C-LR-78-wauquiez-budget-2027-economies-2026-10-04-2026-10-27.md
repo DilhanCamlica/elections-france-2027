@@ -21,6 +21,8 @@ Les députés LR ne censureront pas sur le budget 2027 mais combattront les haus
 
 - « ne pratiquera pas le petit jeu de la censure » (L. Wauquiez, Les Échos, selon l'AFP)
 - « transformer l'aide médicale d'Etat en aide d'urgence, conditionner à deux ans l'accès aux aides sociales » (même source)
+- « abus de l'indemnisation chômage ou des ruptures conventionnelles » (même source ; ajoutée au contrôle de l'étape 2, page relue le 2026-10-27)
+- « toutes les aides sociales à 70 % du SMIC fusionnées en une aide unique » (même source ; ajoutée au contrôle de l'étape 2)
 
 ## Contexte
 
