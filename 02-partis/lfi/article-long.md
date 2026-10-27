@@ -2,7 +2,7 @@
 
 - Article long soumis à Dilhan le 2026-10-26 (étape 7 de la méthode). Les corrections issues de son challenge seront intégrées ici avant la page.
 - Corpus et données arrêtés au 2026-10-26. Socle v2.2 (six axes, pondération de la cohérence par la mesure structurante, bloc « valeurs affichées et discipline interne » dans la question Méthode). Détail, chiffres et sources dans `axes/1-…md` à `axes/6-…md` et `methode.md` (473 références numérotées), `tendances.md`, `hors-grille.md`, revue contradictoire et arbitrage dans `revue/`.
-- Auteur : agent principal, à partir des fiches arbitrées. Statut : brouillon soumis au challenge.
+- Auteur : agent principal, à partir des fiches arbitrées. Statut : revu par Dilhan le 2026-10-27, sans correction demandée (« c'est revu, go pour la page »).
 
 ## Ce qu'on a lu
 

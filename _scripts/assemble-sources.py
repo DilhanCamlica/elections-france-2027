@@ -33,7 +33,8 @@ URL_RE = re.compile(r"https?://[^\s<>\]\)»]+")
 def clean_url(u):
     return u.rstrip(".,;:")
 
-PARTI_HOSTS = ("rassemblementnational.fr", "marinelepen.com", "assemblee-nationale.fr", "web.archive.org", "mlafrance.fr", "senat.fr")
+PARTI_HOSTS = ("rassemblementnational.fr", "marinelepen.com", "assemblee-nationale.fr", "web.archive.org", "mlafrance.fr", "senat.fr",
+               "lafranceinsoumise.fr", "melenchon2027.fr", "melenchon.fr", "laec.fr")
 
 def strip_md(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
