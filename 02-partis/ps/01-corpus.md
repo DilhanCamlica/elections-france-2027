@@ -573,22 +573,22 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 - Utile pour : axe 4 (prix).
 
 ### [C-PS-50] PPL n° 3269 « baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs »
-- Auteur : Mélanie Thomin (première signataire) et le groupe SOC
+- Auteur : Mélanie Thomin, députée du groupe SOC, **seule signataire** (page de garde : « présentée par Mme Mélanie THOMIN, députée »). Texte d'une députée du groupe, pas du groupe en tant que tel (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2026-10-06
 - Nature : PPL, 9 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/baisser_prix_carburants_encadrement_marges_raffineurs_17e
 - Archivage : PDF archivé, `corpus/C-PS-50-ppl-3269-marges-raffineurs-carburant-2026-10-27.pdf`
-- Statut : groupe parlementaire ; en commission (réunions inscrites le 2026-10-27 et le 2026-11-10)
+- Statut : député du groupe parlementaire (seul signataire) ; en commission (réunions inscrites le 2026-10-27 et le 2026-11-10)
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 4 (énergie).
 
 ### [C-PS-51] PPL n° 3271 « instaurer un barème progressif de l'impôt sur les sociétés »
-- Auteur : Gérard Leseul (premier signataire) et le groupe SOC
+- Auteur : Gérard Leseul, député du groupe SOC, **seul signataire** (page de garde : « présentée par M. Gérard LESEUL, député »). Texte d'un député du groupe, pas du groupe en tant que tel (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2026-10-06
 - Nature : PPL, 6 pages (barème progressif à la place du taux de 25 %)
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/bareme_progressf_impot_societes_17e
 - Archivage : PDF archivé, `corpus/C-PS-51-ppl-3271-bareme-progressif-impot-societes-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : député du groupe parlementaire (seul signataire) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axes 4 et 1 (mesure du projet [C-PS-01]).
 
@@ -605,7 +605,7 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 ### [C-PS-53] Amendement n° I-CF384 au PLF 2027 (article 2)
 - Auteur : Estelle Mercier, Boris Vallaud et les membres du groupe SOC
 - Date : 2026-10-02 (commission des finances)
-- Nature : amendement : supprime de l'article 2 la fiscalisation de certaines indemnités journalières (accidents du travail, affections de longue durée) et la hausse de l'exonération de la prime carburant, en conservant l'indexation du barème
+- Nature : amendement : supprime de l'article 2 les alinéas qui fiscalisent certaines indemnités journalières (accidents du travail, affections de longue durée) ; selon son exposé sommaire, il conserve l'indexation du barème de l'impôt sur le revenu, la hausse de l'exonération de la prime carburant et le plafond de défiscalisation des indemnités de rupture (p. 2) ; gage sur l'accise sur les tabacs. Fiche corrigée au contrôle de l'étape 2 (2026-10-27) : la version précédente indiquait que l'amendement supprimait la hausse de l'exonération de la prime carburant, ce que le texte ne dit pas
 - URL : https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF384.pdf
 - Archivage : PDF archivé, `corpus/C-PS-53-amdt-I-CF384-plf-2027-article-2-2026-10-27.pdf`
 - Statut : groupe parlementaire ; sort : **adopté** en commission
@@ -635,12 +635,12 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 - Utile pour : axe 5 (police de proximité).
 
 ### [C-PS-56] PPL n° 1841 « encadrer le recours aux contrôles d'identité »
-- Auteur : Paul Christophle (premier signataire) et le groupe SOC
+- Auteur : Paul Christophle (groupe SOC), premier signataire, et 29 cosignataires dont des députés du groupe EcoS (2 : François Ruffin, Léa Balage El Mariky) (liste nominative de 30 signataires, page de garde ; 27 du groupe SOC ; Emmanuel Grégoire absent du fichier des députés actifs, groupe non vérifié ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt) (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2025-09-16
 - Nature : PPL, 8 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/encadrer_recours_controle_identite_17e
 - Archivage : PDF archivé, `corpus/C-PS-56-ppl-1841-controles-identite-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : texte transpartisan à premier signataire SOC (liste nominative) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 5 (contrôles d'identité, récépissés).
 
@@ -655,34 +655,34 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 - Utile pour : axe 5 (maintien de l'ordre, manifestations d'octobre 2026 ; voir aussi la déclaration du 19 octobre 2026 en section f, [C-PS-90]).
 
 ### [C-PS-58] « Loi intégrale » contre les violences sexistes et sexuelles : PPL n° 2169, PPL n° 3106 et PPLO n° 3107
-- Auteur : Céline Thiébault-Martinez (première signataire) et le groupe SOC
+- Auteur : Céline Thiébault-Martinez (groupe SOC), première signataire, et des cosignataires de plusieurs groupes (listes nominatives, pages de garde). PPL n° 2169 : 172 signataires dont 67 du groupe SOC et des députés des groupes EcoS (21), EPR (35), DEM (13), LIOT (10), HOR (8), GDR (6), DR (3) et non-inscrits (2), 7 non retrouvés dans le fichier des députés actifs. PPL n° 3106 et PPLO n° 3107 : mêmes 249 signataires, dont 67 du groupe SOC et des députés des groupes EPR (88), DR (20), DEM (18), LIOT (15), HOR (15), GDR (12), EcoS (9) et non-inscrits (2), 3 non retrouvés. Aucun député RN ni LFI-NFP lu parmi les signataires retrouvés ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : PPL n° 2169 déposée le 2025-12-02 (première version) ; PPL n° 3106 et PPLO n° 3107 déposées le 2026-08-11, discutées le 2026-10-13
 - Nature : PPL n° 2169 (70 pages), PPL n° 3106 (121 pages, version examinée), PPLO n° 3107 (6 pages, adaptation de l'autorité judiciaire)
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/apporter_reponse_integrale_phenomene_violences_sexuelles_sexistes_contre_femmes_enfants_17e ; https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_autorite_judiciaire_lutte_contre_violences_sexuelles_intrafamiliales_17e ; https://www.assemblee-nationale.fr/dyn/17/dossiers/_lutter_contre_violences_sexistes_et_sexuelles_commises_contre_femmes_et_enfants_17e
 - Archivage : PDF archivés (textes déposés), `corpus/C-PS-58-ppl-2169-loi-integrale-vss-v1-2026-10-27.pdf`, `corpus/C-PS-58-ppl-3106-loi-integrale-vss-2026-10-27.pdf`, `corpus/C-PS-58-pplo-3107-autorite-judiciaire-vss-2026-10-27.pdf`
-- Statut : groupe parlementaire ; PPL n° 3106 et PPLO n° 3107 **adoptées en première lecture le 2026-10-13** et transmises au Sénat (adoption « à l'unanimité » selon le parti, page du 2026-10-15) ; PPL n° 2169 restée en commission
+- Statut : texte transpartisan à premier signataire SOC (listes nominatives) ; PPL n° 3106 et PPLO n° 3107 **adoptées en première lecture le 2026-10-13** et transmises au Sénat (adoption « à l'unanimité » selon le parti, page du 2026-10-15) ; PPL n° 2169 restée en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 5 (justice, police) ; hors grille (droits des femmes) ; financement de 3 Md€ dans le contre-budget 2027 [C-PS-33].
 
 ### Axe 6 : Institutions, démocratie et Europe
 
 ### [C-PS-59] PPLC n° 2001 « établir un meilleur équilibre entre pouvoirs constitutionnels »
-- Auteur : Marietta Karamanli (première signataire) et le groupe SOC
+- Auteur : Marietta Karamanli, députée du groupe SOC, **seule signataire** (page de garde : « présentée par Mme Marietta Karamanli, députée »). Texte d'une députée du groupe, pas du groupe en tant que tel (correction du contrôle de l'étape 2, 2026-10-27 ; la fiche indiquait « et le groupe SOC »)
 - Date : dépôt 2025-10-23
 - Nature : PPLC, 7 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/etablir_meilleur_equilibre_entre_pouvoirs_constitutionnels_17e
 - Archivage : PDF archivé, `corpus/C-PS-59-pplc-2001-equilibre-pouvoirs-constitutionnels-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : député du groupe parlementaire (seul signataire) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6 (équilibre des pouvoirs, 49.3 éventuel, à lire à l'étape 2) ; Q6 bloc a.
 
 ### [C-PS-60] PPLC n° 3215 : étendre aux membres du gouvernement l'interdiction du cumul avec une fonction exécutive locale
-- Auteur : Anna Pic (première signataire) et le groupe SOC
+- Auteur : Anna Pic, députée du groupe SOC, **seule signataire** (page de garde : « présentée par Mme Anna Pic, députée »). Texte d'une députée du groupe, pas du groupe en tant que tel (correction du contrôle de l'étape 2, 2026-10-27 ; la fiche indiquait « et le groupe SOC »)
 - Date : dépôt 2026-10-05
 - Nature : PPLC, 4 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/etendre_membres_Gouvernement_interdiction_cumul_fonction_executive_locale_17e
 - Archivage : PDF archivé, `corpus/C-PS-60-pplc-3215-cumul-ministres-executif-local-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : député du groupe parlementaire (seul signataire) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6.
 
@@ -697,52 +697,52 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 - Utile pour : axe 6 (participation électorale).
 
 ### [C-PS-62] PPL n° 2031 : droit de vote à seize ans aux élections municipales
-- Auteur : Céline Hervieu (première signataire) et le groupe SOC
+- Auteur : Céline Hervieu (groupe SOC), première signataire, et 10 députés du groupe SOC (liste nominative de 11 signataires, page de garde ; Emmanuel Grégoire absent du fichier des députés actifs, rattachement SOC non revérifié ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt) (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2025-10-28
 - Nature : PPL, 7 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/instaurer_droit_vote_seize_ans_elections_municipales_17e
 - Archivage : PDF archivé, `corpus/C-PS-62-ppl-2031-vote-16-ans-municipales-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : députés du groupe parlementaire (liste nominative de 11 signataires) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6.
 
 ### [C-PS-63] PPL n° 1935 : prévenir la concentration des médias, protéger leur liberté éditoriale et renforcer le pluralisme
-- Auteur : Emmanuel Grégoire (premier signataire) et le groupe SOC
+- Auteur : Emmanuel Grégoire (groupe SOC selon la fiche initiale), premier signataire, et 27 députés du groupe SOC (liste nominative de 28 signataires, page de garde ; 26 lus SOC dans AMO10 ; Emmanuel Grégoire et Julien Gokel absents du fichier des députés actifs, groupe non vérifié ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt) (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2025-10-14
 - Nature : PPL, 7 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/prevenir_concentration_medias_proteger_liberte_editioriale_renforcer_pluralisme_17e
 - Archivage : PDF archivé, `corpus/C-PS-63-ppl-1935-concentration-medias-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : députés du groupe parlementaire (liste nominative de 28 signataires) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6 (médias).
 
 ### [C-PS-64] PPLO n° 1116 : obligations déontologiques des membres du Conseil constitutionnel
-- Auteur : Marietta Karamanli (première signataire) et le groupe SOC
+- Auteur : Marietta Karamanli (groupe SOC), première signataire, et 38 cosignataires dont des députés des groupes EcoS (2), EPR (2), GDR (1) et LIOT (2) (liste nominative de 39 signataires, page de garde ; 31 du groupe SOC ; Emmanuel Grégoire absent du fichier des députés actifs, groupe non vérifié ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt) (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2025-03-14
 - Nature : PPLO, 17 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/obligations_deontologiques_conseil_constitutionnel
 - Archivage : PDF archivé, `corpus/C-PS-64-pplo-1116-deontologie-conseil-constitutionnel-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : texte transpartisan à premier signataire SOC (liste nominative) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6 (juridictions, état de droit).
 
 ### [C-PS-65] PPLC n° 2000 : création d'un Défenseur de la laïcité et définition de ce principe
-- Auteur : Jérôme Guedj (premier signataire) et le groupe SOC
+- Auteur : Jérôme Guedj, député du groupe SOC, **seul signataire** (page de garde : « présentée par M. Jérôme Guedj, député »). Texte d'un député du groupe, pas du groupe en tant que tel (correction du contrôle de l'étape 2, 2026-10-27 ; la fiche indiquait « et le groupe SOC ») ; le groupe l'a inscrit à sa journée réservée du 11 décembre 2025 et en défend l'idée (« Nous défendrons la création d'un Défenseur de la laïcité », page de la niche [C-PS-35]) : position portée par le groupe
 - Date : dépôt 2025-10-23 ; rapport de commission le 2025-12-03
 - Nature : PPLC, 6 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/creation_defenseur_laicite_et_definition_de_ce_principe_17e_
 - Archivage : PDF archivé, `corpus/C-PS-65-pplc-2000-defenseur-laicite-2026-10-27.pdf`
-- Statut : groupe parlementaire ; examinée en commission (rapport déposé), pas d'acte de séance relevé
+- Statut : député du groupe parlementaire (seul signataire) ; examinée en commission (rapport déposé), pas d'acte de séance relevé
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6 (laïcité) ; hors grille.
 
 ### [C-PS-66] PPRE n° 3180 : moyens financiers, industriels et politiques de l'Union européenne (infrastructure satellitaire)
-- Auteur : Marietta Karamanli (première signataire) et le groupe SOC
+- Auteur : Marietta Karamanli (groupe SOC), première signataire, et 15 députés du groupe SOC (liste nominative de 16 signataires, page de garde ; groupes lus dans le jeu open data AMO10 de l'Assemblée au 2026-10-27, donc groupe actuel et non groupe au dépôt) (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
 - Date : dépôt 2026-09-17
 - Nature : proposition de résolution européenne, 10 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/infrastructure_satellitaire_vocation_europeenne_17e
 - Archivage : PDF archivé, `corpus/C-PS-66-ppre-3180-moyens-union-europeenne-2026-10-27.pdf`
-- Statut : groupe parlementaire ; déposée, en commission
+- Statut : députés du groupe parlementaire (liste nominative de 16 signataires) ; déposée, en commission
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 6 (Europe, souveraineté).
 
