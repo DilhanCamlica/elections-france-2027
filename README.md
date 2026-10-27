@@ -71,6 +71,7 @@ Voir `01-socle/CHANGELOG.md` et le tableau de bord en tête de `02-partis/README
 | Renaissance : ce qu'elle propose, ce qu'elle vote | publiée (v1.4 du 2026-10-27, socle v2.2), partagée | https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 |
 | Le RN : ce qu'il propose, ce qu'il vote | publiée (v1.2 du 2026-10-27, socle v2.2), partagée | https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b |
 | LFI : ce qu'elle propose, ce qu'elle vote | publiée (v1.2 du 2026-10-27, socle v2.2), partagée | https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i |
+| Le PS : ce qu'il propose, ce qu'il vote | publiée (v1 du 2026-10-27, socle v2.2), privée jusqu'à relecture | https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3 |
 | Le PS : ce qu'il propose, ce qu'il vote | à faire (verticale 4) | |
 | LR : ce qu'ils proposent, ce qu'ils votent | à faire (verticale 5) | |
 | Cinq programmes côte à côte (synthèse) | à faire | |
