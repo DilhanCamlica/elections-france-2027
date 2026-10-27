@@ -240,6 +240,14 @@ def complements(soc2017=413):
           (date(2026, 9, 16) - date(2026, 9, 15)).days, "jour")
     print("[d] Dordogne : article de presse du 2025-12-10, exclusion le mardi 2025-12-09 ; commentaire publie 'la semaine derniere'"
           " : delai de publication a exclusion de", (date(2025, 12, 9) - date(2025, 12, 4)).days, "jours au plus (article commente du 4 decembre)")
+    # Collecte elargie du 2026-10-27 (arbitrage etape 6, n. 14) : deux cas admis de plus.
+    print("[d] 2017 : publication (2017-11-17) -> exclusion par le BN (2017-11-21) :",
+          (date(2017, 11, 21) - date(2017, 11, 17)).days, "jours")
+    print("[d] 2023 : propos (2023-08-22) -> suspension conservatoire (2023-09-13) :",
+          (date(2023, 9, 13) - date(2023, 8, 22)).days, "jours ; suspension -> rejet de la saisine (2023-10-19) :",
+          (date(2023, 10, 19) - date(2023, 9, 13)).days, "jours")
+    print("[d] cas admis sur la fenetre 2017-2026 : 3 (2017, 2023, 2025), tous par acte public du parti, aucun parmi les candidats")
+    print("[d] candidatures aux legislatives 2017, 2022, 2024 :", soc2017 + 70 + 175, "; cas : 0")
     for elec, n, k in [("legislatives 2017 (nuance SOC)", soc2017, 0), ("legislatives 2022 (part PS de la NUPES)", 70, 0),
                        ("legislatives 2024 (part PS du NFP)", 175, 0)]:
         print(f"[d] {elec} : {n} candidats ; cas admis : {k}")

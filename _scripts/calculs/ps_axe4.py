@@ -1,6 +1,7 @@
 """PS, axe 4 (pouvoir d'achat et fiscalité) : calculs des étapes 3 à 5.
 
-Rédigé le 2026-10-27 par un sous-agent Opus. Chaque bloc imprime un résultat
+Rédigé le 2026-10-27 par un sous-agent Opus ; complété le 2026-10-27 à l'application
+de l'arbitrage de l'étape 6 (taux de CSG au Smic, taille relative des groupes IPP). Chaque bloc imprime un résultat
 repris dans 02-partis/ps/axes/4-pouvoir-achat-fiscalite.md avec la mention
 « calcul par nos soins ». Les numéros entre crochets renvoient à la liste des
 sources de la fiche. Les montants du parti viennent de la PPL n° 3252 [C-PS-48].
@@ -114,3 +115,24 @@ print("PIB 2025 déduit :", round(pib_2025), "Md€ ; 500 fortunes 2025 / PIB 20
 print("PPL n° 3252, 10 Md€ par an sur 16 ans :", 10 * annees, "Md€ contre 400 Md€ (IGS du Projet)")
 for annonce, recalc in ((125, 159), (230, 301), (200, 0)):
     print(f"exemple annoncé {annonce} € contre {recalc} € reconstitués : écart {(recalc - annonce) / annonce * 100:+.0f} %")
+
+print("\n=== Étape 6 (arbitrage n° 6) : taux de CSG au Smic, RFR contre brut annuel ===")
+# Repris du contrôle sur pièces fait pour l'arbitrage (2026-10-27), calcul par nos soins.
+# Cas : célibataire à une part. Smic brut au 1er janvier 2026 : 1 823,03 € (décret
+# n° 2025-1228) [38 ; 85] ; au 1er juin 2026 : 1 867,02 € [39 ; 86]. RFR approché :
+# net imposable (net + CSG non déductible 2,4 % + CRDS 0,5 % sur 98,25 % du brut),
+# moins l'abattement forfaitaire de 10 %. Le barème lit le RFR par part (art. 1er
+# de la PPL n° 3252 [C-PS-48]).
+for nom, brut_m, net_m in (("Smic janvier 2026", smic_brut_jan26, smic_net_jan26),
+                           ("Smic juin 2026", smic_brut_jun26, smic_net_jun26)):
+    brut_a, net_a = 12 * brut_m, 12 * net_m
+    net_imp = net_a + (csg_non_deduc + crds) * assiette * brut_a
+    rfr = 0.9 * net_imp
+    print(f"{nom} : RFR {rfr:,.0f} € -> {taux_csg(rfr, 1) * 100:.2f} % ; "
+          f"brut annuel pris pour RFR {brut_a:,.0f} € -> {taux_csg(brut_a, 1) * 100:.2f} %")
+print("Lecture : 0,55 % sur la base légale (RFR) ; 0,85 %, taux de l'exposé, seulement si le "
+      "brut annuel tient lieu de RFR (inférence : la méthode de l'exposé n'est pas publiée).")
+
+print("\n=== Étape 6 (arbitrage n° 5) : taille des groupes de la note IPP n° 92 ===")
+# 0,1 % des foyers en 2016 : environ 37 800 ; sommet de la note : 75 foyers [87] (chiffres du relecteur).
+print("0,1 % (37 800 foyers) / 75 foyers :", round(37800 / 75), "fois")

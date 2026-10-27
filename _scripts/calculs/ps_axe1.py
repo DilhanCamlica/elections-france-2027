@@ -90,3 +90,15 @@ print("dette 2017 : promis", promesse_dette_2017, "; époque", dette_epoque_2017
 print("hausse de la dette 2012-2017 :", round(dette_md[2017] - dette_md[2012], 1), "Md€ ;",
       round(dette_pct_b2020[2017] - dette_pct_b2020[2012], 1), "pt de PIB")
 print("mesures nouvelles 2013 (1,4 pt de PIB) :", round(0.014 * pib_2013, 1), "Md€ contre 29 Md€ promis")
+
+print("\n=== Q3 (arbitrage de l'étape 6) : mesures du Projet non chiffrées au contre-budget ===")
+# Estimations de niveau 2 reprises de la fiche 2 (tableau Q3), horizons différents (2016 à 2035)
+mesures = {  # (bas, haut) en Md€
+    "retour à 62 ans (Cour 2035 ; Cnav 2032)": (10.4, 16.0),
+    "abrogation des réformes de l'assurance chômage (Unédic)": (6.5, 6.5),
+    "ASPA au seuil de pauvreté (calcul fiche 2)": (1.7, 2.7),
+    "RSA automatique (non-recours, Drees)": (2.5, 2.5),
+    "revenu d'autonomie (RSA dès 21 ou 18 ans, Trésor 2016)": (3.1, 6.6),
+}
+bas = sum(v[0] for v in mesures.values()); haut = sum(v[1] for v in mesures.values())
+print(f"somme : {bas:.1f} à {haut:.1f} Md€, soit {bas / pib_2027 * 100:.2f} à {haut / pib_2027 * 100:.2f} % du PIB 2027")

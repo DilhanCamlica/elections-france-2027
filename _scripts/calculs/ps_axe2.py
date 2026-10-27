@@ -83,3 +83,18 @@ print(f"2 x 12 x 1 607 € = {2 * 12 * 1607:,} €")
 
 print("\n== Q4. Cadre entré à 23 ans avec 43 annuités ==")
 print(f"Âge de départ au taux plein : {23 + 43} ans")
+
+print("\n== Q4 (arbitrage de l'étape 6). Scrutin de commission du 23 octobre 2024, article 1er ==")
+# Compte rendu n° 10 de la commission des affaires sociales, p. 16-17 (liste nominative)
+soc_abst = ["Aviragnet", "Bellay", "Califer", "Dombre Coste", "Godard", "Herouin-Léautey", "Runel"]
+soc_contre = ["Guedj", "Simion"]
+soc_pour = []
+n_soc = len(soc_abst) + len(soc_contre) + len(soc_pour)
+print(f"Membres SOC présents : {n_soc} ; abstention {len(soc_abst)}, contre {len(soc_contre)}, pour {len(soc_pour)}")
+print(f"Part de l'abstention : {pct(len(soc_abst), n_soc):.0f} % (règle des 60 % : position = abstention)")
+pour, contre, abst = 17, 28, 19
+print(f"Total : {pour + contre + abst} votants (pour {pour}, contre {contre}, abstentions {abst})")
+print(f"Si les 19 abstentionnistes avaient voté pour : {pour + abst} pour contre {contre}")
+print(f"Texte de séance (scrutin 217) : 7 articles de rapport en commission, 3 restants après la séance "
+      f"(2 quinquies, 2 octies, article additionnel de l'amendement n° 6) ; article 3 (gage) non adopté")
+print(f"Bourses : 55 000 (2013) + 77 500 (2014) = {55_000 + 77_500:,} nouveaux boursiers à 1 000 €")
