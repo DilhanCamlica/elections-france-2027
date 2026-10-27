@@ -34,7 +34,9 @@ def clean_url(u):
     return u.rstrip(".,;:")
 
 PARTI_HOSTS = ("rassemblementnational.fr", "marinelepen.com", "assemblee-nationale.fr", "web.archive.org", "mlafrance.fr", "senat.fr",
-               "lafranceinsoumise.fr", "melenchon2027.fr", "melenchon.fr", "laec.fr")
+               "lafranceinsoumise.fr", "melenchon2027.fr", "melenchon.fr", "laec.fr",
+               "parti-socialiste.fr", "projet-socialiste.fr", "place-publique.eu", "choisir2027.fr", "glucks2027.fr",
+               "francoishollande.fr", "2022avechidalgo.fr")
 
 def strip_md(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
@@ -62,7 +64,7 @@ def parse_corpus(path, prefixe):
         d = re.search(r"^- Date : (.+)$", body, re.M)
         u = re.search(r"^- URL : (.+)$", body, re.M)
         url = clean_url(URL_RE.search(u.group(1)).group(0)) if u and URL_RE.search(u.group(1)) else ""
-        out[n] = (strip_md(titre), d.group(1).strip() if d else "", url)
+        out[n] = (strip_md(titre), strip_md(d.group(1)) if d else "", url)
     # fiches courtes « **[C-XX-nn] Libellé.** https://… »
     for m in re.finditer(rf"^- \*\*\[{prefixe}-(\d+)\] (.+?)\*\*\s*(\S+)?", t, re.M):
         n = int(m.group(1))
@@ -82,7 +84,11 @@ def parse_corpus(path, prefixe):
             continue
         # tableaux : 2022 (Document | Date | …), textes (N° | Titre | signataire | Dépôt …), déclarations (Date | Média | Format | Axe | Position | URL)
         if re.match(r"\d{4}-\d{2}", cells[0]):
-            titre = f"déclaration, {cells[1]}, {cells[4][:140]}" if len(cells) > 4 else cells[1]
+            if len(cells) > 4:
+                court = cells[4] if len(cells[4]) <= 140 else cells[4][:140].rsplit(" ", 1)[0] + " (…)"
+                titre = f"déclaration, {cells[1]}, {court}"
+            else:
+                titre = cells[1]
             date = cells[0]
         elif cells[0].startswith(("PPL", "PPR", "PPLC", "Amdt")):
             titre = f"{cells[0]}, {cells[1]}"
