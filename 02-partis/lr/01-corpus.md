@@ -31,12 +31,12 @@ Légende du statut d'archivage :
 | b. Programme des législatives 2024 | 1 (C-LR-28) | lien seul (aucun programme écrit trouvé) |
 | c. Programme présidentiel 2022 | 1 (C-LR-29) | 1 PDF |
 | d. Contre-budgets, plans d'économies et amendements budgétaires du groupe DR et de LR | 6 (C-LR-30 à C-LR-35) | 2 PDF (amendements), 1 fiche texte, 3 liens seuls (dont un renvoi à [C-LR-78]) |
-| e. PPL, PPLC, PPR du groupe DR, par axe, et textes du groupe LR du Sénat | 19 (C-LR-36 à C-LR-54) | 16 PDF, 3 liens seuls |
-| Actes de coalition (2024-2025) | 4 (C-LR-55 à C-LR-58) | liens seuls |
-| f. Déclarations depuis le 1er janvier 2026 | 24 (C-LR-59 à C-LR-82) | 24 fiches texte (1 avec copie intégrale d'un communiqué du parti ; [C-LR-82] ajoutée au contrôle de l'étape 2) |
+| e. PPL, PPLC, PPR du groupe DR, par axe, et textes du groupe LR du Sénat | 21 (C-LR-36 à C-LR-54 ; C-LR-83 et C-LR-84 ajoutées aux étapes 3 à 5) | 16 PDF, 2 textes archivés, 3 liens seuls |
+| Actes de coalition (2024-2025) | 6 (C-LR-55 à C-LR-58 ; C-LR-90 et C-LR-91, lois de finances et de financement pour 2025, ajoutées aux étapes 3 à 5) | liens seuls |
+| f. Déclarations depuis le 1er janvier 2026 | 29 (C-LR-59 à C-LR-82 ; C-LR-85 à C-LR-89 ajoutées aux étapes 3 à 5) | 29 fiches texte (1 avec copie intégrale d'un communiqué du parti ; [C-LR-82] ajoutée au contrôle de l'étape 2) |
 | Mandat exercé dans la fenêtre | sans objet | mandat 2007-2012 hors fenêtre (`00-perimetre.md`) |
 
-Total : **82 fiches** (C-LR-01 à C-LR-82, sans trou ni doublon ; [C-LR-82] ajoutée le 2026-10-27 au contrôle de l'étape 2). Dossier `corpus/` : 82 fichiers (43 PDF, 39 `.md`), 77,7 Mo.
+Total : **91 fiches** (C-LR-01 à C-LR-91, sans trou ni doublon ; [C-LR-82] ajoutée le 2026-10-27 au contrôle de l'étape 2 ; [C-LR-83] à [C-LR-91] ajoutées le 2026-10-27 par les sous-agents des étapes 3 à 5 : décision 2024-6 RIP, PPL sénatoriale n° 299, demande de 49.3 de décembre 2025, intervention au nom du groupe sur Schengen, refus de la proportionnelle par le ministre, dissolution de LFI recommandée, état d'urgence demandé, lois de finances et de financement pour 2025). Dossier `corpus/` : 89 fichiers (43 PDF, 46 `.md`), 74 Mo.
 
 **Point principal :** **LR n'a pas de programme présidentiel unique au 27 octobre 2026.** Le corpus 2027 est fait de **huit livrets « Nos propositions pour la France »** publiés par le parti entre janvier et septembre 2026 (Travail gagnant, Produire plus, Agriculture, Famille, Électricité, Logement, Intelligence artificielle, École) [C-LR-01] à [C-LR-11], du **plan « Rétablir l'ordre dans les comptes publics » (197 Md€ d'économies en 2032, dont 146 Md€ pour le déficit et 51 Md€ rendus ; déficit sous 3 % en 2031, 2,2 % en 2032)**, dont les **fiches presse (17 pages) sont en ligne** sur le site du parti, contrairement à ce qu'indiquait la note de paysage [C-LR-12], et de **deux projets de loi constitutionnelle** rédigés article par article (souveraineté du peuple et État de droit ; « Charte républicaine ») [C-LR-13], [C-LR-14]. **Aucun livret sur l'immigration, la sécurité ou les retraites n'est paru** : ces axes reposent sur les projets constitutionnels, les fiches du plan d'économies (fiches 6 et 9), les entretiens du candidat et les textes du groupe DR. Le **pacte législatif d'urgence** du groupe et des sénateurs (22 juillet 2024) a été trouvé en PDF, par un relais de presse qui l'héberge [C-LR-19].
 
@@ -497,6 +497,56 @@ Résultat du script (`python3 -I _scripts/calculs/lr_textes_du_groupe.py`, 2026-
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 3 (Q3 faisabilité ; Q4, cinq ans du parti contre deux ans du groupe [C-LR-78]). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 3.
 
+### [C-LR-85] Bruno Retailleau, président du parti, demande au Premier ministre de recourir au 49.3 pour le budget 2026 (décembre 2025)
+- Auteur : Bruno Retailleau, président des Républicains (hors du gouvernement depuis octobre 2025)
+- Date : entretien à *Ouest-France* rapporté le 2025-12-20 ; même demande le 2025-12-03 (Sud Radio, relais Boursorama, non ouvert)
+- Nature : interview rapportée
+- URL : https://www.franceinfo.fr/economie/budget/budget-2026-bruno-retailleau-exhorte-sebastien-lecornu-a-utiliser-le-49-3_7692556.html
+- Archivage : fiche texte, `corpus/C-LR-85-retailleau-appel-au-49-3-budget-2026-2025-12-20-2026-10-27.md`
+- Statut : position du parti (président du parti) ; antérieure au 1er janvier 2026, retenue comme seule pièce trouvée où LR prend position sur l'usage du 49.3
+- Étiquette : franceinfo, presse généraliste (relais) ; Boursorama, agrégateur, relais
+- Utile pour : axe 6 (Q4, actes de coalition : 49.3 du gouvernement Barnier) ; Q6 bloc a. Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 6.
+
+### [C-LR-86] Intervention de Sylvie Bonnet au nom du groupe DR sur la résolution « refonder l'espace Schengen » (8 octobre 2026)
+- Auteur : Sylvie Bonnet, oratrice du groupe Droite Républicaine (discussion générale)
+- Date : 2026-10-08 (deuxième séance)
+- Nature : intervention en séance, annonce du vote du groupe (« pour ») ; scrutin 8611
+- URL : https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2026-2027/deuxieme-seance-du-jeudi-08-octobre-2026
+- Archivage : fiche texte, `corpus/C-LR-86-bonnet-explication-de-vote-schengen-2026-10-08-2026-10-27.md`
+- Statut : position du groupe
+- Étiquette : source primaire (compte rendu de l'AN), locutrice partie prenante
+- Utile pour : axe 6 (Q4, scrutin 8611 : explication du groupe, rattachée à la « double membrane » du candidat). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 6.
+
+### [C-LR-87] Bruno Retailleau, ministre de l'Intérieur, refuse de porter la proportionnelle (2 juin 2025)
+- Auteur : Bruno Retailleau, ministre d'État, ministre de l'Intérieur (gouvernement Bayrou) et président de LR
+- Date : 2025-06-02
+- Nature : déclaration rapportée, après une réunion avec le Premier ministre
+- URL : https://www.publicsenat.fr/actualites/politique/hostile-a-la-proportionnelle-bruno-retailleau-necarte-pas-une-demission-du-gouvernement
+- Archivage : fiche texte, `corpus/C-LR-87-retailleau-ministre-refuse-proportionnelle-2025-06-02-2026-10-27.md`
+- Statut : acte de coalition (position d'un ministre LR sur un projet du chef du gouvernement) et position du président du parti
+- Étiquette : Public Sénat, presse généraliste (relais)
+- Utile pour : axe 6 (Q4, actes de coalition, à rapprocher de la PPLC n° 1477 [C-LR-52]) ; Q6. Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 6.
+
+### [C-LR-88] Bruno Retailleau recommande la dissolution de LFI (1er octobre 2026)
+- Auteur : Bruno Retailleau, président du parti, candidat désigné
+- Date : 2026-10-01 (entretien BFMTV-RMC, d'après LCP du 2026-10-24) ; reprise par Gérard Larcher le 2026-10-19 (*Le Figaro*, d'après LCP)
+- Nature : interview rapportée ; LFI qualifiée de parti « séditieux », dissolution recommandée, difficulté juridique reconnue (selon les relais)
+- URL : https://lcp.fr/actualites/interdire-lfi-la-proposition-de-gerard-larcher-et-bruno-retailleau-tient-elle (lu) ; https://www.publicsenat.fr/actualites/politique/colere-lyceenne-bruno-retailleau-suggere-de-dissoudre-lfi-est-ce-possible (vu en résultat de recherche)
+- Archivage : fiche texte, `corpus/C-LR-88-retailleau-dissolution-lfi-2026-10-01-2026-10-27.md`
+- Statut : position du candidat (relais ; entretien d'origine non ouvert)
+- Étiquette : LCP, chaîne parlementaire publique ; Public Sénat, presse généraliste ; BFMTV-RMC non ouvert
+- Utile pour : axe 5 (Q4, discours contre programme écrit : ajout) ; axe 6 et Q6 (pluralisme). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 5.
+
+### [C-LR-89] Bruno Retailleau demande l'état d'urgence après les violences du 17 octobre 2026
+- Auteur : Bruno Retailleau, candidat désigné
+- Date : entre le 2026-10-17 et le 2026-10-21 (date exacte non relevée ; relais du 2026-10-21) ; la note de contexte la rattache à un extrait de Public Sénat (vers le 2026-10-19)
+- Nature : déclaration rapportée : demande au chef de l'État de déclarer l'état d'urgence ; le gouvernement l'a écarté
+- URL : https://www.leclubdesjuristes.com/droit/letat-durgence-apres-les-violences-du-17-octobre-17937/ (lu) ; https://www.publicsenat.fr/actualites/politique/violences-du-17-octobre-pourquoi-letat-durgence-est-ecarte-par-le-gouvernement (extrait, note de contexte)
+- Archivage : fiche texte, `corpus/C-LR-89-retailleau-etat-d-urgence-2026-10-2026-10-27.md`
+- Statut : position du candidat (relais ; déclaration d'origine non ouverte)
+- Étiquette : Le Club des juristes, think tank juridique ; Public Sénat, presse généraliste
+- Utile pour : axe 5 (Q4, discours contre programme écrit : ajout ; Q5, droit de manifester). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 5.
+
 ---
 
 ## Actes de coalition (septembre 2024 à octobre 2025)
@@ -544,6 +594,26 @@ Liste des textes et décisions utiles aux étapes suivantes, sans analyse (`00-p
 - Utile pour : identifier les ministres LR dont les actes sont des actes de coalition (à établir nominativement aux étapes suivantes à partir du décret de composition).
 
 Autres actes à réunir aux étapes suivantes (non archivés ici) : loi contre le narcotrafic de 2025 (PPL sénatoriale transpartisane, portée en séance par le ministre de l'Intérieur ; scrutin gelé 1194) ; réponses aux mobilisations sous l'autorité du ministre de l'Intérieur (septembre 2024 à octobre 2025) ; textes budgétaires de 2025 (budgets Bayrou adoptés après le 49.3 de février 2025, `02-partis/ps/01-corpus.md` en cite les recours).
+
+### [C-LR-90] Loi n° 2025-127 du 14 février 2025 de finances pour 2025
+- Auteur : projet déposé par le gouvernement Barnier (Premier ministre LR) le 2024-10-10 ; loi adoptée sous le gouvernement Bayrou (ministre d'État LR) après engagement de responsabilité, vote final au Sénat le 2025-02-06
+- Date : 2025-02-14
+- Nature : loi de finances. Dispositions utiles : contribution différentielle sur les hauts revenus et contribution exceptionnelle sur les bénéfices des grandes entreprises (comptées à l'axe 1) ; barème de l'impôt sur le revenu revalorisé de 1,8 % ; article 17 créant le versement nucléaire universel (après l'ARENH, au 1er janvier 2026) ; exonération temporaire des dons familiaux jusqu'à 100 000 € (article 790 A bis du code général des impôts, 15 février 2025 au 31 décembre 2026) ; TVA des abonnements d'électricité et de gaz portée à 20 % au 1er août 2025 ; suppression de la CVAE reportée à 2030
+- URL : relais lus via résumé de recherche (Légifrance bloque l'outil) : https://www.lafinancepourtous.com/2025/02/07/loi-de-finances-2025-les-mesures-pour-les-particuliers/ ; https://www.seban-associes.avocat.fr/le-versement-nucleaire-universel-successeur-du-tarif-dacces-regule-a-lelectricite-nucleaire-historique/ ; https://www.legifiscal.fr/transmission/donations/nouveaux-dons-argent-exoneres-famille-immobilier.html
+- Archivage : lien seul
+- Statut : acte de coalition (projet d'un Premier ministre LR, loi d'un gouvernement à ministre d'État LR)
+- Étiquette : relais (La finance pour tous, cabinet d'avocats, presse fiscale spécialisée)
+- Utile pour : axe 4 (Q4, actes de coalition : indexation, dons, versement nucléaire universel, TVA des abonnements) ; axe 1 (hausses d'impôts, déjà traitées). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 4.
+
+### [C-LR-91] Loi n° 2025-199 du 28 février 2025 de financement de la sécurité sociale pour 2025 (allègements de cotisations patronales)
+- Auteur : projet déposé par le gouvernement Barnier (article 6 : refonte des allègements généraux, 4 Md€ d'économies) ; article supprimé en première lecture à l'Assemblée le 2024-10-30 par 170 voix contre 162, le groupe DR votant la suppression (relais LCP) ; loi adoptée sous le gouvernement Bayrou (ministre d'État LR) après engagement de responsabilité
+- Date : 2025-02-28 (publication au Journal officiel ; décision du Conseil constitutionnel n° 2025-875 DC du même jour)
+- Nature : loi de financement de la sécurité sociale ; baisse des allègements généraux de cotisations patronales de 1,6 Md€ en 2025, refonte en une réduction dégressive unique en 2026 (relais)
+- URL : https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051269767 (non ouvert) ; https://lcp.fr/actualites/budget-de-la-securite-sociale-l-assemblee-supprime-en-premiere-lecture-la-refonte-des ; https://www.previssima.fr/actualite/lfss-tout-comprendre-de-la-reforme-des-allegements-generaux-de-cotisations-patronales.html
+- Archivage : lien seul
+- Statut : acte de coalition ; vote du groupe contre l'article en première lecture
+- Étiquette : LCP, presse généraliste ; Previssima, presse spécialisée (relais)
+- Utile pour : axe 4 (Q4, actes de coalition : objet d'écart sur le coût du travail). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 4.
 
 ---
 

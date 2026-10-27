@@ -153,5 +153,14 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Algérie Eco | site d'information économique algérien, relais | Inscrit le 2026-10-27 (verticale LR) |
 | Forum réfugiés | association d'accueil des demandeurs d'asile et des réfugiés, partie prenante | Opérateur associatif de l'accueil, financé pour partie par l'État ; inscrit le 2026-10-27 (verticale LR) |
 | Bourse Inside | site d'information financière, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Écran de veille | revue, commanditaire d'enquêtes d'opinion, orientation non publiée | Commanditaire de l'enquête Ifop de 2025 sur le voile ; inscrit le 2026-10-27 (verticale LR) |
+| 75 secondes | site d'information en ligne, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Selectra | comparateur commercial d'offres d'énergie et de finance, relais | Site marchand ; même nature que Kelwatt ; inscrit le 2026-10-27 (verticale LR) |
+| Hellowatt | comparateur commercial d'offres d'énergie, relais | Même nature que Kelwatt et Selectra ; inscrit le 2026-10-27 (verticale LR) |
+| Planet | site d'information grand public, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Seban Avocats | cabinet d'avocats de droit public, relais juridique | Même nature que les cabinets déjà inscrits ; inscrit le 2026-10-27 (verticale LR) |
+| Ramify | société de gestion de patrimoine en ligne, relais | Site commercial ; même nature que ToutSurMesFinances ; inscrit le 2026-10-27 (verticale LR) |
+| hr-infos | site d'information sur les ressources humaines, hébergeur de documents tiers, relais | A hébergé une copie d'une publication de l'Urssaf ; inscrit le 2026-10-27 (verticale LR) |
+| Baltic Cable | gestionnaire d'interconnexion électrique, partie prenante | Opérateur privé citant le règlement (UE) 2019/943 ; inscrit le 2026-10-27 (verticale LR) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
