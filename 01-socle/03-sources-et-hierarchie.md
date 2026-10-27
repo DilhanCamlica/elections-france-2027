@@ -54,6 +54,8 @@ Les PDF de programmes, contre-budgets et rapports sont téléchargés dans `02-p
 
 Le champ « position majoritaire » du jeu open data de l'Assemblée est peu fiable (22 écarts sur 27 scrutins constatés). La position d'un groupe est recalculée : position la plus fréquente parmi les votants du groupe, « divisé » si aucune position ne dépasse 60 % des votants. Les déclarations publiques retenues au corpus sont archivées en texte (`.md`) au moment de l'étape 1, pas seulement par leur lien.
 
+**Précision du 2026-10-27 (boucle de révision après la verticale PS).** Un scrutin public en commission, par appel nominal et publié au compte rendu officiel de la commission, est une pièce de niveau 1 ; la position d'un groupe y est recalculée par la même règle des 60 % sur ses membres présents, l'appartenance au groupe à la date du vote vérifiée dans les jeux open data des acteurs de l'Assemblée (AMO10, AMO30), calcul en code ; la fiche cite la page du compte rendu.
+
 ## 6. Ce qui marche et ce qui bloque (hérité de la série précédente)
 
 Lecture directe possible : pages et PDF Insee, PDF Drees, rapports du Sénat et de l'Assemblée, Banque de France, Unédic, strategie-plan.gouv.fr (HCFiPS, France Stratégie), vie-publique.fr, legifrance, conseil-constitutionnel.fr.

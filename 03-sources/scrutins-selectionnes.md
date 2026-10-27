@@ -30,6 +30,8 @@ Paire symétrique sur les retraites : un texte RN (217) et un texte LFI (468) su
 
 Écarté : 2257 (résolution non contraignante sur l'abrogation, redondante avec 217 et 468).
 
+**Note du 2026-10-27 (boucle de révision après la verticale PS) sur le scrutin 217.** Le texte mis aux voix le 31 octobre 2024 ne contenait plus les articles 1er (62 ans, abrogation de l'accélération de la durée) et 2 (42 annuités), supprimés par la commission des affaires sociales le 23 octobre 2024 ; les amendements qui les rétablissaient ont été déclarés irrecevables au titre de l'article 40 ; l'article de gage a été rejeté en séance ; il restait trois demandes de rapport. Le scrutin reste dans la liste (scrutin de séance de la paire symétrique), mais il ne porte plus l'objet : les fiches et les pages l'écrivent « texte vidé en commission » et ne le lisent ni comme concordance ni comme écart sur l'âge légal. L'objet se lit au scrutin public par appel nominal de la commission du 23 octobre 2024 sur l'article 1er (compte rendu n° 10, p. 16-17 : 17 pour, 28 contre, 19 abstentions), pièce de niveau 1 hors liste gelée (`01-socle/01-criteres.md`, échelle C et §5, précisions du 2026-10-27), documentée dans les fiches 2 du PS, de LFI, du RN et de Renaissance avec la position de chaque groupe recalculée sur ses membres présents à la date du vote (`_scripts/calculs/commission_2024-10-23.py`).
+
 ## Axe 3 : Immigration, intégration, droits sociaux des étrangers
 
 | N° | Date | Objet | Nature | Origine |

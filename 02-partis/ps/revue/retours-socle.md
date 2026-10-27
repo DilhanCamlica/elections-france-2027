@@ -1,7 +1,8 @@
 # PS : retours pour la boucle de révision du socle
 
 - Ouvert le : 2026-10-27 (étapes 2 à 5)
-- Statut : ouvert ; arbitrage du 2026-10-27 (`arbitrage.md`) : ligne 1 soumise à Dilhan (lecture A appliquée), ligne 3 résolue sur pièces, lignes 4 à 6 ajoutées
+- Statut : **clos le 2026-10-27** (boucle de révision après la verticale PS, `01-socle/CHANGELOG.md`, entrée du 2026-10-27) ; arbitrage du 2026-10-27 (`arbitrage.md`) : ligne 1 soumise à Dilhan (lecture A appliquée), ligne 3 résolue sur pièces, lignes 4 à 6 ajoutées
+- Sort de chaque ligne : 1, lecture A écrite à l'échelle C (`01-criteres.md`, précision du 2026-10-27) ; 2, « texte du groupe » défini au §6 et au brief de l'étape 1, corpus RN, LFI et Renaissance relus (scripts `_scripts/calculs/<parti>_textes_du_groupe.py`) ; 3 et 6, scrutin de commission écrit au socle (échelle C, §5, `03-sources-et-hierarchie.md` §5 bis), exemple « 217 et 3684 » corrigé chez LFI et au socle, fiches 2 du RN et de Renaissance annotées, positions recalculées (`_scripts/calculs/commission_2024-10-23.py`), note dans `03-sources/scrutins-selectionnes.md` ; 4, règle 11 écrite à l'échelle C ; 5, règle 12 écrite au §1 ; 7, dix-huit requêtes repassées pour le RN, LFI et Renaissance (un cas admis de plus chez LFI, aucun chez les deux autres), dirigeants fédéraux hors règle 1 (précision v), requêtes au brief de l'étape 5 bis (précision vi).
 
 | N° | Étape | Constat | Proposition | Impact sur les verticales faites |
 |---|---|---|---|---|

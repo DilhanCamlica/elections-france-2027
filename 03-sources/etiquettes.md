@@ -133,5 +133,14 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Crédoc | centre de recherche sur les conditions de vie, association subventionnée par l'État, relais | Enquête « Conditions de vie et aspirations » ; financement public et privé ; inscrit le 2026-10-27 (verticale PS) |
 | Bourse Direct | courtier en ligne, relais de dépêches | Reprend des communiqués d'entreprises cotées ; le communiqué d'origine reste la source à citer ; inscrit le 2026-10-27 (verticale PS) |
 | Kelwatt | site commercial de comparaison de l'énergie, relais | Données reprises de la DGEC ; à recouper, comme les comparateurs de prix des carburants ; inscrit le 2026-10-27 (verticale PS) |
+| Jewish News | hebdomadaire de la communauté juive britannique, relais (reprend l'agence JTA), partie prenante sur l'antisémitisme | Inscrit le 2026-10-27 (boucle de révision après le PS, bloc valeurs de Renaissance) |
+| Actu-Juridique | presse juridique professionnelle, relais | Inscrit le 2026-10-27 (bloc valeurs de Renaissance) |
+| Le Courrier de l'Atlas | magazine des diasporas maghrébines, relais | Inscrit le 2026-10-27 (bloc valeurs de LFI) |
+| Le Tribunal du Net | site d'information en ligne, relais | Inscrit le 2026-10-27 (bloc valeurs de LFI) |
+| La Nouvelle Tribune | presse béninoise en ligne, relais | Inscrit le 2026-10-27 (bloc valeurs de LFI) |
+| Connection ivoirienne | site d'information de la diaspora ivoirienne, relais | Inscrit le 2026-10-27 (bloc valeurs de LFI) |
+| Le Petit Journal | média en ligne des Français de l'étranger, relais de dépêches AFP | Inscrit le 2026-10-27 (bloc valeurs du RN) |
+| Ligue des droits de l'homme (LDH) | association de défense des droits, partie prenante (plaignante dans les cas cités) | Inscrit le 2026-10-27 (bloc valeurs du RN) |
+| Connexion France | média anglophone en France, relais | Inscrit le 2026-10-27 (bloc valeurs du RN) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.

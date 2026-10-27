@@ -4,7 +4,7 @@
 - Données arrêtées au : 2026-10-25
 - Corpus arrêté au : 2026-10-25
 - Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; effets distributifs (v2) ajoutés par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
-- Statut : revu (étape 6 v2, arbitrage du 2026-10-25) ; relu à la boucle de révision du 2026-10-26 (v2.1 appliquée, retours-socle lignes 1, 4, 5)
+- Statut : revu (étape 6 v2, arbitrage du 2026-10-25) ; relu à la boucle de révision du 2026-10-26 (v2.1 appliquée, retours-socle lignes 1, 4, 5) ; relu le 2026-10-27 (boucle de révision après la verticale PS : scrutin 217 sur un texte vidé en commission, vote de commission du 23 octobre 2024 documenté, verdict inchangé)
 - Version du socle : v2.2
 
 Sigles : PPL (proposition de loi), PLFSS (projet de loi de financement de la sécurité sociale), LFSS (loi de financement de la sécurité sociale), EPR (groupe Ensemble pour la République), RSA (revenu de solidarité active), CETU (compte épargne-temps universel), PEE (plan d'épargne entreprise), OCDE (Organisation de coopération et de développement économiques), Dares (direction statistique du ministère du Travail).
@@ -192,7 +192,7 @@ Source retenue pour le verdict : le candidat (G. Attal) pour le programme 2026, 
 
 | Scrutin | Date | Objet | LFI | SOC | **EPR** | DR | RN | Cohérent avec le programme ? |
 |---|---|---|---|---|---|---|---|---|
-| 217 | 31/10/2024 | PPL RN abrogeant les réformes sur l'âge et les annuités, ensemble | aucun vote exprimé | contre (51 c, 1 p) | **contre (58 c)** | contre (13 c) | pour (118 p, 3 a) | Oui. Programme 2022 (65 ans) et loi de 2023. Le retour aux 42 annuités irait aussi contre la logique de durée de cotisation de 2026. |
+| 217 | 31/10/2024 | PPL RN abrogeant les réformes sur l'âge et les annuités, ensemble | aucun vote exprimé | contre (51 c, 1 p) | **contre (58 c)** | contre (13 c) | pour (118 p, 3 a) | **Note du 2026-10-27** : texte vidé en commission (articles 1er et 2 supprimés le 23 octobre 2024, rétablissement irrecevable au titre de l'article 40), le vote contre porte sur trois demandes de rapport ; la position sur l'objet se lit au scrutin public par appel nominal de la commission du 23 octobre 2024 sur l'article 1er (62 ans) : les dix membres EPR présents votent contre, l'article est rejeté par 28 voix contre 17 (pièce de niveau 1 hors liste gelée) [73][74]. Oui. Programme 2022 (65 ans) et loi de 2023. Le retour aux 42 annuités irait aussi contre la logique de durée de cotisation de 2026. |
 | 468 | 28/11/2024 | Amendements de suppression de l'article 1er de la PPL LFI d'abrogation des 64 ans | contre (69 c) | contre (43 c) | **pour (52 p)** | pour (13 p, 1 a) | contre (81 c) | Oui, avec la loi de 2023 et le programme de l'époque. Défendre un âge légal à 64 ans n'est pas contradictoire avec une proposition de 2026 qui viendrait le remplacer, mais le vote défend précisément l'âge légal que le candidat propose ensuite de supprimer. |
 | 3684 | 12/11/2025 | PLFSS 2026, article 45 bis : suspension de la réforme des retraites | contre (60 c) | pour (67 p) | **abstention (67 a, 3 p, 5 c)** | divisé (8 p, 25 c, 9 a) | pour (112 p) | Écart partiel. La suspension venait d'un gouvernement dirigé par un Premier ministre Renaissance, en échange de la non-censure du PS (paysage, [57]). Le groupe ne s'y oppose pas ; un an plus tard, il demande son annulation [C-R-20]. Horizons, allié, a voté contre (29 c). |
 | 4758 | 16/12/2025 | PLFSS 2026, lecture définitive, ensemble (hors liste gelée, texte global pondéré à part) | contre (69 c) | pour (64 p, 5 a) | **pour (91 p)** | divisé (18 p, 3 c, 28 a) | contre (123 c) | Écart, pondéré à part. La loi contient la suspension de la réforme des retraites [59][61]. Le groupe avait annoncé un vote contre la suspension, puis s'était abstenu sur l'article (3684) ; il vote l'ensemble. Explication publique : compromis de coalition (voir les compléments ci-dessous) |
@@ -200,7 +200,7 @@ Source retenue pour le verdict : le candidat (G. Attal) pour le programme 2026, 
 
 Compléments hors liste gelée, notés pour contexte et sans poids dans le verdict : scrutin 7260 (2 juin 2026, loi transposant l'avenant n° 3 sur les ruptures conventionnelles, durée maximale de 15 mois) : EPR pour (87 p), DR pour (44 p), RN pour (115 p), SOC abstention majoritaire (37 a, 18 c), LFI contre (63 c) [48] ; concordant avec la PPL n° 1791. Scrutin 8895 (20 octobre 2026, motion de rejet du PLFSS 2027) : EPR contre (65 c) [54].
 
-Bilan : quatre scrutins exploitables, trois concordants (217, 468, 6023, ce dernier pondéré à part), un écart partiel (3684). Le scrutin 4758, ajouté à l'étape 6 hors liste gelée et pondéré à part, prolonge cet écart.
+Bilan : quatre scrutins exploitables, trois concordants (217, dont l'objet se lit au vote de commission du 23 octobre 2024, le texte de séance étant vidé ; 468 ; 6023, ce dernier pondéré à part), un écart partiel (3684). Le scrutin 4758, ajouté à l'étape 6 hors liste gelée et pondéré à part, prolonge cet écart.
 
 ### Programme contre actes (Renaissance a gouverné sur toute la période)
 
@@ -212,7 +212,7 @@ Bilan : quatre scrutins exploitables, trois concordants (217, 468, 6023, ce dern
 | Âge légal relevé progressivement à 65 ans ; fin des principaux régimes spéciaux | Programme 2022 [C-R-18][C-R-19] | Loi n° 2023-270 : 64 ans, fin des principaux régimes spéciaux pour les nouveaux entrants, adoptée par 49.3 [A-R-06] | Oui sur l'objet, écart d'ampleur (64 au lieu de 65). |
 | RSA conditionné à une activité ; Pôle emploi transformé en France Travail | Programme 2022 [C-R-18] | Loi pour le plein emploi du 18 décembre 2023 [A-R-07] | Oui. |
 | Revaloriser les retraites pour suivre l'inflation | Programme 2024 [C-R-17] | Retraites de base revalorisées de 2,2 % au 1er janvier 2025 [58] et de 0,9 % au 1er janvier 2026 [20], selon la règle légale (taux d'inflation de référence non relu) | Oui (précision de l'étape 6) ; en 2026, le candidat propose l'inverse pour 2028, avec une explication budgétaire (voir plus haut). |
-| Défendre la réforme de 2023 (votes 217 et 468) | Groupe EPR | LFSS 2026 : suspension jusqu'au 1er janvier 2028, gouvernement Lecornu (Renaissance), coalition [A-R-14] | Écart. Acte de coalition, avec une explication publique (condition de non-censure posée par le PS, paysage [57]). Selon `00-perimetre.md`, cette période est documentée à part. |
+| Défendre la réforme de 2023 (vote de commission du 23 octobre 2024, votes 217 et 468) | Groupe EPR | LFSS 2026 : suspension jusqu'au 1er janvier 2028, gouvernement Lecornu (Renaissance), coalition [A-R-14] | Écart. Acte de coalition, avec une explication publique (condition de non-censure posée par le PS, paysage [57]). Selon `00-perimetre.md`, cette période est documentée à part. |
 | « Lutte implacable » contre les fraudes ; projet de loi | Programme 2024 [C-R-17] | Loi n° 2025-594 (PPL n° 447) et loi n° 2026-534 [C-R-22][33] | Oui. |
 
 ### Compléments de la revue contradictoire (étape 6)
@@ -381,6 +381,8 @@ Sources ajoutées à l'arbitrage v2 de l'Écoute (2026-10-25, reprises des rappo
 70. Faire Face, « Budgets de l'État et de la Sécurité sociale 2026 : les personnes handicapées pas épargnées », 2025-11-03. https://www.faire-face.fr/2025/11/03/plf-plfss-handicap-mesures/ [média de l'association APF France handicap, partie prenante]
 71. Ministère des Solidarités, « Revalorisation annuelle des prestations sociales au 1er avril 2026 ». https://solidarites.gouv.fr/revalorisation-annuelle-des-prestations-sociales-au-1er-avril-2026 [source officielle]
 72. L'Info durable, « Les fauteuils roulants intégralement remboursés à partir du 1er décembre 2025 ». https://www.linfodurable.fr/les-fauteuils-roulants-integralement-rembourses-partir-du-1er-decembre-2025-49320 ; Handicap.fr, « Fauteuils roulants remboursés à 100 % : le 1er décembre 2025 ». https://informations.handicap.fr/a-fauteuils-roulants-rembourses-a-100-le-1er-decembre-2025-37735.php [site associatif spécialisé]
+73. Assemblée nationale, commission des affaires sociales, compte rendu n° 10, séance du mercredi 23 octobre 2024, PPL n° 284 (suppression des articles 1er et 2 ; scrutin public par appel nominal sur l'article 1er, p. 16-17), PDF lu le 2026-10-27. https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/cion-soc/l17cion-soc2425010_compte-rendu.pdf
+74. `_scripts/calculs/commission_2024-10-23.py` (positions des groupes au scrutin de commission du 23 octobre 2024, appartenance au groupe lue dans le jeu open data AMO30 de l'Assemblée), 2026-10-27, calcul par nos soins.
 
 ## Arbitrage de l'agent principal (2026-10-25) : chiffrage de l'assurance chômage
 
