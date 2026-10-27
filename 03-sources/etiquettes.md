@@ -142,5 +142,10 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Le Petit Journal | média en ligne des Français de l'étranger, relais de dépêches AFP | Inscrit le 2026-10-27 (bloc valeurs du RN) |
 | Ligue des droits de l'homme (LDH) | association de défense des droits, partie prenante (plaignante dans les cas cités) | Inscrit le 2026-10-27 (bloc valeurs du RN) |
 | Connexion France | média anglophone en France, relais | Inscrit le 2026-10-27 (bloc valeurs du RN) |
+| Reporterre | quotidien en ligne consacré à l'écologie, ligne éditoriale engagée sur l'écologie, relais | Héberge le PDF du pacte législatif LR de juillet 2024 ; inscrit le 2026-10-27 (verticale LR) |
+| L'Opinion | quotidien d'information politique et économique, ligne libérale revendiquée | Média d'origine d'entretiens du candidat LR, non ouvert, lu par le site du parti ; inscrit le 2026-10-27 (verticale LR) |
+| La Libre Belgique | quotidien belge généraliste, relais | Composition du gouvernement Bayrou ; inscrit le 2026-10-27 (verticale LR) |
+| Fortuneo (bourse.fortuneo.fr) | banque en ligne, relais de dépêches AFP | Même nature que Boursorama et Bourse Direct ; inscrit le 2026-10-27 (verticale LR) |
+| La Tribune Dimanche | hebdomadaire d'information générale, relais | Média d'origine d'un entretien du candidat LR, non ouvert ; inscrit le 2026-10-27 (verticale LR) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.
