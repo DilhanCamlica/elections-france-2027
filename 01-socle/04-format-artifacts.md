@@ -23,7 +23,7 @@
 5. **Six chapitres, un par axe, courts** (12 à 15 minutes de lecture pour la page dépliée). Par chapitre :
    - pastille hexagonale, nom de l'axe, titre-conclusion ;
    - **Ce qu'ils constatent** : pastille D, 3 à 4 lignes ;
-   - **Ce qu'ils proposent** : 3 à 4 lignes ;
+   - **Ce qu'ils proposent** : 3 à 4 lignes ; au chapitre 6, une phrase explicite et sourcée sur l'appartenance à l'Union européenne (sortie, maintien, renégociation des traités, désobéissance, intégration), qui dit ce que le programme propose et ce qu'il ne propose pas (ajout du 2026-10-27 : la question est posée au lecteur pour chaque force, le silence de la page laissait l'idée reçue intacte) ;
    - **Est-ce faisable ?** : pastille F, 3 à 4 lignes, effets distributifs en une phrase quand ils sont connus ;
    - **Disent-ils ce qu'ils votent ?** : pastille C, 3 à 4 lignes ;
    - **Répondent-ils aux demandes ?** : pastille E, 3 à 4 lignes : les demandes larges de l'axe (inventaire gelé), ce que le programme en fait, et s'il assume ce qu'il écarte ;

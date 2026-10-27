@@ -114,3 +114,9 @@ Report de `02-partis/rn/revue/retours-socle.md`, lignes 5, 6 et 7, et de l'instr
 - Pages : la note de méthode des deux pages publiées renvoie au dépôt (republication à la même URL).
 - Impact : aucun sur les verdicts.
 
+## 2026-10-27 : position explicite sur l'appartenance à l'Union dans chaque page (version inchangée, v2.2)
+
+- `04-format-artifacts.md` §2, point 5, chapitre 6 : « Ce qu'ils proposent » contient une phrase explicite et sourcée sur l'appartenance à l'Union européenne (sortie, maintien, renégociation, désobéissance, intégration), ce que le programme propose et ce qu'il ne propose pas. Décision de Dilhan à la relecture de la page LFI : l'idée reçue « Mélenchon veut sortir de l'Europe » ne trouvait pas de réponse nette dans la page, qui décrivait le plan A et le plan B sans dire que la sortie n'est proposée dans aucun document ; la même clarification vaut pour les cinq forces.
+- `02-partis/_gabarit/briefs/etape-8-page.md` : point 3, contenu obligatoire.
+- Les fiches ne changent pas : l'information y figure déjà (LFI, axe 6, Q2 ligne 15 ; RN, axe 6, Q3 ; Renaissance, axe 6, Q2 et « thèmes sans position »).
+- Impact : **LFI**, **RN** et **Renaissance**, une phrase ajoutée au chapitre 6 de la page et de l'article long, pages republiées à la même URL le 2026-10-27. Aucun verdict modifié.
