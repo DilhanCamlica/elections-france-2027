@@ -162,5 +162,6 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Ramify | société de gestion de patrimoine en ligne, relais | Site commercial ; même nature que ToutSurMesFinances ; inscrit le 2026-10-27 (verticale LR) |
 | hr-infos | site d'information sur les ressources humaines, hébergeur de documents tiers, relais | A hébergé une copie d'une publication de l'Urssaf ; inscrit le 2026-10-27 (verticale LR) |
 | Baltic Cable | gestionnaire d'interconnexion électrique, partie prenante | Opérateur privé citant le règlement (UE) 2019/943 ; inscrit le 2026-10-27 (verticale LR) |
+| Minier (cabinet d'avocat) | cabinet d'avocats, relais juridique | Même nature que les cabinets déjà inscrits ; inscrit le 2026-10-27 (verticale LR) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.

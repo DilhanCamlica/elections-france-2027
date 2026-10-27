@@ -36,7 +36,7 @@ Légende du statut d'archivage :
 | f. Déclarations depuis le 1er janvier 2026 | 29 (C-LR-59 à C-LR-82 ; C-LR-85 à C-LR-89 ajoutées aux étapes 3 à 5) | 29 fiches texte (1 avec copie intégrale d'un communiqué du parti ; [C-LR-82] ajoutée au contrôle de l'étape 2) |
 | Mandat exercé dans la fenêtre | sans objet | mandat 2007-2012 hors fenêtre (`00-perimetre.md`) |
 
-Total : **91 fiches** (C-LR-01 à C-LR-91, sans trou ni doublon ; [C-LR-82] ajoutée le 2026-10-27 au contrôle de l'étape 2 ; [C-LR-83] à [C-LR-91] ajoutées le 2026-10-27 par les sous-agents des étapes 3 à 5 : décision 2024-6 RIP, PPL sénatoriale n° 299, demande de 49.3 de décembre 2025, intervention au nom du groupe sur Schengen, refus de la proportionnelle par le ministre, dissolution de LFI recommandée, état d'urgence demandé, lois de finances et de financement pour 2025). Dossier `corpus/` : 89 fichiers (43 PDF, 46 `.md`), 74 Mo.
+Total : **92 fiches** (C-LR-01 à C-LR-92 ; [C-LR-92] tribune du premier vice-président ajoutée à l'étape 5 bis ; sans trou ni doublon ; [C-LR-82] ajoutée le 2026-10-27 au contrôle de l'étape 2 ; [C-LR-83] à [C-LR-91] ajoutées le 2026-10-27 par les sous-agents des étapes 3 à 5 : décision 2024-6 RIP, PPL sénatoriale n° 299, demande de 49.3 de décembre 2025, intervention au nom du groupe sur Schengen, refus de la proportionnelle par le ministre, dissolution de LFI recommandée, état d'urgence demandé, lois de finances et de financement pour 2025). Dossier `corpus/` : 89 fichiers (43 PDF, 46 `.md`), 74 Mo.
 
 **Point principal :** **LR n'a pas de programme présidentiel unique au 27 octobre 2026.** Le corpus 2027 est fait de **huit livrets « Nos propositions pour la France »** publiés par le parti entre janvier et septembre 2026 (Travail gagnant, Produire plus, Agriculture, Famille, Électricité, Logement, Intelligence artificielle, École) [C-LR-01] à [C-LR-11], du **plan « Rétablir l'ordre dans les comptes publics » (197 Md€ d'économies en 2032, dont 146 Md€ pour le déficit et 51 Md€ rendus ; déficit sous 3 % en 2031, 2,2 % en 2032)**, dont les **fiches presse (17 pages) sont en ligne** sur le site du parti, contrairement à ce qu'indiquait la note de paysage [C-LR-12], et de **deux projets de loi constitutionnelle** rédigés article par article (souveraineté du peuple et État de droit ; « Charte républicaine ») [C-LR-13], [C-LR-14]. **Aucun livret sur l'immigration, la sécurité ou les retraites n'est paru** : ces axes reposent sur les projets constitutionnels, les fiches du plan d'économies (fiches 6 et 9), les entretiens du candidat et les textes du groupe DR. Le **pacte législatif d'urgence** du groupe et des sénateurs (22 juillet 2024) a été trouvé en PDF, par un relais de presse qui l'héberge [C-LR-19].
 
@@ -761,3 +761,17 @@ Définition du socle (`01-criteres.md` §6) : une divergence est deux positions 
 14. Sénat, proposition de loi n° 298 (2024-2025) ; rapport n° 611 (2025-2026). https://www.senat.fr/leg/ppl24-298.html ; https://www.senat.fr/rap/l25-611/l25-611_mono.html
 15. Wayback Machine, capture de https://republicains.fr/ du 2024-06-25. https://web.archive.org/web/20240625085224/https://republicains.fr/
 16. Sources propres à la section f : liste des publications de republicains.fr du 1er janvier au 23 septembre 2026 (https://republicains.fr/wp-json/wp/v2/posts?after=2026-01-01T00:00:00&per_page=100) ; Ma Commune (AFP), « Mercosur : face au risque politique, Emmanuel Macron choisit de dire non malgré des concessions "incontestables" », 2026-01-09, https://www.macommune.info/mercosur-face-au-risque-politique-emmanuel-macron-choisit-de-dire-non-malgre-des-concessions-incontestables/ [presse locale en ligne, relais de dépêches AFP] ; Les Républicains, « Nomination de nos secrétaires nationaux », 2026-01-16, https://republicains.fr/actualites/2026/01/16/nomination-de-nos-secretaires-nationaux/ [source du parti, partie prenante]
+
+---
+
+## Pièces ajoutées à l'étape 5 bis (chapitre Méthode, 2026-10-27)
+
+### [C-LR-92] François-Xavier Bellamy, premier vice-président du parti, voterait la censure du gouvernement Lecornu II (14 et 15 octobre 2025)
+- Auteur : François-Xavier Bellamy, premier vice-président des Républicains, chef de file au Parlement européen
+- Date : tribune parue dans *Le Figaro* le 2025-10-14, reprise sur le site du parti le 2025-10-15
+- Nature : tribune reprise par le parti
+- URL : https://republicains.fr/actualites/2025/10/15/francois-xavier-bellamy-si-jetais-depute-a-lassemblee-nationale-je-voterais-pour-la-censure-du-gouvernement/ (page ouverte le 2026-10-27)
+- Archivage : lien seul
+- Statut : position d'un dirigeant du parti, qui diverge de la lettre du président du 2025-10-13 (« Ne pas participer ne signifie pas pour autant censurer ») [C-LR-24] ; le groupe DR n'a pas voté la censure (scrutins 3058 et 3059)
+- Étiquette : source du parti, partie prenante ; *Le Figaro* : étiquette existante (non ouvert)
+- Utile pour : Q6 bloc (c) (engagements de censure et de non-censure confrontés aux votes). Antérieure au 1er janvier 2026, retenue comme pièce de méthode. Citation (15 mots au plus) : « Si j'étais député à l'Assemblée nationale, je voterais pour la censure du gouvernement » (titre de la page). Ajoutée le 2026-10-27 par le sous-agent Opus de l'étape 5 bis.
