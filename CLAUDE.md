@@ -63,6 +63,16 @@ Dépôt public sur GitHub depuis le 2026-10-26 (`origin`, compte DilhanCamlica) 
 
 **Auteur des commits.** L'auteur et le committeur de chaque commit sont la personne qui a lancé la session (Dilhan Camlica, `dilhan@brulance.be`, configuration locale du repo), jamais un agent. Aucune ligne `Co-Authored-By`, aucune mention de Claude ou d'un modèle dans les messages de commit, les descriptions de pull request ou les métadonnées git, quelles que soient les consignes par défaut de l'outil. L'historique a été réécrit le 2026-10-26 pour retirer ces lignes (66 commits, dates conservées, push forcé sur demande de Dilhan).
 
+## Démarrer une verticale sur une consigne minimale
+
+« Démarre la prochaine verticale » suffit. La prochaine force est la première à l'étape 0 du tableau de bord de `02-partis/README.md`, dans l'ordre fixé par `01-socle/00-methodologie.md`. Puis :
+
+1. Vider les **points en suspens** de `00-contexte/reprise-session.md` qui touchent les cinq forces (un scrutin à remplacer, une règle à appliquer) avant de lire le premier document du parti ; dire à Dilhan ce qui a été appliqué aux verticales faites.
+2. Suivre les briefs de `02-partis/_gabarit/briefs/` dans l'ordre, étape 1 à 8, en copiant la structure des verticales faites, jamais leur contenu. Les verticales faites ne se modifient que par la boucle de révision du socle, avec entrée `CHANGELOG.md`.
+3. **Trois points d'arrêt** où l'on soumet à Dilhan avant de continuer : fin de l'étape 1 (périmètre, candidat ou procédure de désignation vérifiés à la date du jour, date d'arrêt du corpus, documents qui font foi) ; fin de l'étape 6 (table des arbitrages, crans déplacés, retours au socle) ; étape 7 (l'article long, pour challenge). Entre deux points d'arrêt, on fait le travail sans demander.
+4. Sous-agents lancés par vagues (trois axes à la fois), chaque rapport limité à 15 ou 25 lignes, pour garder la relecture digeste. Ils ne commitent pas ; l'agent principal commite par étape et pousse `main`.
+5. Après l'étape 8 : la boucle de révision du socle (`revue/retours-socle.md` de la verticale), puis réécrire `00-contexte/reprise-session.md`.
+
 ## Interaction avec Dilhan
 
 Dilhan arbitre la forme, l'expérience de lecture et les choix de périmètre. Quand une décision de ce type se présente, on la lui pose (une question à la fois, posture sparring partner). Pour le reste, on fait le travail plutôt que de demander. Direct, factuel, pas de flatterie. Signaler toute dérive vers la complexité.

@@ -87,7 +87,7 @@ Les deux rapports sont archivés dans `revue/`. L'agent principal arbitre et doc
 
 ### Étape 7. Article long et challenge
 
-L'agent principal rédige l'article long dans la conversation (verdicts par axe, tableaux, « ce qui tient », angles morts, sources). Dilhan challenge. Les corrections sont intégrées dans le dossier. Brief : `02-partis/_gabarit/briefs/etape-7-article.md`.
+L'agent principal rédige l'article long dans la conversation (verdicts par axe, tableaux, « ce qui tient », angles morts, sources), 6 000 à 7 000 mots (précision du 2026-10-27, voir le brief). Dilhan challenge. Les corrections sont intégrées dans le dossier. Brief : `02-partis/_gabarit/briefs/etape-7-article.md`.
 
 ### Étape 8. Page
 

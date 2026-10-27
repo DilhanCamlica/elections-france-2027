@@ -87,7 +87,7 @@ Déplacée dans `02-partis/_gabarit/briefs/etape-8-page.md` (sources à jetons d
 
 ## Décisions prises, non dérivables des fichiers de contenu
 
-- Sous-agents : Opus pour recherche, vérification, revue ; Sonnet pour extraction mécanique, scripts, carte des tendances. L'agent principal seul sur Fable. Toujours passer `model` explicitement. Les lancer par vagues (trois axes à la fois) pour garder la relecture digeste, chaque rapport limité à 15 ou 25 lignes.
+- Sous-agents : Opus pour recherche, vérification, revue ; Sonnet pour extraction mécanique, scripts, carte des tendances. L'agent principal seul sur Fable. Toujours passer `model` explicitement. Vagues de trois axes et rapports de 15 à 25 lignes : désormais écrits dans `CLAUDE.md` (section « Démarrer une verticale »), avec les trois points d'arrêt et la longueur cible de l'article (brief de l'étape 7).
 - Les sous-agents ne commitent pas ; l'agent principal commite par étape (`CLAUDE.md`).
 - Grill-me (une question à la fois, recommandation à chaque fois) dès qu'un choix de forme, de compréhension ou d'expérience de lecture se présente ; sinon on fait, on ne demande pas.
 - Ordre des verticales : Renaissance, RN, LFI, PS, LR. Date d'arrêt du corpus : fixée au début de chaque verticale (Renaissance et RN : 2026-10-25), réalignée à la fin des cinq.
