@@ -1,6 +1,6 @@
 """Calculs par nos soins de la fiche LR, axe 2 (travail, protection sociale et fraude).
 
-Fiche : 02-partis/lr/axes/2-travail-protection-sociale.md (étapes 3 à 5, 2026-10-27).
+Fiche : 02-partis/lr/axes/2-travail-protection-sociale.md (étapes 3 à 5, 2026-10-27 ; bloc seniors complété à l'étape 6).
 Chaque bloc cite la source des données d'entrée (numéro de la liste des sources de la fiche,
 ou identifiant du corpus [C-LR-nn]).
 Exécution : python3 -I _scripts/calculs/lr_axe2.py
@@ -37,6 +37,10 @@ print(f"Dépenses totales d'allocation 2024 déduites : {rc} / {part} = {alloc:.
 
 print("\n== Q1. Seniors 60-64 ans (Dares 2025 via Previssima, source 45) ==")
 print(f"Écart revendiqué : 60 - 36 = 24 points ; écart 2025 : 55,0 - 44,4 = {55.0 - 44.4:.1f} points")
+# Étape 6 (arbitrage n° 4) : 36 % est le niveau Insee de 2022 (36,2 %, source 65) ; l'écart se lit sur les niveaux
+print(f"Rapport sur la différence des taux : 24 / 10,6 = {24 / (55.0 - 44.4):.1f}")
+print(f"Rapport sur les niveaux : France 44,4 / 36 = {44.4 / 36:.2f} ; UE 60 / 55,0 = {60 / 55.0:.2f}")
+print(f"Niveau du livret contre niveau Insee 2022 : 36 / 36,2 = {36 / 36.2:.3f}")
 
 print("\n== Q1. Heures (Rexecode via iFRAP, source 47) ==")
 ecart_h = 1786 - 1664
@@ -60,6 +64,7 @@ print("\n== Q3. Retraites : fiche 6 [C-LR-12, p. 8] ==")
 lignes = {"ages": 12.0, "reserves": 7.5, "agirc": 7.2, "cotis1": 6.0, "rafp": 4.3, "regimes_speciaux": 3.0, "fraude": 2.0}
 print(f"Somme des lignes : {sum(lignes.values()):.1f} Md€")
 print(f"Réserves nécessaires pour 7,5 Md€ à 4,2 % : {7.5 / 0.042:.0f} Md€")
+print(f"Étape 6 : réserves nouvelles de la cotisation de 1 % (6,0 Md€ par an) sur cinq ans, hors rendement : {6.0 * 5:.0f} Md€")
 print("Réserves fin 2023 (Cour, source 25) : Agirc-Arrco 101,7 ; RAFP 43,3 ; FRR 21,2 Md€ ; somme",
       f"{101.7 + 43.3 + 21.2:.1f} Md€")
 rafp25 = 2.23   # cotisations RAFP enregistrées en 2025 (source 28)

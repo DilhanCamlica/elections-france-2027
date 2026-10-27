@@ -127,3 +127,15 @@ print(f"Écart établi sur pièces de niveau 2 et 3 : {bas:.2f} Md€ ({100*bas/
       f"avec les lignes conditionnées : {haut:.2f} Md€ ({100*haut/197:.1f} %)")
 print("Déficit 2029 du plan (3,9 %) contre l'engagement de PDE (sous 3 % en 2029) : écart 0,9 point")
 print("Trajectoire PSMT 2030 (2,2 %) contre plan 2030 (3,6 %) : écart 1,4 point")
+
+# --- Étape 6 (arbitrage, 2026-10-27) ------------------------------------------
+# Cotisations nouvelles et rendement de réserves comptés parmi les « économies »
+# des retraites [C-LR-12, p. 8] ; budget des armées promis par le candidat
+# [C-LR-72] contre LPM actualisée pour 2030 [66, page ouverte par la contradiction]
+reserves_rendement = 7.5
+non_depense = cotisation_1pct + rafp + reserves_rendement
+print(f"Étape 6 : cotisations nouvelles et rendement de réserves : {non_depense:.1f} Md€, "
+      f"{100*non_depense/197:.1f} % du plan de 197 Md€")
+armees_candidat, lpm_2030 = 100.0, 76.3
+print(f"Étape 6 : armées, 100 Md€ promis (fin de quinquennat) contre LPM 2030 {lpm_2030} Md€ : "
+      f"écart {armees_candidat-lpm_2030:.1f} Md€ (horizons 2030 et 2032 mêlés)")

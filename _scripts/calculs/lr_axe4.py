@@ -72,6 +72,11 @@ p("  coût brut (M€)", brut)
 compens = 2.6 + 1.4 + 1.0
 p("  compensations (Md€)", round(compens, 1))
 p("  solde (Md€)", round(compens + brut / 1000, 2))
+# Arbitrage de l'étape 6 (n° 13) : la recette de 1,4 Md€ (« suppression de
+# l'exonération fiscale » des heures supplémentaires) est exclue par le livret,
+# qui maintient l'exonération « intégralement » [C-LR-02, p. 21].
+p("  solde sans la recette de 1,4 Md€ exclue par le livret (Md€)", round(compens - 1.4 + brut / 1000, 3))
+p("  solde sans 1,4 Md€ ni les 2,6 Md€ d'heures nouvelles (Md€)", round(compens - 1.4 - 2.6 + brut / 1000, 3))
 p("  part de la perte patronale portée par le quartile supérieur", round(perte_patronale[3] / sum(perte_patronale) * 100, 1), " %")
 gain_employeur = [6, 24, 50, 84]                 # €/mois, tableau 4
 p("  gain employeur mensuel, rapport Q4 / Q1", round(gain_employeur[3] / gain_employeur[0], 1))
