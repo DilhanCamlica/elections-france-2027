@@ -147,5 +147,11 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | La Libre Belgique | quotidien belge généraliste, relais | Composition du gouvernement Bayrou ; inscrit le 2026-10-27 (verticale LR) |
 | Fortuneo (bourse.fortuneo.fr) | banque en ligne, relais de dépêches AFP | Même nature que Boursorama et Bourse Direct ; inscrit le 2026-10-27 (verticale LR) |
 | La Tribune Dimanche | hebdomadaire d'information générale, relais | Média d'origine d'un entretien du candidat LR, non ouvert ; inscrit le 2026-10-27 (verticale LR) |
+| Rexecode | institut d'études économiques financé par des entreprises, proche des milieux patronaux | Centre de recherche pour l'expansion de l'économie, financé par des entreprises et des fédérations professionnelles ; inscrit le 2026-10-27 (verticale LR) |
+| Le Journal des entreprises | presse économique régionale, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Paperjam | presse économique luxembourgeoise, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Algérie Eco | site d'information économique algérien, relais | Inscrit le 2026-10-27 (verticale LR) |
+| Forum réfugiés | association d'accueil des demandeurs d'asile et des réfugiés, partie prenante | Opérateur associatif de l'accueil, financé pour partie par l'État ; inscrit le 2026-10-27 (verticale LR) |
+| Bourse Inside | site d'information financière, relais | Inscrit le 2026-10-27 (verticale LR) |
 
 La liste s'enrichit au fil des verticales. Toute nouvelle étiquette est ajoutée ici avant d'être utilisée dans une fiche ou une page.

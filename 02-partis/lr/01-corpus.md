@@ -477,6 +477,26 @@ Résultat du script (`python3 -I _scripts/calculs/lr_textes_du_groupe.py`, 2026-
 - Étiquette : source du parti, partie prenante (texte) ; décision du CC : niveau 3
 - Utile pour : axe 3 (scrutin gelé 2958) ; faisabilité juridique (Q3).
 
+### [C-LR-83] Décision du Conseil constitutionnel n° 2024-6 RIP du 11 avril 2024 sur la proposition de loi LR « visant à réformer l'accès aux prestations sociales des étrangers »
+- Auteur : Conseil constitutionnel ; proposition de loi présentée selon la procédure du référendum d'initiative partagée par des députés et des sénateurs du groupe Les Républicains (observations d'Olivier Marleix et plusieurs autres députés ; [C-LR-45], p. 2, note 1)
+- Date : 2024-04-11 (saisine du 14 mars 2024) ; XVIe législature, hors de la fenêtre des PPL du groupe DR mais dans la fenêtre « depuis 2012 »
+- Nature : décision de non-conformité : l'article 1er (droit au logement, aides personnelles au logement, prestations familiales, allocation personnalisée d'autonomie subordonnés à cinq ans de résidence ou trente mois d'activité pour les étrangers hors Union) « porte une atteinte disproportionnée » aux alinéas 10 et 11 du Préambule de 1946 (§ 13) ; principe d'une condition de durée admis (§ 12) ; texte jugé relever de la « politique sociale de la nation » au sens de l'article 11 (§ 7) ; l'article 2 (AME transformée en aide médicale d'urgence) n'est pas examiné (§ 14)
+- URL : https://www.conseil-constitutionnel.fr/decision/2024/20246RIP.htm
+- Archivage : texte archivé, `corpus/C-LR-83-decision-cc-2024-6-rip-prestations-etrangers-2026-10-27.md` (texte officiel de la décision)
+- Statut : décision de niveau 3 sur un texte de parlementaires LR (le texte de la proposition elle-même n'est pas archivé)
+- Étiquette : niveau 3 (juridiction)
+- Utile pour : axe 3 (faisabilité de la condition de cinq ans, Q3 ; antériorité de la mesure, Q4). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 3.
+
+### [C-LR-84] PPL sénatoriale n° 299 (2024-2025) « créant une condition de durée de résidence pour le versement de certaines prestations sociales » (deux ans ; adoptée par le Sénat le 18 mars 2025)
+- Auteur : Valérie Boyer et des sénateurs LR ; annoncée par Mathieu Darnaud, président du groupe LR du Sénat, le 3 février 2025 (page du parti) : groupe LR du Sénat
+- Date : dépôt 2025-02-03 ; adoption en première lecture par le Sénat le 2025-03-18 (texte n° 83) ; transmise à l'Assemblée le 2025-03-19 (n° 1149), non inscrite ensuite
+- Nature : proposition de loi : deux ans de détention d'un titre de séjour pour les prestations familiales, les aides personnelles au logement et l'allocation personnalisée d'autonomie ; exemptions pour les titulaires d'un titre autorisant à travailler (critère substitué en commission à l'activité professionnelle pour respecter la directive « permis unique »), les réfugiés, bénéficiaires de protection et apatrides
+- URL : https://www.senat.fr/dossier-legislatif/ppl24-299.html ; https://www.senat.fr/leg/tas24-083.html ; https://www.senat.fr/cra/s20250318/s20250318_3.html ; https://republicains.fr/actualites/2025/02/03/mathieu-darnaud-par-la-loi-les-lr-du-senat-vont-donner-a-bruno-retailleau-les-moyens-de-son-action/
+- Archivage : fiche texte, `corpus/C-LR-84-senat-ppl-299-duree-residence-prestations-2025-2026-10-27.md`
+- Statut : groupe LR du Sénat (contexte) ; adoptée au Sénat pendant la participation au gouvernement Bayrou (avis de sagesse du gouvernement) : aussi pièce des actes de coalition
+- Étiquette : source du parti, partie prenante
+- Utile pour : axe 3 (Q3 faisabilité ; Q4, cinq ans du parti contre deux ans du groupe [C-LR-78]). Ajoutée le 2026-10-27 par le sous-agent des étapes 3 à 5 de l'axe 3.
+
 ---
 
 ## Actes de coalition (septembre 2024 à octobre 2025)
