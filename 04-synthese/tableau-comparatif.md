@@ -3,7 +3,7 @@
 - Date de rédaction : 2026-10-28
 - Date d'arrêt des données : 2026-10-28 (dates d'arrêt des cinq corpus réalignées, voir `note-de-methode.md`)
 - Auteur : agent principal, à partir des cinq verticales (`02-partis/`) et des scripts de `_scripts/calculs/` (`synthese_grilles.py`, `synthese_tendances.py`, `synthese_ecoute.py`)
-- Statut : brouillon
+- Statut : revu (option B sur les revirements appliquée le 2026-10-28)
 - Socle : v2.3 (précisions du 2026-10-28)
 
 Ce tableau met côte à côte les verdicts des cinq verticales, sans en ajouter aucun. Chaque case renvoie à la fiche qui la justifie (`02-partis/<force>/axes/<n>-*.md`) et au chapitre de la page publiée. Aucun classement, aucune note globale, aucune moyenne : le socle l'interdit (`01-socle/01-criteres.md`, §4 ; `04-format-artifacts.md`, §3).
@@ -20,7 +20,7 @@ Lecture d'une case : D (le problème est-il réel ?), F (est-ce faisable ?), C (
 | 2. Travail, protection sociale et fraude | D3 F3 C2 E3 | D3 F3 C4 E3 | D3 F3 C3 E3 | D3 F3 C3 E3 | D3 F3 C2 E3 |
 | 3. Immigration | D4 F3 C3 E3 | D3 F2 C2 E3 | D3 F3 C4 E3 | D4 F3 C3 E3 | D4 F2 C3 E3 |
 | 4. Pouvoir d'achat et fiscalité | D4 F2 C2 E3 | D4 F3 C3 E3 | D4 F3 C3 E3 | D3 F3 C2 E3 | D4 F3 C2 E3 |
-| 5. Sécurité et libertés | D3 F2 C3 E4 | D3 F3 C4 E4 | D4 F3 C4 E3 | D3 F3 C2 E3 | D3 F2 C4 E4 |
+| 5. Sécurité et libertés | D3 F2 C2 E4 | D3 F3 C4 E4 | D4 F3 C4 E3 | D3 F3 C2 E3 | D3 F2 C4 E4 |
 | 6. Institutions, démocratie et Europe | D4 F2 C2 E3 | D4 F2 C4 E3 | D4 F2 C4 E3 | D4 F2 C2 E3 | D4 F2 C4 E3 |
 | Comment ils gouvernent (M) | 2 | 3 | 4 | 3 | 3 |
 
@@ -44,13 +44,13 @@ Règle v2.3 (`01-socle/01-criteres.md`, échelle C) : un acte de gouvernement co
 
 | Famille | Force | Ligne C (axes 1 à 6) | Crans 2 | Crans 4 | Dont crans 2 par la règle v2.3 |
 |---|---|---|---|---|---|
-| Votes + actes | Renaissance (2017-2026) | 2 / 2 / 3 / 2 / 3 / 2 | 4 | 0 | 1 (axe 2 : décret du 30 juin 2024 suspendant la réforme de l'assurance chômage) |
+| Votes + actes | Renaissance (2017-2026) | 2 / 2 / 3 / 2 / 2 / 2 | 5 | 0 | 1 (axe 2 : décret du 30 juin 2024 suspendant la réforme de l'assurance chômage) ; axe 5 au cran 2 depuis l'option B du 2026-10-28 (trois objets, dont la libération sous contrainte de 2021) |
 | Votes + actes | PS (2012-2017) | 2 / 3 / 3 / 2 / 2 / 2 | 4 | 0 | 2 (axe 1 : TSCG ratifié sans renégociation ; axe 5 : récépissé refusé en 2012-2013) |
 | Votes + actes | LR (2024-2025) | 2 / 2 / 3 / 2 / 4 / 4 | 3 | 2 | 3 (axe 1 : dépôt du PLF 2025 ; axes 2 et 4 : 49.3 du 2 décembre 2024, pensions et allègements de cotisations) |
 | Votes seuls | RN | 3 / 4 / 2 / 3 / 4 / 4 | 1 | 3 | 0 (axe 3 : règle v2.1, mesure structurante) |
 | Votes seuls | LFI | 4 / 3 / 4 / 3 / 4 / 4 | 0 | 4 | 0 |
 
-Compte par famille, sans total ni moyenne : famille « votes + actes », 11 crans 2 sur 18 verdicts, dont 6 par la règle v2.3 ; famille « votes seuls », 1 cran 2 sur 12 verdicts. L'écart entre les deux familles est pour partie mécanique (les forces qui ont gouverné ont plus d'objets d'écart possibles) et pour partie documenté (cinq crans 2 de la famille « votes + actes » viennent des votes et des textes, pas des actes : Renaissance axes 1, 4, 6 ; PS axes 4, 6). La note de méthode (`note-de-methode.md`, §2) détaille ce compte.
+Compte par famille, sans total ni moyenne : famille « votes + actes », 12 crans 2 sur 18 verdicts, dont 6 par la règle v2.3 ; famille « votes seuls », 1 cran 2 sur 12 verdicts. L'écart entre les deux familles est pour partie mécanique (les forces qui ont gouverné ont plus d'objets d'écart possibles) et pour partie documenté (six crans 2 de la famille « votes + actes » viennent des votes, des textes, des promesses non réalisées et des revirements, pas de la règle v2.3 : Renaissance axes 1, 4, 5, 6 ; PS axes 4, 6). Option B sur les revirements décidée par Dilhan le 2026-10-28 : une case a bougé, Renaissance axe 5 (`note-de-methode.md` §3.1). La note de méthode (`note-de-methode.md`, §2) détaille ce compte.
 
 Les crans 4 de la ligne C : LFI (axes 1, 3, 5, 6), RN (axes 2, 5, 6), LR (axes 5 et 6, où le groupe DR a voté et porté ce que le programme écrit, sans acte de coalition contraire).
 
