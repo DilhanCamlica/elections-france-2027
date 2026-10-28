@@ -775,3 +775,31 @@ Définition du socle (`01-criteres.md` §6) : une divergence est deux positions 
 - Statut : position d'un dirigeant du parti, qui diverge de la lettre du président du 2025-10-13 (« Ne pas participer ne signifie pas pour autant censurer ») [C-LR-24] ; le groupe DR n'a pas voté la censure (scrutins 3058 et 3059)
 - Étiquette : source du parti, partie prenante ; *Le Figaro* : étiquette existante (non ouvert)
 - Utile pour : Q6 bloc (c) (engagements de censure et de non-censure confrontés aux votes). Antérieure au 1er janvier 2026, retenue comme pièce de méthode. Citation (15 mots au plus) : « Si j'étais député à l'Assemblée nationale, je voterais pour la censure du gouvernement » (titre de la page). Ajoutée le 2026-10-27 par le sous-agent Opus de l'étape 5 bis.
+
+---
+
+## Pièces ajoutées à la boucle v2.3 (2026-10-28)
+
+Versées par le sous-agent Opus de la boucle v2.3 (`02-partis/_gabarit/briefs/boucle-v2-3-actes-contraires.md`), condition 3 (promesse maintenue dans la campagne actuelle). Signataires comptés en code : `_scripts/calculs/lr_boucle_v23.py`.
+
+### [C-LR-93] Amendement n° 7 du groupe DR au PLFSS 2027 (n° 3211), article 35 : suppression de la sous-indexation des pensions (2 octobre 2026)
+- Auteur : Laurent Wauquiez, président du groupe, et 46 députés du groupe, dont Michel Barnier (47 signataires, 97,9 % d'un groupe de 48, calcul par nos soins) ; l'exposé sommaire le présente comme « amendement des députés Droite Républicaine »
+- Date : 2026-10-02 (dépôt pour la séance) ; en commission, amendement identique n° 359 (43 signataires), article supprimé le 2026-10-16 avec les amendements de sept groupes, puis rétabli en séance par la règle des textes financiers (relais NosParlementaires, source de la section)
+- Nature : amendement de suppression de l'article 35, qui « sous-indexe ou désindexe certaines pensions de retraite en 2027 » (exposé sommaire)
+- URL : https://www.assemblee-nationale.fr/dyn/17/amendements/3211/AN/7.pdf (ouvert le 2026-10-28)
+- Archivage : PDF archivé, `corpus/C-LR-93-amendement-7-plfss-2027-article-35-pensions-2026-10-02-2026-10-28.pdf`
+- Statut : texte du groupe (`01-criteres.md` §6 : président du groupe et plus de 90 % des membres ; portage écrit dans l'exposé) ; sort en séance non établi au 2026-10-28
+- Étiquette : source du parti, partie prenante (document de l'Assemblée nationale, niveau 1)
+- Utile pour : axe 2 (Q4, actes de coalition : condition 3 de la règle v2.3 sur la revalorisation des pensions). Citation (15 mots au plus) : « Les retraités ne sauraient être une variable d'ajustement des comptes sociaux. »
+
+### [C-LR-94] Amendement n° 350 du groupe DR au PLFSS 2027 (n° 3211), article 7 : suppression de la réforme des allègements généraux de cotisations patronales (14 octobre 2026, adopté le 22 octobre 2026)
+- Auteur : Laurent Wauquiez, président du groupe, et 45 députés du groupe, dont Michel Barnier (46 signataires, 95,8 % d'un groupe de 48, calcul par nos soins) ; exposé : « amendement des députés du groupe Droite Républicaine »
+- Date : 2026-10-14 (dépôt) ; adopté avec les amendements identiques le 2026-10-22, scrutin public n° 8976 : 101 pour, 68 contre, 2 abstentions ; DR 7 pour sur 48 (14,6 %, au-dessus du seuil de la règle 18) (Datan, relais de l'open data, page ouverte le 2026-10-28)
+- Nature : supprime les alinéas 16 à 28 de l'article 7 (élargissement de l'assiette prise en compte pour le calcul des allègements généraux, environ 3,7 Md€ selon l'exposé) ; l'exposé juge inacceptable « d'augmenter une nouvelle fois le coût du travail pour les entreprises »
+- URL : https://www.assemblee-nationale.fr/dyn/17/amendements/3211/AN/350.pdf (ouvert le 2026-10-28) ; https://datan.fr/votes/legislature-17/vote_8976
+- Archivage : PDF archivé, `corpus/C-LR-94-amendement-350-plfss-2027-article-7-allegements-2026-10-14-2026-10-28.pdf`
+- Statut : texte du groupe (`01-criteres.md` §6) ; première lecture, texte non définitif
+- Étiquette : source du parti, partie prenante (document de l'Assemblée nationale, niveau 1) ; Datan : site de données parlementaires, relais de l'open data
+- Utile pour : axe 4 (Q4, actes de coalition : condition 3 de la règle v2.3 sur les allègements de cotisations patronales)
+
+Sources de la section : NosParlementaires, « Gel des pensions 2027 : supprimé en commission, revoté en séance », 2026-10-19, mis à jour le 2026-10-27. https://nosparlementaires.fr/actualites/gel-pensions-2027-assemblee-deja-rejete-308-voix [relais] ; LCP, « Législative partielle à Paris : Michel Barnier élu député de la 2e circonscription de la capitale », 2025-09-28. https://lcp.fr/actualites/legislative-partielle-a-paris-michel-barnier-elu-depute-de-la-2e-circonscription-de-la
