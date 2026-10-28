@@ -1,0 +1,328 @@
+<title>Cinq programmes côte à côte</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+{{CSS}}
+/* Synthèse : matrices cinq forces × six axes */
+.forces{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0 0}
+.forces a{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;padding:.3rem .6rem;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none}
+.forces a:hover{border-color:var(--accent)}
+.forces a .sw{border-radius:50%}
+.mxh{display:grid;grid-template-columns:minmax(0,1.25fr) repeat(5,minmax(0,1fr));gap:4px;margin:.9rem 0 .35rem;font-family:var(--mono);font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);text-align:center;align-items:end}
+.mxh span{min-width:0;overflow-wrap:anywhere;line-height:1.15}
+.mxh span:first-child{text-align:left;visibility:hidden}
+.mxh small{display:block;text-transform:none;letter-spacing:0;font-size:.56rem;color:var(--faint);margin-top:.15rem;line-height:1.2}
+.mx{display:grid;gap:4px}
+.mr{display:grid;grid-template-columns:minmax(0,1.25fr) repeat(5,minmax(0,1fr));gap:4px;align-items:stretch}
+.mr .ml{font-size:.8rem;line-height:1.25;padding:.35rem .3rem .35rem 0;min-width:0;overflow-wrap:anywhere;hyphens:auto}
+.mr .ml .n{font-family:var(--mono);font-size:.68rem;color:var(--faint);margin-right:.35rem}
+.mc{border-radius:7px;padding:.35rem .3rem;min-width:0;display:grid;align-content:center;justify-items:center;gap:.15rem;text-align:center;font-size:.62rem;line-height:1.15;font-weight:600;color:var(--ink)}
+.mc .dot{width:9px;height:9px;border-radius:50%;display:block}
+.mc.base-votes{border:1.5px dashed color-mix(in srgb,var(--muted) 75%,transparent)}
+.mc.base-votes.c2{background:color-mix(in srgb,var(--v2s) 45%,var(--card))}
+.mc.base-votes.c3{background:color-mix(in srgb,var(--v3s) 45%,var(--card))}
+.mc.base-votes.c4{background:color-mix(in srgb,var(--v4s) 45%,var(--card))}
+.mc.base-actes{border:1.5px solid color-mix(in srgb,var(--muted) 45%,transparent)}
+.mc.c0{background:var(--bg);color:var(--muted);font-weight:500}
+.mxq{margin-top:1.6rem}
+.mxq h3{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+.mxq h3 .q{font-family:var(--mono);font-size:.7rem;color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.mxq .sub{font-size:.85rem;color:var(--muted);margin:.2rem 0 0}
+@media (min-width:600px){.mc{font-size:.7rem;padding:.45rem .4rem}.mr .ml{font-size:.88rem}}
+@media (max-width:420px){.mxh,.mr{grid-template-columns:minmax(0,1.6fr) repeat(5,minmax(0,1fr))}.mxh{font-size:.54rem;letter-spacing:.02em}.mxh small{font-size:.5rem}.mc{font-size:.54rem;padding:.3rem .15rem;border-radius:6px}.mr .ml{font-size:.72rem}}
+.mline5{margin-top:1rem;padding-top:1rem;border-top:2px solid var(--line)}
+.mline5 .mxh,.mline5 .mr{grid-template-columns:repeat(5,minmax(0,1fr))}
+.mline5 .ml{grid-column:1/-1;font-weight:600;padding-bottom:.1rem}
+@media (max-width:420px){.mline5 .mxh,.mline5 .mr{grid-template-columns:repeat(5,minmax(0,1fr))}}
+.tmx .mc{font-size:.58rem;font-weight:500}
+.tmx .mr .ml{font-size:.78rem}
+@media (max-width:600px){.tmx .mxh,.tmx .mr{grid-template-columns:repeat(5,minmax(0,1fr))}.tmx .mxh span:first-child{display:none}.tmx .mr .ml{grid-column:1/-1;padding:.5rem 0 .1rem}}
+.cnt{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:.6rem 0}
+.cnt div{background:var(--bg);border-radius:8px;padding:.5rem .4rem;text-align:center;min-width:0}
+.cnt b{display:block;font-family:var(--display);font-size:1.25rem;font-weight:650;line-height:1.1;font-variant-numeric:tabular-nums}
+.cnt span{font-size:.66rem;color:var(--muted);display:block;line-height:1.2}
+.conv h4{font-size:.95rem;margin:1rem 0 .3rem;font-weight:600}
+.conv p{margin:.3rem 0;font-size:.95rem}
+.pages{display:flex;flex-wrap:wrap;gap:.35rem;margin:.6rem 0 0}
+.pages a{font-family:var(--mono);font-size:.68rem;padding:.2rem .5rem;border-radius:6px;border:1px solid var(--line);text-decoration:none;color:var(--accent);background:var(--card)}
+</style>
+
+<main class="wrap">
+
+<header class="hero">
+  <span class="eyebrow">Synthèse · cinq forces, même grille, mêmes scrutins</span>
+  <h1>Cinq programmes côte à côte</h1>
+  <p class="rule">Les cinq pages de la série, Renaissance, Rassemblement national, La France insoumise, Parti socialiste et Les Républicains, mises côte à côte. Mêmes six sujets, mêmes quatre questions, mêmes vingt-huit scrutins, même inventaire des demandes et des tendances. Aucun classement, aucune note globale&nbsp;: chaque case est un verdict qu'on peut aller vérifier sur la page de la force. La <a href="#note-methode">méthode</a> est en bas de page.</p>
+  <svg class="hero-art" viewBox="0 0 360 170" role="img" aria-labelledby="hx-t hx-d">
+    <title id="hx-t">Cinq colonnes, une même grille</title>
+    <desc id="hx-d">Cinq colonnes de pastilles colorées, une par force politique, alignées sur les mêmes six lignes. Un hexagone au centre représente la France.</desc>
+    <g style="fill:var(--card);stroke:var(--line);stroke-width:1.5">
+      <rect x="22" y="22" width="52" height="126" rx="8"/><rect x="86" y="22" width="52" height="126" rx="8"/><rect x="222" y="22" width="52" height="126" rx="8"/><rect x="286" y="22" width="52" height="126" rx="8"/>
+    </g>
+    <polygon points="180,28 214,47 214,85 180,104 146,85 146,47" style="fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.5"/>
+    <text x="180" y="72" text-anchor="middle" style="font-family:var(--mono);font-size:11px;fill:var(--ink)">6 × 5</text>
+    <g>
+      <circle cx="48" cy="44" r="5" style="fill:var(--v4)"/><circle cx="48" cy="64" r="5" style="fill:var(--v3)"/><circle cx="48" cy="84" r="5" style="fill:var(--v2)"/><circle cx="48" cy="104" r="5" style="fill:var(--v3)"/><circle cx="48" cy="124" r="5" style="fill:var(--v3)"/>
+      <circle cx="112" cy="44" r="5" style="fill:var(--v4)"/><circle cx="112" cy="64" r="5" style="fill:var(--v3)"/><circle cx="112" cy="84" r="5" style="fill:var(--v4)"/><circle cx="112" cy="104" r="5" style="fill:var(--v2)"/><circle cx="112" cy="124" r="5" style="fill:var(--v3)"/>
+      <circle cx="248" cy="44" r="5" style="fill:var(--v3)"/><circle cx="248" cy="64" r="5" style="fill:var(--v4)"/><circle cx="248" cy="84" r="5" style="fill:var(--v3)"/><circle cx="248" cy="104" r="5" style="fill:var(--v3)"/><circle cx="248" cy="124" r="5" style="fill:var(--v2)"/>
+      <circle cx="312" cy="44" r="5" style="fill:var(--v3)"/><circle cx="312" cy="64" r="5" style="fill:var(--v2)"/><circle cx="312" cy="84" r="5" style="fill:var(--v3)"/><circle cx="312" cy="104" r="5" style="fill:var(--v4)"/><circle cx="312" cy="124" r="5" style="fill:var(--v4)"/>
+    </g>
+    <g style="stroke:var(--line);stroke-width:1;stroke-dasharray:3 3">
+      <line x1="22" y1="140" x2="338" y2="140"/>
+    </g>
+  </svg>
+  <div class="forces" aria-label="Les cinq pages de la série">
+    <a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2"><i class="sw" style="background:var(--cat1)"></i>Renaissance</a>
+    <a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b"><i class="sw" style="background:var(--cat3)"></i>RN</a>
+    <a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i"><i class="sw" style="background:var(--v1)"></i>LFI</a>
+    <a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3"><i class="sw" style="background:var(--cat2)"></i>PS</a>
+    <a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ"><i class="sw" style="background:var(--cat4)"></i>LR</a>
+  </div>
+</header>
+
+<section class="grid" aria-labelledby="h-grid">
+  <h2 id="h-grid">Les verdicts, question par question</h2>
+  <p class="sub">Six sujets en lignes, cinq forces en colonnes, une matrice par question. Chaque case est le verdict de la page de la force, sur une échelle de cinq crans du rouge au vert, repris tel quel<sup><a href="#s1">1</a></sup><sup><a href="#s2">2</a></sup><sup><a href="#s3">3</a></sup><sup><a href="#s4">4</a></sup><sup><a href="#s5">5</a></sup>. Aucun total, aucune moyenne&nbsp;: deux forces au même cran y sont pour des raisons différentes, que seule leur page dit.</p>
+
+  <div class="mxq" id="mx-d">
+    <h3><span class="q">Question 1</span>Le problème est-il réel&nbsp;?</h3>
+    <p class="sub">Le constat du programme confronté à la statistique publique.</p>
+    <div class="mxh" aria-hidden="true"><span>Axe</span><span>Renais&shy;sance</span><span>RN</span><span>LFI</span><span>PS</span><span>LR</span></div>
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">1</span>Finances publiques et dette</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c3"><i class="dot d3"></i>Partiel</div></div>
+      <div class="mr"><div class="ml"><span class="n">2</span>Travail, protection sociale et fraude</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div></div>
+      <div class="mr"><div class="ml"><span class="n">3</span>Immigration</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div></div>
+      <div class="mr"><div class="ml"><span class="n">4</span>Pouvoir d'achat et fiscalité</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c4"><i class="dot d4"></i>Fondé</div></div>
+      <div class="mr"><div class="ml"><span class="n">5</span>Sécurité, ordre public et libertés</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c3"><i class="dot d3"></i>Partiel</div><div class="mc c3"><i class="dot d3"></i>Partiel</div></div>
+      <div class="mr"><div class="ml"><span class="n">6</span>Institutions, démocratie et Europe</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div><div class="mc c4"><i class="dot d4"></i>Fondé</div></div>
+    </div>
+    <p class="note">Aucun cran rouge, aucun vert foncé. Les cinq forces décrivent le monde avec des chiffres qui se vérifient sur l'essentiel&nbsp;; les crans « partiel » sont des lectures à contresens d'un chiffre exact, ou un chiffre faux sur une partie du périmètre. Les cinq ont le même constat institutionnel à l'axe 6.</p>
+  </div>
+
+  <div class="mxq" id="mx-f">
+    <h3><span class="q">Question 2</span>Est-ce faisable&nbsp;?</h3>
+    <p class="sub">Rang de la norme nécessaire, obstacles juridiques, chiffrage comparé aux estimations institutionnelles.</p>
+    <div class="mxh" aria-hidden="true"><span>Axe</span><span>Renais&shy;sance</span><span>RN</span><span>LFI</span><span>PS</span><span>LR</span></div>
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">1</span>Finances publiques et dette</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div></div>
+      <div class="mr"><div class="ml"><span class="n">2</span>Travail, protection sociale et fraude</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div></div>
+      <div class="mr"><div class="ml"><span class="n">3</span>Immigration</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div></div>
+      <div class="mr"><div class="ml"><span class="n">4</span>Pouvoir d'achat et fiscalité</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div></div>
+      <div class="mr"><div class="ml"><span class="n">5</span>Sécurité, ordre public et libertés</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c3"><i class="dot d3"></i>Sous condition</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div></div>
+      <div class="mr"><div class="ml"><span class="n">6</span>Institutions, démocratie et Europe</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div><div class="mc c2"><i class="dot d2"></i>Très incertaine</div></div>
+    </div>
+    <p class="note">Aucun programme n'atteint « plutôt faisable » sur aucun sujet&nbsp;: aucun n'est entièrement chiffré par une source institutionnelle avec le véhicule juridique nommé. Les cinq sont « très incertaine » à l'axe 6&nbsp;: les réformes institutionnelles promises exigent une révision de la Constitution, parfois un traité, et aucune force ne décrit la voie complète pour y parvenir.</p>
+  </div>
+
+  <div class="mxq" id="mx-c">
+    <h3><span class="q">Question 3</span>Votent-ils ce qu'ils disent&nbsp;?</h3>
+    <p class="sub">La parole confrontée aux votes du groupe sur les mêmes scrutins et, pour les forces qui ont gouverné depuis 2012, à leurs décisions de gouvernement. La ligne sous chaque colonne dit la base du verdict.</p>
+    <div class="mxh" aria-hidden="true"><span>Axe</span><span>Renaissance<small>votes + actes 2017-2026</small></span><span>RN<small>votes seuls</small></span><span>LFI<small>votes seuls</small></span><span>PS<small>votes + actes 2012-2017</small></span><span>LR<small>votes + actes 2024-2025</small></span></div>
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">1</span>Finances publiques et dette</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c3 base-votes"><i class="dot d3"></i>Écart partiel</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div></div>
+      <div class="mr"><div class="ml"><span class="n">2</span>Travail, protection sociale et fraude</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c3 base-votes"><i class="dot d3"></i>Écart partiel</div><div class="mc c3 base-actes"><i class="dot d3"></i>Écart partiel</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div></div>
+      <div class="mr"><div class="ml"><span class="n">3</span>Immigration</div><div class="mc c3 base-actes"><i class="dot d3"></i>Écart partiel</div><div class="mc c2 base-votes"><i class="dot d2"></i>Écart important</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c3 base-actes"><i class="dot d3"></i>Écart partiel</div><div class="mc c3 base-actes"><i class="dot d3"></i>Écart partiel</div></div>
+      <div class="mr"><div class="ml"><span class="n">4</span>Pouvoir d'achat et fiscalité</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c3 base-votes"><i class="dot d3"></i>Écart partiel</div><div class="mc c3 base-votes"><i class="dot d3"></i>Écart partiel</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div></div>
+      <div class="mr"><div class="ml"><span class="n">5</span>Sécurité, ordre public et libertés</div><div class="mc c3 base-actes"><i class="dot d3"></i>Écart partiel</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c4 base-actes"><i class="dot d4"></i>Plutôt cohérent</div></div>
+      <div class="mr"><div class="ml"><span class="n">6</span>Institutions, démocratie et Europe</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c4 base-votes"><i class="dot d4"></i>Plutôt cohérent</div><div class="mc c2 base-actes"><i class="dot d2"></i>Écart important</div><div class="mc c4 base-actes"><i class="dot d4"></i>Plutôt cohérent</div></div>
+    </div>
+    <div class="base-note" role="note">
+      <p><b>Lire la colonne cohérence&nbsp;: deux familles, pas un classement.</b> Une force qui n'a pas gouverné n'est pas plus cohérente, elle est moins testée. Les verdicts marqués <span class="base-sw"></span>« votes seuls » (RN, LFI) ne se comparent qu'entre eux&nbsp;; les verdicts marqués <span class="base-sw actes"></span>« votes + actes » (Renaissance, PS, LR) comptent en plus les décisions prises au pouvoir, et une décision contraire à une promesse que le parti maintient aujourd'hui vaut à elle seule « écart important ».</p>
+      <details><summary>Le compte par famille <span class="chev">›</span></summary><div class="body">
+        <p>Famille « votes + actes »&nbsp;: 18 verdicts, 11 « écart important », dont 6 déclenchés par une décision de gouvernement contraire à une promesse maintenue (Renaissance, suspension de la réforme de l'assurance chômage en 2024&nbsp;; PS, traité budgétaire ratifié sans renégociation en 2012 et récépissé de contrôle refusé en 2012-2013&nbsp;; LR, dépôt du budget 2025 et engagement de responsabilité du 2 décembre 2024 sur les pensions et les allègements de cotisations) et 5 qui viennent des votes, des textes du groupe et des promesses non réalisées (Renaissance axes 1, 4, 6&nbsp;; PS axes 4, 6).</p>
+        <p>Famille « votes seuls »&nbsp;: 12 verdicts, 1 « écart important » (RN, immigration&nbsp;: la mesure structurante, la priorité nationale, est promise au-delà de ce que les textes du groupe écrivent).</p>
+        <p>« Plutôt cohérent »&nbsp;: LFI 4, RN 3, LR 2, Renaissance 0, PS 0. La lecture correcte n'est pas « LFI et le RN sont plus cohérents », mais « LFI et le RN votent ce qu'ils écrivent sur les scrutins retenus&nbsp;; Renaissance, le PS et LR ont, en plus, des décisions prises au pouvoir qui contredisent des promesses qu'ils maintiennent ». La règle et ses quatre conditions sont dans la <a href="#note-methode">note de méthode</a><sup><a href="#s7">7</a></sup>.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="mxq" id="mx-e">
+    <h3><span class="q">Question 4</span>Répondent-ils aux demandes&nbsp;?</h3>
+    <p class="sub">Les 47 demandes de l'inventaire gelé avant lecture des programmes, confrontées à chaque programme. Aller contre une demande en le disant n'est pas sanctionné&nbsp;; la passer sous silence, oui.</p>
+    <div class="mxh" aria-hidden="true"><span>Axe</span><span>Renais&shy;sance</span><span>RN</span><span>LFI</span><span>PS</span><span>LR</span></div>
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">1</span>Finances publiques et dette</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">2</span>Travail, protection sociale et fraude</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">3</span>Immigration</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">4</span>Pouvoir d'achat et fiscalité</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">5</span>Sécurité, ordre public et libertés</div><div class="mc c4"><i class="dot d4"></i>Répond</div><div class="mc c4"><i class="dot d4"></i>Répond</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Répond</div></div>
+      <div class="mr"><div class="ml"><span class="n">6</span>Institutions, démocratie et Europe</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+    </div>
+    <p class="note">Vingt-six cases sur trente à « répond en partie ». Les quatre « répond » sont à l'axe 5, où la demande de fermeté, de premier rang, est servie et dite par Renaissance, le RN et LR. Aucune force ne va contre une demande de premier rang sans le dire.</p>
+  </div>
+
+  <div class="mline5">
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">+</span>Comment ils gouvernent&nbsp;: parole de méthode tenue&nbsp;?</div></div>
+      <div class="mxh" aria-hidden="true" style="margin:0"><span style="visibility:visible">Renais&shy;sance</span><span>RN</span><span>LFI</span><span>PS</span><span>LR</span></div>
+      <div class="mr"><div class="mc c2"><i class="dot d2"></i>Écart important</div><div class="mc c3"><i class="dot d3"></i>Écart partiel</div><div class="mc c4"><i class="dot d4"></i>Plutôt tenue</div><div class="mc c3"><i class="dot d3"></i>Écart partiel</div><div class="mc c3"><i class="dot d3"></i>Écart partiel</div></div>
+    </div>
+    <p class="note">Un seul verdict par force, sur la parole de méthode (référendum, 49.3, Parlement), les actes de méthode quand la force a gouverné, le comportement parlementaire et les valeurs affichées. Même réserve que pour la cohérence&nbsp;: Renaissance, le PS et LR ont des actes de méthode à confronter (six objets de rupture pour Renaissance, dont le 49.3 et la procédure des retraites de 2023), LFI et le RN n'ont que leur parole et leur comportement parlementaire. Détail au chapitre <a href="#methode">Comment ils gouvernent</a>.</p>
+  </div>
+</section>
+
+<section class="chapter" id="tendances" aria-labelledby="h-tend">
+  <div class="ch-head"><div class="hexnum">T</div><div><h2 id="h-tend">Les problèmes que personne ne regarde</h2><p class="axe">Quatorze tendances lourdes, cinq programmes</p></div></div>
+  <p>Quatorze évolutions de fond identifiées par les institutions publiques (Insee, Cour des comptes, Haut-commissariat au Plan, Conseil d'orientation des retraites, Arcom), gelées avant lecture des programmes<sup><a href="#s8">8</a></sup>. Pour chaque force, la carte dit si le programme la traite (une mesure identifiable répond au cœur de la tendance), la traite en partie (une mesure touche un aspect secondaire), la nomme sans mesure, ou l'ignore. Elle ne juge pas si la réponse suffit.</p>
+  <div class="panel tmx">
+    <h3>La carte des tendances, cinq forces côte à côte</h3>
+    <p class="sub">Vert&nbsp;: traitée. Ocre&nbsp;: traitée en partie. Aucune tendance n'est seulement nommée ni absente chez aucune des cinq.</p>
+    <div class="mxh" aria-hidden="true" style="margin-top:0"><span>Tendance</span><span>Renais&shy;sance</span><span>RN</span><span>LFI</span><span>PS</span><span>LR</span></div>
+    <div class="mx">
+      <div class="mr"><div class="ml"><span class="n">1</span>Vieillissement, ratio actifs / seniors</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">2</span>Solde naturel négatif, apport migratoire</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">3</span>Ménages seuls, besoin de logements</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">4</span>Charge d'intérêts de la dette</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">5</span>Productivité, écart avec les États-Unis</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">6</span>IA et emplois</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">7</span>Départs en fin de carrière, recrutement</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">8</span>Réchauffement et adaptation</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">9</span>Électrification</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">10</span>Eau et relève agricole</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">11</span>Patrimoine et héritage</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">12</span>Autonomie, démographie médicale</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+      <div class="mr"><div class="ml"><span class="n">13</span>Défense, environnement stratégique</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c4"><i class="dot d4"></i>Traitée</div></div>
+      <div class="mr"><div class="ml"><span class="n">14</span>Information par les plateformes</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c3"><i class="dot d3"></i>En partie</div><div class="mc c4"><i class="dot d4"></i>Traitée</div><div class="mc c3"><i class="dot d3"></i>En partie</div></div>
+    </div>
+    <div class="cnt" aria-label="Tendances traitées à fond, sur quatorze">
+      <div><b>8</b><span>Renais&shy;sance</span></div><div><b>5</b><span>RN</span></div><div><b>8</b><span>LFI</span></div><div><b>11</b><span>PS</span></div><div><b>8</b><span>LR</span></div>
+    </div>
+    <p class="src">Tendances traitées à fond sur quatorze, les autres traitées en partie. Lecture des cinq cartes par nos soins, calcul en code<sup><a href="#s6">6</a></sup>.</p>
+  </div>
+  <p><b>Deux tendances ne sont traitées à fond par personne.</b> La hausse du nombre de ménages portée par les personnes seules (n°&nbsp;3)&nbsp;: chaque programme touche le logement, aucun ne part de la taille des ménages, qui commande le besoin de logements plus que la population. Les départs massifs en fin de carrière et les tensions de recrutement (n°&nbsp;7)&nbsp;: chaque programme touche l'emploi ou la formation, aucun ne traite le remplacement des départs comme un problème en soi. Trois tendances sont traitées par les cinq&nbsp;: le vieillissement, la charge d'intérêts de la dette, les dépenses de défense. Le PS traite onze tendances à fond, le RN cinq&nbsp;; la carte ne dit pas si les réponses suffisent, ni ce qu'elles coûtent.</p>
+</section>
+
+<section class="chapter" id="demandes" aria-labelledby="h-dem">
+  <div class="ch-head"><div class="hexnum">D</div><div><h2 id="h-dem">Les demandes que personne ne traite</h2><p class="axe">Quarante-sept demandes exprimées, cinq programmes</p></div></div>
+  <p>Quarante-sept demandes relevées avant lecture des programmes dans le grand débat de 2019, les revendications écrites des mobilisations de 2018 à 2026, le baromètre de la Drees, les enquêtes de priorités et les pétitions de l'Assemblée<sup><a href="#s9">9</a></sup>. Pour chaque force, le statut est celui de sa page&nbsp;: traitée, traitée en partie, passée sous silence, ou contredite en l'assumant. Quatre demandes ont deux branches opposées (restreindre ou garantir les prestations des étrangers, redistribuer ou mieux payer le travail, fermeté ou encadrement de la force, majorité nette ou compromis)&nbsp;: la branche servie est nommée.</p>
+  <div class="cnt" aria-label="Demandes traitées, sur quarante-sept">
+    <div><b>13<small style="font-size:.7rem;font-weight:500;color:var(--muted)">+11</small></b><span>Renais&shy;sance</span></div><div><b>15<small style="font-size:.7rem;font-weight:500;color:var(--muted)">+19</small></b><span>RN</span></div><div><b>29<small style="font-size:.7rem;font-weight:500;color:var(--muted)">+7</small></b><span>LFI</span></div><div><b>27<small style="font-size:.7rem;font-weight:500;color:var(--muted)">+6</small></b><span>PS</span></div><div><b>15<small style="font-size:.7rem;font-weight:500;color:var(--muted)">+10</small></b><span>LR</span></div>
+  </div>
+  <p class="src">Demandes traitées, puis traitées en partie, sur 47. Silences&nbsp;: Renaissance 11, RN 6, LFI 3, PS 3, LR 8. Contredites en l'assumant&nbsp;: Renaissance 8, RN 3, LFI 4, PS 7, LR 10 (plus les contre-pieds partiels). Ces comptes décrivent la couverture de l'inventaire, pas sa qualité&nbsp;: le socle ne sanctionne pas d'aller contre une demande, seulement de ne pas le dire. Calcul en code sur les six fiches de chaque force<sup><a href="#s6">6</a></sup>.</p>
+  <p><b>Une seule demande sur 47 est passée sous silence par les cinq forces</b>&nbsp;: le rétablissement de la peine de mort (opinion divisée). <b>Trois autres le sont par trois forces</b>, Renaissance, le RN et LR, et traitées par LFI et le PS&nbsp;: sanctionner les violences et les contrôles abusifs des forces de l'ordre, prendre en compte le vote blanc, la démission ou la destitution du président (que le PS contredit en l'assumant). <b>Quatre demandes sont traitées par les cinq</b>&nbsp;: garder des retraites et une assurance maladie publiques, maintenir l'indexation des pensions, aménager la fin de carrière, baisser le prix des carburants et de l'énergie. <b>Quatre sont contredites en l'assumant, en tout ou en partie, par trois forces ou plus</b>&nbsp;: faire contribuer en priorité les grandes entreprises et les plus aisés (Renaissance, RN, LR vont contre sur un volet), durcir l'indemnisation du chômage (LFI et PS vont contre, le RN en partie), recourir moins à l'immigration de travail (Renaissance, RN, PS vont contre), taxer davantage les très hauts patrimoines (Renaissance et LR vont contre, le RN en partie).</p>
+  <details class="dig"><summary>Les 47 demandes, force par force <span class="chev">›</span></summary><div class="body">
+    <div class="tbl"><table>
+      <thead><tr><th>Axe</th><th>Demande</th><th>Renaissance</th><th>RN</th><th>LFI</th><th>PS</th><th>LR</th></tr></thead>
+      <tbody>
+{{DEMANDES}}
+      </tbody>
+    </table></div>
+    <p class="note">T&nbsp;: traitée. TP&nbsp;: traitée en partie. NT&nbsp;: non traitée. C&nbsp;: va contre et le dit. TC, TPC&nbsp;: traitée (en partie) avec un contre-pied partiel assumé. P&nbsp;: demande à deux branches, branche servie. Statuts lus dans les tableaux d'écoute des trente fiches, avec les intensités de l'inventaire gelé.</p>
+  </div></details>
+</section>
+
+<section class="chapter conv" id="finances" aria-labelledby="h-fin">
+  <div class="ch-head"><div class="hexnum">1</div><div><h2 id="h-fin">Finances publiques et dette</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>La fraude fiscale comptée en recette réunit quatre forces&nbsp;: RN (TVA prélevée à la source 18 Md€ et cartels 5,8 Md€ en 2031), LFI (2 Md€ la première année), PS (5,5 Md€ en 2027, fraude sociale comprise), LR (5 Md€ en 2032)&nbsp;; Renaissance n'a rien de nouveau en 2026. Renaissance, le RN et LR partagent la structure du redressement&nbsp;: un plan d'économies chiffré sur le quinquennat (150, 140 et 197 Md€), un déficit sous 3 % avant 2032, une règle d'or dans la Constitution par référendum, la réduction de l'immobilier de l'État. Renaissance, le PS et LR visent les doublons entre l'État et les collectivités (plus de 7 Md€, plus de 7,5 Md€, 4 Md€)&nbsp;; LFI, le PS et LR la réduction des niches fiscales (22 Md€, incluses dans 12,1 Md€, 4,9 Md€).</p>
+  <h4>Deux blocs</h4>
+  <p>Sur le levier du redressement, Renaissance, le RN et LR mettent la dépense d'abord, LFI et le PS les recettes d'abord (106,4 Md€ et 39,5 Md€ bruts de recettes en 2027). Même partage sur le niveau global des prélèvements et sur les effectifs publics (baisse de 100 000 et 400 000 postes contre des recrutements ciblés). La règle d'or oppose Renaissance, le RN et LR à LFI&nbsp;; le PS ne la traite pas. Les votes suivent le même partage sur le budget 2025 et la motion de rejet du budget 2027&nbsp;; la motion de censure de décembre 2024 réunit LFI, le PS et le RN<sup><a href="#s10">10</a></sup>.</p>
+  <h4>Silence commun</h4>
+  <p>Aucune demande de l'inventaire n'est passée sous silence par trois forces. La plus proche, garder dans le public ou renationaliser les services essentiels, est sans mesure chez Renaissance et le PS&nbsp;; LR va contre en partie.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#finances">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#finances">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#finances">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#finances">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#finances">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="travail" aria-labelledby="h-trav">
+  <div class="ch-head"><div class="hexnum">2</div><div><h2 id="h-trav">Travail, protection sociale et fraude</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>Quatre forces maintiennent l'indexation des pensions (LFI, RN, PS, LR&nbsp;; pour LR, le discours seulement, sa page relevant la décision de décembre 2024 en sens inverse), automatisent le versement des prestations (Renaissance, LR, PS, LFI, sans chiffre) et tiennent compte de la pénibilité dans le départ (PS, LFI, RN, LR, sans chiffre). LFI, le RN et le PS reviennent à 62 ans ou moins (9 Md€, 9,5 Md€ en 2031, non chiffré) et abrogent les réformes de l'assurance chômage depuis 2017. Renaissance, LR et le RN ajoutent un pilier de capitalisation, durcissent les arrêts maladie et les jours de carence (LR 7 Md€), renforcent le contrôle des allocataires. LFI et le PS&nbsp;: garantie d'autonomie des jeunes (LFI 9,5 Md€), minimum vieillesse au seuil de pauvreté, RSA inconditionnel.</p>
+  <h4>Deux blocs</h4>
+  <p>Sur l'assurance chômage, Renaissance et LR durcissent, LFI, le RN et le PS abrogent. Sur l'âge de départ, LFI, le RN et le PS d'un côté, Renaissance (système sans âge légal) et LR (63 ans avec décote) de l'autre. Sur l'indexation, Renaissance est seule avec son année blanche de 2028. Les votes&nbsp;: EPR et DR contre LFI, SOC et RN sur la suppression de l'article 1er de la proposition d'abrogation de la réforme des retraites&nbsp;; EPR, DR et RN contre LFI et SOC sur la loi contre les fraudes<sup><a href="#s10">10</a></sup>.</p>
+  <h4>Silence commun</h4>
+  <p>Augmenter les aides à la dépendance et au handicap, demande de large intensité&nbsp;: aucune mesure de hausse chez Renaissance, LR et le RN&nbsp;; LFI et le PS la traitent.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#travail">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#travail">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#travail">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#travail">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#travail">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="immigration" aria-labelledby="h-imm">
+  <div class="ch-head"><div class="hexnum">3</div><div><h2 id="h-imm">Immigration</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>La coopération des pays d'origine sur la réadmission, par les visas, l'aide au développement ou l'admission, réunit Renaissance, le RN, LR et le PS&nbsp;; aucun ne la chiffre. Renaissance, le RN et LR&nbsp;: éloignement plus systématique des étrangers condamnés, regroupement familial restreint (LR 1,5 Md€ en 2032), contrôles aux frontières renforcés, aide médicale de l'État restreinte (RN 1,3 Md€, LR 0,7 Md€&nbsp;; Renaissance la réforme sans la supprimer). Renaissance, LFI et le PS&nbsp;: droit au travail des demandeurs d'asile ouvert ou avancé. Le RN et LR partagent dix autres objets (prestations non contributives sous condition de durée, 12,2 et 3,6 Md€&nbsp;; titre pour soins abrogé&nbsp;; accord de 1968&nbsp;; asile examiné hors du territoire). LFI et le PS en partagent douze (régularisation des travailleurs, carte de dix ans, présomption de minorité, vote local des étrangers).</p>
+  <h4>Deux blocs</h4>
+  <p>Dix oppositions nettes, presque toutes entre le RN et LR d'un côté, LFI et le PS de l'autre&nbsp;: aide médicale, régularisations, prestations des étrangers en situation régulière, droit du sol (Renaissance refuse sa suppression dans l'Hexagone), centres de retour dans des pays tiers (LR seul pour), règles européennes de retour (Renaissance et LR durcissent). Les votes&nbsp;: EPR, DR et RN contre LFI et SOC sur la rétention des étrangers condamnés&nbsp;; DR et RN contre LFI, SOC et EPR sur la dénonciation des accords de 1968<sup><a href="#s10">10</a></sup>.</p>
+  <h4>Silence commun</h4>
+  <p>Conditionner l'intégration à l'apprentissage du français et de l'histoire&nbsp;: comme condition, seul LR la porte pour les deux, Renaissance pour le français&nbsp;; le RN (mesures de 2022 non reprises), LFI et le PS ne la traitent pas.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#immigration">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#immigration">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#immigration">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#immigration">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#immigration">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="pouvoir-achat" aria-labelledby="h-pa">
+  <div class="ch-head"><div class="hexnum">4</div><div><h2 id="h-pa">Pouvoir d'achat et fiscalité</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>Baisser les prélèvements sur le salaire pour augmenter le net&nbsp;: Renaissance (250 € nets par mois au salaire médian), LR (15 Md€), PS (CSG baissée sous 2 700 € par mois, 15 Md€), RN (non chiffré), par des instruments différents. Fonder le prix de l'électricité sur les coûts de production&nbsp;: RN (9,3 Md€ en 2031), LFI, PS, LR&nbsp;; Renaissance donne une cible sans instrument. Renaissance, le RN et LR&nbsp;: baisse des cotisations patronales et des impôts de production (RN 17,1 Md€, LR près de 15 Md€), allègement des successions, refus de toute hausse d'impôt. Renaissance, le RN et LFI&nbsp;: taxe sur les rachats d'actions. Le RN, LFI et le PS&nbsp;: TVA réduite ou nulle sur les produits de première nécessité, taxe des profits exceptionnels. LFI et le PS&nbsp;: Smic à environ 1 700 € net, impôt plancher de 2 % sur les patrimoines de plus de 100 M€ (15 Md€&nbsp;; 15 à 25 Md€), suppression du prélèvement forfaitaire unique, encadrement des loyers.</p>
+  <h4>Deux blocs</h4>
+  <p>Douze oppositions nettes, sur le partage Renaissance, RN, LR contre LFI, PS&nbsp;: niveau des prélèvements, impôt plancher, successions, pacte Dutreil, allègements de cotisations, impôts de production. Trois cas sortent du partage&nbsp;: la TVA à 5,5 % sur l'énergie (RN seul pour), le quotient familial (LFI et LR le remplacent par un montant par enfant, le RN le renforce), l'indexation des prestations (Renaissance seule avec son année blanche). Les votes&nbsp;: LFI et SOC contre EPR, DR et RN sur la taxe Zucman et la défiscalisation des heures supplémentaires&nbsp;; le RN seul pour la TVA à 5,5 % sur l'énergie<sup><a href="#s10">10</a></sup>. Sur le Smic, pas d'opposition nette&nbsp;: Renaissance, le RN et LR se taisent.</p>
+  <h4>Silences communs</h4>
+  <p>Quatre demandes sans mesure chez trois forces ou plus&nbsp;: augmenter le Smic, demande de premier rang (Renaissance, RN, LR), indexer les salaires sur l'inflation (Renaissance, RN, LR, PS&nbsp;; LFI seule, par l'échelle mobile), bloquer ou encadrer les prix alimentaires (Renaissance, LR, RN), revaloriser les bourses étudiantes (RN, LFI, PS, LR&nbsp;; Renaissance seule, sans montant).</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#pouvoir-achat">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#pouvoir-achat">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#pouvoir-achat">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#pouvoir-achat">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#pouvoir-achat">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="securite" aria-labelledby="h-sec">
+  <div class="ch-head"><div class="hexnum">5</div><div><h2 id="h-sec">Sécurité, ordre public et libertés</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>La construction de places de prison et des établissements différenciés selon le profil des détenus réunissent Renaissance, le RN, LR et le PS, sans chiffre en 2024-2026. Renaissance, le RN et LR&nbsp;: seuils minimaux de peine, régime pénal rapproché des majeurs dès 16 ans, dissolution accélérée des organisations jugées violentes. Renaissance et LR&nbsp;: révision de la Constitution pour lever les censures de 2025 sur la justice des mineurs, rétention de sûreté étendue, vidéoprotection algorithmique. Le RN et LR&nbsp;: présomption de légitime défense des policiers, « casseur-payeur ». LFI et le PS partagent vingt et un objets, la plupart signés en commun dans le texte du Nouveau Front populaire de 2024&nbsp;: police de proximité (LFI 40 000 agents), doctrine de désescalade, interdiction des armes intermédiaires, restriction de l'ouverture du feu en cas de refus d'obtempérer, autorité de contrôle externe, récépissé de contrôle d'identité.</p>
+  <h4>Deux blocs</h4>
+  <p>Onze oppositions nettes, presque toutes sur le même partage&nbsp;: présomption de légitime défense (RN et LR pour, LFI et PS contre), justice des mineurs (Renaissance, RN, LR durcissent&nbsp;; PS et LFI abrogent), restrictions de manifester en période de violences, reconnaissance faciale (Renaissance pour, LFI contre, LR entre les deux), amendes forfaitaires délictuelles. Les quatre scrutins de l'axe séparent EPR, DR et RN d'un côté, LFI et SOC de l'autre&nbsp;; le PS rejoint le premier bloc sur le narcotrafic, LFI reste seule contre<sup><a href="#s10">10</a></sup>.</p>
+  <h4>Silences communs</h4>
+  <p>Rétablir la peine de mort&nbsp;: aucune position dans aucun corpus. Sanctionner les violences et les contrôles abusifs des forces de l'ordre&nbsp;: aucune mesure chez Renaissance, le RN et LR (LR en avait une dans le projet de Charte du 31 août 2026, retirée le lendemain)&nbsp;; LFI et le PS la traitent.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#securite">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#securite">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#securite">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#securite">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#securite">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="institutions" aria-labelledby="h-inst">
+  <div class="ch-head"><div class="hexnum">6</div><div><h2 id="h-inst">Institutions, démocratie et Europe</h2><p class="axe">Ce qu'ils proposent en commun, et où ils se séparent</p></div></div>
+  <h4>En commun</h4>
+  <p>L'opposition à l'accord UE-Mercosur réunit LFI, le PS, le RN et LR (Renaissance s'est abstenue avec cinq votants, vote non exploitable)&nbsp;; la réduction des échelons ou doublons territoriaux, Renaissance, le PS, le RN et LFI, avec des objets visés différents&nbsp;; la révision de la Constitution par référendum, quatre forces aussi. Renaissance, le RN et LR&nbsp;: la règle d'or budgétaire par référendum. Le RN, LR et LFI&nbsp;: la primauté de la Constitution sur le droit de l'Union, par trois voies différentes. Renaissance, le PS et LFI&nbsp;: des impôts européens comme ressources propres, l'assouplissement des règles budgétaires européennes. Renaissance et le PS&nbsp;: une Union de type fédéral, le budget et l'emprunt commun accrus (PS 500 Md€), une dimension européenne de la dissuasion. Le RN et LR&nbsp;: Schengen réservé aux citoyens de l'Union. LFI et le PS&nbsp;: assemblée constituante, vote blanc reconnu, vote à 16 ans, indépendance du parquet.</p>
+  <h4>Deux blocs</h4>
+  <p>Treize oppositions nettes, qui ne suivent pas le partage des axes 4 et 5. Sur le degré d'intégration de l'Union, Renaissance et le PS (« États-Unis d'Europe », « Europe fédérale ») font face au RN, à LR et à LFI, pour des raisons différentes. Sur la défense européenne et la dissuasion, Renaissance et le PS face au RN et à LR. Sur l'OTAN, LFI (sortie) et le RN (commandement intégré, source de fiabilité non établie) face aux trois autres. Sur l'audiovisuel public, le RN (privatisation) face à LFI et au PS. Un seul scrutin gelé sépare les cinq en deux blocs, la Corse autonome (LFI, SOC et EPR pour, DR et RN contre)&nbsp;; les résolutions européennes rapprochent LFI, SOC, DR et RN face à EPR, et isolent le RN sur Schengen<sup><a href="#s10">10</a></sup>.</p>
+  <h4>Silences communs</h4>
+  <p>Prendre en compte le vote blanc, démission ou destitution du président&nbsp;: sans mesure chez Renaissance, le RN et LR&nbsp;; LFI et le PS les traitent, le PS contredit la seconde en l'assumant. Réduire le nombre de parlementaires, demande de premier rang&nbsp;: aucune mesure chez le RN, LFI, le PS et LR&nbsp;; Renaissance seule, par la presse.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#institutions">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#institutions">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#institutions">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#institutions">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#institutions">LR ›</a></div>
+</section>
+
+<section class="chapter conv" id="methode" aria-labelledby="h-met">
+  <div class="ch-head"><div class="hexnum">+</div><div><h2 id="h-met">Comment ils gouvernent</h2><p class="axe">Parole de méthode, actes de méthode, convergences de méthode</p></div></div>
+  <p>Un seul verdict par force&nbsp;: Renaissance « écart important » (six objets de rupture sur un mandat exercé, dont le renoncement au 49.3 puis son usage, la procédure des retraites de 2023, les référendums promis)&nbsp;; LFI « plutôt tenue » (parole de méthode et comportement parlementaire concordants, sans mandat exercé)&nbsp;; RN, PS et LR « écart partiel ». La réserve est écrite sur chaque page&nbsp;: les trois forces qui ont gouverné ont des actes de méthode à confronter, les deux autres n'ont que leur parole, leur comportement parlementaire et leurs valeurs affichées.</p>
+  <h4>Ce qu'ils proposent en commun</h4>
+  <p>Le recours accru au référendum est le seul objet porté par les cinq forces, avec des objets différents (journée référendaire annuelle pour Renaissance&nbsp;; immigration et justice pour LR&nbsp;; priorité nationale et règle d'or pour le RN&nbsp;; constituante et révocation pour LFI&nbsp;; révisions constitutionnelles pour le PS). La proportionnelle est voulue par LFI, le PS et le RN, refusée par LR seul (scrutin majoritaire inscrit dans la Constitution)&nbsp;; Renaissance ne la porte plus. Le référendum d'initiative citoyenne est voulu par LFI, le RN et le PS, refusé par le groupe EPR en commission des lois le 4 février 2026&nbsp;; le RN n'en veut pas en matière constitutionnelle, LFI oui. Le 49.3 n'est restreint que par LFI et le PS&nbsp;; Renaissance, le RN et LR n'en disent rien. Sur le mode de gouvernement, LR et le RN cherchent les instruments d'une majorité nette, Renaissance et le PS la coalition et le compromis. Aucun scrutin gelé ne porte sur ces objets.</p>
+  <h4>Les valeurs affichées</h4>
+  <p>Le bloc « valeurs affichées et discipline interne » a été instruit pour les cinq forces avec la même collecte, complétée le 28 octobre 2026 sur les propos visés au titre du sexe, de l'orientation sexuelle, de l'identité de genre et du handicap (dix requêtes et trois pages ouvertes par force). Les tableaux des cas sont sur chaque page&nbsp;; la synthèse ne classe pas les forces sur ce bloc, parce que compter des cas revient aussi à compter l'attention que la presse porte à chaque parti.</p>
+  <div class="pages"><a href="https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2#methode">Renaissance ›</a><a href="https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b#methode">RN ›</a><a href="https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i#methode">LFI ›</a><a href="https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3#methode">PS ›</a><a href="https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ#methode">LR ›</a></div>
+</section>
+
+<section class="final" aria-labelledby="h-final">
+  <span class="eyebrow">Ce qu'il faut retenir</span>
+  <h2 id="h-final" style="margin-top:.4rem">Cinq diagnostics qui se tiennent, aucun programme entièrement faisable tel quel, deux familles pour la cohérence, et deux problèmes que personne ne regarde</h2>
+  <ol>
+    <li>Sur les six sujets, les cinq forces décrivent le monde avec des chiffres qui se vérifient&nbsp;: aucun diagnostic n'est faux, aucun n'est entièrement fondé. Le partage n'est pas entre ceux qui disent vrai et ceux qui mentent, mais entre les lectures d'un même chiffre.</li>
+    <li>Aucun programme n'est « plutôt faisable » sur aucun sujet, et les cinq sont « très incertaine » sur les institutions&nbsp;: tous promettent des révisions de la Constitution sans décrire la voie pour les obtenir. Le reste tient sous conditions nommées, que chaque page détaille.</li>
+    <li>La cohérence se lit en deux familles. LFI et le RN votent ce qu'ils écrivent sur les scrutins retenus&nbsp;; Renaissance, le PS et LR ont, en plus, des décisions prises au pouvoir qui contredisent des promesses qu'ils maintiennent (onze « écart important » sur dix-huit verdicts, contre un sur douze). Ce n'est pas un classement&nbsp;: c'est la différence entre être testé sur ses votes et l'être aussi sur ses actes.</li>
+    <li>Ce que personne ne traite&nbsp;: la hausse du nombre de ménages seuls, les départs massifs en fin de carrière, la peine de mort (sous silence chez les cinq), et chez trois forces sur cinq, le vote blanc, la destitution, les contrôles abusifs des forces de l'ordre. Ce que tous traitent&nbsp;: le vieillissement, la dette, la défense, les retraites publiques, l'indexation des pensions, le prix de l'énergie.</li>
+  </ol>
+</section>
+
+<footer>
+  <h2 id="sources">Sources</h2>
+  <p>Chaque verdict, chaque chiffre et chaque vote de cette page vient d'une des cinq pages de la série, qui portent leurs propres sources numérotées (de 97 à 249 par page), ou du dépôt public de l'étude. La numérotation suit l'ordre d'apparition.</p>
+  <ol class="sources">
+    <li id="s1">Élections France 2027, « Renaissance : ce qu'elle propose, ce qu'elle vote », page publiée le 26 octobre 2026, v1.6 du 28 octobre 2026, 103 sources. https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2</li>
+    <li id="s2">Élections France 2027, « Le RN : ce qu'il propose, ce qu'il vote », page publiée le 26 octobre 2026, v1.4 du 28 octobre 2026, 159 sources. https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b</li>
+    <li id="s3">Élections France 2027, « LFI : ce qu'elle propose, ce qu'elle vote », page publiée le 27 octobre 2026, v1.4 du 28 octobre 2026, 213 sources. https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i</li>
+    <li id="s4">Élections France 2027, « Le PS : ce qu'il propose, ce qu'il vote », page publiée le 27 octobre 2026, v1.2 du 28 octobre 2026, 249 sources. https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3</li>
+    <li id="s5">Élections France 2027, « Les Républicains : ce qu'ils proposent, ce qu'ils votent », page publiée le 28 octobre 2026, v1.1 du même jour, 200 sources. https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ</li>
+    <li id="s6">Dépôt public de l'étude (fiches par axe, arbitrages, scripts de calcul, dont `synthese_grilles.py`, `synthese_tendances.py` et `synthese_ecoute.py`, et `04-synthese/tableau-comparatif.md`), 2026. https://github.com/DilhanCamlica/elections-france-2027</li>
+    <li id="s7">Dépôt public de l'étude, « Critères : axes, questions, échelles de verdict, périmètre » (socle v2.3, précisions du 28 octobre 2026), `01-socle/01-criteres.md`. https://github.com/DilhanCamlica/elections-france-2027/blob/main/01-socle/01-criteres.md</li>
+    <li id="s8">Dépôt public de l'étude, « Tendances lourdes pour la France, horizon 2030-2050 », liste gelée le 25 octobre 2026 à partir de l'Insee, de la Cour des comptes, du Conseil d'orientation des retraites, du Haut-commissariat au Plan, de France Stratégie, de l'OCDE et de l'Arcom, avec les sources de chaque tendance, `03-sources/tendances-lourdes.md`. https://github.com/DilhanCamlica/elections-france-2027/blob/main/03-sources/tendances-lourdes.md</li>
+    <li id="s9">Dépôt public de l'étude, « Demandes exprimées : ce que les Français demandent, par axe », inventaire gelé le 25 octobre 2026 (grand débat national 2019, revendications écrites des mobilisations 2018-2026, baromètre d'opinion de la Drees, enquêtes de priorités étiquetées, pétitions de l'Assemblée nationale, Défenseur des droits et CNCDH), `03-sources/demandes-exprimees.md`. https://github.com/DilhanCamlica/elections-france-2027/blob/main/03-sources/demandes-exprimees.md</li>
+    <li id="s10">Assemblée nationale, données ouvertes des scrutins publics de la XVIIe législature, positions des groupes recalculées par nos soins (règle des 60 %), liste gelée de 28 scrutins, `03-sources/scrutins-positions.md`. https://data.assemblee-nationale.fr/ et https://github.com/DilhanCamlica/elections-france-2027/blob/main/03-sources/scrutins-positions.md</li>
+  </ol>
+
+  <h2 id="note-methode" style="margin-top:2rem">Note de méthode</h2>
+  <p><b>Ce que cette page est.</b> Une mise côte à côte des verdicts des cinq pages, sans verdict nouveau. Chaque case de la grille est celle de la page de la force, telle qu'elle est en ligne au 28 octobre 2026&nbsp;; les convergences sont relevées dans les trente fiches d'axe du dépôt, jamais dans la presse&nbsp;; les silences sont comptés sur l'inventaire gelé des demandes et la liste gelée des tendances. Les cinq corpus, arrêtés entre le 25 et le 27 octobre 2026 au lancement de chaque page, ont été réalignés au 28 octobre par une veille commune (mêmes requêtes pour les cinq forces)&nbsp;: {{VEILLE}}</p>
+  <p><b>Ce qu'elle ne fait pas.</b> Aucun classement, aucune note globale, aucune moyenne, aucune somme de crans. Les quatre questions ne mesurent pas la même chose, et deux forces au même cran sur un sujet y sont pour des raisons différentes, que seule leur page dit. Les comptes de demandes traitées et de tendances traitées décrivent une couverture, pas une qualité&nbsp;: le socle ne sanctionne pas d'aller contre une demande, seulement de ne pas le dire, et la carte des tendances ne dit pas si une réponse suffit.</p>
+  <p><b>La ligne cohérence et ses deux familles.</b> Pour les cinq forces, la parole est confrontée aux votes du groupe sur les mêmes 28 scrutins et à ses textes. Pour celles qui ont gouverné depuis 2012, elle est aussi confrontée à leurs décisions de gouvernement, et une décision contraire à une promesse que le parti maintient dans la campagne actuelle vaut à elle seule « écart important » (règle du 28 octobre 2026, quatre conditions&nbsp;: une décision et non un résultat manqué, un Premier ministre ou un ministre du parti compétent, la même promesse reprise aujourd'hui, pas de renoncement écrit)<sup><a href="#s7">7</a></sup>. Chaque verdict affiche sa base. La synthèse ne compare la ligne qu'au sein d'une même famille et compte l'écart entre les deux sans en faire un total. Une règle reste à écrire pour les cinq forces, sur les actes contraires à une promesse que le parti n'a formulée qu'après l'acte (« revirements »)&nbsp;: Renaissance en compte trois comme objets d'écart, le PS en tient deux en contexte. Selon l'option retenue, une case de la ligne cohérence peut bouger (Renaissance, pouvoir d'achat ou sécurité)&nbsp;; la page sera republiée à la même adresse.</p>
+  <p><b>Règles communes écrites à la synthèse.</b> Le président de la République n'est un poste de la règle des actes contraires pour aucune force&nbsp;: ses décisions propres sont du contexte, ses promesses non tenues des objets ordinaires. Les scrutins des législatures précédentes sont du contexte, hors matrice, cités par chaque force dont le groupe a voté. Un scrutin où moins de 10 % des membres d'un groupe ont voté n'est pas exploitable pour ce groupe (appliqué ce jour au vote de LR sur l'accord commercial avec les États-Unis). Les quatre demandes de l'inventaire à deux branches sont codées « branche servie » pour les cinq. Le bloc des valeurs affichées a reçu la même collecte complémentaire pour les cinq. Chaque règle est datée dans le journal du socle<sup><a href="#s7">7</a></sup>.</p>
+  <p><b>Limites.</b> Les corpus sont de nature différente&nbsp;: plan présidentiel complet pour le RN, programme de 2022 pour LFI (le nouveau est attendu le 6 novembre 2026), Projet et contre-budget pour le PS, lettres et livrets du candidat pour Renaissance, plan d'octobre et livrets partiels pour LR (programme complet non paru). La hiérarchie de corpus est la même, la matière ne l'est pas, et chaque page le dit. Les verdicts de méthode des forces qui ont gouverné reposent sur des actes, ceux des deux autres sur leur parole et leur comportement parlementaire. Le scrutin sur le Smic inscrit à la niche de LFI du 29 octobre 2026, s'il a lieu, remplacera un scrutin de la liste gelée et les cinq pages seront revues.</p>
+  <p>Même grille, mêmes scrutins et mêmes inventaires pour les cinq pages. Le dépôt public contient les fiches, les arbitrages, les règles et les scripts qui ont produit chaque case<sup><a href="#s6">6</a></sup>.</p>
+</footer>
+
+</main>
