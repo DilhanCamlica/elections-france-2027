@@ -36,6 +36,7 @@ def clean_url(u):
 PARTI_HOSTS = ("rassemblementnational.fr", "marinelepen.com", "assemblee-nationale.fr", "web.archive.org", "mlafrance.fr", "senat.fr",
                "lafranceinsoumise.fr", "melenchon2027.fr", "melenchon.fr", "laec.fr",
                "parti-socialiste.fr", "projet-socialiste.fr", "place-publique.eu", "choisir2027.fr", "glucks2027.fr",
+               "republicains.fr",
                "francoishollande.fr", "2022avechidalgo.fr")
 
 def strip_md(s):
