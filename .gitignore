@@ -9,3 +9,6 @@ __pycache__/
 # Matière privée ou de tiers, conservée en local, hors dépôt public
 00-contexte/echange-famille-2026-10-25.md
 00-contexte/transcripts/
+
+# Outillage local de session
+.claude/

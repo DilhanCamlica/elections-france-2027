@@ -103,6 +103,30 @@ sup a{font-family:var(--mono);font-size:.68rem;text-decoration:none;padding:0 1p
 .hexnum{width:2.6rem;height:2.6rem;display:grid;place-items:center;font-family:var(--mono);font-weight:500;font-size:1.05rem;color:var(--ink);clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);background:var(--accent-soft)}
 .ch-head .axe{font-family:var(--display);font-size:1.05rem;color:var(--muted);font-style:italic;margin:.15rem 0 .25rem}
 .verdict-chip{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;padding:.22rem .55rem;border-radius:999px;font-weight:500;white-space:nowrap;color:var(--ink)}
+/* Base du verdict C (socle v2.3) */
+.pill .pb{font-family:var(--mono);font-size:.56rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);line-height:1.2;margin-top:.15rem}
+.pill.base-votes{border:1.5px dashed color-mix(in srgb,var(--muted) 75%,transparent)}
+.pill.base-votes.c1{background:color-mix(in srgb,var(--v1s) 45%,var(--card))}
+.pill.base-votes.c2{background:color-mix(in srgb,var(--v2s) 45%,var(--card))}
+.pill.base-votes.c3{background:color-mix(in srgb,var(--v3s) 45%,var(--card))}
+.pill.base-votes.c4{background:color-mix(in srgb,var(--v4s) 45%,var(--card))}
+.pill.base-votes.c5{background:color-mix(in srgb,var(--v5s) 45%,var(--card))}
+.pill.base-actes{border:1.5px solid color-mix(in srgb,var(--muted) 45%,transparent)}
+.base-note{margin:.9rem 0 0;padding:.8rem .95rem;border:1.5px dashed color-mix(in srgb,var(--muted) 75%,transparent);border-radius:10px;font-size:.84rem;color:var(--ink);background:var(--card)}
+.base-note p{margin:0}
+.base-note details{margin-top:.45rem}
+.base-note summary{cursor:pointer;list-style:none;font-family:var(--mono);font-size:.72rem;color:var(--accent);display:inline-flex;gap:.35rem;align-items:center}
+.base-note summary::-webkit-details-marker{display:none}
+.base-note summary .chev{transition:transform .2s ease}
+.base-note details[open] summary .chev{transform:rotate(90deg)}
+.base-note .body{margin-top:.5rem;color:var(--muted);font-size:.82rem}
+.base-note .body p{margin:0 0 .4rem}
+.base-sw{width:16px;height:10px;border-radius:3px;display:inline-block;vertical-align:-1px;margin:0 .3rem 0 .1rem;border:1.5px dashed var(--muted);background:color-mix(in srgb,var(--v3s) 45%,var(--card))}
+.base-sw.actes{border-style:solid;background:var(--v3s)}
+.base-chip{display:inline-block;font-family:var(--mono);font-size:.62rem;letter-spacing:.04em;padding:.2rem .5rem;border-radius:999px;border:1.5px dashed var(--muted);color:var(--muted);white-space:nowrap}
+.base-chip.actes{border-style:solid}
+@media (max-width:420px){.pill .pb{font-size:.5rem;letter-spacing:.03em}}
+
 .qb{margin:1.15rem 0}
 .qb .qh{display:flex;flex-wrap:wrap;gap:.4rem .7rem;align-items:center;margin-bottom:.3rem}
 .qb h3{font-size:1rem}
@@ -241,7 +265,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
         <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
-        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c3 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span><span class="pb">votes seuls</span></div>
         <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
       </div>
     </a>
@@ -250,7 +274,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c3"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d3"></i>Partiellement fondé</span></div>
         <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
-        <div class="pill c4"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span></div>
+        <div class="pill c4 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span><span class="pb">votes seuls</span></div>
         <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
       </div>
     </a>
@@ -259,7 +283,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c3"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d3"></i>Partiellement fondé</span></div>
         <div class="pill c2"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d2"></i>Très incertaine</span></div>
-        <div class="pill c2"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d2"></i>Écart important</span></div>
+        <div class="pill c2 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d2"></i>Écart important</span><span class="pb">votes seuls</span></div>
         <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
       </div>
     </a>
@@ -268,7 +292,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
         <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
-        <div class="pill c3"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span></div>
+        <div class="pill c3 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d3"></i>Écart partiel</span><span class="pb">votes seuls</span></div>
         <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
       </div>
     </a>
@@ -277,7 +301,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c3"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d3"></i>Partiellement fondé</span></div>
         <div class="pill c3"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d3"></i>Conditionnelle</span></div>
-        <div class="pill c4"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span></div>
+        <div class="pill c4 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span><span class="pb">votes seuls</span></div>
         <div class="pill c4"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d4"></i>Répond</span></div>
       </div>
     </a>
@@ -286,10 +310,16 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="gcells">
         <div class="pill c4"><span class="pq">Réel&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt fondé</span></div>
         <div class="pill c2"><span class="pq">Faisable&nbsp;?</span><span class="pv"><i class="dot d2"></i>Très incertaine</span></div>
-        <div class="pill c4"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span></div>
+        <div class="pill c4 base-votes"><span class="pq">Votent&nbsp;?</span><span class="pv"><i class="dot d4"></i>Plutôt cohérent</span><span class="pb">votes seuls</span></div>
         <div class="pill c3"><span class="pq">Demandes&nbsp;?</span><span class="pv"><i class="dot d3"></i>Répond en partie</span></div>
       </div>
     </a>
+
+    
+    <div class="base-note" role="note">
+      <p><b>Lire la colonne « Votent-ils ce qu'ils disent&nbsp;? »</b> Elle compare la parole aux votes pour les cinq forces et, pour celles qui ont gouverné depuis 2012, à leurs décisions de gouvernement. Une force qui n'a pas gouverné n'est pas plus cohérente&nbsp;: elle est moins testée.</p>
+      <details><summary>Pourquoi cette marque&nbsp;? <span class="chev">›</span></summary><div class="body"><p>Le RN n'a pas gouverné au niveau national depuis 2012. Ses six verdicts de cohérence sont marqués <span class="base-sw"></span>« votes seuls »&nbsp;: ils reposent sur les scrutins retenus, les textes et les amendements de son groupe, et sur rien d'autre, parce qu'il n'y a rien d'autre.</p><p>Pour une force qui a gouverné, le même verdict est marqué <span class="base-sw actes"></span>« votes + actes » et compte en plus ses décisions de gouvernement&nbsp;: une décision contraire à une promesse que le parti maintient aujourd'hui vaut à elle seule le cran « écart important ». Un verdict « votes seuls » ne se compare donc qu'à un autre verdict « votes seuls ».</p><p>La règle et ses quatre conditions sont dans la <a href="#note-methode">note de méthode</a>.</p></div></details>
+    </div>
 
     <div class="mline">
       <a href="#methode"><p class="gaxe"><span class="n">+</span>Comment ils gouverneraient</p></a>
@@ -344,7 +374,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>L'enveloppe est du même ordre que l'effort jugé nécessaire par la Cour des comptes, 85 à 135 milliards<sup><a href="#s14">14</a></sup>, et le plan est l'un des rares de la campagne à être détaillé ligne à ligne. Mais <b>un tiers de l'amélioration affichée bute sur des contraintes établies</b>&nbsp;: la contribution à l'Union se décide à l'unanimité des 27, pas par un amendement français (l'amendement du groupe suppose une contribution nette de 16,1 milliards là où le Sénat en mesure 9,3)<sup><a href="#s15">15</a>,<a href="#s16">16</a></sup>&nbsp;; une condition de cinq ans de travail pour les prestations a été censurée en 2024 dans une version moins stricte<sup><a href="#s17">17</a></sup>&nbsp;; quatre lignes sont des écritures sans effet sur le déficit au sens européen&nbsp;; les 18 milliards de TVA dépassent de moitié l'écart total de TVA mesuré par la Commission, 12 milliards<sup><a href="#s18">18</a></sup>. Sur les seules sources institutionnelles, le plan surévalue son résultat de 50 à 60 % (calcul par nos soins). Le seul recalcul complet vient d'un think tank d'entreprises, qui ne retient que 7,5 milliards sur 142<sup><a href="#s6">6</a></sup>&nbsp;: une source engagée ne décide jamais seule d'un verdict.</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Les votes suivent le programme sur les cinq scrutins budgétaires, textes globaux et motions qui comptent moins&nbsp;: contre les deux parties recettes des budgets, pour la censure de décembre 2024 après trois lignes rouges publiques, contre celle de février 2025 (le budget 2025 passe), pour les trois censures des 49.3 du budget 2026. Un objet d'écart documenté, les collectivités&nbsp;: le plan inscrit 8,2 milliards d'économies sur elles dès 2027 et les contre-budgets des baisses de dotations<sup><a href="#s19">19</a></sup>&nbsp;; le 8 octobre 2026, le groupe fait adopter deux amendements qui suppriment la baisse du fonds de compensation de la TVA et la contribution des collectivités au budget 2027<sup><a href="#s20">20</a>,<a href="#s21">21</a></sup>, avec une explication partielle (calendrier, communes rurales) qui ne dit pas d'où viendraient les 8,2 milliards. C'est une ligne du plan, 6 % du total&nbsp;: un écart secondaire, pas un écart sur la mesure qui structure l'axe.</p>
   </div>
   <div class="qb">
@@ -430,7 +460,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>La mesure d'âge n'a aucun obstacle juridique. Son coût, 9 à 9,6 milliards selon le parti<sup><a href="#s40">40</a>,<a href="#s31">31</a></sup>, est <b>sous-estimé de 8 à 78 %</b> par rapport à la Cour des comptes (10,4 milliards en 2035 pour le seul retour à 62 ans, 3,9 de plus pour 42 annuités)<sup><a href="#s41">41</a>,<a href="#s42">42</a></sup>&nbsp;; l'Institut Montaigne (classé libéral) va jusqu'à 34,7 milliards<sup><a href="#s43">43</a></sup>, mais une source engagée ne décide pas seule. Le volet « 60 ans à 40 annuités » n'est chiffré par aucune institution. La condition de cinq ans de travail est infaisable en l'état pour les citoyens de l'Union et les résidents de longue durée<sup><a href="#s44">44</a></sup>, et son chiffrage dépasse l'assiette&nbsp;: 6,1 milliards quand les quatre prestations visées versent 5,8 milliards à des étrangers<sup><a href="#s25">25</a></sup>. La « réforme de juillet 2024 » à annuler par décret n'est jamais entrée en vigueur&nbsp;: les règles actuelles viennent d'une convention des partenaires sociaux agréée en décembre 2024<sup><a href="#s45">45</a></sup>.</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Les quatre scrutins concordent&nbsp;: proposition du groupe pour abroger la réforme, refus de supprimer celle de LFI, vote de la suspension en novembre 2025 présenté comme une étape, vote de la loi antifraude. Le vote contre la loi de financement 2026 en lecture définitive, qui contenait cette suspension, a été expliqué publiquement le 4 décembre 2025, pour la hausse de la CSG sur le capital<sup><a href="#s23">23</a></sup>. L'allié UDR a voté autrement sur les trois scrutins retraites. À Orléans, le 25 octobre, la candidate s'engage à ne pas dépasser 64 ans sans redire 62<sup><a href="#s46">46</a></sup>&nbsp;: une nuance aujourd'hui, un écart sur la mesure centrale si le texte du 17 novembre confirme un âge cible au-delà de 62 ans.</p>
   </div>
   <div class="qb">
@@ -516,7 +546,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>Réviser la Constitution par l'article 11 est contesté par la doctrine et par le président du Conseil constitutionnel<sup><a href="#s17">17</a>,<a href="#s64">64</a></sup>&nbsp;; l'article 89 suppose l'accord du Sénat. Et <b>une révision ne lève pas le droit de l'Union</b>&nbsp;: pour les citoyens européens, une condition de nationalité sur les prestations heurte le traité lui-même<sup><a href="#s65">65</a>,<a href="#s44">44</a></sup>. Le parti nomme ces obstacles et propose la révision pour les lever, ce qui exclut le cran le plus bas<sup><a href="#s66">66</a></sup>. Les autres mesures vont de « infaisable en l'état » (l'asile dans les consulats, contraire à la convention de Genève et au droit européen<sup><a href="#s67">67</a></sup>) à « plutôt faisable » (le droit du sol). Les chiffrages sont hors d'échelle&nbsp;: l'économie de 1,3 milliard sur l'aide médicale représente 94 % de sa dépense réelle de 2024<sup><a href="#s55">55</a></sup>&nbsp;; les 29 milliards valent 4,2 fois l'estimation du coût net publiée par l'Observatoire de l'immigration et de la démographie lui-même, classé à droite<sup><a href="#s68">68</a></sup>.</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c2">Écart important</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c2">Écart important</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Les deux scrutins exploitables suivent le programme (rétention des étrangers condamnés, dénonciation de l'accord de 1968), sans divergence de l'UDR&nbsp;; aucun scrutin n'existe sur l'aide médicale, les régularisations ou les quotas. Mais un écart touche le cœur de la mesure qui structure l'axe. Le président du parti, le 1er mai 2026, et la candidate, en septembre 2026, annoncent des allocations et des aides au logement « réservées aux Français »<sup><a href="#s1">1</a>,<a href="#s69">69</a></sup>&nbsp;; les textes chiffrés de 2025 et 2026 les ouvrent aux étrangers après cinq ans de travail à temps plein<sup><a href="#s19">19</a></sup>. Pour un étranger qui a six ans de travail, les deux positions sont incompatibles et tenues en même temps, sans explication. Parce qu'il porte sur le contenu même de la priorité nationale, cet écart pèse à lui seul le cran « écart important ».</p>
   </div>
   <div class="qb">
@@ -594,7 +624,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>La TVA sur l'énergie, mesure phare depuis 2022 et défendue par la présidente du groupe à l'Assemblée, est chiffrée à 30 % près (à 8 % de l'Institut Montaigne, à 27 % sous le ministère, calcul par nos soins)<sup><a href="#s86">86</a></sup>. Mais <b>les carburants, environ 60 % du coût, ne figurent pas dans la liste des produits que la directive européenne autorise à taux réduit</b>&nbsp;: les y mettre exige l'unanimité des 27, que le parti ne nomme pas<sup><a href="#s87">87</a>,<a href="#s88">88</a>,<a href="#s89">89</a></sup>. La suppression des impôts de production pèse plus en budget et serait plutôt faisable, chiffrée à quelques pour cent de leur rendement réel (16,9 milliards reconstitués, calcul par nos soins<sup><a href="#s90">90</a>,<a href="#s91">91</a></sup>)&nbsp;; retenir la TVA comme mesure structurante ne favorise pas le parti. L'impôt sur la fortune financière devrait rapporter au moins 6,3 milliards bruts pour tenir sa promesse de 4 milliards nets, sur une assiette plus étroite que l'ancien ISF<sup><a href="#s92">92</a></sup>&nbsp;; la taxe sur les rachats d'actions existante rapporte 200 millions<sup><a href="#s93">93</a></sup>, et l'annexe du RN elle-même voit la sienne tomber à 0,3 milliard après 2027.</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c3">Écart partiel</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Les votes suivent le programme sur tous les scrutins de l'axe, y compris les amendements du groupe (TVA énergie, successions). L'abstention sur l'impôt plancher de 2 % en février 2025, puis le vote contre la taxe Zucman en octobre 2025, ont été expliqués en séance aux deux dates&nbsp;: refus de taxer les biens professionnels, rendement jugé surestimé, départs de contribuables, et un impôt sur la fortune financière déposé en alternative<sup><a href="#s28">28</a>,<a href="#s29">29</a></sup>. Un objet d'écart&nbsp;: la C3S, que le programme de 2022 et le livret de 2024 supprimaient dans des zones de relocalisation<sup><a href="#s74">74</a>,<a href="#s7">7</a></sup>, et que le contre-budget 2026 supprime partout pour 4,8 milliards, le montant exact de son rendement, sans explication<sup><a href="#s19">19</a>,<a href="#s90">90</a></sup>. C'est une autre mesure que la TVA énergie, qui concorde, elle, entre discours, programme et vote.</p>
   </div>
   <div class="qb">
@@ -677,7 +707,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>Les peines planchers ont un précédent appliqué de 2007 à 2014 et validé deux fois par le Conseil constitutionnel<sup><a href="#s110">110</a>,<a href="#s111">111</a></sup>&nbsp;; la proposition va plus loin sur trois points et la capacité carcérale manque. Prises seules, trois mesures sont au cran le plus bas ou juste au-dessus&nbsp;: la majorité pénale à 16 ans heurte un principe fondamental reconnu par les lois de la République<sup><a href="#s112">112</a></sup>&nbsp;; la liste d'organisations avec exclusion systématique est infaisable en l'état&nbsp;; les 85 000 places sont très incertaines quand le plan de 15 000 en a livré 5 411 en huit ans<sup><a href="#s113">113</a></sup>. L'interdiction individuelle de manifester, censurée en 2019 dans sa rédaction, reste possible dans son principe<sup><a href="#s114">114</a></sup>&nbsp;: l'instrument a été proposé par LR en 2016 et voté en 2019 par LREM et LR, contre le RN<sup><a href="#s115">115</a>,<a href="#s116">116</a></sup>. Les effectifs promis coûtent environ 1,65 milliard par an, plus que l'enveloppe de 1,5 milliard que le parti prévoyait pour toute sa loi de programmation, prisons comprises (calcul par nos soins<sup><a href="#s117">117</a>,<a href="#s108">108</a></sup>).</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Pour sur les quatre textes de l'axe, à l'unanimité des votants, 122 sur 122 pour la présomption de légitime défense<sup><a href="#s118">118</a></sup>. Le discours de 2026 reprend le programme. Aucun scrutin ne porte sur le droit de manifester&nbsp;; aucune divergence de l'UDR. Deux faits examinés ne font pas écart&nbsp;: la demande que la dissolution d'un groupe soit « enfin effective » visait une activité qui continuait, la dissolution de 2025 étant contestée et confirmée depuis par le Conseil d'État<sup><a href="#s119">119</a></sup>&nbsp;; et le vote contre l'interdiction administrative de manifester en 2019 est hors fenêtre.</p>
   </div>
   <div class="qb">
@@ -753,7 +783,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
     <p>La primauté de la Constitution est possible en droit interne, par l'article 89 avec l'accord du Sénat, ou par l'article 11, voie contestée (chapitre 3). <b>Elle ne lie pas la Cour de justice</b>, qui a jugé le 18 décembre 2025 qu'un État ne peut invoquer son identité constitutionnelle contre les valeurs de l'Union<sup><a href="#s132">132</a></sup>&nbsp;; la Pologne a payé une astreinte de 1 million d'euros par jour, la Hongrie 200 millions plus 1 million par jour et 6,3 milliards de fonds suspendus<sup><a href="#s133">133</a>,<a href="#s134">134</a>,<a href="#s135">135</a></sup>. Le parti décrit la seule voie qui lève l'obstacle, la renégociation des traités à l'unanimité<sup><a href="#s74">74</a>,<a href="#s70">70</a></sup>. La proportionnelle, la sortie du commandement intégré<sup><a href="#s136">136</a></sup> et la privatisation de l'audiovisuel public sont de rang législatif ou exécutif. Les sanctions contre la Russie se renouvellent à l'unanimité, qu'un État peut bloquer, mais l'immobilisation des avoirs russes repose depuis décembre 2025 sur une base à la majorité qualifiée<sup><a href="#s137">137</a></sup>.</p>
   </div>
   <div class="qb">
-    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span></div>
+    <div class="qh"><h3>Votent-ils ce qu'ils disent&nbsp;?</h3><span class="verdict-chip c4">Plutôt cohérent</span><span class="base-chip votes">Votes seuls</span></div>
     <p>Les votes concordent sur les trois scrutins exploitables (Mercosur, Schengen, accord avec les États-Unis)&nbsp;; sur la Corse, le programme est muet et le groupe a expliqué son vote. Le groupe a défendu en commission, le 4 février 2026, le référendum d'initiative citoyenne législatif de son programme<sup><a href="#s138">138</a></sup>. Les écarts sont d'ampleur&nbsp;: la baisse de la contribution à l'Union va de 3 à 13,1 milliards selon la base. L'UDR diverge sur un scrutin de réserve (Nouvelle-Calédonie).</p>
   </div>
   <div class="qb">
@@ -918,7 +948,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
   <ol>
     <li>Sur les six sujets, les constats chiffrés se vérifient dans la statistique publique. Ce qui ne tient pas, ce sont les lectures&nbsp;: « guichet social » pour un écart de recours, « laxisme » face à 86,5 % de réponse pénale, 10 à 25 milliards de fraude attribués à une Cour qui dit 6 à 8, « sans précédent » pour un déficit qui a été à 8,9 %.</li>
     <li>Deux mesures portent le projet, le référendum sur l'immigration et la priorité nationale, et la primauté de la Constitution sur le droit de l'Union. Toutes deux exigent une révision constitutionnelle puis une renégociation des traités à l'unanimité des 27. Le parti nomme ces obstacles et la voie pour les lever&nbsp;; il ne nomme pas deux contraintes européennes ordinaires qui touchent ses mesures phares, la directive TVA pour les carburants et la directive sur les résidents de longue durée pour les prestations.</li>
-    <li>Sur les 23 scrutins retenus, pas un vote contraire au programme, et les changements de position sont expliqués à la tribune. Les écarts viennent d'ailleurs&nbsp;: de ce que le discours promet en plus des textes chiffrés (prestations « réservées aux Français », quand les textes disent cinq ans de travail) ou de ce que les textes élargissent sans le dire (C3S, collectivités). Le premier touche le cœur de la mesure structurante de l'immigration et pèse plus lourd.</li>
+    <li>Sur les 23 scrutins retenus, pas un vote contraire au programme, et les changements de position sont expliqués à la tribune. Les écarts viennent d'ailleurs&nbsp;: de ce que le discours promet en plus des textes chiffrés (prestations « réservées aux Français », quand les textes disent cinq ans de travail) ou de ce que les textes élargissent sans le dire (C3S, collectivités). Le premier touche le cœur de la mesure structurante de l'immigration et pèse plus lourd. Ces verdicts de cohérence ne portent que sur ses votes et ses textes, l'exercice du pouvoir ne les a pas testés&nbsp;: ils ne se comparent qu'à ceux d'une force dans le même cas (marque « votes seuls »).</li>
     <li>Les chiffrages dépassent souvent les assiettes (1,3 milliard sur une aide médicale qui en coûte 1,4&nbsp;; 6,1 milliards sur des prestations qui en versent 5,8 aux étrangers&nbsp;; 18 milliards de TVA sur un écart de 12), et les baisses d'impôts vont en euros vers le haut de l'échelle, quand les mesures de retraite vont vers les carrières précoces. Le programme sert la plupart des demandes majoritaires et contredit ouvertement les autres&nbsp;; il se tait sur le Smic, la demande la plus large de toutes.</li>
   </ol>
 </section>
@@ -1214,6 +1244,7 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
   <p><b>Les votes.</b> Position d'un groupe&nbsp;: celle qui réunit plus de 60 % de ses voix exprimées, calculée par nos soins à partir des données ouvertes, le champ « position majoritaire » de l'Assemblée s'étant révélé faux une fois sur deux. Un vote sur l'ensemble d'un budget ou d'une loi globale compte moins qu'un vote sur une mesure précise, et ne fait pas écart quand il est expliqué publiquement. Un silence du programme n'est pas une contradiction.</p>
   <p><b>Relecture.</b> Chaque verdict a été relu par deux relecteurs indépendants, l'un chargé de défendre le parti, l'autre ses adversaires, puis arbitré sur la définition écrite du cran&nbsp;: huit verdicts sur vingt-cinq ont bougé, deux dans le sens du parti, six dans le sens contraire. Deux relectures du commanditaire ont ensuite modifié la méthode elle-même, pour toutes les forces&nbsp;: la pondération de la cohérence par la mesure structurante (qui a fait passer l'axe immigration d'« écart partiel » à « écart important ») et le bloc sur les valeurs affichées (qui a ajouté un second manquement de méthode sans changer le verdict). La page Renaissance sera relue avec ces deux règles.</p>
   <p><b>Limites.</b> Le dossier du plan du 6 octobre 2026 n'est pas publié&nbsp;: ses chiffres passent par des relais. Les discours d'Orléans, d'Hénin-Beaumont et du Medef ne sont pas publiés en texte. Pour les retraites et la fiscalité, les chiffreurs indépendants trouvés sont tous classés libéraux&nbsp;: les verdicts se lisent sur la Cour des comptes et la Cnav. Plusieurs sources officielles bloquent l'accès automatisé (Légifrance, ministère de l'Intérieur, EUR-Lex) et ont été lues par relais&nbsp;; Libération, Mediapart et Le Monde ne sont connus que par reprises. Le scrutin sur le Smic (proposition LFI du 29 octobre 2026) n'existe pas encore&nbsp;: s'il a lieu, il remplace le scrutin sur l'impôt plancher dans les cinq verticales. Les fiches détaillées, les plus de 400 références, la liste des scrutins, l'inventaire des demandes, le registre des biais surveillés et le journal des décisions sont dans un dépôt public&nbsp;: <a href="https://github.com/DilhanCamlica/elections-france-2027">github.com/DilhanCamlica/elections-france-2027</a>.</p>
+  <p><b>La base du verdict de cohérence.</b> Pour les cinq forces, la parole est confrontée aux votes du groupe sur les mêmes scrutins et à ses textes. Pour celles qui ont gouverné depuis 2012, elle est aussi confrontée à leurs décisions de gouvernement, et une décision contraire à une promesse que le parti maintient dans la campagne actuelle vaut à elle seule le cran « écart important » (règle v2.3 du socle, 28 octobre 2026&nbsp;; quatre conditions&nbsp;: une décision et non un résultat manqué, un Premier ministre ou un ministre du parti compétent, la même promesse reprise en 2026, pas de renoncement écrit entre-temps). Le RN n'a pas gouverné&nbsp;: ses verdicts portent la marque « votes seuls ». Ils ne sont pas plus favorables, ils sont moins testés, et la synthèse ne les comparera qu'à ceux des forces dans le même cas.</p>
   <p>Même grille, mêmes scrutins et mêmes inventaires pour les pages suivantes&nbsp;: La France insoumise, Parti socialiste, Les Républicains. Puis une page de synthèse, sans classement ni note.</p>
 </footer>
 
