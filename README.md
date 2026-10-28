@@ -68,12 +68,12 @@ Voir `01-socle/CHANGELOG.md` et le tableau de bord en tête de `02-partis/README
 |---|---|---|
 | Qui paie pour qui ? (série précédente) | publiée, partagée | https://claude.ai/artifact/95kD4VLYrjVh3kH9rZXxfc |
 | Immigration : vrai ou faux ? (série précédente) | publiée, partagée | https://claude.ai/artifact/V1w68c2LjyuVbLEgFnuan4 |
-| Renaissance : ce qu'elle propose, ce qu'elle vote | publiée (v1.6 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 |
+| Renaissance : ce qu'elle propose, ce qu'elle vote | publiée (v1.7 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/DvTLMrSY4DesQbiNN1NkW2 |
 | Le RN : ce qu'il propose, ce qu'il vote | publiée (v1.4 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/K4r1V5pr5MTEYm6XHd1Y6b |
-| LFI : ce qu'elle propose, ce qu'elle vote | publiée (v1.4 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i |
+| LFI : ce qu'elle propose, ce qu'elle vote | publiée (v1.5 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/Y5vhGKqsBcXhtgtzBpGq6i |
 | Le PS : ce qu'il propose, ce qu'il vote | publiée (v1.2 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/NRgowSK65vkZ99HWXb1Bj3 |
-| Les Républicains : ce qu'ils proposent, ce qu'ils votent | publiée (v1 du 2026-10-28, socle v2.3), privée, à partager par Dilhan | https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ |
-| Cinq programmes côte à côte (synthèse) | à faire | |
+| Les Républicains : ce qu'ils proposent, ce qu'ils votent | publiée (v1.2 du 2026-10-28, socle v2.3), partagée | https://claude.ai/artifact/CGuLPnwpGdtJcDZN8fcXzJ |
+| Cinq programmes côte à côte (synthèse) | publiée (v1 du 2026-10-28, socle v2.3), privée, à partager par Dilhan | https://claude.ai/artifact/RtXGCUfU1ixa1z39j19dzc |
 
 ## Licence et réutilisation
 
