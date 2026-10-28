@@ -1,7 +1,7 @@
 # LR : corpus programmatique
 
 - Rédigé le : 2026-10-27
-- Date d'arrêt des données : 2026-10-27
+- Date d'arrêt des données : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-27 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Auteur : sous-agent Opus, étape 1 (section f préparée par un second sous-agent Opus, relue, complétée d'une fiche [C-LR-73] et intégrée par le sous-agent de l'étape 1)
 - Statut : brouillon (étape 1)
 - Version du socle appliquée : v2.2 (précisions du 2026-10-27)
@@ -803,3 +803,20 @@ Versées par le sous-agent Opus de la boucle v2.3 (`02-partis/_gabarit/briefs/bo
 - Utile pour : axe 4 (Q4, actes de coalition : condition 3 de la règle v2.3 sur les allègements de cotisations patronales)
 
 Sources de la section : NosParlementaires, « Gel des pensions 2027 : supprimé en commission, revoté en séance », 2026-10-19, mis à jour le 2026-10-27. https://nosparlementaires.fr/actualites/gel-pensions-2027-assemblee-deja-rejete-308-voix [relais] ; LCP, « Législative partielle à Paris : Michel Barnier élu député de la 2e circonscription de la capitale », 2025-09-28. https://lcp.fr/actualites/legislative-partielle-a-paris-michel-barnier-elu-depute-de-la-2e-circonscription-de-la
+
+---
+
+## Pièce ajoutée à la synthèse (2026-10-28)
+
+Versée par l'agent principal de la synthèse d'après la veille commune `04-synthese/travail/veille-2026-10-28.md` (date d'arrêt réalignée au 2026-10-28).
+
+### [C-LR-95] PPL n° 3407 « créant des peines d'emprisonnement courtes, dissuasives et effectives » (27 octobre 2026)
+- Auteur : Éric Pauget et 16 députés du groupe DR ; **texte d'élus du groupe (17 signataires sur 47, 36,2 %, calcul en code)** ; hors niche ; sous le seuil des 90 % (`01-socle/01-criteres.md` §6)
+- Date : dépôt 2026-10-27
+- Nature : PPL ; trois peines d'emprisonnement de deux jours, une semaine et un mois ; suppression de l'interdiction de prononcer une peine ferme d'un mois ou moins (contenu relevé par la veille, PDF de cinq pages ouvert par elle, non rouvert ici)
+- URL : https://www.assemblee-nationale.fr/dyn/17/textes/l17b3407_proposition-loi.pdf
+- Archivage : non archivé à cette étape (lien seul)
+- Statut : déposée
+- Étiquette : source du parti, partie prenante (document de l'Assemblée nationale, niveau 1)
+- Utile pour : axe 5 (instrument nouveau pour l'objectif du pacte de 2024 sur les courtes peines [C-LR-19, p. 3] ; ne vaut pas position du parti à l'échelle C).
+

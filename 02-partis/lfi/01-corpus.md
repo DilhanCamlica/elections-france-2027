@@ -1,7 +1,7 @@
 # LFI : corpus programmatique
 
 - Rédigé le : 2026-10-26
-- Date d'arrêt des données : 2026-10-26
+- Date d'arrêt des données : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-26 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Auteur : sous-agent Opus, étape 1 (section f préparée par un second sous-agent Opus, relue et intégrée)
 - Statut : brouillon (étape 1)
 - Règle appliquée : `01-socle/01-criteres.md` §6 (hiérarchie du corpus) et `01-socle/03-sources-et-hierarchie.md` (archivage, étiquetage)

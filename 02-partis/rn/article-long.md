@@ -144,7 +144,7 @@ La règle : aller contre une demande majoritaire n'est pas une faute, ne pas le 
 - **Ce qu'il ne traite pas, sans le dire.** Le non-recours aux droits (majoritaire). Le vote blanc et la destitution du président (demandes fortes). Les contrôles abusifs des forces de l'ordre. Le nombre des élus (les avantages, oui ; le nombre, non). Une nouvelle Constitution (des révisions, pas une refondation).
 - **Le Smic, pour revenir à la question d'origine.** 85 % des Français veulent une hausse du Smic. Le programme propose une exonération de cotisations pour les hausses de salaires de 10 % jusqu'à 3 Smic, et rien sur le Smic lui-même. Aucune déclaration datée de refus n'a été trouvée : c'est un silence, pas un contre-pied assumé. C'est la demande la plus large de l'axe, et elle reçoit une réponse de côté.
 
-Décompte sur les 47 (calcul par nos soins sur les six fiches) : 17 traitées, 14 traitées en partie, 7 non traitées, 6 contredites en l'assumant (dont 3 traitées en partie par ailleurs), 3 demandes à deux branches opposées où le programme sert la fermeté, la majorité nette et la rémunération du travail. Aucun contre-pied sans le dire.
+Décompte sur les 47 (calcul par nos soins sur les six fiches, `_scripts/calculs/rn_ecoute_decompte.py`, recompté à la synthèse le 2026-10-28 avec les codes communs aux cinq forces) : 15 traitées, 14 traitées en partie, 6 non traitées, 8 contredites en l'assumant (dont 5 traitées en partie par ailleurs), 4 demandes à deux branches opposées où le programme sert la restriction des prestations aux étrangers, la fermeté, la majorité nette et la rémunération du travail. Aucun contre-pied sans le dire.
 
 ## Comment ils gouvernent (méthode)
 

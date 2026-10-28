@@ -1,7 +1,7 @@
 # LFI : périmètre de la verticale
 
 - Ouverte le : 2026-10-26
-- Date d'arrêt du corpus : 2026-10-26 (règle : `01-socle/01-criteres.md` §6 ; fixée au lancement par l'agent principal, un jour après les verticales Renaissance et RN ; réalignement des cinq dates prévu à la fin des cinq verticales)
+- Date d'arrêt du corpus : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-26 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Version du socle appliquée : v2.2 (2026-10-26)
 - Rédigé le : 2026-10-26
 - Auteur : sous-agent Opus, étape 1

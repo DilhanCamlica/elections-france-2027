@@ -1,7 +1,7 @@
 # Renaissance : périmètre de la verticale
 
 - Ouverte le : 2026-10-25
-- Date d'arrêt du corpus : 2026-10-25 (règle : `01-socle/01-criteres.md` §6)
+- Date d'arrêt du corpus : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-25 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Version du socle appliquée : v1 (2026-10-25)
 - Statut : étapes 1 à 5 en cours
 

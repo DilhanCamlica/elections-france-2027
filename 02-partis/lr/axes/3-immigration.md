@@ -5,6 +5,7 @@
 - Corpus arrêté au : 2026-10-27
 - Auteur : sous-agent Opus, étape 2 ; relecture de fidélité par le sous-agent de contrôle (Opus), 2026-10-27 ; étapes 3 à 5 par sous-agent Opus, 2026-10-27 ; arbitrage de l'étape 6 appliqué par sous-agent Opus, 2026-10-27 ; boucle v2.3 par sous-agent Opus, 2026-10-28
 - Statut : revu (boucle v2.3, 2026-10-28)
+- Révisée le 2026-10-28 (synthèse : scrutins des législatures précédentes en contexte)
 - Version du socle : v2.2 (précisions du 2026-10-27)
 
 Sigles : LR (Les Républicains), DR (groupe « Droite Républicaine » à l'Assemblée nationale), UE (Union européenne), AME (aide médicale de l'État), AMU (aide médicale d'urgence), OQTF (obligation de quitter le territoire français), MNA (mineurs non accompagnés), OFII (Office français de l'immigration et de l'intégration), OID (Observatoire de l'immigration et de la démographie), CEDH (Convention européenne des droits de l'homme), CC (Conseil constitutionnel), PJLC (projet de loi constitutionnelle), PPL (proposition de loi), PLF (projet de loi de finances), Md€ (milliard d'euros).
@@ -216,6 +217,8 @@ Divergence de l'UDR, hors périmètre : sur les trois scrutins, l'UDR vote pour 
 
 Limite gelée : aucun scrutin public sur l'AME, la condition de durée pour les prestations, les régularisations ou les quotas sur la législature : ces objets sont **non évaluables par les votes**, pour les cinq forces. Pièces hors scrutin public, toutes dans le sens du programme : soutien de l'orateur du groupe aux conditions d'accès aux prestations prévues par le gouvernement pour 2027 [C-LR-80] (article 37 du PLFSS 2027, un an de résidence, supprimé en commission et non voté en séance, fiche PS [71]) ; amendement du 21 octobre 2026 sur l'AME en commission des finances, dont l'auteur et les votes des groupes n'ont pas été établis [70].
 
+- **Scrutin n° 3213 (XVIe législature).** Le 19 décembre 2023, sur l'ensemble de la loi immigration, le groupe Les Républicains vote pour à 62 voix pour, 0 contre, 0 abstention [76]. Texte global, cité en contexte, hors matrice.
+
 ### Programme contre actes (actes de coalition, septembre 2024 à octobre 2025 ; lecture A)
 
 LR n'a pas dirigé de majorité dans la fenêtre ; ses actes sont ceux de ses ministres et des textes adoptés sous les gouvernements Barnier, Bayrou et Lecornu I, **actes d'un gouvernement de coalition**, comptés à plein à l'échelle C (`01-socle/01-criteres.md` §4, précision du 2026-10-27 ; `00-perimetre.md`). Bruno Retailleau, aujourd'hui président du parti et candidat, était ministre de l'Intérieur de septembre 2024 à octobre 2025. Programme de l'époque : le pacte législatif de juillet 2024 [C-LR-19] ; programme actuel : Q2.
@@ -382,5 +385,6 @@ Sources ajoutées aux étapes 3 à 5 :
 73. Conseil d'État, 2e chambre, décision n° 502722 du 21 novembre 2025, Cimade et autres (requête contre la circulaire du ministre de l'Intérieur du 23 janvier 2025 sur l'admission exceptionnelle au séjour ; dispositif : rejet), page ouverte le 2026-10-27. https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-11-21/502722 [source officielle]
 74. `02-partis/lr/revue/arbitrage.md`, règles 10 et 15, arbitrages n° 9 et 10, question transversale (2026-10-27) ; `02-partis/lr/revue/defense.md` et `02-partis/lr/revue/contradiction.md`, sections axe 3.
 75. `01-socle/01-criteres.md`, échelle C, règle v2.3 (2026-10-28) ; `02-partis/lr/revue/arbitrage.md`, section « Boucle v2.3 (2026-10-28) » (table des actes testés et sources).
+76. Datan, « Projet de loi pour contrôler l'immigration, améliorer l'intégration », vote final, scrutin n° 3213 (XVIe législature), 2023-12-19, page lue le 2026-10-28. https://datan.fr/votes/legislature-16/vote_3213 [agrégateur des données ouvertes de l'Assemblée]
 
 Étiquettes proposées (à inscrire par l'agent principal dans `03-sources/etiquettes.md`) : [Algérie Eco : site d'information économique algérien, relais] ; [Forum réfugiés : association d'accueil des demandeurs d'asile et des réfugiés, partie prenante] ; [Bourse Inside : site d'information financière, relais] (Maire-info, Toute l'Europe, NosParlementaires et Les Surligneurs : étiquettes existantes).

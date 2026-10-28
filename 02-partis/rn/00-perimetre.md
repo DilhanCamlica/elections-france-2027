@@ -1,7 +1,7 @@
 # RN : périmètre de la verticale
 
 - Ouverte le : 2026-10-25
-- Date d'arrêt du corpus : 2026-10-25 (règle : `01-socle/01-criteres.md` §6 ; même date que la verticale Renaissance, réalignement prévu à la fin des cinq verticales)
+- Date d'arrêt du corpus : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-25 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Version du socle appliquée : v2 (2026-10-25)
 - Statut : verticale terminée (étapes 1 à 8, socle v2.2), page publiée en privé le 2026-10-26
 

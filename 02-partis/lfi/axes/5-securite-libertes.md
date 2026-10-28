@@ -5,6 +5,7 @@
 - Corpus arrêté au : 2026-10-26
 - Auteur : sous-agent Opus, étape 2 ; sous-agent Opus, étapes 3 à 5 ; arbitrage de l'étape 6 appliqué par sous-agent Opus, 2026-10-26
 - Statut : revu (étape 6) ; aucun cran déplacé par l'arbitrage (motif D complété, note de boucle de révision au verdict C, signalement en Q5) ; base du verdict C ajoutée (boucle v2.3, 2026-10-28)
+- Révisée le 2026-10-28 (synthèse : scrutins des législatures précédentes en contexte)
 - Contrôle : sous-agent Opus, 2026-10-26 (`../revue/controle-etape-2-axes-4-6.md`)
 - Calculs : `_scripts/calculs/lfi_axe5.py`
 - Version du socle : v2.2
@@ -230,6 +231,8 @@ Matrice des cinq groupes (position majoritaire, règle des 60 % des votants ; vo
 
 Quatre scrutins sur quatre sont exploitables ; le seuil de deux est atteint. Aucun scrutin de la liste gelée ne porte sur la mesure structurante (police de proximité, BAC, BRAV-M, IGPN) : l'amendement II-3202 n'a pas de sort relevé au corpus. **Le droit de manifester n'a pas de scrutin dédié** dans la liste gelée (le projet de loi du scrutin 8279 n'en traite pas) : il est jugé par le discours et le programme seulement, comme pour les quatre autres forces.
 
+- **Scrutin n° 1662 (XVe législature).** Le 5 février 2019, sur l'ensemble de la loi « anticasseurs » (dont l'article 3 créait l'interdiction administrative de manifester), le groupe La France insoumise vote contre à 0 voix pour, 17 contre, 0 abstention [67]. Texte global, cité en contexte, hors matrice.
+
 ### Programme contre actes
 
 Non applicable : LFI n'a pas gouverné au niveau national sur la période (`00-perimetre.md`). Cette absence ne la pénalise ni ne l'avantage (biais 2, formulation v2), mais elle réduit mécaniquement le nombre d'objets d'écart possibles.
@@ -353,6 +356,7 @@ Limites des étapes 3 à 5 :
 64. Ministère de la Justice, communiqué « Renforcement historique du nombre de magistrats et de greffiers : perspectives pour l'année 2026 », 2026-01-12. https://www.justice.gouv.fr/sites/default/files/2026-01/CP%20-%20Avancement%20des%20recrutements%20pour%20la%20Justice%20-%2012.01.2026.pdf [source officielle, partie prenante ; repris de la fiche RN, source 62, non rouvert]
 65. Assemblée nationale, analyses des scrutins n° 8279, 1194, 805 et 7987. https://www.assemblee-nationale.fr/dyn/17/scrutins/8279 ; /1194 ; /805 ; /7987 ; positions recalculées dans `03-sources/scrutins-positions.md` et `../votes/scrutins.md`
 66. Conseil constitutionnel, décision n° 2025-886 DC du 19 juin 2025, loi visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents. https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm [repris des fiches RN (source 52) et Renaissance, non relue ici]
+67. Datan, « Maintien de l'ordre public lors des manifestations », vote final, scrutin n° 1662 (XVe législature), 2019-02-05, page lue le 2026-10-28. https://datan.fr/votes/legislature-15/vote_1662 [agrégateur des données ouvertes de l'Assemblée]
 
 ## Étiquettes proposées (à inscrire dans `03-sources/etiquettes.md` par l'agent principal)
 

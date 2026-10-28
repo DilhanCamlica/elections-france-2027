@@ -5,6 +5,7 @@
 - Corpus arrêté au : 2026-10-25
 - Auteur : sous-agent Opus, étape 2, contrôlé par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 ; arbitrage et corrections de l'étape 6 appliqués par sous-agent Opus ; Q5 écoute (v2) par sous-agent Opus
 - Statut : revu (étape 6 v2, arbitrage du 2026-10-25) ; relu à la boucle de révision du 2026-10-26 (v2.1 appliquée, retours-socle lignes 1, 4, 5 ; F 3 vers 2 à l'arbitrage v3, règle « F suit la mesure structurante »)
+- Révisée le 2026-10-28 (synthèse : scrutins des législatures précédentes en contexte)
 - Version du socle : v2.2
 
 Sigles utilisés dans cette fiche : JAP (juge de l'application des peines), SPIP (service pénitentiaire d'insertion et de probation), SAPPI (service d'application des peines, de probation et d'insertion, création proposée), CPP (code de procédure pénale), TIG (travail d'intérêt général), AFD (amende forfaitaire délictuelle), AGRASC (Agence de gestion et de recouvrement des avoirs saisis et confisqués), CRA (centre de rétention administrative), OPJ (officier de police judiciaire), FIPD (Fonds interministériel de prévention de la délinquance), DSA (Digital Services Act, règlement européen sur les services numériques), Arcom (Autorité de régulation de la communication audiovisuelle et numérique), CNIL (Commission nationale de l'informatique et des libertés), MICAS (mesure individuelle de contrôle administratif et de surveillance), SILT (loi du 30 octobre 2017 sur la sécurité intérieure et la lutte contre le terrorisme), PPL (proposition de loi), EPR (groupe Ensemble pour la République), VSS (violences sexuelles et sexistes), OQTF (obligation de quitter le territoire français).
@@ -206,6 +207,8 @@ Matrice des cinq groupes (position majoritaire, règle des 60 % des exprimés ; 
 
 Trois scrutins sur quatre sont exploitables pour la cohérence ; le seuil de deux scrutins est atteint. Limite gelée : le droit de manifester est « non évaluable par les votes » pour les cinq forces, aucun texte de la législature ne le traitant (le projet de loi 8279 vise les rassemblements festifs et les manifestations sportives).
 
+- **Scrutin n° 1662 (XVe législature).** Le 5 février 2019, sur l'ensemble de la loi « anticasseurs » (dont l'article 3 créait l'interdiction administrative de manifester), le groupe La République en marche (prédécesseur du groupe Renaissance) vote pour à 241 voix pour, 0 contre, 50 abstentions [65]. Texte global, cité en contexte, hors matrice.
+
 ### Programme contre actes (Renaissance a gouverné, voir `00-perimetre.md`)
 
 | Promesse ou acte | Source | Exécution mesurée | Lecture |
@@ -362,3 +365,4 @@ Sources ajoutées à l'étape 6 (reprises des rapports `../revue/contradiction.m
 62. Kohen avocats, réductions de peine et nouveau régime de la loi du 22 décembre 2021, 2026-07-14. https://www.kohenavocats.com/reductions-peine-nouveau-regime-loi-22-decembre-2021-chambre-criminelle-2023-2026/ [relais : cabinet d'avocats]
 63. L'Info durable, « Attal appelle à un référendum sur l'interdiction des réseaux aux moins de 15 ans », 2026-08-15. https://www.linfodurable.fr/attal-appelle-un-referendum-sur-linterdiction-des-reseaux-aux-moins-de-15-ans-58605 [vérifié par le coordinateur de la défense]
 64. DH (dépêche AFP), « Paris soumet une nouvelle version de l'interdiction des réseaux sociaux aux 15 ans », 2026-09-14. https://www.dhnet.be/dernieres-depeches/2026/09/14/paris-soumet-une-nouvelle-version-de-linterdiction-des-reseaux-sociaux-aux-15-ans-G6MQLWT4BNBYTINCF6ZOP3AM2Y/ [relais AFP]
+65. Datan, « Maintien de l'ordre public lors des manifestations », vote final, scrutin n° 1662 (XVe législature), 2019-02-05, page lue le 2026-10-28. https://datan.fr/votes/legislature-15/vote_1662 [agrégateur des données ouvertes de l'Assemblée]

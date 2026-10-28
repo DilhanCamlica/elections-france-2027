@@ -1,7 +1,7 @@
 # RN : corpus programmatique
 
 - Rédigé le : 2026-10-25
-- Date d'arrêt des données : 2026-10-25
+- Date d'arrêt des données : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-25 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Auteur : sous-agent Opus, étape 1 ; complété par les sous-agents des étapes 3 à 6 (C-RN-53 à C-RN-83)
 - Statut : revu (verticale terminée)
 - Règle appliquée : `01-socle/01-criteres.md` §6 (hiérarchie du corpus) et `01-socle/03-sources-et-hierarchie.md` (archivage, étiquetage)
@@ -417,3 +417,4 @@ Les exécutifs locaux dirigés par le RN ne sont pas des actes de gouvernement n
 
 - Étiquette proposée pour le registre : [21News : site d'information belge en ligne, relais ; ligne et fiabilité non établies]. Justification : aucune autodéfinition ni classement trouvé ; utilisé une seule fois, faute d'autre relais ouvert pour [C-RN-65].
 - Discours de Jordan Bardella de la campagne municipale (Perpignan 28 février, Nîmes 4 mars, Menton 7 mars, Châlons-en-Champagne 18 mars 2026), publiés en texte sur rassemblementnational.fr/discours : non retenus (campagne municipale), archivables si une fiche axe en a besoin.
+- **À instruire à la prochaine révision** (ajout de la synthèse, 2026-10-28, veille commune `04-synthese/travail/veille-2026-10-28.md`) : amendement n° I-669 au PLF 2027 de Jean-Philippe Tanguy (« le groupe Rassemblement National propose »), impôt sur les sociétés des multinationales calculé sur la part des ventes réalisée en France, déposé avant l'arrêt initial, scrutin n° 9140 du 2026-10-27 (rejeté). Non versé au corpus : signataires non comptés (seuil des 90 %, `01-socle/01-criteres.md` §6). https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/669

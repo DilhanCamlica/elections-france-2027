@@ -1,7 +1,7 @@
 # PS : corpus programmatique
 
 - Rédigé le : 2026-10-27
-- Date d'arrêt des données : 2026-10-27
+- Date d'arrêt des données : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-27 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Auteur : sous-agent Opus, étape 1 (section f préparée par un second sous-agent Opus, relue et intégrée par l'agent principal)
 - Statut : brouillon (étape 1)
 - Règle appliquée : `01-socle/01-criteres.md` §6 (hiérarchie du corpus ; programme du mandat exercé pour une force qui a gouverné) et `01-socle/03-sources-et-hierarchie.md` (archivage, étiquetage)
@@ -573,12 +573,12 @@ Sélection : textes **dont le premier signataire était membre du groupe SOC à 
 - Utile pour : axe 4 (prix).
 
 ### [C-PS-50] PPL n° 3269 « baisser les prix du carburant à la pompe par l'encadrement des marges des raffineurs »
-- Auteur : Mélanie Thomin, députée du groupe SOC, **seule signataire** (page de garde : « présentée par Mme Mélanie THOMIN, députée »). Texte d'une députée du groupe, pas du groupe en tant que tel (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35])
-- Date : dépôt 2026-10-06
+- Auteur : Mélanie Thomin, députée du groupe SOC, **seule signataire** (page de garde : « présentée par Mme Mélanie THOMIN, députée »). Texte d'une députée du groupe, pas du groupe en tant que tel (correction de l'agent principal, 2026-10-27, après le contrôle de l'étape 2) ; la fiche indiquait « et le groupe SOC ». Pas porté par une journée réservée du groupe (ni [C-PS-34] ni [C-PS-35]). **Requalifiée le 2026-10-28 (synthèse) : texte du groupe (inscription à la niche du 19 novembre 2026)**, au sens de `01-socle/01-criteres.md` §6 : la Conférence des présidents du 27 octobre 2026 inscrit la PPL à l'ordre du jour de la journée réservée du groupe SOC du 19 novembre 2026 (relevé de conclusions, page ouverte par la veille commune `04-synthese/travail/veille-2026-10-28.md`, source 5 : https://www2.assemblee-nationale.fr/17/la-conference-des-presidents/releve-de-conclusions/reunion-du-mardi-27-octobre-2026). Texte d'une députée du groupe du dépôt au 26 octobre 2026, texte du groupe depuis l'inscription du 27 octobre 2026
+- Date : dépôt 2026-10-06 ; inscription à la niche du groupe le 2026-10-27, pour la séance du 2026-11-19
 - Nature : PPL, 9 pages
 - URL : https://www.assemblee-nationale.fr/dyn/17/dossiers/baisser_prix_carburants_encadrement_marges_raffineurs_17e
 - Archivage : PDF archivé, `corpus/C-PS-50-ppl-3269-marges-raffineurs-carburant-2026-10-27.pdf`
-- Statut : député du groupe parlementaire (seul signataire) ; en commission (réunions inscrites le 2026-10-27 et le 2026-11-10)
+- Statut : texte du groupe (inscription à la niche du 19 novembre 2026), une seule signataire ; en commission (réunions inscrites le 2026-10-27 et le 2026-11-10)
 - Étiquette : source du parti, partie prenante
 - Utile pour : axe 4 (énergie).
 

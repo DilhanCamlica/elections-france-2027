@@ -1,7 +1,7 @@
 # LR : périmètre de la verticale
 
 - Ouverte le : 2026-10-27
-- Date d'arrêt du corpus : 2026-10-27 (règle : `01-socle/01-criteres.md` §6 ; fixée au lancement par l'agent principal ; réalignement des cinq dates prévu à la fin des cinq verticales)
+- Date d'arrêt du corpus : 2026-10-28 (réalignée à la synthèse le 2026-10-28 ; arrêt initial le 2026-10-27 ; veille commune `04-synthese/travail/veille-2026-10-28.md`)
 - Version du socle appliquée : v2.2 (précisions du 2026-10-27)
 - Rédigé le : 2026-10-27
 - Auteur : sous-agent Opus, étape 1
