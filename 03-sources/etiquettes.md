@@ -61,6 +61,7 @@ Une étiquette est courte, factuelle, identique partout, et justifiée par un é
 | Agence Europe, European Newsroom | presse spécialisée sur l'Union européenne, relais | Agences d'information européennes, sans ligne politique revendiquée |
 | CMPF (Centre for Media Pluralism and Media Freedom, Institut universitaire européen) | centre de recherche académique | Financé par l'Union européenne, méthodologie publiée |
 | Projet Arcadie, Legiwatch, Datan | outils indépendants de suivi parlementaire | Données ouvertes de l'Assemblée retraitées ; méthode publiée ; à recouper avec l'open data |
+| Poligraph | base indépendante des affaires judiciaires des élus, en version bêta | Données issues de Wikidata, de la presse, de Judilibre et de contributions modérées ; chaque affaire a au moins une source vérifiable ; distingue décisions définitives et non définitives ; à recouper avec la décision ou la presse ; inscrit le 2026-10-28 (boucle de révision après la verticale LR) |
 | CRSI France | association de réflexion sur la sécurité intérieure, relais | Reprend les bilans du SSMSI ; orientation non établie, à recouper |
 | CNAFAL | association familiale laïque, classée à gauche | Confédération nationale des associations familiales laïques, positions publiques ; utilisée seulement comme hébergeur d'un document officiel |
 | TSA (Tout sur l'Algérie) | quotidien en ligne algérien, relais | Relais du rapport annuel du ministère de l'Intérieur français ; à recouper |

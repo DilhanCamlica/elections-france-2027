@@ -296,7 +296,7 @@ La séquence 2005-2008 est exacte : rejet du traité constitutionnel par référ
 
 À reporter dans `02-partis/convergences.md` (axe 6), d'après `00-contexte/paysage-politique-2026-10.md` et les fiches déjà faites :
 - **Primauté du droit national par référendum** : RN (primauté de la Constitution sur le droit international et européen, mesure 2) et LR (référendum sur l'immigration et « Charte de l'ordre républicain », dont la primauté du droit national, réf. 84 de la note de paysage). Même objet, même instrument ; la contrainte européenne de Q3 vaut pour les deux.
-- **Recours accru au référendum** : RN, LR et Renaissance (journée référendaire annuelle), relevé déjà inscrit ; l'usage de l'article 11 pour réviser la Constitution est commun au RN et à LR.
+- **Recours accru au référendum** : RN, LR et Renaissance (journée référendaire annuelle), relevé déjà inscrit ; l'usage de l'article 11 pour réviser la Constitution est propre au RN : note du 2026-10-28 (boucle de révision après la verticale LR), la phrase antérieure le disait commun au RN et à LR, ce qui est faux ; le projet de loi constitutionnelle de LR ouvre l'article 11 à « tout projet de loi, à l'exception des projets de loi constitutionnelle » (`02-partis/lr/axes/6-institutions-democratie-europe.md`, Q3 et mesure 1, [C-LR-13]).
 - **Règle d'or constitutionnelle par référendum** : RN et Renaissance dans sa version de juillet 2026, relevé déjà inscrit (renvoi à la fiche 1).
 - **Votes** : sur le Mercosur (4244), LFI-NFP, SOC, DR et RN pour, EPR abstention ; sur l'accord UE-États-Unis (5313), LFI-NFP, SOC, DR et RN pour, EPR divisé ; sur Schengen (8611), RN seul pour parmi les cinq groupes suivis (UDR pour, DR divisé).
 
