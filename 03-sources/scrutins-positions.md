@@ -1,7 +1,7 @@
 # Positions de vote des groupes sur les scrutins sélectionnés
 
 - Date d'extraction : 2026-10-25.
-- Statut : extraction mécanique sur la liste gelée de `scrutins-selectionnes.md` (23 scrutins numérotés dans les six axes, 3 scrutins de réserve, 1 scrutin hors sélection : 27 extraits ; plus le complément v2 n° 4758, ajouté le 2026-10-25 avec le détail des 12 groupes). Aucune interprétation : des chiffres et des faits.
+- Statut : extraction mécanique sur la liste gelée de `scrutins-selectionnes.md` (23 scrutins numérotés dans les six axes, 3 scrutins de réserve, 1 scrutin hors sélection : 27 extraits ; plus le complément v2 n° 4758, ajouté le 2026-10-25 avec le détail des 12 groupes, plus les compléments de la synthèse 9123, 9140, 9141, 9142, ajoutés le 2026-10-30 avec le détail des 12 groupes ; jeu de données du 2026-10-30 : 9 357 scrutins, le dernier daté du 30/10/2026). Aucune interprétation : des chiffres et des faits.
 - Source : jeu open data « Scrutins » de l'Assemblée nationale, XVIIe législature (https://data.assemblee-nationale.fr/travaux-parlementaires/votes), fichiers JSON `VTANR5L17V<n>.json`.
 - Version du jeu de données : 9 097 scrutins (n° 1 à 9 097), le dernier daté du 23/10/2026. Archive récupérée le 2026-10-25 à 16:02 (heure de Paris), fichiers lus en lecture seule. Référentiel des organes : AMO10 (députés actifs et organes), complété par AMO30 (historique) pour l'ancien code du groupe UDR.
 
@@ -49,6 +49,10 @@ Groupes suivis : LFI-NFP (La France insoumise - Nouveau Front Populaire), SOC (S
 | 3182 | rés. 6 | 28/10/2025 | [Réserve] PPLO report renouvellement Nouvelle-Calédonie | adopté | contre (0p 66c 0a) | pour (56p 4c 6a) | pour (82p 0c 0a) | pour (43p 0c 0a) | contre (0p 116c 0a) |
 | 8895 | hors | 20/10/2026 | [Hors sélection] PLFSS 2027, motion de rejet préalable (Panot) | rejeté | pour (53p 0c 0a) | pour (38p 0c 0a) | contre (0p 65c 0a) | contre (0p 31c 0a) | contre (0p 78c 0a) |
 | 4758 | compl. | 16/12/2025 | [Complément v2] PLFSS 2026, lecture définitive, ensemble | adopté | contre (0p 69c 0a) | pour (64p 0c 5a) | pour (91p 0c 0a) | divisé (18p 3c 28a) | contre (0p 123c 0a) |
+| 9123 | compl. | 27/10/2026 | [Complément synthèse] PLF 2027, 1re partie, amdts de suppression art. 15 (contribution exceptionnelle grandes entreprises) | adopté | contre (0p 24c 0a) | contre (0p 18c 0a) | pour (14p 2c 2a) | contre (4p 7c 0a) | pour (48p 0c 0a) |
+| 9140 | compl. | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 669 Tanguy (IS des multinationales sur l'activité en France) | rejeté | aucun vote exprimé (0p 0c 0a) | contre (0p 22c 0a) | contre (0p 30c 0a) | contre (0p 15c 1a) | pour (58p 1c 0a) |
+| 9141 | compl. | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 2617 Coquerel (IS des multinationales sur l'activité en France) | rejeté | pour (30p 0c 0a) | pour (22p 0c 0a) | contre (0p 30c 0a) | contre (0p 16c 1a) | abstention (0p 0c 57a) |
+| 9142 | compl. | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 3945 Sansu (IS des multinationales sur l'activité en France) | adopté | pour (30p 0c 0a) | pour (22p 0c 0a) | contre (0p 30c 0a) | contre (1p 15c 1a) | abstention (0p 2c 53a) |
 
 `*` Scrutin 519 : motion de censure, seuls les pour sont décomptés (voir la section du scrutin).
 
@@ -882,6 +886,138 @@ Autres groupes (contexte) :
 | GDR | 17 | 1 | 10 | 2 | 0 | contre | abstention |
 | LIOT | 22 | 20 | 0 | 2 | 0 | pour | pour |
 | NI | 9 | 6 | 2 | 1 | 0 | pour | pour |
+
+### Scrutin 9123 (27/10/2026, complément synthèse, axes 1 et 4)
+
+Scrutin inscrit dans la section « Compléments découverts en revue » de `scrutins-selectionnes.md` (veille commune de la synthèse, 28/10/2026 ; sélection décidée par Dilhan le 30/10/2026 sur l'objet, avant lecture des positions). Extrait le 2026-10-30 de `VTANR5L17V9123.json`, même méthode. Version du jeu de données à l'extraction : 9 357 scrutins (n° 1 à 9 357), le dernier daté du 30/10/2026 ; archive récupérée le 2026-10-30 à 18:44 (heure de Paris), fichiers lus en lecture seule. « Membres » = champ `nombreMembresGroupe` du JSON.
+
+- Intitulé exact : l'amendement n° 69 de M. Grenon et les amendements identiques suivants de suppression de l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).
+- Type de vote : scrutin public ordinaire. Demandeur : Présidente du groupe Rassemblement National.
+- Sort : **adopté**. Votants : 159. Suffrages exprimés : 156 (majorité requise : 79).
+- Totaux : pour 79, contre 77, abstention 3, non votants 2.
+
+Groupes suivis en priorité :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| LFI-NFP | 70 | 0 | 24 | 0 | 0 | contre | contre |
+| SOC | 68 | 0 | 18 | 0 | 0 | contre | contre |
+| EPR | 90 | 14 | 2 | 2 | 1 | pour | contre |
+| DR | 47 | 4 | 7 | 0 | 0 | contre | contre |
+| RN | 121 | 48 | 0 | 0 | 0 | pour | pour |
+
+Participation des groupes suivis (pour + contre + abstention, sur membres ; calcul par nos soins) : LFI-NFP 24 sur 70 (34,3 %) ; SOC 18 sur 68 (26,5 %) ; EPR 18 sur 90 (20,0 %) ; DR 11 sur 47 (23,4 %) ; RN 48 sur 121 (39,7 %).
+
+Autres groupes (contexte) :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| UDR | 17 | 3 | 0 | 0 | 0 | pour | pour |
+| Dem | 37 | 4 | 2 | 0 | 0 | pour | pour |
+| HOR | 35 | 5 | 1 | 1 | 1 | pour | pour |
+| EcoS | 38 | 0 | 16 | 0 | 0 | contre | contre |
+| GDR | 17 | 0 | 5 | 0 | 0 | contre | contre |
+| LIOT | 23 | 0 | 1 | 0 | 0 | contre | contre |
+| NI | 11 | 1 | 1 | 0 | 0 | divisé | pour |
+
+### Scrutin 9140 (27/10/2026, complément synthèse, axes 1 et 4)
+
+Scrutin inscrit dans la section « Compléments découverts en revue » de `scrutins-selectionnes.md` (veille commune de la synthèse, 28/10/2026 ; sélection décidée par Dilhan le 30/10/2026 sur l'objet, avant lecture des positions). Extrait le 2026-10-30 de `VTANR5L17V9140.json`, même méthode. Version du jeu de données à l'extraction : 9 357 scrutins (n° 1 à 9 357), le dernier daté du 30/10/2026 ; archive récupérée le 2026-10-30 à 18:44 (heure de Paris), fichiers lus en lecture seule. « Membres » = champ `nombreMembresGroupe` du JSON.
+
+- Intitulé exact : l'amendement n° 669 de M. Jean-Philippe Tanguy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).
+- Type de vote : scrutin public ordinaire. Demandeurs : Présidente du groupe Rassemblement National et Président du groupe Droite Républicaine.
+- Sort : **rejeté**. Votants : 171. Suffrages exprimés : 169 (majorité requise : 85).
+- Totaux : pour 59, contre 110, abstention 2, non votants 2.
+
+Groupes suivis en priorité :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| LFI-NFP | 70 | 0 | 0 | 0 | 1 | aucun vote exprimé | pour |
+| SOC | 68 | 0 | 22 | 0 | 0 | contre | contre |
+| EPR | 90 | 0 | 30 | 0 | 1 | contre | contre |
+| DR | 47 | 0 | 15 | 1 | 0 | contre | contre |
+| RN | 121 | 58 | 1 | 0 | 0 | pour | pour |
+
+Participation des groupes suivis (pour + contre + abstention, sur membres ; calcul par nos soins) : LFI-NFP 0 sur 70 (0,0 %, sous 10 %, non exploitable (règle 18)) ; SOC 22 sur 68 (32,4 %) ; EPR 30 sur 90 (33,3 %) ; DR 16 sur 47 (34,0 %) ; RN 59 sur 121 (48,8 %).
+
+Autres groupes (contexte) :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| UDR | 17 | 1 | 0 | 0 | 0 | pour | pour |
+| Dem | 37 | 0 | 8 | 0 | 0 | contre | contre |
+| HOR | 35 | 0 | 11 | 1 | 0 | contre | contre |
+| EcoS | 38 | 0 | 17 | 0 | 0 | contre | contre |
+| GDR | 17 | 0 | 1 | 0 | 0 | contre | contre |
+| LIOT | 23 | 0 | 3 | 0 | 0 | contre | contre |
+| NI | 11 | 0 | 2 | 0 | 0 | contre | contre |
+
+### Scrutin 9141 (27/10/2026, complément synthèse, axes 1 et 4)
+
+Scrutin inscrit dans la section « Compléments découverts en revue » de `scrutins-selectionnes.md` (veille commune de la synthèse, 28/10/2026 ; sélection décidée par Dilhan le 30/10/2026 sur l'objet, avant lecture des positions). Extrait le 2026-10-30 de `VTANR5L17V9141.json`, même méthode. Version du jeu de données à l'extraction : 9 357 scrutins (n° 1 à 9 357), le dernier daté du 30/10/2026 ; archive récupérée le 2026-10-30 à 18:44 (heure de Paris), fichiers lus en lecture seule. « Membres » = champ `nombreMembresGroupe` du JSON.
+
+- Intitulé exact : l'amendement n° 2617 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).
+- Type de vote : scrutin public ordinaire. Demandeurs : Présidente du groupe La France insoumise - Nouveau Front Populaire et Président du groupe Droite Républicaine.
+- Sort : **rejeté**. Votants : 204. Suffrages exprimés : 144 (majorité requise : 73).
+- Totaux : pour 72, contre 72, abstention 60, non votants 1.
+
+Groupes suivis en priorité :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| LFI-NFP | 70 | 30 | 0 | 0 | 0 | pour | pour |
+| SOC | 68 | 22 | 0 | 0 | 0 | pour | pour |
+| EPR | 90 | 0 | 30 | 0 | 1 | contre | contre |
+| DR | 47 | 0 | 16 | 1 | 0 | contre | contre |
+| RN | 121 | 0 | 0 | 57 | 0 | abstention | abstention |
+
+Participation des groupes suivis (pour + contre + abstention, sur membres ; calcul par nos soins) : LFI-NFP 30 sur 70 (42,9 %) ; SOC 22 sur 68 (32,4 %) ; EPR 30 sur 90 (33,3 %) ; DR 17 sur 47 (36,2 %) ; RN 57 sur 121 (47,1 %).
+
+Autres groupes (contexte) :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| UDR | 17 | 0 | 2 | 1 | 0 | contre | contre |
+| Dem | 37 | 0 | 8 | 0 | 0 | contre | contre |
+| HOR | 35 | 0 | 11 | 1 | 0 | contre | contre |
+| EcoS | 38 | 17 | 0 | 0 | 0 | pour | pour |
+| GDR | 17 | 3 | 0 | 0 | 0 | pour | pour |
+| LIOT | 23 | 0 | 3 | 0 | 0 | contre | contre |
+| NI | 11 | 0 | 2 | 0 | 0 | contre | contre |
+
+### Scrutin 9142 (27/10/2026, complément synthèse, axes 1 et 4)
+
+Scrutin inscrit dans la section « Compléments découverts en revue » de `scrutins-selectionnes.md` (veille commune de la synthèse, 28/10/2026 ; sélection décidée par Dilhan le 30/10/2026 sur l'objet, avant lecture des positions). Extrait le 2026-10-30 de `VTANR5L17V9142.json`, même méthode. Version du jeu de données à l'extraction : 9 357 scrutins (n° 1 à 9 357), le dernier daté du 30/10/2026 ; archive récupérée le 2026-10-30 à 18:44 (heure de Paris), fichiers lus en lecture seule. « Membres » = champ `nombreMembresGroupe` du JSON.
+
+- Intitulé exact : l'amendement n° 3945 de M. Sansu après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture).
+- Type de vote : scrutin public ordinaire. Demandeurs : Président du groupe Droite Républicaine et Président du groupe Gauche Démocrate et Républicaine.
+- Sort : **adopté**. Votants : 202. Suffrages exprimés : 146 (majorité requise : 74).
+- Totaux : pour 74, contre 72, abstention 56, non votants 1.
+
+Groupes suivis en priorité :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| LFI-NFP | 70 | 30 | 0 | 0 | 0 | pour | pour |
+| SOC | 68 | 22 | 0 | 0 | 0 | pour | pour |
+| EPR | 90 | 0 | 30 | 0 | 1 | contre | contre |
+| DR | 47 | 1 | 15 | 1 | 0 | contre | contre |
+| RN | 121 | 0 | 2 | 53 | 0 | abstention | abstention |
+
+Participation des groupes suivis (pour + contre + abstention, sur membres ; calcul par nos soins) : LFI-NFP 30 sur 70 (42,9 %) ; SOC 22 sur 68 (32,4 %) ; EPR 30 sur 90 (33,3 %) ; DR 17 sur 47 (36,2 %) ; RN 55 sur 121 (45,5 %).
+
+Autres groupes (contexte) :
+
+| Groupe | Membres | Pour | Contre | Abst. | Non votants | Position majoritaire (règle 60 %) | Champ JSON |
+|---|---|---|---|---|---|---|---|
+| UDR | 17 | 0 | 2 | 1 | 0 | contre | contre |
+| Dem | 37 | 0 | 8 | 0 | 0 | contre | contre |
+| HOR | 35 | 0 | 11 | 1 | 0 | contre | contre |
+| EcoS | 38 | 17 | 0 | 0 | 0 | pour | pour |
+| GDR | 17 | 3 | 0 | 0 | 0 | pour | pour |
+| LIOT | 23 | 0 | 3 | 0 | 0 | contre | contre |
+| NI | 11 | 1 | 1 | 0 | 0 | divisé | pour |
 
 ## Anomalies
 

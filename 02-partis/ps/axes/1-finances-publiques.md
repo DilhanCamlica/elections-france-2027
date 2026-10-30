@@ -4,7 +4,7 @@
 - Données arrêtées au : 2026-10-27
 - Corpus arrêté au : 2026-10-27
 - Auteur : sous-agent Opus, étape 2 ; relu par sous-agent Opus (contrôle étape 2) ; sous-agent Opus, étapes 3 à 5 (2026-10-27) ; arbitrage de l'étape 6 appliqué par sous-agent Opus, 2026-10-27
-- Statut : revu (boucle v2.3, 2026-10-28)
+- Statut : revu (boucle v2.3, 2026-10-28) ; révisée le 2026-10-30 (compléments 9123 et 9140 à 9142)
 - Version du socle : v2.2
 
 Sigles : PS (Parti socialiste), SOC (groupe « Socialistes et apparentés » à l'Assemblée nationale), NFP (Nouveau Front populaire), PIB (produit intérieur brut), Md€ (milliard d'euros), PLF (projet de loi de finances), PLFSS (projet de loi de financement de la sécurité sociale), PLFR (projet de loi de finances rectificative), PPL (proposition de loi), CSG (contribution sociale généralisée), CRDS (contribution au remboursement de la dette sociale), ISF (impôt de solidarité sur la fortune), IGS (impôt sur les grandes successions), IS (impôt sur les sociétés), PFU (prélèvement forfaitaire unique, dit « flat tax »), CVAE (cotisation sur la valeur ajoutée des entreprises), CIR (crédit d'impôt recherche), PME et TPE (petites et moyennes entreprises, très petites entreprises), Smic (salaire minimum interprofessionnel de croissance), LPM (loi de programmation militaire), RGPP (révision générale des politiques publiques), UE (Union européenne), CTU (contribution territoriale universelle), ASPA (allocation de solidarité aux personnes âgées), RSA (revenu de solidarité active), Cnav (Caisse nationale d'assurance vieillesse), Drees (direction de la recherche, des études, de l'évaluation et des statistiques des ministères sociaux), Unédic (organisme paritaire de gestion de l'assurance chômage).
@@ -210,6 +210,8 @@ Les quatre scrutins de l'axe et le complément 4758 sont des textes globaux ou d
 
 Format des cellules : position (pour-contre-abstentions). Source : `03-sources/scrutins-positions.md`, open data de l'Assemblée.
 
+**Contexte, compléments du 2026-10-30 (comptés à la fiche 4, règle 17).** Le 27 octobre 2026, sur la première partie du PLF 2027, le groupe vote contre la suppression de la contribution exceptionnelle sur les bénéfices des grandes entreprises (9123, adoptée 79 contre 77 ; recette estimée entre 5 et 7 Md€ en 2027 par les orateurs) [64], pour les amendements de LFI et du GDR qui imposent les multinationales sur leur activité en France (9141, rejeté ; 9142, adopté) et contre celui du RN sur le même objet (9140, rejeté) [65]. Le contre-budget 2027 ne mentionne ni la contribution ni l'impôt des multinationales [C-PS-33] : silence, pas contradiction. Lecture à la fiche 4 : trois concordances, une nuance non expliquée ; aucun objet d'écart, aucun effet sur le verdict de cet axe.
+
 **Compléments : article liminaire (trajectoire).** Positions reprises du relevé de la verticale Renaissance (open data, règle des 60 %, sans tri) [56] :
 
 | Scrutin | Date | Objet | SOC |
@@ -378,3 +380,8 @@ Sources ajoutées à l'étape 6 (arbitrage appliqué le 2026-10-27) :
 
 62. Fiche PS, axe 2, tableau Q3 (Cour des comptes 10,4 Md€ et Cnav 16 Md€ pour le retour à 62 ans ; Unédic 6,5 Md€ ; ASPA 1,7 à 2,7 Md€, calcul par nos soins ; Drees 2,5 Md€ pour le non-recours au RSA ; direction du Trésor 3,1 à 6,6 Md€ pour le RSA dès 21 ou 18 ans), 2026-10-27, `02-partis/ps/axes/2-travail-protection-sociale.md` ; somme proposée par `02-partis/ps/revue/contradiction.md` (axe 1), reprise et recalculée dans [60].
 63. `02-partis/ps/revue/arbitrage.md`, question préalable (lectures A et B) et table des arbitrages, n° 1 et 2, 2026-10-27.
+
+Sources ajoutées le 2026-10-30 (compléments 9123 et 9140 à 9142) :
+
+64. Assemblée nationale, scrutin public n° 9123 (suppression de l'article 15 du PLF 2027), 2026-10-27. https://www.assemblee-nationale.fr/dyn/17/scrutins/9123 ; compte rendu de la première séance du 2026-10-27, page ouverte le 2026-10-30. https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/CRSANR5L17S2027O1N040 [source officielle]
+65. Assemblée nationale, scrutins publics n° 9140, 9141 et 9142 (amendements n° 669, 2617 et 3945 après l'article 15 du PLF 2027), 2026-10-27. https://www.assemblee-nationale.fr/dyn/17/scrutins/9140 ; https://www.assemblee-nationale.fr/dyn/17/scrutins/9141 ; https://www.assemblee-nationale.fr/dyn/17/scrutins/9142 ; compte rendu de la deuxième séance du 2026-10-27, page ouverte le 2026-10-30. https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/CRSANR5L17S2027O1N041 [source officielle]

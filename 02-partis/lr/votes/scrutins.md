@@ -1,6 +1,6 @@
 # Droite Républicaine : positions sur les scrutins gelés, et divergences de UDR
 
-- Produit le : 2026-10-27 par `_scripts/votes-parti.py` (mécanique, aucune interprétation)
+- Produit le : 2026-10-30 par `_scripts/votes-parti.py` (mécanique, aucune interprétation)
 - Source : `03-sources/scrutins-positions.md` (extraction du 2026-10-25, jeu open data « Scrutins » de l'Assemblée nationale, règle des 60 %)
 - Groupe étudié : Droite Républicaine (DR). Groupe(s) hors périmètre, cité(s) quand ils divergent (`01-socle/01-criteres.md` §1) : Union des droites pour la République (UDR).
 - Lecture : une « divergence » est une position majoritaire différente entre le groupe étudié et le groupe cité sur le même scrutin ; « partielle » quand l'un des deux est divisé ; un groupe qui n'exprime aucun vote n'est pas comparé. Un vote sur un texte global est pondéré à part (`01-criteres.md` §4, échelle C).
@@ -36,13 +36,17 @@
 | 8854 | rés. 4 | 16/10/2026 | [Réserve] PLF 2027, amdt 665 Roy (succession) | rejeté | contre (0p 4c 0a) | pour (2p 0c 0a) | oui |
 | 3096 | rés. 4 | 25/10/2025 | [Réserve] PLF 2026, amdt 269 Wauquiez (indexation barème IR) | adopté | pour (27p 0c 0a) | pour (3p 0c 0a) | non |
 | 3182 | rés. 6 | 28/10/2025 | [Réserve] PPLO report renouvellement Nouvelle-Calédonie | adopté | pour (43p 0c 0a) | pour (13p 0c 0a) | non |
+| 9123 | complément synthèse, axes 1 et 4 | 27/10/2026 | [Complément synthèse] PLF 2027, 1re partie, amdts de suppression art. 15 (contribution exceptionnelle grandes entreprises) | adopté | contre (4p 7c 0a) | pour (3p 0c 0a) | oui |
+| 9140 | complément synthèse, axes 1 et 4 | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 669 Tanguy (IS des multinationales sur l'activité en France) | rejeté | contre (0p 15c 1a) | pour (1p 0c 0a) | oui |
+| 9141 | complément synthèse, axes 1 et 4 | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 2617 Coquerel (IS des multinationales sur l'activité en France) | rejeté | contre (0p 16c 1a) | contre (0p 2c 1a) | non |
+| 9142 | complément synthèse, axes 1 et 4 | 27/10/2026 | [Complément synthèse] PLF 2027, amdt 3945 Sansu (IS des multinationales sur l'activité en France) | adopté | contre (1p 15c 1a) | contre (0p 2c 1a) | non |
 | 4758 | complément v2, axes 1, 2 et 4 | 16/12/2025 | [Complément v2] PLFSS 2026, lecture définitive, ensemble | adopté | divisé (18p 3c 28a) | contre (0p 16c 0a) | partielle |
 | 8895 | hors | 20/10/2026 | [Hors sélection] PLFSS 2027, motion de rejet préalable (Panot) | rejeté | contre (0p 31c 0a) | contre (0p 11c 0a) | non |
 
 ## Compte
 
-- Scrutins détaillés dans le registre : 28.
-- Divergences nettes entre DR et UDR : 4. Divergences partielles (un groupe divisé) : 4.
+- Scrutins détaillés dans le registre : 32.
+- Divergences nettes entre DR et UDR : 6. Divergences partielles (un groupe divisé) : 4.
 
 ## Intitulés exacts
 
@@ -72,5 +76,9 @@
 - 8854 (16/10/2026) : l'amendement n° 665 de Mme Roy après l'article 4 du projet de loi de finances pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/8854
 - 3096 (25/10/2025) : l'amendement n° 269 de M. Wauquiez après l'article 2 du projet de loi de finances pour 2026 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/3096
 - 3182 (28/10/2025) : l'ensemble de la proposition de loi organique visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie afin de permettre la poursuite de la discussion en vue d'un accord consensuel sur l'avenir institutionnel de la Nouvelle-Calédonie (texte de la commission mixte paritaire). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/3182
+- 9123 (27/10/2026) : l'amendement n° 69 de M. Grenon et les amendements identiques suivants de suppression de l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/9123
+- 9140 (27/10/2026) : l'amendement n° 669 de M. Jean-Philippe Tanguy après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/9140
+- 9141 (27/10/2026) : l'amendement n° 2617 de M. Coquerel après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/9141
+- 9142 (27/10/2026) : l'amendement n° 3945 de M. Sansu après l'article 15 (examen prioritaire) du projet de loi de finances pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/9142
 - 4758 (16/12/2025) : l'ensemble du projet de loi de financement de la sécurité sociale pour 2026 (lecture définitive). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/4758
 - 8895 (20/10/2026) : la motion de rejet préalable, déposée par Mme Mathilde Panot, du projet de loi de financement de la sécurité sociale pour 2027 (première lecture). Page : https://www.assemblee-nationale.fr/dyn/17/scrutins/8895
