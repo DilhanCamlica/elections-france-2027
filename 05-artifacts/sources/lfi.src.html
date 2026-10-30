@@ -5,29 +5,43 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,650&family=Public+Sans:wght@400;500;600&display=swap">
 <style>
 {{CSS}}
+/* entete-commun:debut */
+.hero{padding:1.6rem 0 .25rem;gap:.9rem}
+.hero-top{display:grid;gap:1rem;align-items:center}
+@media (min-width:600px){.hero-top{grid-template-columns:minmax(0,1fr) auto}}
+.eyebrow2{display:block;font-family:var(--sans);font-size:.86rem;color:var(--muted);margin-bottom:.45rem}
+.lede{font-size:1.02rem;line-height:1.5;margin:0;color:var(--ink);max-width:44rem}
+.imprint{width:8rem;height:auto;display:block;justify-self:start}
+@media (min-width:600px){.imprint{width:9rem;justify-self:end}}
+.imprints{display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;margin:.2rem 0 .4rem}
+.imprints figure{margin:0;display:grid;gap:.25rem;justify-items:center}
+.imprints svg{width:5.6rem;height:auto}
+.imprints figcaption{font-family:var(--sans);font-size:.74rem;color:var(--muted)}
+.path{margin-top:1.1rem;padding-top:1rem;border-top:2px solid var(--line)}
+.ptime{font-size:.88rem;color:var(--muted);margin:0 0 .5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chips a{font-size:.8rem;padding:.3rem .65rem;border-radius:999px;border:1px solid var(--line);background:var(--bg);text-decoration:none;color:var(--ink)}
+.chips a:hover{border-color:var(--accent);color:var(--accent)}
+details.lire{margin-top:.6rem;border-top:0}
+details.lire summary{font-weight:500;font-size:.92rem;color:var(--muted);padding:.6rem 0}
+.quotes{margin-top:1.25rem}
+/* entete-commun:fin */
 </style>
 
 <main class="wrap" lang="fr">
 <header class="hero">
-  <span class="eyebrow">Lecture · programme et votes 2022-2026</span>
-  <h1>LFI&nbsp;: ce qu'elle propose, ce qu'elle vote</h1>
-  <p class="rule">Six sujets, quatre questions par sujet, un verdict sur la manière de gouverner. Les mêmes questions, les mêmes critères et les mêmes votes à l'Assemblée sont appliqués aux cinq forces de la série&nbsp;; les pages Renaissance et RN sont parues avant celle-ci. La <a href="#note-methode">méthode</a> est en bas de page.</p>
+  <div class="hero-top">
+    <div>
+      <span class="eyebrow2">Lecture · programme et votes 2022-2026 · La France insoumise</span>
+      <h1>LFI&nbsp;: ce qu'elle propose, ce qu'elle vote</h1>
+    </div>
+    <svg class="imprint" viewBox="0 0 128 84" role="img" aria-labelledby="imp-t imp-d"><title id="imp-t">Empreinte des vingt-quatre verdicts</title><desc id="imp-d">Six colonnes pour les six sujets, quatre rangées pour les quatre questions, un point coloré par verdict, du rouge au vert ; la rangée des votes est cerclée en pointillé, lecture sur votes seuls.</desc><circle cx="14" cy="12" r="6.5" fill="var(--v4)"/><circle cx="34" cy="12" r="6.5" fill="var(--v3)"/><circle cx="54" cy="12" r="6.5" fill="var(--v3)"/><circle cx="74" cy="12" r="6.5" fill="var(--v4)"/><circle cx="94" cy="12" r="6.5" fill="var(--v4)"/><circle cx="114" cy="12" r="6.5" fill="var(--v4)"/><circle cx="14" cy="32" r="6.5" fill="var(--v3)"/><circle cx="34" cy="32" r="6.5" fill="var(--v3)"/><circle cx="54" cy="32" r="6.5" fill="var(--v3)"/><circle cx="74" cy="32" r="6.5" fill="var(--v3)"/><circle cx="94" cy="32" r="6.5" fill="var(--v3)"/><circle cx="114" cy="32" r="6.5" fill="var(--v2)"/><circle cx="14" cy="52" r="6.5" fill="var(--v4)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="34" cy="52" r="6.5" fill="var(--v3)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="54" cy="52" r="6.5" fill="var(--v4)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="74" cy="52" r="6.5" fill="var(--v3)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="94" cy="52" r="6.5" fill="var(--v4)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="114" cy="52" r="6.5" fill="var(--v4)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="2 2"/><circle cx="14" cy="72" r="6.5" fill="var(--v3)"/><circle cx="34" cy="72" r="6.5" fill="var(--v3)"/><circle cx="54" cy="72" r="6.5" fill="var(--v3)"/><circle cx="74" cy="72" r="6.5" fill="var(--v3)"/><circle cx="94" cy="72" r="6.5" fill="var(--v3)"/><circle cx="114" cy="72" r="6.5" fill="var(--v3)"/></svg>
+  </div>
+  <p class="lede">Vingt-quatre verdicts en un regard&nbsp;: constat fondé sur quatre sujets, partiel sur deux&nbsp;; faisable sous conditions sur cinq sujets, très incertain sur les institutions&nbsp;; cohérence plutôt tenue sur quatre sujets, écart partiel sur le travail et le social et le pouvoir d'achat&nbsp;; demandes servies en partie sur six. Lecture sur les votes seuls, LFI n'ayant pas gouverné.</p>
 
-  {{HERO_SVG}}
-
-  <section class="quotes" aria-labelledby="h-quotes">
-    <h2 id="h-quotes">La promesse, dans leurs mots</h2>
-    <p><span class="q">« </span>La politique budgétaire menée par Macron depuis 2017 est une catastrophe.<span class="q"> »</span><span class="who">Contre-budget 2027, 14 octobre 2026{{C:3}}</span></p>
-    <p><span class="q">« </span>Il faut augmenter les salaires, il faut augmenter le Smic.<span class="q"> »</span><span class="who">Jean-Luc Mélenchon, débat du Medef, 27 août 2026{{C:78}}</span></p>
-    <p><span class="q">« </span>Oui, la France est une nation créole.<span class="q"> »</span><span class="who">L'Avenir en commun, édition 2025{{C:13}}</span></p>
-    <p><span class="q">« </span>La société française ne souffre pas d'abord d'un manque d'autorité mais d'un manque d'égalité.<span class="q"> »</span><span class="who">Plan du groupe sur la criminalité organisée, novembre 2024{{C:19}}</span></p>
-    <p><span class="q">« </span>La Ve République a fait son temps.<span class="q"> »</span><span class="who">L'Avenir en commun, édition 2025{{C:13}}</span></p>
-    <p><span class="q">« </span>Nous censurerons quoi qu'il arrive.<span class="q"> »</span><span class="who">Mathilde Panot, présidente du groupe, 15 septembre 2026{{C:80}}</span></p>
-  </section>
-
-  <section class="grid" aria-labelledby="h-grid">
+<section class="grid" aria-labelledby="h-grid">
     <h2 id="h-grid">La grille en un regard</h2>
-    <p class="sub">Quatre questions par sujet. Chaque pastille est un verdict sur une échelle de cinq crans, du rouge au vert. Touchez une ligne pour aller au chapitre.</p>
+    <p class="sub">Quatre questions par sujet, un verdict par case, du rouge au vert. Touchez une ligne pour aller au chapitre.</p>
     <div class="ghead" aria-hidden="true"><span>Axe</span><span>Le problème est-il réel&nbsp;?</span><span>Est-ce faisable&nbsp;?</span><span>Votent-ils ce qu'ils disent&nbsp;?</span><span>Répondent-ils aux demandes&nbsp;?</span></div>
 
     <a class="grow" href="#finances">
@@ -118,8 +132,25 @@
       <div class="legend"><span><i class="sw" style="background:var(--v4)"></i>Traitée (8)</span><span><i class="sw" style="background:var(--v3)"></i>Traitée en partie (6)</span><span><i class="sw" style="background:var(--v2)"></i>Nommée sans mesure (0)</span><span><i class="sw" style="background:var(--v1)"></i>Absente (0)</span></div>
       <p class="src">Détail au chapitre <a href="#tendances">Ce qui vient</a>.</p>
     </div>
+  
+    <div class="path">
+      <p class="ptime">Trois minutes pour la grille, vingt pour les six chapitres.</p>
+      <div class="chips"><a href="#finances">1 Finances</a><a href="#travail">2 Travail et social</a><a href="#immigration">3 Immigration</a><a href="#pouvoir-achat">4 Pouvoir d'achat</a><a href="#securite">5 Sécurité</a><a href="#institutions">6 Institutions et Europe</a><a href="#methode">+ Méthode</a></div>
+    </div>
+    <details class="dig lire"><summary>Comment lire cette page <span class="chev">›</span></summary><div class="body"><p>Six sujets, quatre questions par sujet, un verdict sur la manière de gouverner. Les mêmes questions, les mêmes critères et les mêmes votes à l'Assemblée sont appliqués aux cinq forces de la série&nbsp;; les pages Renaissance et RN sont parues avant celle-ci. La <a href="#note-methode">méthode</a> est en bas de page.</p><p>Les verdicts de cohérence sont marqués « votes seuls »&nbsp;: LFI n'a pas gouverné depuis 2012, sa parole est confrontée aux scrutins retenus et aux textes de son groupe, et à rien d'autre. Les forces qui ont gouverné portent la marque « votes + actes ».</p></div></details>
+</section>
+
+<section class="quotes" aria-labelledby="h-quotes">
+    <h2 id="h-quotes">La promesse, dans leurs mots</h2>
+    <p><span class="q">« </span>La politique budgétaire menée par Macron depuis 2017 est une catastrophe.<span class="q"> »</span><span class="who">Contre-budget 2027, 14 octobre 2026{{C:3}}</span></p>
+    <p><span class="q">« </span>Il faut augmenter les salaires, il faut augmenter le Smic.<span class="q"> »</span><span class="who">Jean-Luc Mélenchon, débat du Medef, 27 août 2026{{C:78}}</span></p>
+    <p><span class="q">« </span>Oui, la France est une nation créole.<span class="q"> »</span><span class="who">L'Avenir en commun, édition 2025{{C:13}}</span></p>
+    <p><span class="q">« </span>La société française ne souffre pas d'abord d'un manque d'autorité mais d'un manque d'égalité.<span class="q"> »</span><span class="who">Plan du groupe sur la criminalité organisée, novembre 2024{{C:19}}</span></p>
+    <p><span class="q">« </span>La Ve République a fait son temps.<span class="q"> »</span><span class="who">L'Avenir en commun, édition 2025{{C:13}}</span></p>
+    <p><span class="q">« </span>Nous censurerons quoi qu'il arrive.<span class="q"> »</span><span class="who">Mathilde Panot, présidente du groupe, 15 septembre 2026{{C:80}}</span></p>
   </section>
-</header>
+
+  </header>
 
 <!-- 1 -->
 <section class="chapter" id="finances" aria-labelledby="h-fin">

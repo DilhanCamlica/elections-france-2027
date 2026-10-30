@@ -7,7 +7,7 @@ Usage : python3 _scripts/build-synthese.py
 import re, subprocess, html, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 src = (ROOT / "05-artifacts/sources/synthese.src.html").read_text(encoding="utf-8")
-css = re.search(r"<style>\n(.*?)</style>", (ROOT / "05-artifacts/rn.html").read_text(encoding="utf-8"), re.S).group(1)
+css = re.search(r"<style>\n(.*?)</style>", (ROOT / "05-artifacts/gabarit-base.html").read_text(encoding="utf-8"), re.S).group(1)
 src = src.replace("{{CSS}}\n", css)
 out = subprocess.run([sys.executable, "-I", str(ROOT / "_scripts/calculs/synthese_ecoute.py")], capture_output=True, text=True).stdout
 rows = [l for l in out.splitlines() if l.startswith("| ") and not l.startswith("| Axe")]

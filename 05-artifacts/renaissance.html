@@ -216,49 +216,44 @@ ol.sources li{margin:.3rem 0;word-break:break-word}
 ol.sources li:target{background:var(--accent-soft);border-radius:4px}
 .srcg{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin:1.1rem 0 .2rem}
 @media (max-width:420px){body{font-size:16px}.pill .pv{font-size:.7rem}.tile .n{font-size:1.45rem}.vr{grid-template-columns:minmax(0,1fr) repeat(5,1.55rem) 2.1rem}.vr i{width:1.45rem;height:1.45rem;font-size:.64rem}}
+/* entete-commun:debut */
+.hero{padding:1.6rem 0 .25rem;gap:.9rem}
+.hero-top{display:grid;gap:1rem;align-items:center}
+@media (min-width:600px){.hero-top{grid-template-columns:minmax(0,1fr) auto}}
+.eyebrow2{display:block;font-family:var(--sans);font-size:.86rem;color:var(--muted);margin-bottom:.45rem}
+.lede{font-size:1.02rem;line-height:1.5;margin:0;color:var(--ink);max-width:44rem}
+.imprint{width:8rem;height:auto;display:block;justify-self:start}
+@media (min-width:600px){.imprint{width:9rem;justify-self:end}}
+.imprints{display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;margin:.2rem 0 .4rem}
+.imprints figure{margin:0;display:grid;gap:.25rem;justify-items:center}
+.imprints svg{width:5.6rem;height:auto}
+.imprints figcaption{font-family:var(--sans);font-size:.74rem;color:var(--muted)}
+.path{margin-top:1.1rem;padding-top:1rem;border-top:2px solid var(--line)}
+.ptime{font-size:.88rem;color:var(--muted);margin:0 0 .5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chips a{font-size:.8rem;padding:.3rem .65rem;border-radius:999px;border:1px solid var(--line);background:var(--bg);text-decoration:none;color:var(--ink)}
+.chips a:hover{border-color:var(--accent);color:var(--accent)}
+details.lire{margin-top:.6rem;border-top:0}
+details.lire summary{font-weight:500;font-size:.92rem;color:var(--muted);padding:.6rem 0}
+.quotes{margin-top:1.25rem}
+/* entete-commun:fin */
 </style>
 
 <main class="wrap" lang="fr">
 
 <header class="hero">
-  <span class="eyebrow">Lecture · programme et votes 2022-2026</span>
-  <h1>Renaissance&nbsp;: ce qu'elle propose, ce qu'elle vote</h1>
-  <p class="rule">Six sujets, quatre questions par sujet, un verdict sur la manière de gouverner. Les mêmes questions, les mêmes critères et les mêmes votes à l'Assemblée seront appliqués aux cinq forces de la série. La <a href="#note-methode">méthode</a> est en bas de page.</p>
+  <div class="hero-top">
+    <div>
+      <span class="eyebrow2">Lecture · programme et votes 2022-2026 · Renaissance</span>
+      <h1>Renaissance&nbsp;: ce qu'elle propose, ce qu'elle vote</h1>
+    </div>
+    <svg class="imprint" viewBox="0 0 128 84" role="img" aria-labelledby="imp-t imp-d"><title id="imp-t">Empreinte des vingt-quatre verdicts</title><desc id="imp-d">Six colonnes pour les six sujets, quatre rangées pour les quatre questions, un point coloré par verdict, du rouge au vert ; la rangée des votes est cerclée d'un trait plein, lecture sur votes et actes.</desc><circle cx="14" cy="12" r="6.5" fill="var(--v4)"/><circle cx="34" cy="12" r="6.5" fill="var(--v3)"/><circle cx="54" cy="12" r="6.5" fill="var(--v4)"/><circle cx="74" cy="12" r="6.5" fill="var(--v4)"/><circle cx="94" cy="12" r="6.5" fill="var(--v3)"/><circle cx="114" cy="12" r="6.5" fill="var(--v4)"/><circle cx="14" cy="32" r="6.5" fill="var(--v3)"/><circle cx="34" cy="32" r="6.5" fill="var(--v3)"/><circle cx="54" cy="32" r="6.5" fill="var(--v3)"/><circle cx="74" cy="32" r="6.5" fill="var(--v2)"/><circle cx="94" cy="32" r="6.5" fill="var(--v2)"/><circle cx="114" cy="32" r="6.5" fill="var(--v2)"/><circle cx="14" cy="52" r="6.5" fill="var(--v2)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="34" cy="52" r="6.5" fill="var(--v2)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="54" cy="52" r="6.5" fill="var(--v3)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="74" cy="52" r="6.5" fill="var(--v2)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="94" cy="52" r="6.5" fill="var(--v2)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="114" cy="52" r="6.5" fill="var(--v2)" stroke="var(--muted)" stroke-width="1.5"/><circle cx="14" cy="72" r="6.5" fill="var(--v3)"/><circle cx="34" cy="72" r="6.5" fill="var(--v3)"/><circle cx="54" cy="72" r="6.5" fill="var(--v3)"/><circle cx="74" cy="72" r="6.5" fill="var(--v3)"/><circle cx="94" cy="72" r="6.5" fill="var(--v4)"/><circle cx="114" cy="72" r="6.5" fill="var(--v3)"/></svg>
+  </div>
+  <p class="lede">Vingt-quatre verdicts en un regard&nbsp;: constat fondé sur quatre sujets, partiel sur deux&nbsp;; faisable sous conditions sur trois sujets, très incertain sur trois&nbsp;; cohérence en écart partiel sur l'immigration, écart important sur cinq&nbsp;; demandes servies en partie sur cinq, pleinement sur la sécurité. Lecture sur les votes et les actes de 2017-2026.</p>
 
-  <svg class="hero-art" viewBox="0 0 360 170" role="img" aria-labelledby="hx-t hx-d">
-    <title id="hx-t">Ce qu'ils disent, ce qu'ils votent</title>
-    <desc id="hx-d">À gauche, une page de programme avec des lignes de texte. À droite, une grille de votes avec des points colorés. Entre les deux, un hexagone qui représente la France.</desc>
-    <rect x="18" y="28" width="104" height="118" rx="8" style="fill:var(--card);stroke:var(--line);stroke-width:1.5"/>
-    <rect x="34" y="48" width="58" height="5" rx="2.5" style="fill:var(--ink)"/>
-    <rect x="34" y="63" width="72" height="4" rx="2" style="fill:var(--cat4)"/>
-    <rect x="34" y="75" width="64" height="4" rx="2" style="fill:var(--cat4)"/>
-    <rect x="34" y="87" width="70" height="4" rx="2" style="fill:var(--cat4)"/>
-    <rect x="34" y="99" width="48" height="4" rx="2" style="fill:var(--cat4)"/>
-    <rect x="34" y="111" width="66" height="4" rx="2" style="fill:var(--cat4)"/>
-    <text x="70" y="160" text-anchor="middle" style="font-family:var(--sans);font-size:10.5px;fill:var(--muted)">Ce qu'ils proposent</text>
-    <polygon points="180,50 212,68 212,104 180,122 148,104 148,68" style="fill:var(--accent-soft);stroke:var(--accent);stroke-width:2"/>
-    <text x="180" y="90" text-anchor="middle" style="font-family:var(--display);font-size:13px;fill:var(--ink);font-weight:650">France</text>
-    <line x1="124" y1="86" x2="144" y2="86" style="stroke:var(--accent);stroke-width:2"/>
-    <line x1="216" y1="86" x2="236" y2="86" style="stroke:var(--accent);stroke-width:2"/>
-    <rect x="238" y="28" width="104" height="118" rx="8" style="fill:var(--card);stroke:var(--line);stroke-width:1.5"/>
-    <g style="fill:var(--cat2)"><circle cx="258" cy="52" r="5"/><circle cx="278" cy="52" r="5"/><circle cx="318" cy="52" r="5"/><circle cx="258" cy="76" r="5"/><circle cx="298" cy="100" r="5"/><circle cx="318" cy="100" r="5"/><circle cx="258" cy="124" r="5"/><circle cx="278" cy="124" r="5"/><circle cx="298" cy="124" r="5"/></g>
-    <g style="fill:var(--cat3)"><circle cx="298" cy="52" r="5"/><circle cx="278" cy="76" r="5"/><circle cx="298" cy="76" r="5"/><circle cx="258" cy="100" r="5"/><circle cx="318" cy="124" r="5"/></g>
-    <g style="fill:var(--cat4)"><circle cx="318" cy="76" r="5"/><circle cx="278" cy="100" r="5"/></g>
-    <text x="290" y="160" text-anchor="middle" style="font-family:var(--sans);font-size:10.5px;fill:var(--muted)">Ce qu'ils votent</text>
-  </svg>
-
-  <section class="quotes" aria-labelledby="h-quotes">
-    <h2 id="h-quotes">La promesse, dans leurs mots</h2>
-    <p><span class="q">« </span>La France vit à crédit, et ce sont nos jeunes qui en payeront le prix.<span class="q"> »</span><span class="who">Gabriel Attal, lettre aux Français, 15 octobre 2026<sup><a href="#s1">1</a></sup></span></p>
-    <p><span class="q">« </span>[Le Smic est] devenu le salaire plafond pour beaucoup trop de nos compatriotes.<span class="q"> »</span><span class="who">Site de campagne, page « Travail et salaires »<sup><a href="#s2">2</a></sup></span></p>
-    <p><span class="q">« </span>Accueillir moins pour accueillir mieux.<span class="q"> »</span><span class="who">Site de campagne, page « Frontières »<sup><a href="#s3">3</a></sup></span></p>
-    <p><span class="q">« </span>Une peine prononcée doit être une peine exécutée.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
-    <p><span class="q">« </span>Je veux que la France fonce à 140, pas qu'elle roule à 80.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
-  </section>
-
-  <section class="grid" aria-labelledby="h-grid">
+<section class="grid" aria-labelledby="h-grid">
     <h2 id="h-grid">La grille en un regard</h2>
-    <p class="sub">Quatre questions par sujet. Chaque pastille est un verdict sur une échelle de cinq crans, du rouge au vert. Touchez une ligne pour aller au chapitre.</p>
+    <p class="sub">Quatre questions par sujet, un verdict par case, du rouge au vert. Touchez une ligne pour aller au chapitre.</p>
     <div class="ghead" aria-hidden="true"><span>Axe</span><span>Le problème est-il réel&nbsp;?</span><span>Est-ce faisable&nbsp;?</span><span>Votent-ils ce qu'ils disent&nbsp;?</span><span>Répondent-ils aux demandes&nbsp;?</span></div>
 
     <a class="grow" href="#finances">
@@ -349,8 +344,24 @@ ol.sources li:target{background:var(--accent-soft);border-radius:4px}
       <div class="legend"><span><i class="sw" style="background:var(--v4)"></i>Traitée (8)</span><span><i class="sw" style="background:var(--v3)"></i>Traitée en partie (6)</span><span><i class="sw" style="background:var(--v2)"></i>Nommée sans mesure (0)</span><span><i class="sw" style="background:var(--v1)"></i>Absente (0)</span></div>
       <p class="src">Détail au chapitre <a href="#tendances">Ce qui vient</a>.</p>
     </div>
+  
+    <div class="path">
+      <p class="ptime">Trois minutes pour la grille, vingt pour les six chapitres.</p>
+      <div class="chips"><a href="#finances">1 Finances</a><a href="#travail">2 Travail et social</a><a href="#immigration">3 Immigration</a><a href="#pouvoir-achat">4 Pouvoir d'achat</a><a href="#securite">5 Sécurité</a><a href="#institutions">6 Institutions et Europe</a><a href="#methode">+ Méthode</a></div>
+    </div>
+    <details class="dig lire"><summary>Comment lire cette page <span class="chev">›</span></summary><div class="body"><p>Six sujets, quatre questions par sujet, un verdict sur la manière de gouverner. Les mêmes questions, les mêmes critères et les mêmes votes à l'Assemblée seront appliqués aux cinq forces de la série. La <a href="#note-methode">méthode</a> est en bas de page.</p><p>Les verdicts de cohérence sont marqués « votes + actes »&nbsp;: la parole de Renaissance est confrontée aux scrutins retenus, aux textes de son groupe et à ses décisions de gouvernement de 2017-2026. Les forces qui n'ont pas gouverné portent la marque « votes seuls » et ne se comparent qu'entre elles.</p></div></details>
+</section>
+
+<section class="quotes" aria-labelledby="h-quotes">
+    <h2 id="h-quotes">La promesse, dans leurs mots</h2>
+    <p><span class="q">« </span>La France vit à crédit, et ce sont nos jeunes qui en payeront le prix.<span class="q"> »</span><span class="who">Gabriel Attal, lettre aux Français, 15 octobre 2026<sup><a href="#s1">1</a></sup></span></p>
+    <p><span class="q">« </span>[Le Smic est] devenu le salaire plafond pour beaucoup trop de nos compatriotes.<span class="q"> »</span><span class="who">Site de campagne, page « Travail et salaires »<sup><a href="#s2">2</a></sup></span></p>
+    <p><span class="q">« </span>Accueillir moins pour accueillir mieux.<span class="q"> »</span><span class="who">Site de campagne, page « Frontières »<sup><a href="#s3">3</a></sup></span></p>
+    <p><span class="q">« </span>Une peine prononcée doit être une peine exécutée.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
+    <p><span class="q">« </span>Je veux que la France fonce à 140, pas qu'elle roule à 80.<span class="q"> »</span><span class="who">Entretien au JDD, 2 août 2026<sup><a href="#s6">6</a></sup></span></p>
   </section>
-</header>
+
+  </header>
 
 <!-- 1 -->
 <section class="chapter" id="finances" aria-labelledby="h-fin">
