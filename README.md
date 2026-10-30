@@ -23,7 +23,7 @@ Pour chacune, sur des axes thématiques communs, six questions (socle v2) :
 
 Plus une carte des tendances lourdes identifiées par les institutions (vieillissement, IA, climat, dette, patrimoine, défense), pour voir ce que chaque programme regarde ou ignore.
 
-Puis une synthèse comparative qui met les cinq forces côte à côte et fait ressortir les convergences.
+Puis une synthèse comparative qui met les cinq forces côte à côte et fait ressortir les convergences et les silences communs : faite le 2026-10-28 (`04-synthese/`, page « Cinq programmes côte à côte »), sans classement ni note.
 
 ## Ce qu'on ne fait pas
 
@@ -52,7 +52,7 @@ Le registre `01-socle/02-registre-biais.md` liste les biais identifiés (sélect
 | `03-sources/` | Registre des sources communes à plusieurs verticales (chiffrages, bases de scrutins, statistique publique) |
 | `04-synthese/` | Le tableau comparatif et sa note de méthode |
 | `05-artifacts/` | Code HTML des pages publiées, fichiers sources à jetons (`sources/`) et registre des URL |
-| `_scripts/` | Outillage : `assemble-sources.py` (construit une page depuis sa source à jetons), `verifie-page.py` (contrôle d'une page), `lint-texte.py` (tirets longs), `votes-parti.py` (positions de vote d'un groupe), `calculs/` (effets distributifs et comptages, « calculs par nos soins ») |
+| `_scripts/` | Outillage : `assemble-sources.py` (construit une page depuis sa source à jetons), `verifie-page.py` (contrôle d'une page), `lint-texte.py` (tirets longs), `votes-parti.py` (positions de vote d'un groupe), `marque-base-c.py` (marque « base du verdict C » d'une page), `entete.py` (en-tête commun des pages, format v2.1), `build-synthese.py` (construit la page de synthèse), `calculs/` (effets distributifs, comptages, décomptes d'écoute, `synthese_grilles.py`, `synthese_tendances.py`, `synthese_ecoute.py`, `regle18_participation.py` : « calculs par nos soins ») |
 
 ## Outils et exécution
 

@@ -19,6 +19,7 @@ Produire une lecture neutre, sourcée et tranchante des programmes de cinq force
 8. `02-partis/README.md` : état d'avancement et gabarit d'une verticale.
 9. `02-partis/_gabarit/briefs/` : la consigne réutilisable de chaque étape (1 corpus, 2 extraction, 3 à 5 vérification, 5 bis méthode et tendances, 6 revue, 7 article, 8 page), à copier dans les appels de sous-agents.
 10. `05-artifacts/README.md` : registre des pages publiées et procédure de construction et de publication.
+11. `04-synthese/note-de-methode.md` puis `04-synthese/tableau-comparatif.md` : la phase 6, faite le 2026-10-28 (ce que la synthèse fait et ne fait pas, règles communes écrites à cette occasion, décisions prises, reste à faire) ; les relevés de travail sont dans `04-synthese/travail/`.
 
 Les notes de `00-contexte/` se lisent à la demande (actualité d'octobre 2026, paysage politique). L'échange d'origine et les transcripts des vidéos sont hors dépôt public (`.gitignore`), présents seulement sur le Mac de Dilhan.
 
